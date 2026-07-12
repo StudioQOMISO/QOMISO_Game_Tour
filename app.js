@@ -4,6 +4,8 @@ const baseStats = {
   stamina: 52,
   technique: 44,
   teamwork: 46,
+  ego: 42,
+  fighting: 50,
 };
 
 const trainingCommands = [
@@ -22,7 +24,7 @@ const trainingCommands = [
   {
     id: "endurance",
     label: "ロングライド",
-    detail: "スタミナ +9 / チーム +2",
+    detail: "スタミナ +9 / チームワーク +2",
     effect: { stamina: 9, teamwork: 2 },
   },
   {
@@ -34,81 +36,215 @@ const trainingCommands = [
   {
     id: "leadout",
     label: "隊列連携",
-    detail: "チーム +8 / 技術 +2",
+    detail: "チームワーク +8 / 技術 +2",
     effect: { teamwork: 8, technique: 2 },
+  },
+  {
+    id: "ego",
+    label: "単独アタック練習",
+    detail: "エゴ +8 / チームワーク -2",
+    effect: { ego: 8, teamwork: -2 },
+  },
+  {
+    id: "fighting",
+    label: "逆境シミュレーション",
+    detail: "負けん気 +8 / スタミナ +1",
+    effect: { fighting: 8, stamina: 1 },
   },
   {
     id: "rest",
     label: "回復走",
     detail: "全能力 +2 / 育成週 +1",
-    effect: { sprint: 2, climb: 2, stamina: 2, technique: 2, teamwork: 2 },
+    effect: { sprint: 2, climb: 2, stamina: 2, technique: 2, teamwork: 2, ego: 2, fighting: 2 },
   },
 ];
 
 const supportCards = [
-  { id: "coach", name: "冷静な監督", type: "作戦", bonus: { technique: 8, teamwork: 10 }, skill: "位置取り補正" },
+  { id: "coach", name: "冷静な監督", type: "作戦", bonus: { technique: 8, teamwork: 10, ego: -2 }, skill: "位置取り補正" },
   { id: "sprinter", name: "黄金の発射台", type: "速度", bonus: { sprint: 14, teamwork: 4 }, skill: "最終直線加速" },
-  { id: "climber", name: "山岳王の助言", type: "登坂", bonus: { climb: 15, stamina: 3 }, skill: "峠アタック" },
+  { id: "climber", name: "山岳王の助言", type: "登坂", bonus: { climb: 15, stamina: 3, fighting: 4 }, skill: "峠アタック" },
   { id: "mechanic", name: "精密メカニック", type: "安定", bonus: { technique: 12, stamina: 5 }, skill: "落車回避" },
   { id: "domestique", name: "献身の牽引役", type: "連携", bonus: { teamwork: 15, stamina: 5 }, skill: "風よけ" },
   { id: "nutrition", name: "補給プランナー", type: "持久", bonus: { stamina: 14, climb: 4 }, skill: "終盤回復" },
+  { id: "rival", name: "宿敵の存在", type: "精神", bonus: { ego: 12, fighting: 10 }, skill: "闘争本能" },
 ];
 
+const equipmentCatalog = {
+  frames: [
+    { id: "aero_italia", name: "Veloce Aero X", motif: "イタリアン・エアロフレーム系", bonus: { sprint: 6, technique: 3 }, fit: "平坦/TT" },
+    { id: "climb_classic", name: "Corsa Leggera", motif: "伝統系軽量クライミングフレーム", bonus: { climb: 7, stamina: 2 }, fit: "山岳" },
+    { id: "allround_race", name: "Universal Race Pro", motif: "万能レーシングフレーム系", bonus: { sprint: 3, climb: 3, technique: 3 }, fit: "総合" },
+  ],
+  wheels: [
+    { id: "deep_aero", name: "Nordwind Deep 60", motif: "ディープリム高速巡航系", bonus: { sprint: 5, stamina: 2 }, fit: "平坦/横風注意" },
+    { id: "light_climb", name: "Alto Light 32", motif: "軽量山岳ホイール系", bonus: { climb: 5, technique: 2 }, fit: "山岳" },
+    { id: "pave_guard", name: "Pave Shield Wheel", motif: "石畳耐久ホイール系", bonus: { technique: 5, fighting: 3 }, fit: "石畳" },
+  ],
+  tires: [
+    { id: "race_slick", name: "Corsa Slick", motif: "高速ロードタイヤ系", bonus: { sprint: 3, stamina: 2 }, fit: "平坦" },
+    { id: "gravel_guard", name: "GravelGuard 40", motif: "グラベル対応タイヤ系", bonus: { technique: 4, fighting: 3 }, fit: "グラベル" },
+    { id: "pave_endure", name: "Pave Endure", motif: "石畳耐パンクタイヤ系", bonus: { technique: 4, teamwork: 2 }, fit: "石畳" },
+  ],
+};
+
+const wearDesign = {
+  baseColor: "サフランイエロー",
+  accentColor: "ディープティール",
+  pattern: "斜めスピードライン",
+  sponsorStyle: "架空スポンサー風ロゴ",
+  performanceNote: "基本は見た目カスタム。TTスーツや雨具のみ軽い条件ボーナス候補。",
+};
 const riders = [
-  { id: "ace", name: "朝霧 レン", role: "エース", stats: { sprint: 8, climb: 8, stamina: 6, technique: 5, teamwork: 2 } },
-  { id: "leadout", name: "真壁 ソウ", role: "リードアウト", stats: { sprint: 10, climb: 1, stamina: 4, technique: 6, teamwork: 8 } },
-  { id: "climber", name: "七瀬 コウ", role: "クライマー", stats: { sprint: 2, climb: 12, stamina: 7, technique: 5, teamwork: 4 } },
-  { id: "rouleur", name: "榊 ミナト", role: "ルーラー", stats: { sprint: 5, climb: 4, stamina: 10, technique: 6, teamwork: 7 } },
-  { id: "captain", name: "風見 ハル", role: "キャプテン", stats: { sprint: 4, climb: 5, stamina: 7, technique: 8, teamwork: 11 } },
-  { id: "sprinter", name: "黒須 リオ", role: "スプリンター", stats: { sprint: 13, climb: 0, stamina: 5, technique: 5, teamwork: 3 } },
+  { id: "ace", name: "朝霧 レン", archetype: "パンチャー", stats: { sprint: 8, climb: 8, stamina: 6, technique: 5, teamwork: 2, ego: 8, fighting: 7 } },
+  { id: "leadout", name: "真壁 ソウ", archetype: "リードアウト", stats: { sprint: 10, climb: 1, stamina: 4, technique: 6, teamwork: 8, ego: 2, fighting: 5 } },
+  { id: "climber", name: "七瀬 コウ", archetype: "クライマー", stats: { sprint: 2, climb: 12, stamina: 7, technique: 5, teamwork: 4, ego: 7, fighting: 9 } },
+  { id: "rouleur", name: "榊 ミナト", archetype: "ルーラー", stats: { sprint: 5, climb: 4, stamina: 10, technique: 6, teamwork: 7, ego: 3, fighting: 6 } },
+  { id: "captain", name: "風見 ハル", archetype: "ロードキャプテン", stats: { sprint: 4, climb: 5, stamina: 7, technique: 8, teamwork: 11, ego: 1, fighting: 7 } },
+  { id: "sprinter", name: "黒須 リオ", archetype: "スプリンター", stats: { sprint: 13, climb: 0, stamina: 5, technique: 5, teamwork: 3, ego: 9, fighting: 6 } },
 ];
 
+const worldTeams = [
+  { id: "desert_crown", name: "デザートクラウン・エミレーツ", era: "現代", motif: "中東資本の総合最強チーム系", country: "UAE", identity: "グランツール総合", style: "総合エースを山岳列車で守り、最後は個の爆発力で決める。" },
+  { id: "yellow_hive", name: "イエロー・ハイヴ", era: "現代", motif: "緻密なオランダ系総合チーム", country: "Netherlands", identity: "戦術とTT", style: "TT、山岳、補給、隊列管理まで計算で支配する。" },
+  { id: "red_bull", name: "レッドブル・ベルクシュタイン", era: "現代", motif: "ドイツ/オーストリア系大型強化チーム", country: "Germany", identity: "山岳と爆発力", style: "大型補強で総合とクラシックを同時に狙う。" },
+  { id: "wolf_pack", name: "ウルフパック・ブルー", era: "現代", motif: "ベルギーの勝負強いクラシック軍団", country: "Belgium", identity: "クラシック", style: "石畳、横風、短い登りで人数を削って勝つ。" },
+  { id: "lion_classic", name: "ライオン・クラシック", era: "現代", motif: "ベルギー/オランダ系スプリントクラシック", country: "Belgium", identity: "スプリントと石畳", style: "リードアウトと位置取りでワンデーを取り切る。" },
+  { id: "trek_red", name: "トレイルレッド・レーシング", era: "現代", motif: "米国系総合スポーツブランドチーム", country: "USA", identity: "万能編成", style: "若手とレジェンドを混ぜ、全レースで点を拾う。" },
+  { id: "grenadier", name: "グレナディア・ブラック", era: "近代", motif: "英国の科学的グランツール王朝", country: "United Kingdom", identity: "山岳列車", style: "高出力の隊列で山岳を制圧する。" },
+  { id: "telefonica", name: "テレフォニカ・アスール", era: "現代", motif: "スペインの長寿名門チーム", country: "Spain", identity: "山岳と経験", style: "ベテランの読みと山岳力で総合上位を狙う。" },
+  { id: "french_rooster", name: "トリコロール・ルースター", era: "現代", motif: "フランス育成名門", country: "France", identity: "育成と逃げ", style: "若手を育て、逃げと山岳賞で存在感を出す。" },
+  { id: "agri_mondiale", name: "アグリ・モンディアル", era: "現代", motif: "フランスの堅実な総合/ステージチーム", country: "France", identity: "堅実な総合力", style: "ステージレースで崩れず、チーム総合も強い。" },
+  { id: "education_pink", name: "エデュケーション・ピンク", era: "現代", motif: "米国系自由派チーム", country: "USA", identity: "逃げと個性", style: "奇襲、逃げ、個性的なエースで流れを壊す。" },
+  { id: "bahrain_pearl", name: "バーレーン・パール", era: "現代", motif: "湾岸系ステージハンター", country: "Bahrain", identity: "山岳ステージ", style: "山岳と中級山岳でステージ勝利を狙う。" },
+  { id: "kangaroo_green", name: "カンガルー・グリーン", era: "現代", motif: "オーストラリア系ワールドチーム", country: "Australia", identity: "スプリントと逃げ", style: "スプリント、逃げ、TTを柔軟に切り替える。" },
+  { id: "nordic_flame", name: "ノルディック・フレイム", era: "現代", motif: "北欧新興チーム", country: "Norway", identity: "若手と登坂", style: "育成力と粘りでトップカテゴリに食い込む。" },
+  { id: "kazakh_steppe", name: "ステップ・ブルー", era: "現代", motif: "カザフ系長寿チーム", country: "Kazakhstan", identity: "逃げと耐久", style: "厳しい展開でも粘って逃げ切りを狙う。" },
+  { id: "sun_post", name: "サンポスト・オレンジ", era: "現代", motif: "オランダ系育成/スプリントチーム", country: "Netherlands", identity: "若手育成", style: "育成選手を前面に出し、スプリントと逃げで勝負する。" },
+  { id: "lotto_heritage", name: "ロト・ヘリテージ", era: "現代", motif: "ベルギー宝くじ系名門", country: "Belgium", identity: "スプリント", style: "集団スプリントとクラシックで伝統を守る。" },
+  { id: "italian_rosso", name: "ロッソ・イタリア", era: "過去", motif: "イタリアの名門ステージ/クラシックチーム群", country: "Italy", identity: "ジロとクラシック", style: "ジロ山岳、丘陵クラシック、職人アシストが強い。" },
+  { id: "basque_orange", name: "バスク・オレンジ", era: "過去", motif: "バスク山岳チーム", country: "Basque", identity: "山岳特化", style: "登坂力と地元熱で山岳ステージを荒らす。" },
+  { id: "postal_train", name: "ポスタル・トレイン", era: "過去", motif: "米国のグランツール列車型チーム", country: "USA", identity: "山岳列車", style: "エース一極集中の強力な山岳隊列を組む。" },
+  { id: "danish_saxo", name: "サクソン・ブレイク", era: "過去", motif: "デンマーク系戦術チーム", country: "Denmark", identity: "奇襲戦術", style: "横風分断、ロングアタック、心理戦で勝負する。" },
+  { id: "colombia_condor", name: "コンドル・アンデス", era: "過去", motif: "南米クライマー軍団", country: "Colombia", identity: "純粋山岳", style: "軽量クライマーを並べ、超級山岳で一気に逆転する。" },
+];
 const stages = [
   {
-    id: "flat",
-    name: "湾岸クリテリウム",
-    tactic: "高速隊列",
-    difficulty: 375,
-    weights: { sprint: 1.35, climb: 0.35, stamina: 0.9, technique: 0.9, teamwork: 1.1 },
-  },
-  {
-    id: "hill",
-    name: "丘陵クラシック",
-    tactic: "中盤アタック",
-    difficulty: 410,
-    weights: { sprint: 0.85, climb: 1.0, stamina: 1.0, technique: 1.05, teamwork: 0.9 },
-  },
-  {
-    id: "mountain",
-    name: "山岳クイーンステージ",
-    tactic: "峠決戦",
+    id: "roubaix_one_day",
+    name: "北方石畳クラシック",
+    format: "ワンデーレース",
+    inspiredBy: "パリ〜ルーベ系",
+    type: "平坦",
+    condition: "石畳",
+    tactic: "位置取り耐久戦",
     difficulty: 455,
-    weights: { sprint: 0.35, climb: 1.55, stamina: 1.15, technique: 0.75, teamwork: 0.8 },
+    weights: { sprint: 0.95, climb: 0.15, stamina: 1.15, technique: 1.45, teamwork: 1.0, ego: 0.75, fighting: 1.35 },
   },
   {
-    id: "tour",
-    name: "総合ステージレース",
-    tactic: "総合管理",
-    difficulty: 490,
-    weights: { sprint: 0.9, climb: 1.05, stamina: 1.25, technique: 0.95, teamwork: 1.1 },
+    id: "flanders_one_day",
+    name: "石畳丘陵クラシック",
+    format: "ワンデーレース",
+    inspiredBy: "ロンド・ファン・フラーンデレン系",
+    type: "丘陵",
+    condition: "石畳 + 横風",
+    tactic: "短坂アタック",
+    difficulty: 465,
+    weights: { sprint: 0.85, climb: 1.0, stamina: 1.05, technique: 1.3, teamwork: 0.9, ego: 0.9, fighting: 1.2 },
+  },
+  {
+    id: "strade_one_day",
+    name: "白い道グラベルクラシック",
+    format: "ワンデーレース",
+    inspiredBy: "ストラーデ・ビアンケ系",
+    type: "丘陵",
+    condition: "グラベル",
+    tactic: "未舗装路アタック",
+    difficulty: 445,
+    weights: { sprint: 0.7, climb: 0.95, stamina: 1.0, technique: 1.4, teamwork: 0.75, ego: 0.95, fighting: 1.15 },
+  },
+  {
+    id: "grand_tour_flat",
+    name: "大周回 第3ステージ 海岸平坦",
+    format: "ステージレース",
+    inspiredBy: "ツール・ド・フランス平坦ステージ系",
+    type: "平坦",
+    condition: "横風",
+    tactic: "高速隊列",
+    difficulty: 400,
+    weights: { sprint: 1.35, climb: 0.25, stamina: 0.95, technique: 1.0, teamwork: 1.25, ego: 0.45, fighting: 0.75 },
+  },
+  {
+    id: "grand_tour_mountain",
+    name: "大周回 第15ステージ 超級山岳",
+    format: "ステージレース",
+    inspiredBy: "アルプス/ピレネー山岳ステージ系",
+    type: "山岳",
+    condition: "向かい風",
+    tactic: "峠決戦",
+    difficulty: 485,
+    weights: { sprint: 0.3, climb: 1.6, stamina: 1.25, technique: 0.75, teamwork: 0.85, ego: 0.85, fighting: 1.3 },
+  },
+  {
+    id: "grand_tour_itt",
+    name: "大周回 最終個人タイムトライアル",
+    format: "ステージレース",
+    inspiredBy: "グランツール最終TT系",
+    type: "個人TT",
+    condition: "石畳セクター",
+    tactic: "単独巡航",
+    difficulty: 455,
+    weights: { sprint: 0.55, climb: 0.55, stamina: 1.25, technique: 1.35, teamwork: 0.15, ego: 1.05, fighting: 1.05 },
+  },
+  {
+    id: "team_ttt",
+    name: "海岸線チームタイムトライアル",
+    format: "ステージレース",
+    inspiredBy: "グランツール序盤TTT系",
+    type: "チームTT",
+    condition: "横風ローテーション",
+    tactic: "隊列同期",
+    difficulty: 470,
+    weights: { sprint: 0.8, climb: 0.35, stamina: 1.15, technique: 1.15, teamwork: 1.6, ego: 0.15, fighting: 0.8 },
   },
 ];
-
+const battleModes = {
+  cpu: {
+    label: "対CPU",
+    turnStyle: "重要地点ターン制",
+    realtime: false,
+  },
+  versus: {
+    label: "対人",
+    turnStyle: "重要地点同時選択制",
+    realtime: false,
+  },
+};
+const sectorTargetKm = 10;
+const actionCards = [
+  { id: "position", name: "位置取り", cpuAction: "牽制", focus: ["technique", "teamwork"] },
+  { id: "tempo", name: "牽引", cpuAction: "温存", focus: ["stamina", "teamwork"] },
+  { id: "attack", name: "アタック", cpuAction: "追走", focus: ["climb", "ego", "fighting"] },
+  { id: "protect", name: "エース保護", cpuAction: "揺さぶり", focus: ["stamina", "technique", "teamwork"] },
+  { id: "sprint", name: "スプリント準備", cpuAction: "発射台", focus: ["sprint", "ego", "teamwork"] },
+];
 const statLabels = {
   sprint: "瞬発力",
   climb: "登坂力",
   stamina: "持久力",
   technique: "技術",
-  teamwork: "連携",
+  teamwork: "チームワーク",
+  ego: "エゴ",
+  fighting: "負けん気",
 };
-
 const state = {
   week: 1,
   stats: { ...baseStats },
   selectedSupports: ["coach", "domestique"],
   selectedTeam: ["ace", "leadout", "climber", "rouleur", "captain"],
-  selectedStage: "flat",
-  log: ["育成を開始。サポートデッキとチーム編成を調整してステージに挑め。"],
+  selectedEquipment: { frame: "allround_race", wheel: "pave_guard", tire: "pave_endure" },
+  raceAce: "ace",
+  selectedStage: "roubaix_one_day",
+  battleMode: "cpu",
+  log: ["育成を開始。対CPU/対人ともに重要地点ターン制のレースバトルで挑め。"],
 };
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
@@ -121,6 +257,29 @@ function getSupportBonus() {
     });
     return total;
   }, {});
+}
+
+function getEquipmentBonus() {
+  const selectedItems = [
+    equipmentCatalog.frames.find((item) => item.id === state.selectedEquipment.frame),
+    equipmentCatalog.wheels.find((item) => item.id === state.selectedEquipment.wheel),
+    equipmentCatalog.tires.find((item) => item.id === state.selectedEquipment.tire),
+  ].filter(Boolean);
+
+  return selectedItems.reduce((total, item) => {
+    Object.entries(item.bonus).forEach(([stat, value]) => {
+      total[stat] = (total[stat] || 0) + value;
+    });
+    return total;
+  }, {});
+}
+
+function getSelectedEquipmentItems() {
+  return [
+    equipmentCatalog.frames.find((item) => item.id === state.selectedEquipment.frame),
+    equipmentCatalog.wheels.find((item) => item.id === state.selectedEquipment.wheel),
+    equipmentCatalog.tires.find((item) => item.id === state.selectedEquipment.tire),
+  ].filter(Boolean);
 }
 
 function getTeamBonus() {
@@ -136,8 +295,9 @@ function getTeamBonus() {
 function getFinalStats() {
   const support = getSupportBonus();
   const team = getTeamBonus();
+  const equipment = getEquipmentBonus();
   return Object.keys(baseStats).reduce((finalStats, stat) => {
-    finalStats[stat] = clamp((state.stats[stat] || 0) + (support[stat] || 0) + (team[stat] || 0), 0, 160);
+    finalStats[stat] = clamp((state.stats[stat] || 0) + (support[stat] || 0) + (team[stat] || 0) + (equipment[stat] || 0), 0, 160);
     return finalStats;
   }, {});
 }
@@ -160,6 +320,98 @@ function calculateWinRate() {
   return clamp(Math.round(18 + ((power - stage.difficulty) / stage.difficulty) * 100), 5, 92);
 }
 
+function getRaceDistance(stage) {
+  if (stage.type === "個人TT") return 40;
+  if (stage.type === "チームTT") return 50;
+  if (stage.format === "ワンデーレース") return 200;
+  return stage.type === "山岳" ? 180 : 200;
+}
+
+function getSectorKeyPoints(stage, distance) {
+  const points = new Map();
+  const add = (km, phase, card, priority = 1) => {
+    const normalized = clamp(Math.round(km), 0, distance);
+    const existing = points.get(normalized);
+    if (!existing || priority >= existing.priority) {
+      points.set(normalized, { km: normalized, phase, card, priority });
+    }
+  };
+
+  add(0, "スタート直後の位置取り", actionCards[0], 3);
+  add(distance * 0.18, "序盤の隊列形成", actionCards[0], 2);
+  add(distance * 0.38, stage.condition.includes("横風") ? "横風区間前" : "中間ポイント前", stage.condition.includes("横風") ? actionCards[0] : actionCards[1], 3);
+  add(distance * 0.55, "補給後の展開選択", actionCards[1], 2);
+  add(distance * 0.72, "勝負所前", stage.type === "山岳" || stage.type === "丘陵" ? actionCards[2] : actionCards[3], 3);
+  add(distance * 0.88, "残り局面の隊列再編", actionCards[3], 2);
+  add(distance, "フィニッシュ", stage.type.includes("TT") ? actionCards[1] : actionCards[4], 3);
+
+  if (stage.type === "山岳") {
+    add(distance * 0.58, "山岳入口", actionCards[3], 4);
+    add(distance * 0.76, "山岳中腹アタック地点", actionCards[2], 4);
+  }
+  if (stage.type === "丘陵") {
+    add(distance * 0.62, "短坂連続区間前", actionCards[2], 4);
+  }
+  if (stage.condition.includes("石畳")) {
+    add(distance * 0.42, "石畳セクター入口", actionCards[0], 4);
+    add(distance * 0.68, "石畳終盤セクター前", actionCards[3], 4);
+  }
+  if (stage.condition.includes("グラベル")) {
+    add(distance * 0.45, "グラベル入口", actionCards[0], 4);
+    add(distance * 0.7, "未舗装路の勝負所", actionCards[2], 4);
+  }
+  if (stage.type.includes("TT")) {
+    add(distance * 0.25, "前半ペース確認", actionCards[1], 4);
+    add(distance * 0.5, "中間計測前", actionCards[1], 4);
+    add(distance * 0.75, "終盤出力判断", actionCards[2], 4);
+  }
+
+  for (let km = sectorTargetKm; km < distance; km += sectorTargetKm) {
+    const tooCloseToKeyPoint = [...points.keys()].some((point) => Math.abs(point - km) <= 3);
+    if (!tooCloseToKeyPoint) {
+      add(km, "巡航判断", actionCards[1], 0);
+    }
+  }
+
+  return [...points.values()].sort((a, b) => a.km - b.km);
+}
+
+function buildRaceSectors(stage) {
+  const distance = getRaceDistance(stage);
+  const keyPoints = getSectorKeyPoints(stage, distance);
+  return keyPoints.map((point, index) => {
+    const next = keyPoints[index + 1];
+    return {
+      index: index + 1,
+      km: point.km,
+      kmTo: next ? next.km : distance,
+      phase: point.phase,
+      card: point.card,
+      isKeyPoint: point.priority >= 3,
+    };
+  });
+}
+function getCpuPower(stage) {
+  const base = stage.difficulty * 0.88;
+  const formatBonus = stage.format === "ワンデーレース" ? 12 : 18;
+  const conditionBonus = stage.condition.includes("石畳") || stage.condition.includes("グラベル") ? 16 : 10;
+  return Math.round(base + formatBonus + conditionBonus);
+}
+
+function calculatePhaseScore(stats, sector, stage, side) {
+  const focusScore = sector.card.focus.reduce((sum, stat) => sum + (stats[stat] || 0), 0) / sector.card.focus.length;
+  const stageScore = Object.entries(stage.weights).reduce((sum, [stat, weight]) => sum + (stats[stat] || 0) * weight, 0) / 7;
+  const variance = side === "player" ? Math.random() * 14 : Math.random() * 18;
+  return Math.round(focusScore * 0.65 + stageScore * 0.35 + variance);
+}
+
+function getPhaseResultText(diff) {
+  if (diff >= 12) return "主導権を大きく奪う";
+  if (diff >= 4) return "わずかに優勢";
+  if (diff <= -12) return "大きく崩される";
+  if (diff <= -4) return "やや劣勢";
+  return "互角";
+}
 function renderStats() {
   const statsNode = document.querySelector("#stats");
   const finalStats = getFinalStats();
@@ -223,11 +475,59 @@ function renderTeamList() {
   document.querySelector("#teamCount").textContent = state.selectedTeam.length;
 }
 
+function getRaceRole(riderId) {
+  if (!state.selectedTeam.includes(riderId)) return "候補";
+  return state.raceAce === riderId ? "当日エース" : "アシスト";
+}
+
 function getBestStat(stats) {
   const [stat] = Object.entries(stats).sort((a, b) => b[1] - a[1])[0];
   return statLabels[stat];
 }
 
+function renderEquipment() {
+  const node = document.querySelector("#equipmentList");
+  if (!node) return;
+  const items = getSelectedEquipmentItems();
+  node.innerHTML = items
+    .map(
+      (item) => `
+        <article class="world-team-card">
+          <div class="card-meta"><strong>${item.name}</strong><span>${item.fit}</span></div>
+          <p>${item.motif}</p>
+          <span>${Object.entries(item.bonus).map(([stat, value]) => `${statLabels[stat]} +${value}`).join(" / ")}</span>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderWearDesign() {
+  const node = document.querySelector("#wearDesign");
+  if (!node) return;
+  node.innerHTML = `
+    <article class="world-team-card">
+      <div class="card-meta"><strong>${wearDesign.baseColor}</strong><span>${wearDesign.accentColor}</span></div>
+      <p>${wearDesign.pattern}</p>
+      <span>${wearDesign.sponsorStyle} / ${wearDesign.performanceNote}</span>
+    </article>
+  `;
+}
+function renderWorldTeams() {
+  const node = document.querySelector("#worldTeams");
+  if (!node) return;
+  node.innerHTML = worldTeams
+    .map(
+      (team) => `
+        <article class="world-team-card">
+          <div class="card-meta"><strong>${team.name}</strong><span>${team.era}</span></div>
+          <p>${team.identity} / ${team.country}</p>
+          <span>${team.motif}</span>
+        </article>
+      `,
+    )
+    .join("");
+}
 function renderStages() {
   const node = document.querySelector("#stageSelector");
   node.innerHTML = stages
@@ -236,7 +536,7 @@ function renderStages() {
       return `
         <button class="card-button ${selected ? "selected" : ""}" type="button" data-stage="${stage.id}">
           <div class="card-meta"><strong>${stage.name}</strong><span>難度 ${stage.difficulty}</span></div>
-          <span>${stage.tactic}</span>
+          <span>${stage.type} / ${stage.condition} / ${stage.tactic}</span>
         </button>
       `;
     })
@@ -263,10 +563,13 @@ function renderCourse() {
   const width = canvas.width;
   const height = canvas.height;
   const profile = {
-    flat: [0.62, 0.59, 0.61, 0.56, 0.6, 0.58, 0.55, 0.57],
-    hill: [0.68, 0.52, 0.58, 0.35, 0.51, 0.4, 0.63, 0.52],
-    mountain: [0.74, 0.66, 0.52, 0.42, 0.28, 0.2, 0.34, 0.48],
-    tour: [0.66, 0.58, 0.47, 0.31, 0.54, 0.42, 0.36, 0.57],
+    roubaix_one_day: [0.58, 0.56, 0.57, 0.55, 0.58, 0.54, 0.56, 0.55],
+    flanders_one_day: [0.65, 0.5, 0.58, 0.42, 0.55, 0.39, 0.62, 0.5],
+    strade_one_day: [0.66, 0.53, 0.6, 0.38, 0.52, 0.43, 0.64, 0.51],
+    grand_tour_flat: [0.62, 0.59, 0.61, 0.56, 0.6, 0.58, 0.55, 0.57],
+    grand_tour_mountain: [0.74, 0.66, 0.52, 0.42, 0.28, 0.2, 0.34, 0.48],
+    grand_tour_itt: [0.58, 0.55, 0.57, 0.52, 0.54, 0.5, 0.53, 0.51],
+    team_ttt: [0.6, 0.57, 0.58, 0.55, 0.57, 0.54, 0.56, 0.53],
   }[stage.id];
 
   ctx.clearRect(0, 0, width, height);
@@ -338,13 +641,27 @@ function toggleSupport(id) {
   render();
 }
 
+function setRaceAce(id) {
+  if (!state.selectedTeam.includes(id)) {
+    state.log.unshift("当日エースはチーム内の選手から指名する。");
+    render();
+    return;
+  }
+  state.raceAce = id;
+  const rider = riders.find((item) => item.id === id);
+  state.log.unshift(`${rider.name}をこの日の当日エースに指名。残りはアシストとして走る。`);
+  render();
+}
+
 function toggleRider(id) {
   if (state.selectedTeam.includes(id)) {
     state.selectedTeam = state.selectedTeam.filter((item) => item !== id);
-  } else if (state.selectedTeam.length < 5) {
+    if (state.raceAce === id) state.raceAce = state.selectedTeam[0] || null;
+  } else if (state.selectedTeam.length < 8) {
     state.selectedTeam.push(id);
+    if (!state.raceAce) state.raceAce = id;
   } else {
-    state.log.unshift("チームは5人まで。役割を入れ替えて編成する。");
+    state.log.unshift("チームは8人まで。役割を入れ替えて編成する。");
   }
   render();
 }
@@ -357,17 +674,36 @@ function runRace() {
   }
 
   const stage = getSelectedStage();
-  const power = calculatePower();
-  const winRate = calculateWinRate();
+  const finalStats = getFinalStats();
+  const ace = riders.find((item) => item.id === state.raceAce);
+  const playerBasePower = calculatePower();
+  const cpuBasePower = getCpuPower(stage);
+  const sectors = buildRaceSectors(stage);
+  let momentum = playerBasePower - cpuBasePower + (ace ? ace.stats.ego + ace.stats.fighting : 0);
+  const sectorLogs = [];
+
+  sectors.forEach((sector) => {
+    const playerScore = calculatePhaseScore(finalStats, sector, stage, "player") + momentum * 0.05;
+    const cpuScore = cpuBasePower / 7 + Math.random() * 18;
+    const diff = Math.round(playerScore - cpuScore);
+    momentum += diff;
+    sectorLogs.push(
+      `${sector.index}. ${sector.km}km地点 ${sector.phase}${sector.isKeyPoint ? " *" : ""}: こちらは${sector.card.name}、${battleModes[state.battleMode].label}は${sector.card.cpuAction}。${getPhaseResultText(diff)}。次の展開は${sector.kmTo}km地点へ。`,
+    );
+  });
+
+  const winRate = clamp(Math.round(50 + momentum / sectors.length), 5, 95);
   const roll = Math.floor(Math.random() * 100) + 1;
   const result = roll <= winRate ? "勝利" : "敗北";
-  const margin = Math.abs(winRate - roll);
   const detail =
     result === "勝利"
-      ? `${stage.tactic}が決まり、残り2kmで主導権を握った。`
-      : `決定局面で脚を使い切り、${stage.tactic}が不発に終わった。`;
+      ? "セクターごとのカード選択で脚と位置取りを残し、勝負所を取り切った。"
+      : "セクターのどこかで主導権を失い、最後の局面で届かなかった。";
 
-  state.log.unshift(`${stage.name}: ${result}。戦力${power} / 判定${roll} / 勝率${winRate}% / 差分${margin}。${detail}`);
+  state.log.unshift(
+    `${stage.name} [${stage.format} / ${stage.type} / ${stage.condition}]: ${result}。当日エース ${ace ? ace.name : "未指名"} / ${getRaceDistance(stage)}km / 約${sectorTargetKm}km間隔+重要地点 ${sectors.length}ターン / 戦力${playerBasePower} / ${battleModes[state.battleMode].label}${cpuBasePower} / 判定${roll} / 勝率${winRate}%。${detail}`,
+    ...sectorLogs.reverse(),
+  );
   render();
 }
 
@@ -376,7 +712,10 @@ function resetGame() {
   state.stats = { ...baseStats };
   state.selectedSupports = ["coach", "domestique"];
   state.selectedTeam = ["ace", "leadout", "climber", "rouleur", "captain"];
-  state.selectedStage = "flat";
+  state.selectedEquipment = { frame: "allround_race", wheel: "pave_guard", tire: "pave_endure" };
+  state.raceAce = "ace";
+  state.selectedStage = "roubaix_one_day";
+  state.battleMode = "cpu";
   state.log = ["育成をリセット。初期デッキから再開。"];
   render();
 }
@@ -390,7 +729,8 @@ function bindEvents() {
 
     if (trainButton) train(trainButton.dataset.train);
     if (supportButton) toggleSupport(supportButton.dataset.support);
-    if (riderButton) toggleRider(riderButton.dataset.rider);
+    if (riderButton && event.detail >= 2) setRaceAce(riderButton.dataset.rider);
+    else if (riderButton) toggleRider(riderButton.dataset.rider);
     if (stageButton) {
       state.selectedStage = stageButton.dataset.stage;
       render();
@@ -406,6 +746,9 @@ function render() {
   renderTraining();
   renderSupportDeck();
   renderTeamList();
+  renderEquipment();
+  renderWearDesign();
+  renderWorldTeams();
   renderStages();
   renderRaceSummary();
   renderLog();

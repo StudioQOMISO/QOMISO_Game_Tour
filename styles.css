@@ -226,7 +226,7 @@ h2 {
 
 .map-labels {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1px;
   background: var(--line);
   color: var(--muted);
@@ -414,10 +414,54 @@ h2 {
   font-weight: 900;
 }
 
+
+.world-teams-panel {
+  margin-top: 18px;
+}
+
+.world-team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  max-height: 330px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.world-team-card {
+  min-height: 118px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  padding: 12px;
+}
+
+.world-team-card p {
+  color: var(--text);
+  font-size: 0.86rem;
+  margin: 8px 0 6px;
+}
+
+.world-team-card span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.equipment-section {
+  margin-top: 18px;
+}
+
+.world-team-grid.compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-height: none;
+}
 @media (max-width: 1080px) {
   .hero-panel,
   .grid.three,
-  .grid.two {
+  .grid.two,
+  .world-team-grid,
+  .world-team-grid.compact {
     grid-template-columns: 1fr;
   }
 }

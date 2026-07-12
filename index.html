@@ -40,10 +40,11 @@
         <div class="race-map">
           <canvas id="courseCanvas" width="760" height="220" aria-label="レースコース断面図"></canvas>
           <div class="map-labels">
+            <span>ワンデー</span>
             <span>平坦</span>
             <span>丘陵</span>
             <span>山岳</span>
-            <span>スプリント</span>
+            <span>TT</span>
           </div>
         </div>
       </section>
@@ -78,22 +79,54 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Race Squad</p>
-              <h2>チーム編成</h2>
+              <h2>当日エース編成</h2>
             </div>
-            <span class="counter"><strong id="teamCount">0</strong>/5</span>
+            <span class="counter"><strong id="teamCount">0</strong>/8</span>
           </div>
           <div class="team-list" id="teamList"></div>
         </article>
       </section>
 
+
+
+      <section class="grid two equipment-section">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Equipment</p>
+              <h2>機材セット</h2>
+            </div>
+          </div>
+          <div class="world-team-grid compact" id="equipmentList"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Wear Design</p>
+              <h2>ウェアデザイン</h2>
+            </div>
+          </div>
+          <div class="world-team-grid compact" id="wearDesign"></div>
+        </article>
+      </section>
+      <section class="panel world-teams-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">World Teams</p>
+            <h2>22チーム構成</h2>
+          </div>
+          <span class="counter"><strong>22</strong> teams</span>
+        </div>
+        <div class="world-team-grid" id="worldTeams"></div>
+      </section>
       <section class="grid two">
         <article class="panel race-panel">
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Stage Battle</p>
-              <h2>レースバトル</h2>
+              <h2>ターン制レースバトル</h2>
             </div>
-            <button id="raceBtn" class="primary-button" type="button">レース開始</button>
+            <button id="raceBtn" class="primary-button" type="button">セクター開始</button>
           </div>
 
           <div class="stage-selector" id="stageSelector"></div>
