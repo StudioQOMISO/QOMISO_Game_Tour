@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QOMISO Game Tour</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Road Race Training Battle</p>
+          <h1>QOMISO Game Tour</h1>
+        </div>
+        <div class="season-chip">
+          <span>育成年</span>
+          <strong id="seasonWeek">1 / 12</strong>
+        </div>
+      </header>
+
+      <section class="hero-panel">
+        <div class="rider-card">
+          <div class="rider-portrait" aria-hidden="true">
+            <div class="wheel wheel-a"></div>
+            <div class="wheel wheel-b"></div>
+            <div class="frame frame-top"></div>
+            <div class="frame frame-down"></div>
+            <div class="frame frame-seat"></div>
+            <div class="rider-head"></div>
+            <div class="rider-body"></div>
+          </div>
+          <div>
+            <p class="eyebrow">育成選手</p>
+            <h2 id="riderName">朝霧 レン</h2>
+            <p id="riderArchetype">パンチャー / 攻撃型オールラウンダー</p>
+          </div>
+        </div>
+
+        <div class="race-map">
+          <canvas id="courseCanvas" width="760" height="220" aria-label="レースコース断面図"></canvas>
+          <div class="map-labels">
+            <span>平坦</span>
+            <span>丘陵</span>
+            <span>山岳</span>
+            <span>スプリント</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid three">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Training</p>
+              <h2>個人育成</h2>
+            </div>
+            <button id="resetBtn" class="icon-button" type="button" title="リセット" aria-label="リセット">↺</button>
+          </div>
+
+          <div class="stats" id="stats"></div>
+
+          <div class="commands" id="trainingCommands"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Support Deck</p>
+              <h2>サポートデッキ</h2>
+            </div>
+            <span class="counter"><strong id="deckCount">0</strong>/4</span>
+          </div>
+          <div class="deck-list" id="supportDeck"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Race Squad</p>
+              <h2>チーム編成</h2>
+            </div>
+            <span class="counter"><strong id="teamCount">0</strong>/5</span>
+          </div>
+          <div class="team-list" id="teamList"></div>
+        </article>
+      </section>
+
+      <section class="grid two">
+        <article class="panel race-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Stage Battle</p>
+              <h2>レースバトル</h2>
+            </div>
+            <button id="raceBtn" class="primary-button" type="button">レース開始</button>
+          </div>
+
+          <div class="stage-selector" id="stageSelector"></div>
+          <div class="race-score">
+            <div>
+              <span>総合戦力</span>
+              <strong id="teamPower">0</strong>
+            </div>
+            <div>
+              <span>勝率予測</span>
+              <strong id="winRate">0%</strong>
+            </div>
+            <div>
+              <span>作戦</span>
+              <strong id="tacticLabel">未設定</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel log-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Race Log</p>
+              <h2>展開ログ</h2>
+            </div>
+          </div>
+          <ol id="raceLog" class="race-log"></ol>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
