@@ -94,6 +94,44 @@ const wearDesign = {
   sponsorStyle: "架空スポンサー風ロゴ",
   performanceNote: "基本は見た目カスタム。TTスーツや雨具のみ軽い条件ボーナス候補。",
 };
+
+const monetizationPlan = [
+  {
+    id: "soft_gacha",
+    name: "緩い選手スカウト",
+    share: "35%",
+    target: "選手候補 / サポート / 若手 / スタッフ",
+    policy: "最高レアは個性と初期才能で差を出し、必須性能にはしない。100連天井と毎週無料配布を前提にする。",
+  },
+  {
+    id: "season_pass",
+    name: "シーズンパス",
+    share: "40%",
+    target: "年間報酬 / 育成素材 / 称号",
+    policy: "1年シーズン進行に合わせた主収益。強さより育成効率と継続報酬を中心にする。",
+  },
+  {
+    id: "cosmetic",
+    name: "見た目課金",
+    share: "15%",
+    target: "ウェア / バイクカラー / UIテーマ / チームバス",
+    policy: "レース性能を売らず、チーム表現と所有感を売る。ロードレースらしいスポンサー風デザインと相性が良い。",
+  },
+  {
+    id: "expansion",
+    name: "レース拡張パック",
+    share: "10%",
+    target: "架空グランツール / 北方クラシック / 山岳王パック",
+    policy: "買い切り型の追加コースとシナリオ。歴史的チーム風イベントや新ルールを入れる。",
+  },
+];
+
+const gachaRules = [
+  "排出確率を購入前に明示する",
+  "同名選手の重複は汎用契約ポイントへ変換する",
+  "凸前提・期間限定人権・機材性能ガチャは避ける",
+  "R/N選手も脚質、性格、チーム相性、育成で役割を持てるようにする",
+];
 const riders = [
   { id: "ace", name: "朝霧 レン", archetype: "パンチャー", stats: { sprint: 8, climb: 8, stamina: 6, technique: 5, teamwork: 2, ego: 8, fighting: 7 } },
   { id: "leadout", name: "真壁 ソウ", archetype: "リードアウト", stats: { sprint: 10, climb: 1, stamina: 4, technique: 6, teamwork: 8, ego: 2, fighting: 5 } },
@@ -206,6 +244,112 @@ const stages = [
     weights: { sprint: 0.8, climb: 0.35, stamina: 1.15, technique: 1.15, teamwork: 1.6, ego: 0.15, fighting: 0.8 },
   },
 ];
+const grandTourOperationModes = [
+  { id: "full", name: "フル操作", detail: "重要地点をすべて操作。勝負ステージ向け。" },
+  { id: "key", name: "重要地点だけ操作", detail: "勝負所だけ操作。通常ステージ向け。" },
+  { id: "auto", name: "自動シミュレート", detail: "省略ではなく結果・疲労・事故・順位変動を処理。" },
+];
+
+
+const teamObjectives = [
+  { id: "gc", name: "総合狙い", short: "総合", detail: "総合タイム差が動く山岳・TT・横風・危険ステージを主導する。" },
+  { id: "sprint", name: "スプリント狙い", short: "SP", detail: "平坦と凱旋ステージを重点化し、山岳は温存寄りに回す。" },
+  { id: "mountain", name: "山岳狙い", short: "山岳", detail: "山岳賞と山頂決戦を狙い、平坦は回復と位置取りを優先する。" },
+  { id: "classic", name: "クラシック狙い", short: "古典", detail: "石畳・グラベル・丘陵で勝負し、荒れる局面を得点源にする。" },
+  { id: "breakaway", name: "逃げ/ステージ狙い", short: "逃げ", detail: "総合勢が緩める丘陵・移動日で逃げ切りを狙う。" },
+  { id: "tt", name: "TT狙い", short: "TT", detail: "個人TTとチームTTを最大目標にし、隊列とペース配分を重視する。" },
+];
+
+const importanceLabels = {
+  S: { label: "主導", note: "操作推奨" },
+  A: { label: "重点", note: "作戦投入" },
+  B: { label: "警戒", note: "最小操作" },
+  C: { label: "温存", note: "自動候補" },
+};
+const grandTourStagePlan = [
+  { stage: 1, name: "開幕平坦", type: "平坦", defaultMode: "key", risk: "位置取り" },
+  { stage: 2, name: "横風平坦", type: "平坦", defaultMode: "key", risk: "横風分断" },
+  { stage: 3, name: "集団スプリント", type: "平坦", defaultMode: "auto", risk: "落車" },
+  { stage: 4, name: "丘陵スプリント", type: "丘陵", defaultMode: "key", risk: "位置取り" },
+  { stage: 5, name: "石畳/グラベル", type: "丘陵", defaultMode: "full", risk: "メカトラブル" },
+  { stage: 6, name: "移動平坦", type: "平坦", defaultMode: "auto", risk: "疲労蓄積" },
+  { stage: 7, name: "中級山岳", type: "山岳", defaultMode: "key", risk: "脚削り" },
+  { stage: 8, name: "パンチャー向け丘陵", type: "丘陵", defaultMode: "key", risk: "アタック合戦" },
+  { stage: 9, name: "第1山岳決戦", type: "山岳", defaultMode: "full", risk: "総合タイム差" },
+  { stage: 10, name: "休養日前平坦", type: "平坦", defaultMode: "auto", risk: "補給失敗" },
+  { stage: 11, name: "個人TT", type: "個人TT", defaultMode: "full", risk: "ペース配分" },
+  { stage: 12, name: "横風ロング", type: "平坦", defaultMode: "key", risk: "横風分断" },
+  { stage: 13, name: "逃げ向け丘陵", type: "丘陵", defaultMode: "auto", risk: "逃げ容認" },
+  { stage: 14, name: "山岳入口", type: "山岳", defaultMode: "key", risk: "山岳入口" },
+  { stage: 15, name: "超級山岳", type: "山岳", defaultMode: "full", risk: "エース変更" },
+  { stage: 16, name: "回復平坦", type: "平坦", defaultMode: "auto", risk: "疲労管理" },
+  { stage: 17, name: "チームTT", type: "チームTT", defaultMode: "full", risk: "隊列崩壊" },
+  { stage: 18, name: "終盤丘陵", type: "丘陵", defaultMode: "key", risk: "ボーナスタイム" },
+  { stage: 19, name: "最終山岳", type: "山岳", defaultMode: "full", risk: "総合逆転" },
+  { stage: 20, name: "最終TT/決戦", type: "個人TT", defaultMode: "full", risk: "最終順位" },
+  { stage: 21, name: "凱旋平坦", type: "平坦", defaultMode: "key", risk: "スプリント決着" },
+];
+
+function getStageImportance(stage, objectiveId = state.teamObjective) {
+  const name = stage.name;
+  const type = stage.type;
+  const risk = stage.risk;
+
+  if (objectiveId === "gc") {
+    if (["総合タイム差", "エース変更", "総合逆転", "最終順位", "横風分断"].includes(risk)) return "S";
+    if (["山岳", "個人TT", "チームTT"].includes(type) || ["石畳/グラベル", "山岳入口"].includes(name)) return "A";
+    if (type === "丘陵" || risk === "位置取り") return "B";
+    return "C";
+  }
+
+  if (objectiveId === "sprint") {
+    if (name.includes("集団スプリント") || name.includes("凱旋") || name.includes("開幕平坦")) return "S";
+    if (type === "平坦" || name.includes("丘陵スプリント")) return "A";
+    if (risk === "横風分断" || type === "チームTT") return "B";
+    return "C";
+  }
+
+  if (objectiveId === "mountain") {
+    if (type === "山岳" && ["総合タイム差", "エース変更", "総合逆転"].includes(risk)) return "S";
+    if (type === "山岳" || name.includes("山岳入口")) return "A";
+    if (type === "丘陵" || type === "個人TT") return "B";
+    return "C";
+  }
+
+  if (objectiveId === "classic") {
+    if (name.includes("石畳") || name.includes("グラベル")) return "S";
+    if (type === "丘陵" || risk === "横風分断" || risk === "位置取り") return "A";
+    if (type === "平坦") return "B";
+    return "C";
+  }
+
+  if (objectiveId === "breakaway") {
+    if (name.includes("逃げ") || name.includes("移動") || name.includes("休養日前")) return "S";
+    if (type === "丘陵" || risk === "疲労管理" || risk === "補給失敗") return "A";
+    if (type === "山岳" || type === "平坦") return "B";
+    return "C";
+  }
+
+  if (objectiveId === "tt") {
+    if (type === "個人TT" || type === "チームTT") return "S";
+    if (risk === "ペース配分" || risk === "隊列崩壊") return "S";
+    if (type === "平坦" || risk === "横風分断") return "B";
+    return "C";
+  }
+
+  return "B";
+}
+
+function getObjectiveStageSummary(objectiveId) {
+  return grandTourStagePlan.reduce(
+    (summary, stage) => {
+      const rank = getStageImportance(stage, objectiveId);
+      summary[rank] += 1;
+      return summary;
+    },
+    { S: 0, A: 0, B: 0, C: 0 },
+  );
+}
 const battleModes = {
   cpu: {
     label: "対CPU",
@@ -244,6 +388,7 @@ const state = {
   raceAce: "ace",
   selectedStage: "roubaix_one_day",
   battleMode: "cpu",
+  teamObjective: "gc",
   log: ["育成を開始。対CPU/対人ともに重要地点ターン制のレースバトルで挑め。"],
 };
 
@@ -485,6 +630,50 @@ function getBestStat(stats) {
   return statLabels[stat];
 }
 
+function renderGrandTourPlan() {
+  const node = document.querySelector("#grandTourPlan");
+  const objectiveNode = document.querySelector("#teamObjectiveSummary");
+  if (!node) return;
+
+  const objective = teamObjectives.find((item) => item.id === state.teamObjective) || teamObjectives[0];
+  if (objectiveNode) {
+    const summaries = teamObjectives
+      .map((item) => {
+        const summary = getObjectiveStageSummary(item.id);
+        const active = item.id === objective.id ? " active" : "";
+        return `<button class="objective-chip${active}" type="button" data-objective="${item.id}"><strong>${item.name}</strong><span>主導${summary.S} / 重点${summary.A}</span></button>`;
+      })
+      .join("");
+    objectiveNode.innerHTML = `
+      <div class="objective-heading">
+        <strong>${objective.name}</strong>
+        <span>${objective.detail}</span>
+      </div>
+      <div class="objective-chip-list">${summaries}</div>
+    `;
+  }
+
+  node.innerHTML = grandTourStagePlan
+    .map((stage) => {
+      const mode = grandTourOperationModes.find((item) => item.id === stage.defaultMode);
+      const rank = getStageImportance(stage, objective.id);
+      const importance = importanceLabels[rank];
+      const compactRanks = teamObjectives
+        .slice(0, 4)
+        .map((item) => `${item.short}:${getStageImportance(stage, item.id)}`)
+        .join(" / ");
+      return `
+        <article class="world-team-card grand-tour-stage-card rank-${rank.toLowerCase()}">
+          <div class="card-meta"><strong>Stage ${stage.stage}</strong><span>${mode.name}</span></div>
+          <p>${stage.name} / ${stage.type}</p>
+          <span>リスク: ${stage.risk}</span>
+          <span class="importance-line">${objective.short}: ${importance.label} (${importance.note})</span>
+          <span class="objective-ranks">${compactRanks}</span>
+        </article>
+      `;
+    })
+    .join("");
+}
 function renderEquipment() {
   const node = document.querySelector("#equipmentList");
   if (!node) return;
@@ -512,6 +701,27 @@ function renderWearDesign() {
       <span>${wearDesign.sponsorStyle} / ${wearDesign.performanceNote}</span>
     </article>
   `;
+}
+
+function renderMonetization() {
+  const node = document.querySelector("#monetizationPlan");
+  const ruleNode = document.querySelector("#gachaRules");
+  if (node) {
+    node.innerHTML = monetizationPlan
+      .map(
+        (item) => `
+          <article class="world-team-card monetization-card">
+            <div class="card-meta"><strong>${item.name}</strong><span>${item.share}</span></div>
+            <p>${item.target}</p>
+            <span>${item.policy}</span>
+          </article>
+        `,
+      )
+      .join("");
+  }
+  if (ruleNode) {
+    ruleNode.innerHTML = gachaRules.map((rule) => `<li>${rule}</li>`).join("");
+  }
 }
 function renderWorldTeams() {
   const node = document.querySelector("#worldTeams");
@@ -726,6 +936,13 @@ function bindEvents() {
     const supportButton = event.target.closest("[data-support]");
     const riderButton = event.target.closest("[data-rider]");
     const stageButton = event.target.closest("[data-stage]");
+    const objectiveButton = event.target.closest("[data-objective]");
+
+    if (objectiveButton) {
+      state.teamObjective = objectiveButton.dataset.objective;
+      renderGrandTourPlan();
+      return;
+    }
 
     if (trainButton) train(trainButton.dataset.train);
     if (supportButton) toggleSupport(supportButton.dataset.support);
@@ -746,8 +963,10 @@ function render() {
   renderTraining();
   renderSupportDeck();
   renderTeamList();
+  renderGrandTourPlan();
   renderEquipment();
   renderWearDesign();
+  renderMonetization();
   renderWorldTeams();
   renderStages();
   renderRaceSummary();

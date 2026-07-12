@@ -456,12 +456,133 @@ h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   max-height: none;
 }
+
+.monetization-panel {
+  margin-top: 18px;
+}
+
+.monetization-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-height: none;
+}
+
+.monetization-card p {
+  min-height: 42px;
+}
+
+.gacha-rule-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gacha-rule-list li {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(32, 40, 40, 0.72);
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  padding: 10px;
+}
+
+.grand-tour-panel {
+  margin-top: 18px;
+}
+
+
+.team-objective-summary {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.objective-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  color: var(--text);
+}
+
+.objective-heading span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+  text-align: right;
+}
+
+.objective-chip-list {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.objective-chip {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  color: var(--text);
+  min-height: 58px;
+  padding: 9px 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.objective-chip strong,
+.objective-chip span,
+.importance-line,
+.objective-ranks {
+  display: block;
+}
+
+.objective-chip span,
+.objective-ranks {
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.objective-chip.active {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.grand-tour-stage-card {
+  border-left: 4px solid var(--line);
+}
+
+.grand-tour-stage-card.rank-s {
+  border-left-color: var(--accent);
+}
+
+.grand-tour-stage-card.rank-a {
+  border-left-color: var(--green);
+}
+
+.grand-tour-stage-card.rank-b {
+  border-left-color: var(--accent-2);
+}
+
+.importance-line {
+  margin-top: 6px;
+  color: var(--text);
+  font-weight: 800;
+}
+.grand-tour-grid {
+  grid-template-columns: repeat(7, minmax(120px, 1fr));
+  max-height: 360px;
+}
 @media (max-width: 1080px) {
   .hero-panel,
   .grid.three,
   .grid.two,
   .world-team-grid,
-  .world-team-grid.compact {
+  .world-team-grid.compact,
+  .grand-tour-grid,
+  .objective-chip-list {
     grid-template-columns: 1fr;
   }
 }
