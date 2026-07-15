@@ -1,0 +1,534 @@
+{
+  "changes": [
+    {
+      "no": 38,
+      "name": "Mathieu van der Poel",
+      "oldCredit": 9700,
+      "newCredit": 13000,
+      "gtGc": 0,
+      "gtStages": 3,
+      "gtJerseys": 0,
+      "monuments": 8
+    },
+    {
+      "no": 36,
+      "name": "Tom Boonen",
+      "oldCredit": 9800,
+      "newCredit": 12000,
+      "gtGc": 0,
+      "gtStages": 8,
+      "gtJerseys": 1,
+      "monuments": 7
+    },
+    {
+      "no": 39,
+      "name": "Fabian Cancellara",
+      "oldCredit": 9000,
+      "newCredit": 12000,
+      "gtGc": 0,
+      "gtStages": 11,
+      "gtJerseys": 0,
+      "monuments": 7
+    },
+    {
+      "no": 35,
+      "name": "Johan Museeuw",
+      "oldCredit": 10000,
+      "newCredit": 11500,
+      "gtGc": 0,
+      "gtStages": 2,
+      "gtJerseys": 0,
+      "monuments": 6
+    },
+    {
+      "no": 11,
+      "name": "Mark Cavendish",
+      "oldCredit": 10500,
+      "newCredit": 11000,
+      "gtGc": 0,
+      "gtStages": 55,
+      "gtJerseys": 4,
+      "monuments": 1
+    },
+    {
+      "no": 12,
+      "name": "Mario Cipollini",
+      "oldCredit": 9800,
+      "newCredit": 11000,
+      "gtGc": 0,
+      "gtStages": 57,
+      "gtJerseys": 3,
+      "monuments": 1
+    },
+    {
+      "no": 13,
+      "name": "Alessandro Petacchi",
+      "oldCredit": 9000,
+      "newCredit": 11000,
+      "gtGc": 0,
+      "gtStages": 53,
+      "gtJerseys": 3,
+      "monuments": 1
+    },
+    {
+      "no": 25,
+      "name": "Philippe Gilbert",
+      "oldCredit": 9000,
+      "newCredit": 11000,
+      "gtGc": 0,
+      "gtStages": 11,
+      "gtJerseys": 0,
+      "monuments": 5
+    },
+    {
+      "no": 27,
+      "name": "Paolo Bettini",
+      "oldCredit": 9000,
+      "newCredit": 11000,
+      "gtGc": 0,
+      "gtStages": 8,
+      "gtJerseys": 2,
+      "monuments": 5
+    },
+    {
+      "no": 29,
+      "name": "Michele Bartoli",
+      "oldCredit": 8500,
+      "newCredit": 11000,
+      "gtGc": 0,
+      "gtStages": 2,
+      "gtJerseys": 0,
+      "monuments": 5
+    },
+    {
+      "no": 26,
+      "name": "Alejandro Valverde",
+      "oldCredit": 9200,
+      "newCredit": 10500,
+      "gtGc": 1,
+      "gtStages": 17,
+      "gtJerseys": 4,
+      "monuments": 4
+    },
+    {
+      "no": 33,
+      "name": "Erik Zabel",
+      "oldCredit": 9500,
+      "newCredit": 10500,
+      "gtGc": 0,
+      "gtStages": 20,
+      "gtJerseys": 9,
+      "monuments": 4
+    },
+    {
+      "no": 34,
+      "name": "Peter Sagan",
+      "oldCredit": 9800,
+      "newCredit": 10500,
+      "gtGc": 0,
+      "gtStages": 18,
+      "gtJerseys": 8,
+      "monuments": 2
+    },
+    {
+      "no": 40,
+      "name": "Laurent Jalabert",
+      "oldCredit": 8800,
+      "newCredit": 10500,
+      "gtGc": 1,
+      "gtStages": 25,
+      "gtJerseys": 10,
+      "monuments": 2
+    },
+    {
+      "no": 47,
+      "name": "Richard Virenque",
+      "oldCredit": 7500,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 8,
+      "gtJerseys": 7,
+      "monuments": 0
+    },
+    {
+      "no": 49,
+      "name": "Claudio Chiappucci",
+      "oldCredit": 7200,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 4,
+      "gtJerseys": 6,
+      "monuments": 1
+    },
+    {
+      "no": 206,
+      "name": "Damiano Cunego",
+      "oldCredit": 7000,
+      "newCredit": 9500,
+      "gtGc": 1,
+      "gtStages": 6,
+      "gtJerseys": 1,
+      "monuments": 3
+    },
+    {
+      "no": 241,
+      "name": "Oscar Freire",
+      "oldCredit": 7000,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 11,
+      "gtJerseys": 1,
+      "monuments": 3
+    },
+    {
+      "no": 254,
+      "name": "Djamolidine Abdoujaparov",
+      "oldCredit": 7600,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 17,
+      "gtJerseys": 5,
+      "monuments": 0
+    },
+    {
+      "no": 266,
+      "name": "Peter Van Petegem",
+      "oldCredit": 7000,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 0,
+      "gtJerseys": 0,
+      "monuments": 3
+    },
+    {
+      "no": 267,
+      "name": "Andrei Tchmil",
+      "oldCredit": 7200,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 0,
+      "gtJerseys": 0,
+      "monuments": 3
+    },
+    {
+      "no": 268,
+      "name": "Andrea Tafi",
+      "oldCredit": 7400,
+      "newCredit": 9500,
+      "gtGc": 0,
+      "gtStages": 0,
+      "gtJerseys": 0,
+      "monuments": 3
+    },
+    {
+      "no": 15,
+      "name": "Marcel Kittel",
+      "oldCredit": 8900,
+      "newCredit": 9000,
+      "gtGc": 0,
+      "gtStages": 19,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 16,
+      "name": "Robbie McEwen",
+      "oldCredit": 8800,
+      "newCredit": 9000,
+      "gtGc": 0,
+      "gtStages": 24,
+      "gtJerseys": 3,
+      "monuments": 0
+    },
+    {
+      "no": 50,
+      "name": "Richard Carapaz",
+      "oldCredit": 7000,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 8,
+      "gtJerseys": 2,
+      "monuments": 0
+    },
+    {
+      "no": 51,
+      "name": "Sepp Kuss",
+      "oldCredit": 7200,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 4,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 61,
+      "name": "Tao Geoghegan Hart",
+      "oldCredit": 6200,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 2,
+      "gtJerseys": 1,
+      "monuments": 0
+    },
+    {
+      "no": 125,
+      "name": "Geraint Thomas",
+      "oldCredit": 5900,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 3,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 202,
+      "name": "Jai Hindley",
+      "oldCredit": 7600,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 3,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 203,
+      "name": "Tom Dumoulin",
+      "oldCredit": 7800,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 9,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 205,
+      "name": "Ryder Hesjedal",
+      "oldCredit": 7200,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 2,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 207,
+      "name": "Fabio Aru",
+      "oldCredit": 7600,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 6,
+      "gtJerseys": 1,
+      "monuments": 0
+    },
+    {
+      "no": 212,
+      "name": "Giulio Ciccone",
+      "oldCredit": 7000,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 3,
+      "gtJerseys": 3,
+      "monuments": 0
+    },
+    {
+      "no": 220,
+      "name": "Oscar Pereiro",
+      "oldCredit": 7200,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 1,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 226,
+      "name": "Pavel Tonkov",
+      "oldCredit": 7400,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 9,
+      "gtJerseys": 2,
+      "monuments": 0
+    },
+    {
+      "no": 227,
+      "name": "Evgeni Berzin",
+      "oldCredit": 7600,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 5,
+      "gtJerseys": 0,
+      "monuments": 1
+    },
+    {
+      "no": 228,
+      "name": "Danilo Di Luca",
+      "oldCredit": 7400,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 9,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 229,
+      "name": "Chris Horner",
+      "oldCredit": 8000,
+      "newCredit": 8500,
+      "gtGc": 1,
+      "gtStages": 2,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 242,
+      "name": "Thor Hushovd",
+      "oldCredit": 7200,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 13,
+      "gtJerseys": 3,
+      "monuments": 0
+    },
+    {
+      "no": 243,
+      "name": "Alexander Kristoff",
+      "oldCredit": 7400,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 4,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 263,
+      "name": "Niki Terpstra",
+      "oldCredit": 7400,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 0,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 269,
+      "name": "Franco Ballerini",
+      "oldCredit": 7600,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 1,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 274,
+      "name": "Stijn Devolder",
+      "oldCredit": 7600,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 0,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 281,
+      "name": "Daniel Martin",
+      "oldCredit": 7000,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 0,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 282,
+      "name": "Jakob Fuglsang",
+      "oldCredit": 7200,
+      "newCredit": 8500,
+      "gtGc": 0,
+      "gtStages": 1,
+      "gtJerseys": 0,
+      "monuments": 2
+    },
+    {
+      "no": 130,
+      "name": "David Millar",
+      "oldCredit": 3650,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 10,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 182,
+      "name": "Michael Matthews",
+      "oldCredit": 6050,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 10,
+      "gtJerseys": 1,
+      "monuments": 0
+    },
+    {
+      "no": 244,
+      "name": "Arnaud Demare",
+      "oldCredit": 7600,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 10,
+      "gtJerseys": 2,
+      "monuments": 1
+    },
+    {
+      "no": 245,
+      "name": "Caleb Ewan",
+      "oldCredit": 6800,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 11,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 246,
+      "name": "Sam Bennett",
+      "oldCredit": 7000,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 10,
+      "gtJerseys": 1,
+      "monuments": 0
+    },
+    {
+      "no": 253,
+      "name": "Tom Steels",
+      "oldCredit": 7400,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 11,
+      "gtJerseys": 0,
+      "monuments": 0
+    },
+    {
+      "no": 255,
+      "name": "Daniele Bennati",
+      "oldCredit": 6800,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 11,
+      "gtJerseys": 2,
+      "monuments": 0
+    },
+    {
+      "no": 259,
+      "name": "Kaden Groves",
+      "oldCredit": 7600,
+      "newCredit": 8200,
+      "gtGc": 0,
+      "gtStages": 10,
+      "gtJerseys": 2,
+      "monuments": 0
+    }
+  ]
+}

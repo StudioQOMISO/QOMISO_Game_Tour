@@ -1,0 +1,41 @@
+reference_event,year,real_world_category,motif_type,game_event_type,terrain,weather_or_condition,key_stats,mental_axis,gameplay_conversion,fictional_event_name,status
+Tour de France final time trial Lemond vs Fignon,1989,Grand Tour,final_tt_reversal,grand_tour_decider,itt,high_pressure,"technique/stamina/ego","負けん気/冷静さ","最終TTで総合順位が数秒差で逆転する高緊張イベント","最終時計台の逆転劇",seed
+Alpe d'Huez duel Hinault and Lemond,1986,Grand Tour,mountain_duel,grand_tour_mountain,mountain,crowd_pressure,"climb/stamina/teamwork","エゴ/チームワーク","同一チーム内のエース関係と山岳決戦を組み合わせる","双頭エースの山頂決戦",seed
+Pantani Galibier Les Deux Alpes,1998,Grand Tour,bad_weather_mountain_attack,grand_tour_mountain,mountain,rain_cold,"climb/fighting/stamina","負けん気/エゴ","悪天候の超級山岳で大逆転アタックが発生する","嵐の女王山岳",seed
+Coppi Cuneo Pinerolo long raid,1949,Grand Tour,long_range_mountain_raid,stage_hunter,mountain,long_distance,"climb/stamina/fighting","孤高/負けん気","長距離山岳逃げが成功すると伝説ポイントを獲得","夜明け前の大山岳逃走",seed
+Gavia snow Giro stage,1988,Grand Tour,extreme_weather_survival,grand_tour_mountain,mountain,snow_cold,"stamina/technique/fighting","耐久/恐怖耐性","寒冷・雪・補給失敗で全員が消耗するサバイバルステージ","白嶺の凍結ステージ",seed
+Froome Finestre Giro raid,2018,Grand Tour,long_range_gc_attack,grand_tour_mountain,mountain,solo_attack,"climb/stamina/ego","勝負勘/エゴ","残り80km級の総合逆転アタックを選択肢化","未計算の峠襲撃",seed
+Contador Fuente De attack,2012,Grand Tour,tactical_ambush,grand_tour_hill,hill,crosswind_hill,"stamina/technique/ego","エゴ/負けん気","総合勢の油断を突く中級山岳奇襲","谷間の奇襲ステージ",seed
+Vingegaard Pogacar Granon collapse,2022,Grand Tour,team_pressure_crack,grand_tour_mountain,mountain,team_attack,"climb/teamwork/stamina","チームワーク/精神耐久","複数アシストの波状攻撃でライバルのメンタルを削る","山岳列車の包囲網",seed
+Pogacar Planche des Belles Filles TT,2020,Grand Tour,climb_tt_reversal,grand_tour_decider,itt_climb,final_pressure,"technique/climb/fighting","負けん気/集中","登坂TTで総合逆転が起きる最終決戦","坂道時計台の若き逆転",seed
+Nibali cobbled Tour stage,2014,Grand Tour,cobble_gc_selection,grand_tour_cobble,cobble,rain_crash,"technique/stamina/fighting","冷静さ/負けん気","グランツール中に石畳ステージを入れ、総合勢をふるい落とす","大周回の石畳裁判",seed
+Echelon Tour crosswinds,2013,Grand Tour,crosswind_split,grand_tour_flat,flat,wind,"teamwork/technique/stamina","チームワーク/判断","横風分断で集団が割れ、ロードキャプテンが重要になる","海風の分断線",seed
+Tourmalet mountain myth,1910,Grand Tour,first_high_mountain,grand_tour_mountain,mountain,primitive_equipment,"climb/fighting/stamina","恐怖耐性/負けん気","初めての超級山岳を再現するイベントカードに使う","はじめての巨人峠",seed
+Paris-Roubaix mud edition,2001,Monument,mud_cobble_classic,one_day_monument,cobble,mud,"technique/fighting/stamina","負けん気/我慢","泥と石畳で落車・パンク・位置取りが連続する","泥の北方王冠",seed
+Paris-Roubaix velodrome sprint,classic,Monument,velodrome_finish,one_day_monument,cobble,final_sprint,"sprint/technique/fighting","勝負勘/エゴ","石畳後の競技場スプリントで少人数決着","石畳競技場の決着",seed
+Tour of Flanders Koppenberg chaos,classic,Monument,steep_cobbled_climb,one_day_monument,cobble_hill,crowd_narrow,"technique/climb/fighting","恐怖耐性/負けん気","急坂石畳で足つき・渋滞・位置取りが発生","聖丘の石畳渋滞",seed
+Milan-San Remo Poggio attack,classic,Monument,late_poggio_attack,one_day_monument,hill,fast_descent,"sprint/technique/ego","勝負勘/エゴ","長距離後の短坂アタックか集団スプリントかを選ぶ","春港の最終丘",seed
+Liege Bastogne Liege Ardennes attrition,classic,Monument,ardennes_attrition,one_day_monument,hill,cold_rain,"stamina/climb/fighting","我慢/負けん気","短い登りの連続でパンチャーと総合型が競る","老舗丘陵の消耗戦",seed
+Il Lombardia autumn descent,classic,Monument,autumn_climber_classic,one_day_monument,hill_mountain,autumn_descent,"climb/technique/stamina","冷静さ/勝負勘","秋の山岳クラシックで下りと湖畔の位置取りが鍵","落葉湖畔クラシック",seed
+World Championship long circuit,annual,Championship,national_pride_circuit,world_championship,hill,variable,"stamina/technique/ego","国の期待/負けん気","国別チームで走る長距離周回ワンデー","虹冠サーキット",seed
+Olympic road race chaos,quadrennial,Championship,limited_team_tactics,world_championship,hill,small_teams,"stamina/ego/technique","孤独/判断","少人数代表チームで普段と違う戦術になる","五輪丘陵ロード",seed
+World TT specialist day,annual,Championship,pure_tt,world_time_trial,itt,dry,"technique/stamina/ego","集中/冷静さ","機材とフォームと精神安定で勝負する個人TT","虹時計の独走",seed
+Team time trial collapse,modern,Stage Race,ttt_line_break,team_time_trial,ttt,wind,"teamwork/technique/stamina","連携/焦り","隊列崩壊、人数不足、エース保護を処理するTTT","八人隊列の亀裂",seed
+Leadout train perfection,modern,Sprint,leadout_masterclass,flat_stage,flat,fast_finish,"sprint/teamwork/technique","信頼/自己犠牲","リードアウト成功でスプリンターの勝率が跳ねる","黄金発射台の最終直線",seed
+Chaotic bunch sprint crash risk,modern,Sprint,chaotic_sprint,flat_stage,flat,crash_risk,"sprint/technique/fighting","恐怖耐性/エゴ","位置取り失敗で落車リスク、成功で大量ポイント","混戦ゴールの針穴",seed
+Breakaway allowed transition day,modern,Stage Race,breakaway_day,stage_hunter,hill,hot,"stamina/ego/fighting","孤独/負けん気","総合勢が休む日に逃げ屋が勝負する","逃げ容認の移動日",seed
+Mountain domestique sacrifice,modern,Team Tactics,domestique_sacrifice,team_event,mountain,high_pace,"teamwork/stamina/climb","献身/信頼","アシストが脚を使い切ってエースを守る","山岳番兵の使い切り",seed
+Multiple ace conflict,modern,Team Tactics,dual_leader_conflict,team_event,all,pressure,"ego/teamwork/fighting","エゴ/チームワーク","チーム内エース変更や内紛をメンタルイベント化","二枚看板の亀裂",seed
+Neutralized dangerous descent,modern,Race Incident,danger_management,race_director_event,mountain_descent,danger,"technique/fighting/teamwork","冷静さ/安全判断","危険下りで攻めるか守るか、主催者判断も入る","霧の下り中断判断",seed
+Mechanical on cobbles,classic,Race Incident,mechanical_cobble,one_day_monument,cobble,puncture,"technique/fighting/teamwork","焦り/負けん気","パンク・チェーン落ちから復帰するイベント","石畳のメカトラ復帰",seed
+Feed zone miss,classic,Race Incident,feed_miss,stage_event,all,heat,"stamina/teamwork/fighting","焦り/我慢","補給失敗で終盤能力が落ちる。アシストで回復可能","失われた補給袋",seed
+Rain jacket chase,modern,Race Incident,clothing_delay,stage_event,mountain,rain,"teamwork/technique/stamina","焦り/冷静さ","雨具受け渡しや車列位置が展開に影響","雨具車列の遅れ",seed
+Gravel sector ambush,modern,One Day,gravel_ambush,one_day_classic,gravel,dust,"technique/stamina/fighting","負けん気/判断","グラベル入口前の位置取りとパンク耐性を処理","白い道の奇襲",seed
+Strade style piazza finish,modern,One Day,steep_city_finish,one_day_classic,gravel_hill,dust,"climb/technique/ego","勝負勘/エゴ","未舗装路後の急坂市街地ゴール","白壁広場の最終坂",seed
+Spring classic bad luck chain,classic,One Day,bad_luck_chain,one_day_classic,cobble,wind_rain,"technique/fighting/teamwork","負けん気/忍耐","落車、パンク、横風が連鎖するクラシック運イベント","春嵐の連鎖トラブル",seed
+Grand tour rest day sickness,modern,Grand Tour,rest_day_slump,season_event,all,recovery,"stamina/fighting/teamwork","不安/回復力","休養日明けに調子を崩すリスクを処理","休養日明けの重い脚",seed
+Youth breakthrough stage,modern,Career Event,youth_breakthrough,career_event,hill,opportunity,"ego/fighting/technique","自信/緊張","若手カードが一気に名を上げるキャリアイベント","若手覚醒の丘陵日",seed
+Veteran last win,classic,Career Event,veteran_last_win,career_event,all,final_season,"technique/fighting/stamina","執念/経験","能力低下を経験と勝負勘で補う最終勝利","老将最後の一撃",seed
+Home race pressure,modern,Career Event,home_pressure,career_event,all,crowd,"ego/fighting/teamwork","期待/焦り","地元レースで人気とプレッシャーが増える","故郷の旗の下で",seed
+National champion jersey curse,modern,Career Event,jersey_pressure,season_event,all,attention,"ego/fighting/technique","重圧/誇り","チャンピオンジャージで勝てない時期をイベント化","王者ジャージの重み",seed
+Underdog wild card team,modern,Team Event,wildcard_attack,stage_hunter,hill,media,"teamwork/fighting/ego","反骨/団結","小規模チームが逃げで大会を盛り上げる","招待チームの反骨逃げ",seed

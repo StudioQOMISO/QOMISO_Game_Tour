@@ -1,0 +1,7525 @@
+{
+  "snapshot": {
+    "tour": "2025 final",
+    "giro": "2026 final",
+    "vuelta": "2025 final"
+  },
+  "rules": {
+    "stageWins": "individual stage and prologue wins; TTT team wins excluded",
+    "jerseys": "final classification wins only"
+  },
+  "sources": [
+    "https://www.letour.fr/en/history",
+    "https://www.giroditalia.it/en/palmares/",
+    "https://www.lavuelta.es/en/history",
+    "Wikipedia annual edition result tables used for machine reconciliation",
+    "https://www.lavuelta.es/en/history (2021 malformed table manually reconciled)",
+    "https://en.wikipedia.org/wiki/List_of_Grand_Tour_general_classification_winners",
+    "https://en.wikipedia.org/wiki/List_of_Grand_Tour_points_classification_winners",
+    "https://en.wikipedia.org/wiki/List_of_Grand_Tour_mountains_classification_winners",
+    "https://en.wikipedia.org/wiki/Young_rider_classification"
+  ],
+  "errors": [],
+  "riders": [
+    {
+      "no": 1,
+      "name": "Jan Ullrich",
+      "tour": {
+        "gc": 1,
+        "stages": 7,
+        "points": 0,
+        "mountains": 0,
+        "young": 3
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 2,
+      "name": "Primoz Roglic",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 4,
+        "stages": 15,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 3,
+      "name": "Miguel Indurain",
+      "tour": {
+        "gc": 5,
+        "stages": 12,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 2,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 4,
+      "name": "Egan Bernal",
+      "tour": {
+        "gc": 1,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 5,
+      "name": "Remco Evenepoel",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 5,
+        "points": 0,
+        "mountains": 1,
+        "young": 1
+      }
+    },
+    {
+      "no": 6,
+      "name": "Alberto Contador",
+      "tour": {
+        "gc": 2,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 2,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 3,
+        "stages": 6,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 7,
+      "name": "Chris Froome",
+      "tour": {
+        "gc": 4,
+        "stages": 7,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 2,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 8,
+      "name": "Vincenzo Nibali",
+      "tour": {
+        "gc": 1,
+        "stages": 6,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 2,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 9,
+      "name": "Tadej Pogacar",
+      "tour": {
+        "gc": 4,
+        "stages": 21,
+        "points": 0,
+        "mountains": 3,
+        "young": 4
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 6,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      }
+    },
+    {
+      "no": 10,
+      "name": "Jonas Vingegaard",
+      "tour": {
+        "gc": 2,
+        "stages": 4,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 50,
+      "name": "Richard Carapaz",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 106,
+      "name": "Joao Almeida",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 111,
+      "name": "Juan Ayuso",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      }
+    },
+    {
+      "no": 136,
+      "name": "Carlos Rodriguez",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 11,
+      "name": "Mark Cavendish",
+      "tour": {
+        "gc": 0,
+        "stages": 35,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 17,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 12,
+      "name": "Mario Cipollini",
+      "tour": {
+        "gc": 0,
+        "stages": 12,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 42,
+        "points": 3,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 13,
+      "name": "Alessandro Petacchi",
+      "tour": {
+        "gc": 0,
+        "stages": 6,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 27,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 20,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 14,
+      "name": "Andre Greipel",
+      "tour": {
+        "gc": 0,
+        "stages": 11,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 7,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 4,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 15,
+      "name": "Marcel Kittel",
+      "tour": {
+        "gc": 0,
+        "stages": 14,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 16,
+      "name": "Robbie McEwen",
+      "tour": {
+        "gc": 0,
+        "stages": 12,
+        "points": 3,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 12,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 89,
+      "name": "Jasper Philipsen",
+      "tour": {
+        "gc": 0,
+        "stages": 10,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 6,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 104,
+      "name": "Biniam Girmay",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 137,
+      "name": "Jonathan Milan",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 5,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 138,
+      "name": "Olav Kooij",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 139,
+      "name": "Mark Renshaw",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 140,
+      "name": "Michael Morkov",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 141,
+      "name": "Iljo Keisse",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 142,
+      "name": "Maximiliano Richeze",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 143,
+      "name": "Fabio Sabatini",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 144,
+      "name": "Jacopo Guarnieri",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 145,
+      "name": "Greg Henderson",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 146,
+      "name": "Christophe Laporte",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 147,
+      "name": "Mike Teunissen",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 148,
+      "name": "Danny van Poppel",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 149,
+      "name": "Boy van Poppel",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 150,
+      "name": "Ramon Sinkeldam",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 151,
+      "name": "Roy Curvers",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 152,
+      "name": "Nikias Arndt",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 153,
+      "name": "Roger Kluge",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 154,
+      "name": "Jasper De Buyst",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 155,
+      "name": "Luka Mezgec",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 156,
+      "name": "Edward Theuns",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 157,
+      "name": "Bert Van Lerberghe",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 158,
+      "name": "Simone Consonni",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 159,
+      "name": "Davide Ballerini",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 160,
+      "name": "Jurgen Roelandts",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 161,
+      "name": "Gert Steegmans",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 162,
+      "name": "Matthew Goss",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 17,
+      "name": "Marco Pantani",
+      "tour": {
+        "gc": 1,
+        "stages": 8,
+        "points": 0,
+        "mountains": 0,
+        "young": 2
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 8,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 18,
+      "name": "Nairo Quintana",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 1,
+        "young": 2
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 19,
+      "name": "Andy Schleck",
+      "tour": {
+        "gc": 1,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 3
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 20,
+      "name": "Thibaut Pinot",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 21,
+      "name": "Romain Bardet",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 22,
+      "name": "Carlos Sastre",
+      "tour": {
+        "gc": 1,
+        "stages": 3,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 47,
+      "name": "Richard Virenque",
+      "tour": {
+        "gc": 0,
+        "stages": 7,
+        "points": 0,
+        "mountains": 7,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 49,
+      "name": "Claudio Chiappucci",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 2,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 1,
+        "mountains": 3,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 51,
+      "name": "Sepp Kuss",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 52,
+      "name": "Wout Poels",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 53,
+      "name": "Michal Kwiatkowski",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 54,
+      "name": "Richie Porte",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 55,
+      "name": "Mikel Nieve",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 56,
+      "name": "Andrey Amador",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 57,
+      "name": "Winner Anacona",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 58,
+      "name": "Robert Gesink",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 59,
+      "name": "Laurens De Plus",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 60,
+      "name": "Wilco Kelderman",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 61,
+      "name": "Tao Geoghegan Hart",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 62,
+      "name": "Jose Luis Rubiera",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 63,
+      "name": "Daniel Navarro",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 64,
+      "name": "Sergio Henao",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 65,
+      "name": "Tanel Kangert",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 66,
+      "name": "Mikel Landa",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 67,
+      "name": "Adam Yates",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 68,
+      "name": "Rafal Majka",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 2,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 69,
+      "name": "Carlos Verona",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 70,
+      "name": "Marc Soler",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 71,
+      "name": "Brandon McNulty",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 72,
+      "name": "Pavel Sivakov",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 73,
+      "name": "Thymen Arensman",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 74,
+      "name": "Ben O'Connor",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 75,
+      "name": "Santiago Buitrago",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 76,
+      "name": "Damiano Caruso",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 77,
+      "name": "Domenico Pozzovivo",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 78,
+      "name": "Roman Kreuziger",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 79,
+      "name": "Haimar Zubeldia",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 80,
+      "name": "Igor Anton",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 81,
+      "name": "Pierre Rolland",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 82,
+      "name": "Rein Taaramae",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 23,
+      "name": "Cadel Evans",
+      "tour": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 24,
+      "name": "Joaquim Rodriguez",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 9,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 25,
+      "name": "Philippe Gilbert",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 7,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 26,
+      "name": "Alejandro Valverde",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 12,
+        "points": 4,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 27,
+      "name": "Paolo Bettini",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 28,
+      "name": "Julian Alaphilippe",
+      "tour": {
+        "gc": 0,
+        "stages": 6,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 29,
+      "name": "Michele Bartoli",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 30,
+      "name": "Davide Rebellin",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 31,
+      "name": "Maurizio Fondriest",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 32,
+      "name": "Simon Gerrans",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 183,
+      "name": "Arnaud De Lie",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 33,
+      "name": "Erik Zabel",
+      "tour": {
+        "gc": 0,
+        "stages": 12,
+        "points": 6,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 8,
+        "points": 3,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 34,
+      "name": "Peter Sagan",
+      "tour": {
+        "gc": 0,
+        "stages": 12,
+        "points": 7,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 35,
+      "name": "Johan Museeuw",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 36,
+      "name": "Tom Boonen",
+      "tour": {
+        "gc": 0,
+        "stages": 6,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 37,
+      "name": "John Degenkolb",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 10,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 38,
+      "name": "Mathieu van der Poel",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 39,
+      "name": "Fabian Cancellara",
+      "tour": {
+        "gc": 0,
+        "stages": 8,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 40,
+      "name": "Laurent Jalabert",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 2,
+        "mountains": 2,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 18,
+        "points": 4,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 86,
+      "name": "Mads Pedersen",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 5,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 4,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 105,
+      "name": "Tom Pidcock",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 115,
+      "name": "Luke Rowe",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 116,
+      "name": "Fumiyuki Beppu",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 117,
+      "name": "Yukiya Arashiro",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 118,
+      "name": "George Hincapie",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 119,
+      "name": "Bernhard Eisel",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 120,
+      "name": "Nicolas Roche",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 121,
+      "name": "Sylvain Chavanel",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 122,
+      "name": "Koen de Kort",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 123,
+      "name": "Daryl Impey",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 124,
+      "name": "Michael Rogers",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 125,
+      "name": "Geraint Thomas",
+      "tour": {
+        "gc": 1,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 126,
+      "name": "Simon Geschke",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 127,
+      "name": "Mathew Hayman",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 128,
+      "name": "Bram Tankink",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 129,
+      "name": "Christian Vande Velde",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 130,
+      "name": "David Millar",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 131,
+      "name": "Manuel Quinziato",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 132,
+      "name": "Luca Paolini",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 133,
+      "name": "Juan Antonio Flecha",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 134,
+      "name": "Alessandro Ballan",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 135,
+      "name": "Gregory Rast",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 163,
+      "name": "Daniel Oss",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 164,
+      "name": "Heinrich Haussler",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 165,
+      "name": "Lars Boom",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 166,
+      "name": "Sep Vanmarcke",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 167,
+      "name": "Leif Hoste",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 168,
+      "name": "Stijn Vandenbergh",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 169,
+      "name": "Maarten Wynants",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 170,
+      "name": "Sebastian Langeveld",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 171,
+      "name": "Marco Haller",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 172,
+      "name": "Taco van der Hoorn",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 173,
+      "name": "Amund Grondahl Jansen",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 174,
+      "name": "Aime De Gendt",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 175,
+      "name": "Florian Vermeersch",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 176,
+      "name": "Frederik Frison",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 177,
+      "name": "Jens Keukeleire",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 178,
+      "name": "Zdenek Stybar",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 179,
+      "name": "Greg Van Avermaet",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 180,
+      "name": "Wout van Aert",
+      "tour": {
+        "gc": 0,
+        "stages": 10,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 41,
+      "name": "Bradley Wiggins",
+      "tour": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 42,
+      "name": "Tony Martin",
+      "tour": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 43,
+      "name": "Filippo Ganna",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 8,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 44,
+      "name": "Chris Boardman",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 45,
+      "name": "Rohan Dennis",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 46,
+      "name": "Luis Leon Sanchez",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 48,
+      "name": "Thomas De Gendt",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 83,
+      "name": "Tim Declercq",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 84,
+      "name": "Nils Politt",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 85,
+      "name": "Luke Durbridge",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 87,
+      "name": "Michael Hepburn",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 88,
+      "name": "Viatcheslav Ekimov",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 90,
+      "name": "Matteo Tosatto",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 91,
+      "name": "Nathan Van Hooydonck",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 92,
+      "name": "Dylan van Baarle",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 93,
+      "name": "Stefan Kung",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 94,
+      "name": "Yves Lampaert",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 95,
+      "name": "Kasper Asgreen",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 96,
+      "name": "Matteo Trentin",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 97,
+      "name": "Marcus Burghardt",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 98,
+      "name": "Ian Stannard",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 99,
+      "name": "Eros Poli",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 100,
+      "name": "Jens Voigt",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 101,
+      "name": "Stuart O'Grady",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 102,
+      "name": "Jack Bauer",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 103,
+      "name": "Salvatore Puccio",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 107,
+      "name": "Maciej Bodnar",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 108,
+      "name": "Jos van Emden",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 109,
+      "name": "Maarten Tjallingii",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 110,
+      "name": "Lars Bak",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 112,
+      "name": "Dries Devenyns",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 113,
+      "name": "Vegard Stake Laengen",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 114,
+      "name": "Mikkel Bjerg",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 181,
+      "name": "Bob Jungels",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 2
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 182,
+      "name": "Michael Matthews",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 184,
+      "name": "Jonathan Castroviejo",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 185,
+      "name": "Vasil Kiryienka",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 186,
+      "name": "Nelson Oliveira",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 187,
+      "name": "Jan Barta",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 188,
+      "name": "Alex Dowsett",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 189,
+      "name": "Luke Plapp",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 190,
+      "name": "Edoardo Affini",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 191,
+      "name": "Tobias Foss",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 192,
+      "name": "Magnus Sheffield",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 193,
+      "name": "Remi Cavagna",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 194,
+      "name": "Chad Haga",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 195,
+      "name": "Tejay van Garderen",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 196,
+      "name": "Brent Bookwalter",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 197,
+      "name": "Kanstantsin Siutsou",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 198,
+      "name": "Cameron Wurf",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 199,
+      "name": "Lawson Craddock",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 200,
+      "name": "Jan Tratnik",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 201,
+      "name": "Simon Yates",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 6,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 202,
+      "name": "Jai Hindley",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 203,
+      "name": "Tom Dumoulin",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 204,
+      "name": "Ivan Basso",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 2,
+        "stages": 6,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 205,
+      "name": "Ryder Hesjedal",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 206,
+      "name": "Damiano Cunego",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 207,
+      "name": "Fabio Aru",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 208,
+      "name": "Rigoberto Uran",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 209,
+      "name": "Esteban Chaves",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 210,
+      "name": "Enric Mas",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 2
+      }
+    },
+    {
+      "no": 211,
+      "name": "Pello Bilbao",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 212,
+      "name": "Giulio Ciccone",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 2,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 213,
+      "name": "David Gaudu",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 214,
+      "name": "Warren Barguil",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 215,
+      "name": "Guillaume Martin",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 216,
+      "name": "Ben Healy",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 217,
+      "name": "Felix Gall",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 218,
+      "name": "Derek Gee",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 219,
+      "name": "Aleksandr Vlasov",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 220,
+      "name": "Oscar Pereiro",
+      "tour": {
+        "gc": 1,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 221,
+      "name": "Samuel Sanchez",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 222,
+      "name": "Denis Menchov",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 2,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 5,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      }
+    },
+    {
+      "no": 223,
+      "name": "Roberto Heras",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 4,
+        "stages": 10,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 224,
+      "name": "Alex Zulle",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 2,
+        "stages": 9,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 225,
+      "name": "Gilberto Simoni",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 2,
+        "stages": 8,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 226,
+      "name": "Pavel Tonkov",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 7,
+        "points": 0,
+        "mountains": 0,
+        "young": 2
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 227,
+      "name": "Evgeni Berzin",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 228,
+      "name": "Danilo Di Luca",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 1,
+        "stages": 7,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 229,
+      "name": "Chris Horner",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 1,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 230,
+      "name": "Iban Mayo",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 231,
+      "name": "Jose Rujano",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 1,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 232,
+      "name": "Michael Rasmussen",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 2,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 233,
+      "name": "Isaac del Toro",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 234,
+      "name": "Paul Seixas",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 235,
+      "name": "Giulio Pellizzari",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 236,
+      "name": "Antonio Tiberi",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 237,
+      "name": "Florian Lipowitz",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 238,
+      "name": "Lenny Martinez",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 239,
+      "name": "Mattias Skjelmose",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 1
+      }
+    },
+    {
+      "no": 240,
+      "name": "Oscar Onley",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 241,
+      "name": "Oscar Freire",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 7,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 242,
+      "name": "Thor Hushovd",
+      "tour": {
+        "gc": 0,
+        "stages": 10,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 243,
+      "name": "Alexander Kristoff",
+      "tour": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 244,
+      "name": "Arnaud Demare",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 8,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 245,
+      "name": "Caleb Ewan",
+      "tour": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 246,
+      "name": "Sam Bennett",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 247,
+      "name": "Elia Viviani",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 5,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 248,
+      "name": "Dylan Groenewegen",
+      "tour": {
+        "gc": 0,
+        "stages": 6,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 249,
+      "name": "Fabio Jakobsen",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 5,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 250,
+      "name": "Tim Merlier",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 4,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 251,
+      "name": "Fernando Gaviria",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 5,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 252,
+      "name": "Nacer Bouhanni",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 253,
+      "name": "Tom Steels",
+      "tour": {
+        "gc": 0,
+        "stages": 9,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 254,
+      "name": "Djamolidine Abdoujaparov",
+      "tour": {
+        "gc": 0,
+        "stages": 9,
+        "points": 3,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 7,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 255,
+      "name": "Daniele Bennati",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 6,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 256,
+      "name": "Tyler Farrar",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 257,
+      "name": "Juan Sebastian Molano",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 258,
+      "name": "Pascal Ackermann",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 3,
+        "points": 1,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 259,
+      "name": "Kaden Groves",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 7,
+        "points": 2,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 260,
+      "name": "Jordi Meeus",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 261,
+      "name": "Matej Mohoric",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 262,
+      "name": "Jasper Stuyven",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 263,
+      "name": "Niki Terpstra",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 264,
+      "name": "Alberto Bettiol",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 265,
+      "name": "Sonny Colbrelli",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 266,
+      "name": "Peter Van Petegem",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 267,
+      "name": "Andrei Tchmil",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 268,
+      "name": "Andrea Tafi",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 269,
+      "name": "Franco Ballerini",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 270,
+      "name": "Magnus Backstedt",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 271,
+      "name": "Servais Knaven",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 272,
+      "name": "Johan Vansummeren",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 273,
+      "name": "Nick Nuyens",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 274,
+      "name": "Stijn Devolder",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 275,
+      "name": "Steffen Wesemann",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 276,
+      "name": "Filippo Pozzato",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 277,
+      "name": "Tiesj Benoot",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 278,
+      "name": "Dylan Teuns",
+      "tour": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 279,
+      "name": "Tim Wellens",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 280,
+      "name": "Jhonatan Narvaez",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 5,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 281,
+      "name": "Daniel Martin",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 282,
+      "name": "Jakob Fuglsang",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 283,
+      "name": "Michael Woods",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 284,
+      "name": "Marc Hirschi",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 285,
+      "name": "Benoit Cosnefroy",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 286,
+      "name": "Valentin Madouas",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 287,
+      "name": "Romain Gregoire",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 288,
+      "name": "Maxim Van Gils",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 289,
+      "name": "Rui Costa",
+      "tour": {
+        "gc": 0,
+        "stages": 3,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 290,
+      "name": "Michael Albasini",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 291,
+      "name": "Victor Campenaerts",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 292,
+      "name": "Stefan Bissegger",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 293,
+      "name": "Joshua Tarling",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 294,
+      "name": "Soren Waerenskjold",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 295,
+      "name": "Tobias Ludvigsson",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 296,
+      "name": "David Zabriskie",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 297,
+      "name": "Gustav Erik Larsson",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 298,
+      "name": "Levi Leipheimer",
+      "tour": {
+        "gc": 0,
+        "stages": 1,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 2,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 299,
+      "name": "Andreas Kloden",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    },
+    {
+      "no": 300,
+      "name": "Jose Azevedo",
+      "tour": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "giro": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      },
+      "vuelta": {
+        "gc": 0,
+        "stages": 0,
+        "points": 0,
+        "mountains": 0,
+        "young": 0
+      }
+    }
+  ]
+}

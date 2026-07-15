@@ -4,18 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>QOMISO Game Tour</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260715-card" />
   </head>
   <body>
     <main class="app-shell">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Road Race Training Battle</p>
+          <p class="eyebrow">Road Race Card Battle</p>
           <h1>QOMISO Game Tour</h1>
         </div>
         <div class="season-chip">
-          <span>育成年</span>
-          <strong id="seasonWeek">1 / 12</strong>
+          <span>戦術デッキ</span>
+          <strong id="seasonWeek">5 / 7</strong>
         </div>
       </header>
 
@@ -31,9 +31,9 @@
             <div class="rider-body"></div>
           </div>
           <div>
-            <p class="eyebrow">育成選手</p>
-            <h2 id="riderName">朝霧 レン</h2>
-            <p id="riderArchetype">パンチャー / 攻撃型オールラウンダー</p>
+            <p class="eyebrow">Ace Card</p>
+            <h2 id="riderName">ミハル・ヴァルガ</h2>
+            <p id="riderArchetype">スロバキア / クラシック型 × スプリンター</p>
           </div>
         </div>
 
@@ -53,15 +53,15 @@
         <article class="panel">
           <div class="panel-heading">
             <div>
-              <p class="eyebrow">Training</p>
-              <h2>個人育成</h2>
+              <p class="eyebrow">Action Deck</p>
+              <h2>戦術カードデッキ</h2>
             </div>
-            <button id="resetBtn" class="icon-button" type="button" title="リセット" aria-label="リセット">↺</button>
+            <button id="resetBtn" class="icon-button" type="button" title="デッキ初期化" aria-label="デッキ初期化">↺</button>
           </div>
 
           <div class="stats" id="stats"></div>
 
-          <div class="commands" id="trainingCommands"></div>
+          <div class="commands" id="actionCardDeck"></div>
         </article>
 
         <article class="panel">
@@ -89,6 +89,18 @@
 
 
 
+
+      <section class="panel ucr-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">UCR World Circuit</p>
+            <h2>国際ロードサイクル連合</h2>
+          </div>
+          <span class="counter"><strong>UCR</strong> season</span>
+        </div>
+        <p class="ucr-description">Union Cycliste Routière が年間ポイント、ライダー／チーム／マネージャー順位、対人レート、昇降格を管理する。</p>
+        <div class="world-team-grid ucr-grid" id="ucrSummary"></div>
+      </section>
 
       <section class="panel grand-tour-panel">
         <div class="panel-heading">
@@ -125,12 +137,12 @@
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Monetization</p>
-            <h2>緩いガチャと課金設計</h2>
+            <h2>緩いスカウトとCredit契約</h2>
           </div>
-          <span class="counter"><strong>Soft</strong> gacha</span>
+          <span class="counter"><strong>Credit</strong> cap</span>
         </div>
         <div class="world-team-grid monetization-grid" id="monetizationPlan"></div>
-        <ul class="gacha-rule-list" id="gachaRules"></ul>
+        <ul class="scout-rule-list" id="scoutRules"></ul>
       </section>
       <section class="panel world-teams-panel">
         <div class="panel-heading">
@@ -152,6 +164,11 @@
             <button id="raceBtn" class="primary-button" type="button">セクター開始</button>
           </div>
 
+          <div class="ability-panel">
+            <div class="passive-ability-summary" id="passiveAbilitySummary"></div>
+            <div class="active-ability-list" id="activeAbilityList"></div>
+          </div>
+
           <div class="stage-selector" id="stageSelector"></div>
           <div class="race-score">
             <div>
@@ -167,6 +184,8 @@
               <strong id="tacticLabel">未設定</strong>
             </div>
           </div>
+
+          <div class="race-condition" id="raceCondition" aria-label="レース中のコンディション"></div>
         </article>
 
         <article class="panel log-panel">
@@ -181,6 +200,6 @@
       </section>
     </main>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=20260715-credit-cap"></script>
   </body>
 </html>

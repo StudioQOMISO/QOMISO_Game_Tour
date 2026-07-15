@@ -1,0 +1,2715 @@
+{
+  "snapshot": {
+    "springMonuments": "2026 final",
+    "lombardia": "2025 final"
+  },
+  "sources": [
+    "https://www.milanosanremo.it/en/roll-of-honour-milano-sanremo/",
+    "https://www.rondevanvlaanderen.be/en/race/men-elite/history",
+    "https://www.paris-roubaix.fr/en/history",
+    "https://www.liege-bastogne-liege.be/fr/histoire",
+    "https://www.ilombardia.it/en/albo-oro/"
+  ],
+  "riders": [
+    {
+      "no": 1,
+      "name": "Jan Ullrich",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 2,
+      "name": "Primoz Roglic",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 3,
+      "name": "Miguel Indurain",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 4,
+      "name": "Egan Bernal",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 5,
+      "name": "Remco Evenepoel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 2,
+      "lombardia": 0
+    },
+    {
+      "no": 6,
+      "name": "Alberto Contador",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 7,
+      "name": "Chris Froome",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 8,
+      "name": "Vincenzo Nibali",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 2
+    },
+    {
+      "no": 9,
+      "name": "Tadej Pogacar",
+      "msr": 1,
+      "flanders": 3,
+      "roubaix": 0,
+      "liege": 4,
+      "lombardia": 5
+    },
+    {
+      "no": 10,
+      "name": "Jonas Vingegaard",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 50,
+      "name": "Richard Carapaz",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 106,
+      "name": "Joao Almeida",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 111,
+      "name": "Juan Ayuso",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 136,
+      "name": "Carlos Rodriguez",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 11,
+      "name": "Mark Cavendish",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 12,
+      "name": "Mario Cipollini",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 13,
+      "name": "Alessandro Petacchi",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 14,
+      "name": "Andre Greipel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 15,
+      "name": "Marcel Kittel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 16,
+      "name": "Robbie McEwen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 89,
+      "name": "Jasper Philipsen",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 104,
+      "name": "Biniam Girmay",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 137,
+      "name": "Jonathan Milan",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 138,
+      "name": "Olav Kooij",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 139,
+      "name": "Mark Renshaw",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 140,
+      "name": "Michael Morkov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 141,
+      "name": "Iljo Keisse",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 142,
+      "name": "Maximiliano Richeze",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 143,
+      "name": "Fabio Sabatini",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 144,
+      "name": "Jacopo Guarnieri",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 145,
+      "name": "Greg Henderson",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 146,
+      "name": "Christophe Laporte",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 147,
+      "name": "Mike Teunissen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 148,
+      "name": "Danny van Poppel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 149,
+      "name": "Boy van Poppel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 150,
+      "name": "Ramon Sinkeldam",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 151,
+      "name": "Roy Curvers",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 152,
+      "name": "Nikias Arndt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 153,
+      "name": "Roger Kluge",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 154,
+      "name": "Jasper De Buyst",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 155,
+      "name": "Luka Mezgec",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 156,
+      "name": "Edward Theuns",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 157,
+      "name": "Bert Van Lerberghe",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 158,
+      "name": "Simone Consonni",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 159,
+      "name": "Davide Ballerini",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 160,
+      "name": "Jurgen Roelandts",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 161,
+      "name": "Gert Steegmans",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 162,
+      "name": "Matthew Goss",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 17,
+      "name": "Marco Pantani",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 18,
+      "name": "Nairo Quintana",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 19,
+      "name": "Andy Schleck",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 20,
+      "name": "Thibaut Pinot",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 1
+    },
+    {
+      "no": 21,
+      "name": "Romain Bardet",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 22,
+      "name": "Carlos Sastre",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 47,
+      "name": "Richard Virenque",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 49,
+      "name": "Claudio Chiappucci",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 51,
+      "name": "Sepp Kuss",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 52,
+      "name": "Wout Poels",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 53,
+      "name": "Michal Kwiatkowski",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 54,
+      "name": "Richie Porte",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 55,
+      "name": "Mikel Nieve",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 56,
+      "name": "Andrey Amador",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 57,
+      "name": "Winner Anacona",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 58,
+      "name": "Robert Gesink",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 59,
+      "name": "Laurens De Plus",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 60,
+      "name": "Wilco Kelderman",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 61,
+      "name": "Tao Geoghegan Hart",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 62,
+      "name": "Jose Luis Rubiera",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 63,
+      "name": "Daniel Navarro",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 64,
+      "name": "Sergio Henao",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 65,
+      "name": "Tanel Kangert",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 66,
+      "name": "Mikel Landa",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 67,
+      "name": "Adam Yates",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 68,
+      "name": "Rafal Majka",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 69,
+      "name": "Carlos Verona",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 70,
+      "name": "Marc Soler",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 71,
+      "name": "Brandon McNulty",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 72,
+      "name": "Pavel Sivakov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 73,
+      "name": "Thymen Arensman",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 74,
+      "name": "Ben O'Connor",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 75,
+      "name": "Santiago Buitrago",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 76,
+      "name": "Damiano Caruso",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 77,
+      "name": "Domenico Pozzovivo",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 78,
+      "name": "Roman Kreuziger",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 79,
+      "name": "Haimar Zubeldia",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 80,
+      "name": "Igor Anton",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 81,
+      "name": "Pierre Rolland",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 82,
+      "name": "Rein Taaramae",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 23,
+      "name": "Cadel Evans",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 24,
+      "name": "Joaquim Rodriguez",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 2
+    },
+    {
+      "no": 25,
+      "name": "Philippe Gilbert",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 1,
+      "liege": 1,
+      "lombardia": 2
+    },
+    {
+      "no": 26,
+      "name": "Alejandro Valverde",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 4,
+      "lombardia": 0
+    },
+    {
+      "no": 27,
+      "name": "Paolo Bettini",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 2,
+      "lombardia": 2
+    },
+    {
+      "no": 28,
+      "name": "Julian Alaphilippe",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 29,
+      "name": "Michele Bartoli",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 2,
+      "lombardia": 2
+    },
+    {
+      "no": 30,
+      "name": "Davide Rebellin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 31,
+      "name": "Maurizio Fondriest",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 32,
+      "name": "Simon Gerrans",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 183,
+      "name": "Arnaud De Lie",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 33,
+      "name": "Erik Zabel",
+      "msr": 4,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 34,
+      "name": "Peter Sagan",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 35,
+      "name": "Johan Museeuw",
+      "msr": 0,
+      "flanders": 3,
+      "roubaix": 3,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 36,
+      "name": "Tom Boonen",
+      "msr": 0,
+      "flanders": 3,
+      "roubaix": 4,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 37,
+      "name": "John Degenkolb",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 38,
+      "name": "Mathieu van der Poel",
+      "msr": 2,
+      "flanders": 3,
+      "roubaix": 3,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 39,
+      "name": "Fabian Cancellara",
+      "msr": 1,
+      "flanders": 3,
+      "roubaix": 3,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 40,
+      "name": "Laurent Jalabert",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 1
+    },
+    {
+      "no": 86,
+      "name": "Mads Pedersen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 105,
+      "name": "Tom Pidcock",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 115,
+      "name": "Luke Rowe",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 116,
+      "name": "Fumiyuki Beppu",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 117,
+      "name": "Yukiya Arashiro",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 118,
+      "name": "George Hincapie",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 119,
+      "name": "Bernhard Eisel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 120,
+      "name": "Nicolas Roche",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 121,
+      "name": "Sylvain Chavanel",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 122,
+      "name": "Koen de Kort",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 123,
+      "name": "Daryl Impey",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 124,
+      "name": "Michael Rogers",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 125,
+      "name": "Geraint Thomas",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 126,
+      "name": "Simon Geschke",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 127,
+      "name": "Mathew Hayman",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 128,
+      "name": "Bram Tankink",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 129,
+      "name": "Christian Vande Velde",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 130,
+      "name": "David Millar",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 131,
+      "name": "Manuel Quinziato",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 132,
+      "name": "Luca Paolini",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 133,
+      "name": "Juan Antonio Flecha",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 134,
+      "name": "Alessandro Ballan",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 135,
+      "name": "Gregory Rast",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 163,
+      "name": "Daniel Oss",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 164,
+      "name": "Heinrich Haussler",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 165,
+      "name": "Lars Boom",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 166,
+      "name": "Sep Vanmarcke",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 167,
+      "name": "Leif Hoste",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 168,
+      "name": "Stijn Vandenbergh",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 169,
+      "name": "Maarten Wynants",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 170,
+      "name": "Sebastian Langeveld",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 171,
+      "name": "Marco Haller",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 172,
+      "name": "Taco van der Hoorn",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 173,
+      "name": "Amund Grondahl Jansen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 174,
+      "name": "Aime De Gendt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 175,
+      "name": "Florian Vermeersch",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 176,
+      "name": "Frederik Frison",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 177,
+      "name": "Jens Keukeleire",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 178,
+      "name": "Zdenek Stybar",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 179,
+      "name": "Greg Van Avermaet",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 180,
+      "name": "Wout van Aert",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 41,
+      "name": "Bradley Wiggins",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 42,
+      "name": "Tony Martin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 43,
+      "name": "Filippo Ganna",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 44,
+      "name": "Chris Boardman",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 45,
+      "name": "Rohan Dennis",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 46,
+      "name": "Luis Leon Sanchez",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 48,
+      "name": "Thomas De Gendt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 83,
+      "name": "Tim Declercq",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 84,
+      "name": "Nils Politt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 85,
+      "name": "Luke Durbridge",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 87,
+      "name": "Michael Hepburn",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 88,
+      "name": "Viatcheslav Ekimov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 90,
+      "name": "Matteo Tosatto",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 91,
+      "name": "Nathan Van Hooydonck",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 92,
+      "name": "Dylan van Baarle",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 93,
+      "name": "Stefan Kung",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 94,
+      "name": "Yves Lampaert",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 95,
+      "name": "Kasper Asgreen",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 96,
+      "name": "Matteo Trentin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 97,
+      "name": "Marcus Burghardt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 98,
+      "name": "Ian Stannard",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 99,
+      "name": "Eros Poli",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 100,
+      "name": "Jens Voigt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 101,
+      "name": "Stuart O'Grady",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 102,
+      "name": "Jack Bauer",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 103,
+      "name": "Salvatore Puccio",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 107,
+      "name": "Maciej Bodnar",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 108,
+      "name": "Jos van Emden",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 109,
+      "name": "Maarten Tjallingii",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 110,
+      "name": "Lars Bak",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 112,
+      "name": "Dries Devenyns",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 113,
+      "name": "Vegard Stake Laengen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 114,
+      "name": "Mikkel Bjerg",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 181,
+      "name": "Bob Jungels",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 182,
+      "name": "Michael Matthews",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 184,
+      "name": "Jonathan Castroviejo",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 185,
+      "name": "Vasil Kiryienka",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 186,
+      "name": "Nelson Oliveira",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 187,
+      "name": "Jan Barta",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 188,
+      "name": "Alex Dowsett",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 189,
+      "name": "Luke Plapp",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 190,
+      "name": "Edoardo Affini",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 191,
+      "name": "Tobias Foss",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 192,
+      "name": "Magnus Sheffield",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 193,
+      "name": "Remi Cavagna",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 194,
+      "name": "Chad Haga",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 195,
+      "name": "Tejay van Garderen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 196,
+      "name": "Brent Bookwalter",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 197,
+      "name": "Kanstantsin Siutsou",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 198,
+      "name": "Cameron Wurf",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 199,
+      "name": "Lawson Craddock",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 200,
+      "name": "Jan Tratnik",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 201,
+      "name": "Simon Yates",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 202,
+      "name": "Jai Hindley",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 203,
+      "name": "Tom Dumoulin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 204,
+      "name": "Ivan Basso",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 205,
+      "name": "Ryder Hesjedal",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 206,
+      "name": "Damiano Cunego",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 3
+    },
+    {
+      "no": 207,
+      "name": "Fabio Aru",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 208,
+      "name": "Rigoberto Uran",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 209,
+      "name": "Esteban Chaves",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 210,
+      "name": "Enric Mas",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 211,
+      "name": "Pello Bilbao",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 212,
+      "name": "Giulio Ciccone",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 213,
+      "name": "David Gaudu",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 214,
+      "name": "Warren Barguil",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 215,
+      "name": "Guillaume Martin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 216,
+      "name": "Ben Healy",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 217,
+      "name": "Felix Gall",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 218,
+      "name": "Derek Gee",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 219,
+      "name": "Aleksandr Vlasov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 220,
+      "name": "Oscar Pereiro",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 221,
+      "name": "Samuel Sanchez",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 222,
+      "name": "Denis Menchov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 223,
+      "name": "Roberto Heras",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 224,
+      "name": "Alex Zulle",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 225,
+      "name": "Gilberto Simoni",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 226,
+      "name": "Pavel Tonkov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 227,
+      "name": "Evgeni Berzin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 0
+    },
+    {
+      "no": 228,
+      "name": "Danilo Di Luca",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 1
+    },
+    {
+      "no": 229,
+      "name": "Chris Horner",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 230,
+      "name": "Iban Mayo",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 231,
+      "name": "Jose Rujano",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 232,
+      "name": "Michael Rasmussen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 233,
+      "name": "Isaac del Toro",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 234,
+      "name": "Paul Seixas",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 235,
+      "name": "Giulio Pellizzari",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 236,
+      "name": "Antonio Tiberi",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 237,
+      "name": "Florian Lipowitz",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 238,
+      "name": "Lenny Martinez",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 239,
+      "name": "Mattias Skjelmose",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 240,
+      "name": "Oscar Onley",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 241,
+      "name": "Oscar Freire",
+      "msr": 3,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 242,
+      "name": "Thor Hushovd",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 243,
+      "name": "Alexander Kristoff",
+      "msr": 1,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 244,
+      "name": "Arnaud Demare",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 245,
+      "name": "Caleb Ewan",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 246,
+      "name": "Sam Bennett",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 247,
+      "name": "Elia Viviani",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 248,
+      "name": "Dylan Groenewegen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 249,
+      "name": "Fabio Jakobsen",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 250,
+      "name": "Tim Merlier",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 251,
+      "name": "Fernando Gaviria",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 252,
+      "name": "Nacer Bouhanni",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 253,
+      "name": "Tom Steels",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 254,
+      "name": "Djamolidine Abdoujaparov",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 255,
+      "name": "Daniele Bennati",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 256,
+      "name": "Tyler Farrar",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 257,
+      "name": "Juan Sebastian Molano",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 258,
+      "name": "Pascal Ackermann",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 259,
+      "name": "Kaden Groves",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 260,
+      "name": "Jordi Meeus",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 261,
+      "name": "Matej Mohoric",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 262,
+      "name": "Jasper Stuyven",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 263,
+      "name": "Niki Terpstra",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 264,
+      "name": "Alberto Bettiol",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 265,
+      "name": "Sonny Colbrelli",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 266,
+      "name": "Peter Van Petegem",
+      "msr": 0,
+      "flanders": 2,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 267,
+      "name": "Andrei Tchmil",
+      "msr": 1,
+      "flanders": 1,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 268,
+      "name": "Andrea Tafi",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 1
+    },
+    {
+      "no": 269,
+      "name": "Franco Ballerini",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 2,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 270,
+      "name": "Magnus Backstedt",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 271,
+      "name": "Servais Knaven",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 272,
+      "name": "Johan Vansummeren",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 1,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 273,
+      "name": "Nick Nuyens",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 274,
+      "name": "Stijn Devolder",
+      "msr": 0,
+      "flanders": 2,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 275,
+      "name": "Steffen Wesemann",
+      "msr": 0,
+      "flanders": 1,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 276,
+      "name": "Filippo Pozzato",
+      "msr": 1,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 277,
+      "name": "Tiesj Benoot",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 278,
+      "name": "Dylan Teuns",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 279,
+      "name": "Tim Wellens",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 280,
+      "name": "Jhonatan Narvaez",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 281,
+      "name": "Daniel Martin",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 1
+    },
+    {
+      "no": 282,
+      "name": "Jakob Fuglsang",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 1,
+      "lombardia": 1
+    },
+    {
+      "no": 283,
+      "name": "Michael Woods",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 284,
+      "name": "Marc Hirschi",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 285,
+      "name": "Benoit Cosnefroy",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 286,
+      "name": "Valentin Madouas",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 287,
+      "name": "Romain Gregoire",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 288,
+      "name": "Maxim Van Gils",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 289,
+      "name": "Rui Costa",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 290,
+      "name": "Michael Albasini",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 291,
+      "name": "Victor Campenaerts",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 292,
+      "name": "Stefan Bissegger",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 293,
+      "name": "Joshua Tarling",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 294,
+      "name": "Soren Waerenskjold",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 295,
+      "name": "Tobias Ludvigsson",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 296,
+      "name": "David Zabriskie",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 297,
+      "name": "Gustav Erik Larsson",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 298,
+      "name": "Levi Leipheimer",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 299,
+      "name": "Andreas Kloden",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    },
+    {
+      "no": 300,
+      "name": "Jose Azevedo",
+      "msr": 0,
+      "flanders": 0,
+      "roubaix": 0,
+      "liege": 0,
+      "lombardia": 0
+    }
+  ]
+}

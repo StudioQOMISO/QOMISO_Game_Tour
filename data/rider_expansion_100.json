@@ -1,0 +1,2002 @@
+[
+  {
+    "no": 201,
+    "name": "Simon Yates",
+    "country": "イギリス",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 87,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "日別回復",
+      "登坂力",
+      "ステージハンター"
+    ],
+    "credit": 7400,
+    "motif": "日別回復、登坂力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Simon%20Yates%20cyclist"
+  },
+  {
+    "no": 202,
+    "name": "Jai Hindley",
+    "country": "オーストラリア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 88,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "日別回復",
+      "総合安定"
+    ],
+    "credit": 7600,
+    "motif": "登坂力、日別回復、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jai%20Hindley%20cyclist"
+  },
+  {
+    "no": 203,
+    "name": "Tom Dumoulin",
+    "country": "オランダ",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 89,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "日別回復"
+    ],
+    "credit": 7800,
+    "motif": "TT適性、巡航力、日別回復",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tom%20Dumoulin%20cyclist"
+  },
+  {
+    "no": 204,
+    "name": "Ivan Basso",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 90,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "日別回復"
+    ],
+    "credit": 8000,
+    "motif": "登坂力、山岳耐久、日別回復",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Ivan%20Basso%20cyclist"
+  },
+  {
+    "no": 205,
+    "name": "Ryder Hesjedal",
+    "country": "カナダ",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 86,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "巡航力",
+      "山岳耐久",
+      "日別回復"
+    ],
+    "credit": 7200,
+    "motif": "巡航力、山岳耐久、日別回復",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Ryder%20Hesjedal%20cyclist"
+  },
+  {
+    "no": 206,
+    "name": "Damiano Cunego",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "ステージハンター"
+    ],
+    "credit": 7000,
+    "motif": "パンチ力、登坂力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Damiano%20Cunego%20cyclist"
+  },
+  {
+    "no": 207,
+    "name": "Fabio Aru",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 88,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "闘争心"
+    ],
+    "credit": 7600,
+    "motif": "登坂力、山岳耐久、闘争心",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Fabio%20Aru%20cyclist"
+  },
+  {
+    "no": 208,
+    "name": "Rigoberto Uran",
+    "country": "コロンビア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 89,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "総合安定",
+      "登坂力",
+      "ステージハンター"
+    ],
+    "credit": 7800,
+    "motif": "総合安定、登坂力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Rigoberto%20Uran%20cyclist"
+  },
+  {
+    "no": 209,
+    "name": "Esteban Chaves",
+    "country": "コロンビア",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "パンチャー",
+    "aceAptitude": 89,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "登坂力",
+      "パンチ力",
+      "ステージハンター"
+    ],
+    "credit": 7400,
+    "motif": "登坂力、パンチ力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Esteban%20Chaves%20cyclist"
+  },
+  {
+    "no": 210,
+    "name": "Enric Mas",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 86,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "総合安定",
+      "登坂力",
+      "日別回復"
+    ],
+    "credit": 7200,
+    "motif": "総合安定、登坂力、日別回復",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Enric%20Mas%20cyclist"
+  },
+  {
+    "no": 211,
+    "name": "Pello Bilbao",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "総合型",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "パンチ力",
+      "下り",
+      "ステージハンター"
+    ],
+    "credit": 7000,
+    "motif": "パンチ力、下り、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Pello%20Bilbao%20cyclist"
+  },
+  {
+    "no": 212,
+    "name": "Giulio Ciccone",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "パンチャー",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳賞",
+      "ステージハンター"
+    ],
+    "credit": 7000,
+    "motif": "登坂力、山岳賞、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Giulio%20Ciccone%20cyclist"
+  },
+  {
+    "no": 213,
+    "name": "David Gaudu",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "総合型",
+    "aceAptitude": 88,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "総合安定",
+      "山岳耐久"
+    ],
+    "credit": 7200,
+    "motif": "登坂力、総合安定、山岳耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=David%20Gaudu%20cyclist"
+  },
+  {
+    "no": 214,
+    "name": "Warren Barguil",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "パンチャー",
+    "aceAptitude": 89,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳賞",
+      "逃げ屋"
+    ],
+    "credit": 7400,
+    "motif": "登坂力、山岳賞、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Warren%20Barguil%20cyclist"
+  },
+  {
+    "no": 215,
+    "name": "Guillaume Martin",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "総合型",
+    "aceAptitude": 85,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "逃げ屋"
+    ],
+    "credit": 6600,
+    "motif": "登坂力、山岳耐久、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Guillaume%20Martin%20cyclist"
+  },
+  {
+    "no": 216,
+    "name": "Ben Healy",
+    "country": "アイルランド",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "パンチ力",
+      "逃げ屋",
+      "ステージハンター"
+    ],
+    "credit": 7000,
+    "motif": "パンチ力、逃げ屋、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Ben%20Healy%20cyclist"
+  },
+  {
+    "no": 217,
+    "name": "Felix Gall",
+    "country": "オーストリア",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "総合型",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "ステージハンター"
+    ],
+    "credit": 7000,
+    "motif": "登坂力、山岳耐久、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Felix%20Gall%20cyclist"
+  },
+  {
+    "no": 218,
+    "name": "Derek Gee",
+    "country": "カナダ",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "総合型",
+    "aceAptitude": 83,
+    "supportAptitude": 87,
+    "preferred": "副エース / アシスト / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "巡航力",
+      "逃げ屋",
+      "総合安定"
+    ],
+    "credit": 6200,
+    "motif": "巡航力、逃げ屋、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Derek%20Gee%20cyclist"
+  },
+  {
+    "no": 219,
+    "name": "Aleksandr Vlasov",
+    "country": "ロシア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 90,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "総合安定",
+      "TT適性"
+    ],
+    "credit": 8000,
+    "motif": "登坂力、総合安定、TT適性",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Aleksandr%20Vlasov%20cyclist"
+  },
+  {
+    "no": 220,
+    "name": "Oscar Pereiro",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 86,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "総合安定",
+      "巡航力",
+      "逃げ屋"
+    ],
+    "credit": 7200,
+    "motif": "総合安定、巡航力、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Oscar%20Pereiro%20cyclist"
+  },
+  {
+    "no": 221,
+    "name": "Samuel Sanchez",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "パンチャー",
+    "aceAptitude": 87,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "下り",
+      "パンチ力",
+      "総合安定"
+    ],
+    "credit": 7400,
+    "motif": "下り、パンチ力、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Samuel%20Sanchez%20cyclist"
+  },
+  {
+    "no": 222,
+    "name": "Denis Menchov",
+    "country": "ロシア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 88,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "登坂力",
+      "日別回復"
+    ],
+    "credit": 7600,
+    "motif": "TT適性、登坂力、日別回復",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Denis%20Menchov%20cyclist"
+  },
+  {
+    "no": 223,
+    "name": "Roberto Heras",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 89,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "日別回復"
+    ],
+    "credit": 7800,
+    "motif": "登坂力、山岳耐久、日別回復",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Roberto%20Heras%20cyclist"
+  },
+  {
+    "no": 224,
+    "name": "Alex Zulle",
+    "country": "スイス",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 90,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "総合安定"
+    ],
+    "credit": 8000,
+    "motif": "TT適性、巡航力、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Alex%20Zulle%20cyclist"
+  },
+  {
+    "no": 225,
+    "name": "Gilberto Simoni",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 86,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "攻撃性"
+    ],
+    "credit": 7200,
+    "motif": "登坂力、山岳耐久、攻撃性",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Gilberto%20Simoni%20cyclist"
+  },
+  {
+    "no": 226,
+    "name": "Pavel Tonkov",
+    "country": "ロシア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 87,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "日別回復",
+      "総合安定"
+    ],
+    "credit": 7400,
+    "motif": "登坂力、日別回復、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Pavel%20Tonkov%20cyclist"
+  },
+  {
+    "no": 227,
+    "name": "Evgeni Berzin",
+    "country": "ロシア",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 88,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "登坂力",
+      "総合安定"
+    ],
+    "credit": 7600,
+    "motif": "TT適性、登坂力、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Evgeni%20Berzin%20cyclist"
+  },
+  {
+    "no": 228,
+    "name": "Danilo Di Luca",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "総合型",
+    "aceAptitude": 89,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "勝負強さ"
+    ],
+    "credit": 7400,
+    "motif": "パンチ力、登坂力、勝負強さ",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Danilo%20Di%20Luca%20cyclist"
+  },
+  {
+    "no": 229,
+    "name": "Chris Horner",
+    "country": "アメリカ",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 90,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "日別回復",
+      "登坂力",
+      "ステージハンター"
+    ],
+    "credit": 8000,
+    "motif": "日別回復、登坂力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Chris%20Horner%20cyclist"
+  },
+  {
+    "no": 230,
+    "name": "Iban Mayo",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "パンチャー",
+    "aceAptitude": 85,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "登坂力",
+      "パンチ力",
+      "ステージハンター"
+    ],
+    "credit": 6600,
+    "motif": "登坂力、パンチ力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Iban%20Mayo%20cyclist"
+  },
+  {
+    "no": 231,
+    "name": "Jose Rujano",
+    "country": "ベネズエラ",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "パンチャー",
+    "aceAptitude": 86,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳賞",
+      "ステージハンター"
+    ],
+    "credit": 6800,
+    "motif": "登坂力、山岳賞、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jose%20Rujano%20cyclist"
+  },
+  {
+    "no": 232,
+    "name": "Michael Rasmussen",
+    "country": "デンマーク",
+    "era": "近代",
+    "primary": "クライマー",
+    "secondary": "総合型",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳賞",
+      "逃げ屋"
+    ],
+    "credit": 7000,
+    "motif": "登坂力、山岳賞、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Michael%20Rasmussen%20cyclist"
+  },
+  {
+    "no": 233,
+    "name": "Isaac del Toro",
+    "country": "メキシコ",
+    "era": "現代",
+    "primary": "総合型",
+    "secondary": "パンチャー",
+    "aceAptitude": 89,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "パンチ力",
+      "若手総合"
+    ],
+    "credit": 7800,
+    "motif": "登坂力、パンチ力、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Isaac%20del%20Toro%20cyclist"
+  },
+  {
+    "no": 234,
+    "name": "Paul Seixas",
+    "country": "フランス",
+    "era": "現代",
+    "primary": "総合型",
+    "secondary": "パンチャー",
+    "aceAptitude": 90,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "パンチ力",
+      "若手総合"
+    ],
+    "credit": 8000,
+    "motif": "登坂力、パンチ力、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Paul%20Seixas%20cyclist"
+  },
+  {
+    "no": 235,
+    "name": "Giulio Pellizzari",
+    "country": "イタリア",
+    "era": "現代",
+    "primary": "クライマー",
+    "secondary": "総合型",
+    "aceAptitude": 85,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "山岳耐久",
+      "若手総合"
+    ],
+    "credit": 6600,
+    "motif": "登坂力、山岳耐久、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Giulio%20Pellizzari%20cyclist"
+  },
+  {
+    "no": 236,
+    "name": "Antonio Tiberi",
+    "country": "イタリア",
+    "era": "現代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 87,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "登坂力",
+      "若手総合"
+    ],
+    "credit": 7400,
+    "motif": "TT適性、登坂力、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Antonio%20Tiberi%20cyclist"
+  },
+  {
+    "no": 237,
+    "name": "Florian Lipowitz",
+    "country": "ドイツ",
+    "era": "現代",
+    "primary": "総合型",
+    "secondary": "クライマー",
+    "aceAptitude": 88,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "日別回復",
+      "若手総合"
+    ],
+    "credit": 7600,
+    "motif": "登坂力、日別回復、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Florian%20Lipowitz%20cyclist"
+  },
+  {
+    "no": 238,
+    "name": "Lenny Martinez",
+    "country": "フランス",
+    "era": "現代",
+    "primary": "クライマー",
+    "secondary": "パンチャー",
+    "aceAptitude": 88,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "登坂力",
+      "パンチ力",
+      "若手総合"
+    ],
+    "credit": 7200,
+    "motif": "登坂力、パンチ力、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Lenny%20Martinez%20cyclist"
+  },
+  {
+    "no": 239,
+    "name": "Mattias Skjelmose",
+    "country": "デンマーク",
+    "era": "現代",
+    "primary": "パンチャー",
+    "secondary": "総合型",
+    "aceAptitude": 90,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "総合安定",
+      "TT適性"
+    ],
+    "credit": 7600,
+    "motif": "パンチ力、総合安定、TT適性",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Mattias%20Skjelmose%20cyclist"
+  },
+  {
+    "no": 240,
+    "name": "Oscar Onley",
+    "country": "イギリス",
+    "era": "現代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 86,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "若手総合"
+    ],
+    "credit": 6800,
+    "motif": "パンチ力、登坂力、若手総合",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Oscar%20Onley%20cyclist"
+  },
+  {
+    "no": 241,
+    "name": "Oscar Freire",
+    "country": "スペイン",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 88,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "位置取り",
+      "クラシックスプリント"
+    ],
+    "credit": 7000,
+    "motif": "最高速、位置取り、クラシックスプリント",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Oscar%20Freire%20cyclist"
+  },
+  {
+    "no": 242,
+    "name": "Thor Hushovd",
+    "country": "ノルウェー",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 89,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "石畳",
+      "長距離耐久"
+    ],
+    "credit": 7200,
+    "motif": "最高速、石畳、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Thor%20Hushovd%20cyclist"
+  },
+  {
+    "no": 243,
+    "name": "Alexander Kristoff",
+    "country": "ノルウェー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "スプリンター",
+    "aceAptitude": 89,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "石畳",
+      "長距離耐久"
+    ],
+    "credit": 7400,
+    "motif": "最高速、石畳、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Alexander%20Kristoff%20cyclist"
+  },
+  {
+    "no": 244,
+    "name": "Arnaud Demare",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 91,
+    "supportAptitude": 74,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "位置取り",
+      "クラシックスプリント"
+    ],
+    "credit": 7600,
+    "motif": "最高速、位置取り、クラシックスプリント",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Arnaud%20Demare%20cyclist"
+  },
+  {
+    "no": 245,
+    "name": "Caleb Ewan",
+    "country": "オーストラリア",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "パンチャー",
+    "aceAptitude": 87,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "瞬発力",
+      "位置取り"
+    ],
+    "credit": 6800,
+    "motif": "最高速、瞬発力、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Caleb%20Ewan%20cyclist"
+  },
+  {
+    "no": 246,
+    "name": "Sam Bennett",
+    "country": "アイルランド",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 88,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "位置取り",
+      "反復スプリント"
+    ],
+    "credit": 7000,
+    "motif": "最高速、位置取り、反復スプリント",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Sam%20Bennett%20cyclist"
+  },
+  {
+    "no": 247,
+    "name": "Elia Viviani",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 89,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "トラック適性",
+      "位置取り"
+    ],
+    "credit": 7200,
+    "motif": "最高速、トラック適性、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Elia%20Viviani%20cyclist"
+  },
+  {
+    "no": 248,
+    "name": "Dylan Groenewegen",
+    "country": "オランダ",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 90,
+    "supportAptitude": 75,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "集団スプリント",
+      "位置取り"
+    ],
+    "credit": 7400,
+    "motif": "最高速、集団スプリント、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Dylan%20Groenewegen%20cyclist"
+  },
+  {
+    "no": 249,
+    "name": "Fabio Jakobsen",
+    "country": "オランダ",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 91,
+    "supportAptitude": 74,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "集団スプリント",
+      "勝負強さ"
+    ],
+    "credit": 7600,
+    "motif": "最高速、集団スプリント、勝負強さ",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Fabio%20Jakobsen%20cyclist"
+  },
+  {
+    "no": 250,
+    "name": "Tim Merlier",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 87,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "悪路耐性",
+      "位置取り"
+    ],
+    "credit": 6800,
+    "motif": "最高速、悪路耐性、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tim%20Merlier%20cyclist"
+  },
+  {
+    "no": 251,
+    "name": "Fernando Gaviria",
+    "country": "コロンビア",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 88,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "トラック適性",
+      "位置取り"
+    ],
+    "credit": 7000,
+    "motif": "最高速、トラック適性、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Fernando%20Gaviria%20cyclist"
+  },
+  {
+    "no": 252,
+    "name": "Nacer Bouhanni",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "パンチャー",
+    "aceAptitude": 89,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "瞬発力",
+      "闘争心"
+    ],
+    "credit": 7200,
+    "motif": "最高速、瞬発力、闘争心",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Nacer%20Bouhanni%20cyclist"
+  },
+  {
+    "no": 253,
+    "name": "Tom Steels",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 90,
+    "supportAptitude": 75,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "石畳",
+      "位置取り"
+    ],
+    "credit": 7400,
+    "motif": "最高速、石畳、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tom%20Steels%20cyclist"
+  },
+  {
+    "no": 254,
+    "name": "Djamolidine Abdoujaparov",
+    "country": "ウズベキスタン",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 91,
+    "supportAptitude": 74,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "瞬発力",
+      "攻撃的スプリント"
+    ],
+    "credit": 7600,
+    "motif": "最高速、瞬発力、攻撃的スプリント",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Djamolidine%20Abdoujaparov%20cyclist"
+  },
+  {
+    "no": 255,
+    "name": "Daniele Bennati",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 87,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "位置取り",
+      "長距離耐久"
+    ],
+    "credit": 6800,
+    "motif": "最高速、位置取り、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Daniele%20Bennati%20cyclist"
+  },
+  {
+    "no": 256,
+    "name": "Tyler Farrar",
+    "country": "アメリカ",
+    "era": "近代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 88,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "位置取り",
+      "石畳"
+    ],
+    "credit": 7000,
+    "motif": "最高速、位置取り、石畳",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tyler%20Farrar%20cyclist"
+  },
+  {
+    "no": 257,
+    "name": "Juan Sebastian Molano",
+    "country": "コロンビア",
+    "era": "現代",
+    "primary": "スプリンター",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 89,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "巡航力",
+      "位置取り"
+    ],
+    "credit": 7200,
+    "motif": "最高速、巡航力、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Juan%20Sebastian%20Molano%20cyclist"
+  },
+  {
+    "no": 258,
+    "name": "Pascal Ackermann",
+    "country": "ドイツ",
+    "era": "現代",
+    "primary": "スプリンター",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 90,
+    "supportAptitude": 75,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "反復スプリント",
+      "巡航力"
+    ],
+    "credit": 7400,
+    "motif": "最高速、反復スプリント、巡航力",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Pascal%20Ackermann%20cyclist"
+  },
+  {
+    "no": 259,
+    "name": "Kaden Groves",
+    "country": "オーストラリア",
+    "era": "現代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 91,
+    "supportAptitude": 74,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "悪路耐性",
+      "反復スプリント"
+    ],
+    "credit": 7600,
+    "motif": "最高速、悪路耐性、反復スプリント",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Kaden%20Groves%20cyclist"
+  },
+  {
+    "no": 260,
+    "name": "Jordi Meeus",
+    "country": "ベルギー",
+    "era": "現代",
+    "primary": "スプリンター",
+    "secondary": "クラシック型",
+    "aceAptitude": 87,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "位置取り",
+      "集団スプリント"
+    ],
+    "credit": 6800,
+    "motif": "最高速、位置取り、集団スプリント",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jordi%20Meeus%20cyclist"
+  },
+  {
+    "no": 261,
+    "name": "Matej Mohoric",
+    "country": "スロベニア",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "パンチャー",
+    "aceAptitude": 87,
+    "supportAptitude": 84,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "バイクコントロール",
+      "下り",
+      "逃げ屋"
+    ],
+    "credit": 7000,
+    "motif": "バイクコントロール、下り、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Matej%20Mohoric%20cyclist"
+  },
+  {
+    "no": 262,
+    "name": "Jasper Stuyven",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "スプリンター",
+    "aceAptitude": 88,
+    "supportAptitude": 83,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "石畳",
+      "長距離耐久",
+      "逃げ屋"
+    ],
+    "credit": 7200,
+    "motif": "石畳、長距離耐久、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jasper%20Stuyven%20cyclist"
+  },
+  {
+    "no": 263,
+    "name": "Niki Terpstra",
+    "country": "オランダ",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 89,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "巡航力",
+      "単独走"
+    ],
+    "credit": 7400,
+    "motif": "石畳、巡航力、単独走",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Niki%20Terpstra%20cyclist"
+  },
+  {
+    "no": 264,
+    "name": "Alberto Bettiol",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "パンチャー",
+    "aceAptitude": 90,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "パンチ力",
+      "単独走"
+    ],
+    "credit": 7600,
+    "motif": "石畳、パンチ力、単独走",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Alberto%20Bettiol%20cyclist"
+  },
+  {
+    "no": 265,
+    "name": "Sonny Colbrelli",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "スプリンター",
+    "aceAptitude": 86,
+    "supportAptitude": 85,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "最高速",
+      "悪天候"
+    ],
+    "credit": 6800,
+    "motif": "石畳、最高速、悪天候",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Sonny%20Colbrelli%20cyclist"
+  },
+  {
+    "no": 266,
+    "name": "Peter Van Petegem",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "パンチャー",
+    "aceAptitude": 87,
+    "supportAptitude": 84,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "パンチ力",
+      "長距離耐久"
+    ],
+    "credit": 7000,
+    "motif": "石畳、パンチ力、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Peter%20Van%20Petegem%20cyclist"
+  },
+  {
+    "no": 267,
+    "name": "Andrei Tchmil",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 88,
+    "supportAptitude": 83,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "悪天候",
+      "巡航力"
+    ],
+    "credit": 7200,
+    "motif": "石畳、悪天候、巡航力",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Andrei%20Tchmil%20cyclist"
+  },
+  {
+    "no": 268,
+    "name": "Andrea Tafi",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 89,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "巡航力",
+      "単独走"
+    ],
+    "credit": 7400,
+    "motif": "石畳、巡航力、単独走",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Andrea%20Tafi%20cyclist"
+  },
+  {
+    "no": 269,
+    "name": "Franco Ballerini",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 90,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "長距離耐久",
+      "巡航力"
+    ],
+    "credit": 7600,
+    "motif": "石畳、長距離耐久、巡航力",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Franco%20Ballerini%20cyclist"
+  },
+  {
+    "no": 270,
+    "name": "Magnus Backstedt",
+    "country": "スウェーデン",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 86,
+    "supportAptitude": 85,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "大出力",
+      "長距離耐久"
+    ],
+    "credit": 6800,
+    "motif": "石畳、大出力、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Magnus%20Backstedt%20cyclist"
+  },
+  {
+    "no": 271,
+    "name": "Servais Knaven",
+    "country": "オランダ",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 87,
+    "supportAptitude": 84,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "巡航力",
+      "戦術眼"
+    ],
+    "credit": 7000,
+    "motif": "石畳、巡航力、戦術眼",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Servais%20Knaven%20cyclist"
+  },
+  {
+    "no": 272,
+    "name": "Johan Vansummeren",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 88,
+    "supportAptitude": 83,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "巡航力",
+      "長距離耐久"
+    ],
+    "credit": 7200,
+    "motif": "石畳、巡航力、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Johan%20Vansummeren%20cyclist"
+  },
+  {
+    "no": 273,
+    "name": "Nick Nuyens",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "パンチャー",
+    "aceAptitude": 89,
+    "supportAptitude": 82,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "パンチ力",
+      "勝負強さ"
+    ],
+    "credit": 7400,
+    "motif": "石畳、パンチ力、勝負強さ",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Nick%20Nuyens%20cyclist"
+  },
+  {
+    "no": 274,
+    "name": "Stijn Devolder",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 90,
+    "supportAptitude": 81,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "TT適性",
+      "単独走"
+    ],
+    "credit": 7600,
+    "motif": "石畳、TT適性、単独走",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Stijn%20Devolder%20cyclist"
+  },
+  {
+    "no": 275,
+    "name": "Steffen Wesemann",
+    "country": "ドイツ",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 86,
+    "supportAptitude": 85,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "石畳",
+      "悪天候",
+      "長距離耐久"
+    ],
+    "credit": 6800,
+    "motif": "石畳、悪天候、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Steffen%20Wesemann%20cyclist"
+  },
+  {
+    "no": 276,
+    "name": "Filippo Pozzato",
+    "country": "イタリア",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "スプリンター",
+    "aceAptitude": 87,
+    "supportAptitude": 84,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "最高速",
+      "石畳",
+      "位置取り"
+    ],
+    "credit": 7000,
+    "motif": "最高速、石畳、位置取り",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Filippo%20Pozzato%20cyclist"
+  },
+  {
+    "no": 277,
+    "name": "Tiesj Benoot",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "クラシック型",
+    "secondary": "パンチャー",
+    "aceAptitude": 88,
+    "supportAptitude": 83,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "石畳",
+      "パンチ力",
+      "逃げ屋"
+    ],
+    "credit": 7200,
+    "motif": "石畳、パンチ力、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tiesj%20Benoot%20cyclist"
+  },
+  {
+    "no": 278,
+    "name": "Dylan Teuns",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 89,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "ステージハンター"
+    ],
+    "credit": 7400,
+    "motif": "パンチ力、登坂力、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Dylan%20Teuns%20cyclist"
+  },
+  {
+    "no": 279,
+    "name": "Tim Wellens",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クラシック型",
+    "aceAptitude": 90,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "パンチ力",
+      "悪天候",
+      "逃げ屋"
+    ],
+    "credit": 7600,
+    "motif": "パンチ力、悪天候、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tim%20Wellens%20cyclist"
+  },
+  {
+    "no": 280,
+    "name": "Jhonatan Narvaez",
+    "country": "エクアドル",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クラシック型",
+    "aceAptitude": 86,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "パンチ力",
+      "最高速",
+      "逃げ屋"
+    ],
+    "credit": 6800,
+    "motif": "パンチ力、最高速、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jhonatan%20Narvaez%20cyclist"
+  },
+  {
+    "no": 281,
+    "name": "Daniel Martin",
+    "country": "アイルランド",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "勝負強さ"
+    ],
+    "credit": 7000,
+    "motif": "パンチ力、登坂力、勝負強さ",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Daniel%20Martin%20cyclist"
+  },
+  {
+    "no": 282,
+    "name": "Jakob Fuglsang",
+    "country": "デンマーク",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "総合型",
+    "aceAptitude": 88,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "総合安定",
+      "長距離耐久"
+    ],
+    "credit": 7200,
+    "motif": "パンチ力、総合安定、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jakob%20Fuglsang%20cyclist"
+  },
+  {
+    "no": 283,
+    "name": "Michael Woods",
+    "country": "カナダ",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 89,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "急坂"
+    ],
+    "credit": 7400,
+    "motif": "パンチ力、登坂力、急坂",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Michael%20Woods%20cyclist"
+  },
+  {
+    "no": 284,
+    "name": "Marc Hirschi",
+    "country": "スイス",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クラシック型",
+    "aceAptitude": 90,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "下り",
+      "バイクコントロール"
+    ],
+    "credit": 7600,
+    "motif": "パンチ力、下り、バイクコントロール",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Marc%20Hirschi%20cyclist"
+  },
+  {
+    "no": 285,
+    "name": "Benoit Cosnefroy",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "スプリンター",
+    "aceAptitude": 86,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "最高速",
+      "急坂"
+    ],
+    "credit": 6800,
+    "motif": "パンチ力、最高速、急坂",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Benoit%20Cosnefroy%20cyclist"
+  },
+  {
+    "no": 286,
+    "name": "Valentin Madouas",
+    "country": "フランス",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クラシック型",
+    "aceAptitude": 87,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "石畳",
+      "長距離耐久"
+    ],
+    "credit": 7000,
+    "motif": "パンチ力、石畳、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Valentin%20Madouas%20cyclist"
+  },
+  {
+    "no": 287,
+    "name": "Romain Gregoire",
+    "country": "フランス",
+    "era": "現代",
+    "primary": "パンチャー",
+    "secondary": "スプリンター",
+    "aceAptitude": 88,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "最高速",
+      "若手"
+    ],
+    "credit": 7200,
+    "motif": "パンチ力、最高速、若手",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Romain%20Gregoire%20cyclist"
+  },
+  {
+    "no": 288,
+    "name": "Maxim Van Gils",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "クライマー",
+    "aceAptitude": 89,
+    "supportAptitude": 77,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "パンチ力",
+      "登坂力",
+      "急坂"
+    ],
+    "credit": 7400,
+    "motif": "パンチ力、登坂力、急坂",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Maxim%20Van%20Gils%20cyclist"
+  },
+  {
+    "no": 289,
+    "name": "Rui Costa",
+    "country": "ポルトガル",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "総合型",
+    "aceAptitude": 90,
+    "supportAptitude": 76,
+    "preferred": "当日エース / 副エース / ステージハンター",
+    "specialistRole": "ステージハンター",
+    "aptitudeTags": [
+      "パンチ力",
+      "戦術眼",
+      "ステージハンター"
+    ],
+    "credit": 7600,
+    "motif": "パンチ力、戦術眼、ステージハンター",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Rui%20Costa%20cyclist"
+  },
+  {
+    "no": 290,
+    "name": "Michael Albasini",
+    "country": "スイス",
+    "era": "近代",
+    "primary": "パンチャー",
+    "secondary": "スプリンター",
+    "aceAptitude": 86,
+    "supportAptitude": 80,
+    "preferred": "当日エース / 副エース / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "パンチ力",
+      "最高速",
+      "逃げ屋"
+    ],
+    "credit": 6800,
+    "motif": "パンチ力、最高速、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Michael%20Albasini%20cyclist"
+  },
+  {
+    "no": 291,
+    "name": "Victor Campenaerts",
+    "country": "ベルギー",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "クラシック型",
+    "aceAptitude": 81,
+    "supportAptitude": 89,
+    "preferred": "副エース / アシスト / 逃げ屋",
+    "specialistRole": "逃げ屋",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "逃げ屋"
+    ],
+    "credit": 5800,
+    "motif": "TT適性、巡航力、逃げ屋",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Victor%20Campenaerts%20cyclist"
+  },
+  {
+    "no": 292,
+    "name": "Stefan Bissegger",
+    "country": "スイス",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "クラシック型",
+    "aceAptitude": 82,
+    "supportAptitude": 88,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "横風"
+    ],
+    "credit": 6000,
+    "motif": "TT適性、巡航力、横風",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Stefan%20Bissegger%20cyclist"
+  },
+  {
+    "no": 293,
+    "name": "Joshua Tarling",
+    "country": "イギリス",
+    "era": "現代",
+    "primary": "TT・ルーラー型",
+    "secondary": "クラシック型",
+    "aceAptitude": 83,
+    "supportAptitude": 87,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "若手"
+    ],
+    "credit": 6200,
+    "motif": "TT適性、巡航力、若手",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Joshua%20Tarling%20cyclist"
+  },
+  {
+    "no": 294,
+    "name": "Soren Waerenskjold",
+    "country": "ノルウェー",
+    "era": "現代",
+    "primary": "TT・ルーラー型",
+    "secondary": "スプリンター",
+    "aceAptitude": 84,
+    "supportAptitude": 86,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "最高速"
+    ],
+    "credit": 6400,
+    "motif": "TT適性、巡航力、最高速",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Soren%20Waerenskjold%20cyclist"
+  },
+  {
+    "no": 295,
+    "name": "Tobias Ludvigsson",
+    "country": "スウェーデン",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "総合型",
+    "aceAptitude": 80,
+    "supportAptitude": 90,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "総合安定"
+    ],
+    "credit": 5600,
+    "motif": "TT適性、巡航力、総合安定",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Tobias%20Ludvigsson%20cyclist"
+  },
+  {
+    "no": 296,
+    "name": "David Zabriskie",
+    "country": "アメリカ",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "総合型",
+    "aceAptitude": 81,
+    "supportAptitude": 89,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "単独走"
+    ],
+    "credit": 5800,
+    "motif": "TT適性、巡航力、単独走",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=David%20Zabriskie%20cyclist"
+  },
+  {
+    "no": 297,
+    "name": "Gustav Erik Larsson",
+    "country": "スウェーデン",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "クラシック型",
+    "aceAptitude": 82,
+    "supportAptitude": 88,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "巡航力",
+      "長距離耐久"
+    ],
+    "credit": 6000,
+    "motif": "TT適性、巡航力、長距離耐久",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Gustav%20Erik%20Larsson%20cyclist"
+  },
+  {
+    "no": 298,
+    "name": "Levi Leipheimer",
+    "country": "アメリカ",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 89,
+    "supportAptitude": 79,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "総合安定",
+      "登坂力"
+    ],
+    "credit": 7800,
+    "motif": "TT適性、総合安定、登坂力",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Levi%20Leipheimer%20cyclist"
+  },
+  {
+    "no": 299,
+    "name": "Andreas Kloden",
+    "country": "ドイツ",
+    "era": "近代",
+    "primary": "総合型",
+    "secondary": "TT・ルーラー型",
+    "aceAptitude": 90,
+    "supportAptitude": 78,
+    "preferred": "当日エース / 副エース",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "TT適性",
+      "総合安定",
+      "登坂力"
+    ],
+    "credit": 8000,
+    "motif": "TT適性、総合安定、登坂力",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Andreas%20Kloden%20cyclist"
+  },
+  {
+    "no": 300,
+    "name": "Jose Azevedo",
+    "country": "ポルトガル",
+    "era": "近代",
+    "primary": "TT・ルーラー型",
+    "secondary": "総合型",
+    "aceAptitude": 80,
+    "supportAptitude": 90,
+    "preferred": "副エース / アシスト",
+    "specialistRole": "",
+    "aptitudeTags": [
+      "巡航力",
+      "総合安定",
+      "アシスト"
+    ],
+    "credit": 5600,
+    "motif": "巡航力、総合安定、アシスト",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=Jose%20Azevedo%20cyclist"
+  }
+]
