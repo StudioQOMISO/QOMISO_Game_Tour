@@ -1,0 +1,1671 @@
+{
+  "snapshot": "2025 final",
+  "sources": {
+    "road": "https://en.wikipedia.org/wiki/UCI_Road_World_Championships_%E2%80%93_Men%27s_road_race",
+    "itt": "https://en.wikipedia.org/wiki/UCI_Road_World_Championships_%E2%80%93_Men%27s_time_trial",
+    "official": "https://www.uci.org/discipline/road/6TBjsDD8902tud440iv1Cu?discipline=ROA&tab=results"
+  },
+  "riders": [
+    {
+      "name": "Jan Ullrich",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 1994,
+            "medal": "bronze"
+          },
+          {
+            "year": 1999,
+            "medal": "gold"
+          },
+          {
+            "year": 2001,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Primoz Roglic",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2017,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miguel Indurain",
+      "road": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 1991,
+            "medal": "bronze"
+          },
+          {
+            "year": 1993,
+            "medal": "silver"
+          },
+          {
+            "year": 1995,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1995,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Remco Evenepoel",
+      "road": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2022,
+            "medal": "gold"
+          },
+          {
+            "year": 2025,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2,
+        "years": [
+          {
+            "year": 2019,
+            "medal": "silver"
+          },
+          {
+            "year": 2021,
+            "medal": "bronze"
+          },
+          {
+            "year": 2022,
+            "medal": "bronze"
+          },
+          {
+            "year": 2023,
+            "medal": "gold"
+          },
+          {
+            "year": 2024,
+            "medal": "gold"
+          },
+          {
+            "year": 2025,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chris Froome",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2017,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tadej Pogacar",
+      "road": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2023,
+            "medal": "bronze"
+          },
+          {
+            "year": 2024,
+            "medal": "gold"
+          },
+          {
+            "year": 2025,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Mark Cavendish",
+      "road": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2011,
+            "medal": "gold"
+          },
+          {
+            "year": 2016,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Mario Cipollini",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2002,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Andre Greipel",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2011,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Robbie McEwen",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2002,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Marco Pantani",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 1995,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Romain Bardet",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2018,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Cadel Evans",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2009,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Joaquim Rodriguez",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2009,
+            "medal": "bronze"
+          },
+          {
+            "year": 2013,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Philippe Gilbert",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2012,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Alejandro Valverde",
+      "road": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 4,
+        "years": [
+          {
+            "year": 2003,
+            "medal": "silver"
+          },
+          {
+            "year": 2005,
+            "medal": "silver"
+          },
+          {
+            "year": 2006,
+            "medal": "bronze"
+          },
+          {
+            "year": 2012,
+            "medal": "bronze"
+          },
+          {
+            "year": 2013,
+            "medal": "bronze"
+          },
+          {
+            "year": 2014,
+            "medal": "bronze"
+          },
+          {
+            "year": 2018,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Paolo Bettini",
+      "road": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2001,
+            "medal": "silver"
+          },
+          {
+            "year": 2006,
+            "medal": "gold"
+          },
+          {
+            "year": 2007,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Julian Alaphilippe",
+      "road": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2020,
+            "medal": "gold"
+          },
+          {
+            "year": 2021,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Michele Bartoli",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2,
+        "years": [
+          {
+            "year": 1996,
+            "medal": "bronze"
+          },
+          {
+            "year": 1998,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Maurizio Fondriest",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1988,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Simon Gerrans",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2014,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Erik Zabel",
+      "road": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2002,
+            "medal": "bronze"
+          },
+          {
+            "year": 2004,
+            "medal": "silver"
+          },
+          {
+            "year": 2006,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Peter Sagan",
+      "road": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2015,
+            "medal": "gold"
+          },
+          {
+            "year": 2016,
+            "medal": "gold"
+          },
+          {
+            "year": 2017,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Johan Museeuw",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1996,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Tom Boonen",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2005,
+            "medal": "gold"
+          },
+          {
+            "year": 2016,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Mathieu van der Poel",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2023,
+            "medal": "gold"
+          },
+          {
+            "year": 2024,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Fabian Cancellara",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 4,
+        "silver": 0,
+        "bronze": 3,
+        "years": [
+          {
+            "year": 2005,
+            "medal": "bronze"
+          },
+          {
+            "year": 2006,
+            "medal": "gold"
+          },
+          {
+            "year": 2007,
+            "medal": "gold"
+          },
+          {
+            "year": 2009,
+            "medal": "gold"
+          },
+          {
+            "year": 2010,
+            "medal": "gold"
+          },
+          {
+            "year": 2011,
+            "medal": "bronze"
+          },
+          {
+            "year": 2013,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laurent Jalabert",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1992,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1997,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bradley Wiggins",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2011,
+            "medal": "silver"
+          },
+          {
+            "year": 2013,
+            "medal": "silver"
+          },
+          {
+            "year": 2014,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tony Martin",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 4,
+        "silver": 1,
+        "bronze": 2,
+        "years": [
+          {
+            "year": 2009,
+            "medal": "bronze"
+          },
+          {
+            "year": 2010,
+            "medal": "bronze"
+          },
+          {
+            "year": 2011,
+            "medal": "gold"
+          },
+          {
+            "year": 2012,
+            "medal": "gold"
+          },
+          {
+            "year": 2013,
+            "medal": "gold"
+          },
+          {
+            "year": 2014,
+            "medal": "silver"
+          },
+          {
+            "year": 2016,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Filippo Ganna",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2019,
+            "medal": "bronze"
+          },
+          {
+            "year": 2020,
+            "medal": "gold"
+          },
+          {
+            "year": 2021,
+            "medal": "gold"
+          },
+          {
+            "year": 2023,
+            "medal": "silver"
+          },
+          {
+            "year": 2024,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chris Boardman",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2,
+        "years": [
+          {
+            "year": 1994,
+            "medal": "gold"
+          },
+          {
+            "year": 1996,
+            "medal": "silver"
+          },
+          {
+            "year": 1997,
+            "medal": "bronze"
+          },
+          {
+            "year": 1999,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rohan Dennis",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2018,
+            "medal": "gold"
+          },
+          {
+            "year": 2019,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Richard Virenque",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 1994,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Claudio Chiappucci",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1994,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Michal Kwiatkowski",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2014,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Ben O'Connor",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2024,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Mads Pedersen",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2019,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Dylan van Baarle",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2021,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Stefan Kung",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2019,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2020,
+            "medal": "bronze"
+          },
+          {
+            "year": 2022,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Matteo Trentin",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2019,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Michael Rogers",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2003,
+            "medal": "gold"
+          },
+          {
+            "year": 2004,
+            "medal": "gold"
+          },
+          {
+            "year": 2005,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "David Millar",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2001,
+            "medal": "silver"
+          },
+          {
+            "year": 2010,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Luca Paolini",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2004,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Alessandro Ballan",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2008,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Christophe Laporte",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2022,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Matthew Goss",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2011,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Wout van Aert",
+      "road": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2020,
+            "medal": "silver"
+          },
+          {
+            "year": 2023,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2020,
+            "medal": "silver"
+          },
+          {
+            "year": 2021,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Michael Matthews",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2,
+        "years": [
+          {
+            "year": 2015,
+            "medal": "silver"
+          },
+          {
+            "year": 2017,
+            "medal": "bronze"
+          },
+          {
+            "year": 2022,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Jonathan Castroviejo",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2016,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasil Kiryienka",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2012,
+            "medal": "bronze"
+          },
+          {
+            "year": 2015,
+            "medal": "gold"
+          },
+          {
+            "year": 2016,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Edoardo Affini",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2024,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tobias Foss",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2022,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tom Dumoulin",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2014,
+            "medal": "bronze"
+          },
+          {
+            "year": 2017,
+            "medal": "gold"
+          },
+          {
+            "year": 2018,
+            "medal": "silver"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Damiano Cunego",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2008,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Ben Healy",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2025,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Alex Zulle",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 1996,
+            "medal": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oscar Freire",
+      "road": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 1999,
+            "medal": "gold"
+          },
+          {
+            "year": 2000,
+            "medal": "bronze"
+          },
+          {
+            "year": 2001,
+            "medal": "gold"
+          },
+          {
+            "year": 2004,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Thor Hushovd",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2010,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Alexander Kristoff",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2017,
+            "medal": "silver"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Peter Van Petegem",
+      "road": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 1998,
+            "medal": "silver"
+          },
+          {
+            "year": 2003,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Michael Woods",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2018,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Marc Hirschi",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2020,
+            "medal": "bronze"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Rui Costa",
+      "road": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2013,
+            "medal": "gold"
+          }
+        ]
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      }
+    },
+    {
+      "name": "Victor Campenaerts",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2018,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Joshua Tarling",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2023,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "David Zabriskie",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1,
+        "years": [
+          {
+            "year": 2006,
+            "medal": "silver"
+          },
+          {
+            "year": 2008,
+            "medal": "bronze"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gustav Erik Larsson",
+      "road": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0,
+        "years": []
+      },
+      "itt": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "years": [
+          {
+            "year": 2009,
+            "medal": "silver"
+          }
+        ]
+      }
+    }
+  ]
+}

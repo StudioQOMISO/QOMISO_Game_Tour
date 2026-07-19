@@ -1,0 +1,2106 @@
+{
+  "generated_at": "2026-07-19T12:52:33.496Z",
+  "count": 300,
+  "profiles": [
+    {
+      "title": "Primož Roglič",
+      "normalized_name": "primozroglic",
+      "rider_type": "All-rounder",
+      "page_size": 111350,
+      "source_url": "https://en.wikipedia.org/wiki/Primo%C5%BE_Rogli%C4%8D"
+    },
+    {
+      "title": "Mathieu van der Poel",
+      "normalized_name": "mathieuvanderpoel",
+      "rider_type": "",
+      "page_size": 67147,
+      "source_url": "https://en.wikipedia.org/wiki/Mathieu_van_der_Poel"
+    },
+    {
+      "title": "Jasper Philipsen",
+      "normalized_name": "jasperphilipsen",
+      "rider_type": "",
+      "page_size": 38847,
+      "source_url": "https://en.wikipedia.org/wiki/Jasper_Philipsen"
+    },
+    {
+      "title": "Tadej Pogačar",
+      "normalized_name": "tadejpogacar",
+      "rider_type": "All-rounder",
+      "page_size": 162856,
+      "source_url": "https://en.wikipedia.org/wiki/Tadej_Poga%C4%8Dar"
+    },
+    {
+      "title": "Jonas Vingegaard",
+      "normalized_name": "jonasvingegaard",
+      "rider_type": "All-rounder",
+      "page_size": 100057,
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Vingegaard"
+    },
+    {
+      "title": "Remco Evenepoel",
+      "normalized_name": "remcoevenepoel",
+      "rider_type": "",
+      "page_size": 97424,
+      "source_url": "https://en.wikipedia.org/wiki/Remco_Evenepoel"
+    },
+    {
+      "title": "Jonathan Milan",
+      "normalized_name": "jonathanmilan",
+      "rider_type": "",
+      "page_size": 24333,
+      "source_url": "https://en.wikipedia.org/wiki/Jonathan_Milan"
+    },
+    {
+      "title": "Olav Kooij",
+      "normalized_name": "olavkooij",
+      "rider_type": "Sprinter",
+      "page_size": 18020,
+      "source_url": "https://en.wikipedia.org/wiki/Olav_Kooij"
+    },
+    {
+      "title": "Isaac del Toro",
+      "normalized_name": "isaacdeltoro",
+      "rider_type": "All-rounder<br />Climber",
+      "page_size": 25469,
+      "source_url": "https://en.wikipedia.org/wiki/Isaac_del_Toro"
+    },
+    {
+      "title": "Paul Seixas",
+      "normalized_name": "paulseixas",
+      "rider_type": "All-rounder",
+      "page_size": 21669,
+      "source_url": "https://en.wikipedia.org/wiki/Paul_Seixas"
+    },
+    {
+      "title": "Tim Wellens",
+      "normalized_name": "timwellens",
+      "rider_type": "Puncheur <br/> Classics specialist",
+      "page_size": 69816,
+      "source_url": "https://en.wikipedia.org/wiki/Tim_Wellens"
+    },
+    {
+      "title": "Alberto Bettiol",
+      "normalized_name": "albertobettiol",
+      "rider_type": "",
+      "page_size": 22751,
+      "source_url": "https://en.wikipedia.org/wiki/Alberto_Bettiol"
+    },
+    {
+      "title": "Wout van Aert",
+      "normalized_name": "woutvanaert",
+      "rider_type": "Rouleur<br/> Time trialist <br/> Classics specialist",
+      "page_size": 72294,
+      "source_url": "https://en.wikipedia.org/wiki/Wout_van_Aert"
+    },
+    {
+      "title": "Filippo Ganna",
+      "normalized_name": "filippoganna",
+      "rider_type": "",
+      "page_size": 38732,
+      "source_url": "https://en.wikipedia.org/wiki/Filippo_Ganna"
+    },
+    {
+      "title": "Pascal Ackermann",
+      "normalized_name": "pascalackermann",
+      "rider_type": "Sprinter",
+      "page_size": 17870,
+      "source_url": "https://en.wikipedia.org/wiki/Pascal_Ackermann"
+    },
+    {
+      "title": "Fabio Jakobsen",
+      "normalized_name": "fabiojakobsen",
+      "rider_type": "Sprinter",
+      "page_size": 15504,
+      "source_url": "https://en.wikipedia.org/wiki/Fabio_Jakobsen"
+    },
+    {
+      "title": "Kaden Groves",
+      "normalized_name": "kadengroves",
+      "rider_type": "Sprinter",
+      "page_size": 9935,
+      "source_url": "https://en.wikipedia.org/wiki/Kaden_Groves"
+    },
+    {
+      "title": "Mattias Skjelmose",
+      "normalized_name": "mattiasskjelmose",
+      "rider_type": "All-rounder",
+      "page_size": 26954,
+      "source_url": "https://en.wikipedia.org/wiki/Mattias_Skjelmose"
+    },
+    {
+      "title": "Juan Ayuso",
+      "normalized_name": "juanayuso",
+      "rider_type": "",
+      "page_size": 26846,
+      "source_url": "https://en.wikipedia.org/wiki/Juan_Ayuso"
+    },
+    {
+      "title": "Arnaud De Lie",
+      "normalized_name": "arnauddelie",
+      "rider_type": "Sprinter<br />Classics specialist",
+      "page_size": 20771,
+      "source_url": "https://en.wikipedia.org/wiki/Arnaud_De_Lie"
+    },
+    {
+      "title": "Warren Barguil",
+      "normalized_name": "warrenbarguil",
+      "rider_type": "Climber",
+      "page_size": 44575,
+      "source_url": "https://en.wikipedia.org/wiki/Warren_Barguil"
+    },
+    {
+      "title": "Jasper Stuyven",
+      "normalized_name": "jasperstuyven",
+      "rider_type": "Classics specialist<br>All-rounder",
+      "page_size": 30179,
+      "source_url": "https://en.wikipedia.org/wiki/Jasper_Stuyven"
+    },
+    {
+      "title": "Tiesj Benoot",
+      "normalized_name": "tiesjbenoot",
+      "rider_type": "",
+      "page_size": 34114,
+      "source_url": "https://en.wikipedia.org/wiki/Tiesj_Benoot"
+    },
+    {
+      "title": "Juan Sebastián Molano",
+      "normalized_name": "juansebastianmolano",
+      "rider_type": "Sprinter",
+      "page_size": 11355,
+      "source_url": "https://en.wikipedia.org/wiki/Juan_Sebasti%C3%A1n_Molano"
+    },
+    {
+      "title": "Egan Bernal",
+      "normalized_name": "eganbernal",
+      "rider_type": "Climbing specialist",
+      "page_size": 48509,
+      "source_url": "https://en.wikipedia.org/wiki/Egan_Bernal"
+    },
+    {
+      "title": "Jai Hindley",
+      "normalized_name": "jaihindley",
+      "rider_type": "Climber",
+      "page_size": 19508,
+      "source_url": "https://en.wikipedia.org/wiki/Jai_Hindley"
+    },
+    {
+      "title": "Biniam Girmay",
+      "normalized_name": "biniamgirmay",
+      "rider_type": "",
+      "page_size": 35278,
+      "source_url": "https://en.wikipedia.org/wiki/Biniam_Girmay"
+    },
+    {
+      "title": "Maxim Van Gils",
+      "normalized_name": "maximvangils",
+      "rider_type": "Climber, classics specialist",
+      "page_size": 11082,
+      "source_url": "https://en.wikipedia.org/wiki/Maxim_Van_Gils"
+    },
+    {
+      "title": "Romain Grégoire",
+      "normalized_name": "romaingregoire",
+      "rider_type": "Puncheur",
+      "page_size": 13234,
+      "source_url": "https://en.wikipedia.org/wiki/Romain_Gr%C3%A9goire"
+    },
+    {
+      "title": "Florian Lipowitz",
+      "normalized_name": "florianlipowitz",
+      "rider_type": "Climbing specialist",
+      "page_size": 13816,
+      "source_url": "https://en.wikipedia.org/wiki/Florian_Lipowitz"
+    },
+    {
+      "title": "Pello Bilbao",
+      "normalized_name": "pellobilbao",
+      "rider_type": "All-rounder",
+      "page_size": 28744,
+      "source_url": "https://en.wikipedia.org/wiki/Pello_Bilbao"
+    },
+    {
+      "title": "Matej Mohorič",
+      "normalized_name": "matejmohoric",
+      "rider_type": "Puncheur, Classics specialist",
+      "page_size": 32912,
+      "source_url": "https://en.wikipedia.org/wiki/Matej_Mohori%C4%8D"
+    },
+    {
+      "title": "Giulio Ciccone",
+      "normalized_name": "giuliociccone",
+      "rider_type": "Climber",
+      "page_size": 22218,
+      "source_url": "https://en.wikipedia.org/wiki/Giulio_Ciccone"
+    },
+    {
+      "title": "Tim Merlier",
+      "normalized_name": "timmerlier",
+      "rider_type": "",
+      "page_size": 34221,
+      "source_url": "https://en.wikipedia.org/wiki/Tim_Merlier"
+    },
+    {
+      "title": "Enric Mas",
+      "normalized_name": "enricmas",
+      "rider_type": "Climber",
+      "page_size": 25075,
+      "source_url": "https://en.wikipedia.org/wiki/Enric_Mas"
+    },
+    {
+      "title": "Felix Gall",
+      "normalized_name": "felixgall",
+      "rider_type": "",
+      "page_size": 24264,
+      "source_url": "https://en.wikipedia.org/wiki/Felix_Gall"
+    },
+    {
+      "title": "David Gaudu",
+      "normalized_name": "davidgaudu",
+      "rider_type": "Climber",
+      "page_size": 16243,
+      "source_url": "https://en.wikipedia.org/wiki/David_Gaudu"
+    },
+    {
+      "title": "Valentin Madouas",
+      "normalized_name": "valentinmadouas",
+      "rider_type": "",
+      "page_size": 17315,
+      "source_url": "https://en.wikipedia.org/wiki/Valentin_Madouas"
+    },
+    {
+      "title": "Jordi Meeus",
+      "normalized_name": "jordimeeus",
+      "rider_type": "Sprinter",
+      "page_size": 11736,
+      "source_url": "https://en.wikipedia.org/wiki/Jordi_Meeus"
+    },
+    {
+      "title": "Antonio Tiberi",
+      "normalized_name": "antoniotiberi",
+      "rider_type": "Climber",
+      "page_size": 11501,
+      "source_url": "https://en.wikipedia.org/wiki/Antonio_Tiberi"
+    },
+    {
+      "title": "John Degenkolb",
+      "normalized_name": "johndegenkolb",
+      "rider_type": "Classics rider<br />Sprinter",
+      "page_size": 78400,
+      "source_url": "https://en.wikipedia.org/wiki/John_Degenkolb"
+    },
+    {
+      "title": "Victor Campenaerts",
+      "normalized_name": "victorcampenaerts",
+      "rider_type": "Time trialist, Rouleur",
+      "page_size": 16764,
+      "source_url": "https://en.wikipedia.org/wiki/Victor_Campenaerts"
+    },
+    {
+      "title": "Guillaume Martin",
+      "normalized_name": "guillaumemartin",
+      "rider_type": "Climber",
+      "page_size": 23817,
+      "source_url": "https://en.wikipedia.org/wiki/Guillaume_Martin"
+    },
+    {
+      "title": "Benoît Cosnefroy",
+      "normalized_name": "benoitcosnefroy",
+      "rider_type": "Puncheur",
+      "page_size": 25263,
+      "source_url": "https://en.wikipedia.org/wiki/Beno%C3%AEt_Cosnefroy"
+    },
+    {
+      "title": "Richard Carapaz",
+      "normalized_name": "richardcarapaz",
+      "rider_type": "Climbing specialist",
+      "page_size": 44164,
+      "source_url": "https://en.wikipedia.org/wiki/Richard_Carapaz"
+    },
+    {
+      "title": "Jhonatan Narváez",
+      "normalized_name": "jhonatannarvaez",
+      "rider_type": "Puncheur, Classics specialist",
+      "page_size": 17542,
+      "source_url": "https://en.wikipedia.org/wiki/Jhonatan_Narv%C3%A1ez"
+    },
+    {
+      "title": "Stefan Bissegger",
+      "normalized_name": "stefanbissegger",
+      "rider_type": "Time trialist, Classics specialist",
+      "page_size": 10237,
+      "source_url": "https://en.wikipedia.org/wiki/Stefan_Bissegger"
+    },
+    {
+      "title": "Josh Tarling",
+      "normalized_name": "joshtarling",
+      "rider_type": "Time Trialist",
+      "page_size": 32754,
+      "source_url": "https://en.wikipedia.org/wiki/Josh_Tarling"
+    },
+    {
+      "title": "Oscar Onley",
+      "normalized_name": "oscaronley",
+      "rider_type": "Climber",
+      "page_size": 17688,
+      "source_url": "https://en.wikipedia.org/wiki/Oscar_Onley"
+    },
+    {
+      "title": "Giulio Pellizzari",
+      "normalized_name": "giuliopellizzari",
+      "rider_type": "Climber",
+      "page_size": 7762,
+      "source_url": "https://en.wikipedia.org/wiki/Giulio_Pellizzari"
+    },
+    {
+      "title": "Nairo Quintana",
+      "normalized_name": "nairoquintana",
+      "rider_type": "Climber",
+      "page_size": 71009,
+      "source_url": "https://en.wikipedia.org/wiki/Nairo_Quintana"
+    },
+    {
+      "title": "Aaron Gate",
+      "normalized_name": "aarongate",
+      "rider_type": "",
+      "page_size": 25079,
+      "source_url": "https://en.wikipedia.org/wiki/Aaron_Gate"
+    },
+    {
+      "title": "Alan Hatherly",
+      "normalized_name": "alanhatherly",
+      "rider_type": "Cross-country",
+      "page_size": 16509,
+      "source_url": "https://en.wikipedia.org/wiki/Alan_Hatherly"
+    },
+    {
+      "title": "Sepp Kuss",
+      "normalized_name": "seppkuss",
+      "rider_type": "Climber<br />Super-domestique",
+      "page_size": 61536,
+      "source_url": "https://en.wikipedia.org/wiki/Sepp_Kuss"
+    },
+    {
+      "title": "Ådne Holter",
+      "normalized_name": "adneholter",
+      "rider_type": "",
+      "page_size": 3017,
+      "source_url": "https://en.wikipedia.org/wiki/%C3%85dne_Holter"
+    },
+    {
+      "title": "Afonso Eulálio",
+      "normalized_name": "afonsoeulalio",
+      "rider_type": "Climber",
+      "page_size": 8801,
+      "source_url": "https://en.wikipedia.org/wiki/Afonso_Eul%C3%A1lio"
+    },
+    {
+      "title": "Alastair MacKellar",
+      "normalized_name": "alastairmackellar",
+      "rider_type": "",
+      "page_size": 4029,
+      "source_url": "https://en.wikipedia.org/wiki/Alastair_MacKellar"
+    },
+    {
+      "title": "Adrien Boichis",
+      "normalized_name": "adrienboichis",
+      "rider_type": "",
+      "page_size": 5644,
+      "source_url": "https://en.wikipedia.org/wiki/Adrien_Boichis"
+    },
+    {
+      "title": "Adrià Pericas",
+      "normalized_name": "adriapericas",
+      "rider_type": "",
+      "page_size": 3837,
+      "source_url": "https://en.wikipedia.org/wiki/Adri%C3%A0_Pericas"
+    },
+    {
+      "title": "Aaron Dockx",
+      "normalized_name": "aarondockx",
+      "rider_type": "",
+      "page_size": 3331,
+      "source_url": "https://en.wikipedia.org/wiki/Aaron_Dockx"
+    },
+    {
+      "title": "Albert Torres (cyclist)",
+      "normalized_name": "alberttorres",
+      "rider_type": "",
+      "page_size": 12868,
+      "source_url": "https://en.wikipedia.org/wiki/Albert_Torres_(cyclist)"
+    },
+    {
+      "title": "Aleksandr Vlasov (cyclist)",
+      "normalized_name": "aleksandrvlasov",
+      "rider_type": "Climber",
+      "page_size": 23238,
+      "source_url": "https://en.wikipedia.org/wiki/Aleksandr_Vlasov_(cyclist)"
+    },
+    {
+      "title": "Alessandro Covi",
+      "normalized_name": "alessandrocovi",
+      "rider_type": "",
+      "page_size": 5684,
+      "source_url": "https://en.wikipedia.org/wiki/Alessandro_Covi"
+    },
+    {
+      "title": "Alberto Dainese",
+      "normalized_name": "albertodainese",
+      "rider_type": "Sprinter",
+      "page_size": 7901,
+      "source_url": "https://en.wikipedia.org/wiki/Alberto_Dainese"
+    },
+    {
+      "title": "Alec Segaert",
+      "normalized_name": "alecsegaert",
+      "rider_type": "Time trialist",
+      "page_size": 9057,
+      "source_url": "https://en.wikipedia.org/wiki/Alec_Segaert"
+    },
+    {
+      "title": "Alberto Bruttomesso",
+      "normalized_name": "albertobruttomesso",
+      "rider_type": "",
+      "page_size": 3700,
+      "source_url": "https://en.wikipedia.org/wiki/Alberto_Bruttomesso"
+    },
+    {
+      "title": "Albert Philipsen",
+      "normalized_name": "albertphilipsen",
+      "rider_type": "",
+      "page_size": 9220,
+      "source_url": "https://en.wikipedia.org/wiki/Albert_Philipsen"
+    },
+    {
+      "title": "Alessandro Pinarello",
+      "normalized_name": "alessandropinarello",
+      "rider_type": "",
+      "page_size": 3763,
+      "source_url": "https://en.wikipedia.org/wiki/Alessandro_Pinarello"
+    },
+    {
+      "title": "Alessandro Romele",
+      "normalized_name": "alessandroromele",
+      "rider_type": "",
+      "page_size": 3263,
+      "source_url": "https://en.wikipedia.org/wiki/Alessandro_Romele"
+    },
+    {
+      "title": "Alessandro Borgo",
+      "normalized_name": "alessandroborgo",
+      "rider_type": "",
+      "page_size": 3042,
+      "source_url": "https://en.wikipedia.org/wiki/Alessandro_Borgo"
+    },
+    {
+      "title": "Alexey Lutsenko",
+      "normalized_name": "alexeylutsenko",
+      "rider_type": "Rouleur",
+      "page_size": 27961,
+      "source_url": "https://en.wikipedia.org/wiki/Alexey_Lutsenko"
+    },
+    {
+      "title": "Amaury Capiot",
+      "normalized_name": "amaurycapiot",
+      "rider_type": "",
+      "page_size": 8176,
+      "source_url": "https://en.wikipedia.org/wiki/Amaury_Capiot"
+    },
+    {
+      "title": "Alexander Kamp",
+      "normalized_name": "alexanderkamp",
+      "rider_type": "",
+      "page_size": 10456,
+      "source_url": "https://en.wikipedia.org/wiki/Alexander_Kamp"
+    },
+    {
+      "title": "Amanuel Ghebreigzabhier",
+      "normalized_name": "amanuelghebreigzabhier",
+      "rider_type": "",
+      "page_size": 13491,
+      "source_url": "https://en.wikipedia.org/wiki/Amanuel_Ghebreigzabhier"
+    },
+    {
+      "title": "Anders Skaarseth",
+      "normalized_name": "andersskaarseth",
+      "rider_type": "",
+      "page_size": 4500,
+      "source_url": "https://en.wikipedia.org/wiki/Anders_Skaarseth"
+    },
+    {
+      "title": "Anders Halland Johannessen",
+      "normalized_name": "andershallandjohannessen",
+      "rider_type": "",
+      "page_size": 3855,
+      "source_url": "https://en.wikipedia.org/wiki/Anders_Halland_Johannessen"
+    },
+    {
+      "title": "Alex Baudin",
+      "normalized_name": "alexbaudin",
+      "rider_type": "",
+      "page_size": 11474,
+      "source_url": "https://en.wikipedia.org/wiki/Alex_Baudin"
+    },
+    {
+      "title": "Anders Foldager",
+      "normalized_name": "andersfoldager",
+      "rider_type": "",
+      "page_size": 6451,
+      "source_url": "https://en.wikipedia.org/wiki/Anders_Foldager"
+    },
+    {
+      "title": "Alexander Hajek",
+      "normalized_name": "alexanderhajek",
+      "rider_type": "",
+      "page_size": 3985,
+      "source_url": "https://en.wikipedia.org/wiki/Alexander_Hajek"
+    },
+    {
+      "title": "Alexy Faure Prost",
+      "normalized_name": "alexyfaureprost",
+      "rider_type": "",
+      "page_size": 2643,
+      "source_url": "https://en.wikipedia.org/wiki/Alexy_Faure_Prost"
+    },
+    {
+      "title": "Andrea Vendrame",
+      "normalized_name": "andreavendrame",
+      "rider_type": "",
+      "page_size": 9198,
+      "source_url": "https://en.wikipedia.org/wiki/Andrea_Vendrame"
+    },
+    {
+      "title": "Andreas Kron",
+      "normalized_name": "andreaskron",
+      "rider_type": "Puncheur",
+      "page_size": 7017,
+      "source_url": "https://en.wikipedia.org/wiki/Andreas_Kron"
+    },
+    {
+      "title": "Andreas Leknessund",
+      "normalized_name": "andreasleknessund",
+      "rider_type": "All-rounder",
+      "page_size": 11384,
+      "source_url": "https://en.wikipedia.org/wiki/Andreas_Leknessund"
+    },
+    {
+      "title": "Andrea Bagioli",
+      "normalized_name": "andreabagioli",
+      "rider_type": "Puncheur",
+      "page_size": 9701,
+      "source_url": "https://en.wikipedia.org/wiki/Andrea_Bagioli"
+    },
+    {
+      "title": "Anton Kuzmin",
+      "normalized_name": "antonkuzmin",
+      "rider_type": "",
+      "page_size": 3845,
+      "source_url": "https://en.wikipedia.org/wiki/Anton_Kuzmin"
+    },
+    {
+      "title": "Anthon Charmig",
+      "normalized_name": "anthoncharmig",
+      "rider_type": "Puncheur, all-rounder",
+      "page_size": 20765,
+      "source_url": "https://en.wikipedia.org/wiki/Anthon_Charmig"
+    },
+    {
+      "title": "Andrew August",
+      "normalized_name": "andrewaugust",
+      "rider_type": "Puncheur",
+      "page_size": 5846,
+      "source_url": "https://en.wikipedia.org/wiki/Andrew_August"
+    },
+    {
+      "title": "Andrea Raccagni",
+      "normalized_name": "andrearaccagni",
+      "rider_type": "",
+      "page_size": 6696,
+      "source_url": "https://en.wikipedia.org/wiki/Andrea_Raccagni"
+    },
+    {
+      "title": "Antoine L'Hote",
+      "normalized_name": "antoinelhote",
+      "rider_type": "Puncheur",
+      "page_size": 2890,
+      "source_url": "https://en.wikipedia.org/wiki/Antoine_L'Hote"
+    },
+    {
+      "title": "Anton Schiffer",
+      "normalized_name": "antonschiffer",
+      "rider_type": "Climber",
+      "page_size": 4755,
+      "source_url": "https://en.wikipedia.org/wiki/Anton_Schiffer"
+    },
+    {
+      "title": "Aurélien Paret-Peintre",
+      "normalized_name": "aurelienparetpeintre",
+      "rider_type": "Climber",
+      "page_size": 6760,
+      "source_url": "https://en.wikipedia.org/wiki/Aur%C3%A9lien_Paret-Peintre"
+    },
+    {
+      "title": "Arjen Livyns",
+      "normalized_name": "arjenlivyns",
+      "rider_type": "",
+      "page_size": 3858,
+      "source_url": "https://en.wikipedia.org/wiki/Arjen_Livyns"
+    },
+    {
+      "title": "Attila Valter",
+      "normalized_name": "attilavalter",
+      "rider_type": "Climber",
+      "page_size": 14311,
+      "source_url": "https://en.wikipedia.org/wiki/Attila_Valter"
+    },
+    {
+      "title": "Arne Marit",
+      "normalized_name": "arnemarit",
+      "rider_type": "",
+      "page_size": 4602,
+      "source_url": "https://en.wikipedia.org/wiki/Arne_Marit"
+    },
+    {
+      "title": "Asbjørn Hellemose",
+      "normalized_name": "asbjrnhellemose",
+      "rider_type": "",
+      "page_size": 2377,
+      "source_url": "https://en.wikipedia.org/wiki/Asbj%C3%B8rn_Hellemose"
+    },
+    {
+      "title": "Axel Laurance",
+      "normalized_name": "axellaurance",
+      "rider_type": "Puncheur",
+      "page_size": 9954,
+      "source_url": "https://en.wikipedia.org/wiki/Axel_Laurance"
+    },
+    {
+      "title": "Archie Ryan (cyclist)",
+      "normalized_name": "archieryan",
+      "rider_type": "",
+      "page_size": 3950,
+      "source_url": "https://en.wikipedia.org/wiki/Archie_Ryan_(cyclist)"
+    },
+    {
+      "title": "António Morgado",
+      "normalized_name": "antoniomorgado",
+      "rider_type": "",
+      "page_size": 9765,
+      "source_url": "https://en.wikipedia.org/wiki/Ant%C3%B3nio_Morgado"
+    },
+    {
+      "title": "Artem Shmidt",
+      "normalized_name": "artemshmidt",
+      "rider_type": "",
+      "page_size": 7578,
+      "source_url": "https://en.wikipedia.org/wiki/Artem_Shmidt"
+    },
+    {
+      "title": "Axel Huens",
+      "normalized_name": "axelhuens",
+      "rider_type": "",
+      "page_size": 3274,
+      "source_url": "https://en.wikipedia.org/wiki/Axel_Huens"
+    },
+    {
+      "title": "Ben Swift",
+      "normalized_name": "benswift",
+      "rider_type": "Sprinter, Domestique",
+      "page_size": 26623,
+      "source_url": "https://en.wikipedia.org/wiki/Ben_Swift"
+    },
+    {
+      "title": "Bauke Mollema",
+      "normalized_name": "baukemollema",
+      "rider_type": "All-rounder",
+      "page_size": 81248,
+      "source_url": "https://en.wikipedia.org/wiki/Bauke_Mollema"
+    },
+    {
+      "title": "Ben O'Connor (cyclist)",
+      "normalized_name": "benoconnor",
+      "rider_type": "Climber",
+      "page_size": 18571,
+      "source_url": "https://en.wikipedia.org/wiki/Ben_O'Connor_(cyclist)"
+    },
+    {
+      "title": "Ben Tulett",
+      "normalized_name": "bentulett",
+      "rider_type": "Puncheur",
+      "page_size": 14024,
+      "source_url": "https://en.wikipedia.org/wiki/Ben_Tulett"
+    },
+    {
+      "title": "Ben Healy (cyclist)",
+      "normalized_name": "benhealy",
+      "rider_type": "",
+      "page_size": 25919,
+      "source_url": "https://en.wikipedia.org/wiki/Ben_Healy_(cyclist)"
+    },
+    {
+      "title": "Axel Zingle",
+      "normalized_name": "axelzingle",
+      "rider_type": "",
+      "page_size": 7387,
+      "source_url": "https://en.wikipedia.org/wiki/Axel_Zingle"
+    },
+    {
+      "title": "Bastien Tronchon",
+      "normalized_name": "bastientronchon",
+      "rider_type": "",
+      "page_size": 3908,
+      "source_url": "https://en.wikipedia.org/wiki/Bastien_Tronchon"
+    },
+    {
+      "title": "Bart Lemmen",
+      "normalized_name": "bartlemmen",
+      "rider_type": "",
+      "page_size": 5742,
+      "source_url": "https://en.wikipedia.org/wiki/Bart_Lemmen"
+    },
+    {
+      "title": "Ayco Bastiaens",
+      "normalized_name": "aycobastiaens",
+      "rider_type": "",
+      "page_size": 2625,
+      "source_url": "https://en.wikipedia.org/wiki/Ayco_Bastiaens"
+    },
+    {
+      "title": "Baptiste Veistroffer",
+      "normalized_name": "baptisteveistroffer",
+      "rider_type": "",
+      "page_size": 2950,
+      "source_url": "https://en.wikipedia.org/wiki/Baptiste_Veistroffer"
+    },
+    {
+      "title": "Bruno Armirail",
+      "normalized_name": "brunoarmirail",
+      "rider_type": "",
+      "page_size": 8690,
+      "source_url": "https://en.wikipedia.org/wiki/Bruno_Armirail"
+    },
+    {
+      "title": "Callum Scotson",
+      "normalized_name": "callumscotson",
+      "rider_type": "",
+      "page_size": 10583,
+      "source_url": "https://en.wikipedia.org/wiki/Callum_Scotson"
+    },
+    {
+      "title": "Bram Welten",
+      "normalized_name": "bramwelten",
+      "rider_type": "",
+      "page_size": 5966,
+      "source_url": "https://en.wikipedia.org/wiki/Bram_Welten"
+    },
+    {
+      "title": "Ben Turner (cyclist)",
+      "normalized_name": "benturner",
+      "rider_type": "Rouleur <br/>",
+      "page_size": 14565,
+      "source_url": "https://en.wikipedia.org/wiki/Ben_Turner_(cyclist)"
+    },
+    {
+      "title": "Brandon Rivera",
+      "normalized_name": "brandonrivera",
+      "rider_type": "Climber",
+      "page_size": 5612,
+      "source_url": "https://en.wikipedia.org/wiki/Brandon_Rivera"
+    },
+    {
+      "title": "Ben Zwiehoff",
+      "normalized_name": "benzwiehoff",
+      "rider_type": "Cross-country",
+      "page_size": 5755,
+      "source_url": "https://en.wikipedia.org/wiki/Ben_Zwiehoff"
+    },
+    {
+      "title": "Callum Thornley",
+      "normalized_name": "callumthornley",
+      "rider_type": "",
+      "page_size": 9699,
+      "source_url": "https://en.wikipedia.org/wiki/Callum_Thornley"
+    },
+    {
+      "title": "Bjoern Koerdt",
+      "normalized_name": "bjoernkoerdt",
+      "rider_type": "",
+      "page_size": 5739,
+      "source_url": "https://en.wikipedia.org/wiki/Bjoern_Koerdt"
+    },
+    {
+      "title": "Brieuc Rolland",
+      "normalized_name": "brieucrolland",
+      "rider_type": "Climber",
+      "page_size": 3826,
+      "source_url": "https://en.wikipedia.org/wiki/Brieuc_Rolland"
+    },
+    {
+      "title": "Brady Gilmore",
+      "normalized_name": "bradygilmore",
+      "rider_type": "",
+      "page_size": 3930,
+      "source_url": "https://en.wikipedia.org/wiki/Brady_Gilmore"
+    },
+    {
+      "title": "Christopher Juul-Jensen",
+      "normalized_name": "christopherjuuljensen",
+      "rider_type": "Rouleur",
+      "page_size": 9422,
+      "source_url": "https://en.wikipedia.org/wiki/Christopher_Juul-Jensen"
+    },
+    {
+      "title": "Casper Pedersen",
+      "normalized_name": "casperpedersen",
+      "rider_type": "",
+      "page_size": 9461,
+      "source_url": "https://en.wikipedia.org/wiki/Casper_Pedersen"
+    },
+    {
+      "title": "Chris Hamilton (cyclist)",
+      "normalized_name": "chrishamilton",
+      "rider_type": "Climber",
+      "page_size": 6047,
+      "source_url": "https://en.wikipedia.org/wiki/Chris_Hamilton_(cyclist)"
+    },
+    {
+      "title": "Cees Bol",
+      "normalized_name": "ceesbol",
+      "rider_type": "Sprinter",
+      "page_size": 6738,
+      "source_url": "https://en.wikipedia.org/wiki/Cees_Bol"
+    },
+    {
+      "title": "Carlos Rodríguez (cyclist)",
+      "normalized_name": "carlosrodriguez",
+      "rider_type": "",
+      "page_size": 15287,
+      "source_url": "https://en.wikipedia.org/wiki/Carlos_Rodr%C3%ADguez_(cyclist)"
+    },
+    {
+      "title": "Christian Scaroni",
+      "normalized_name": "christianscaroni",
+      "rider_type": "Puncheur",
+      "page_size": 7269,
+      "source_url": "https://en.wikipedia.org/wiki/Christian_Scaroni"
+    },
+    {
+      "title": "Cédric Beullens",
+      "normalized_name": "cedricbeullens",
+      "rider_type": "",
+      "page_size": 5565,
+      "source_url": "https://en.wikipedia.org/wiki/C%C3%A9dric_Beullens"
+    },
+    {
+      "title": "Carlos Canal",
+      "normalized_name": "carloscanal",
+      "rider_type": "",
+      "page_size": 4898,
+      "source_url": "https://en.wikipedia.org/wiki/Carlos_Canal"
+    },
+    {
+      "title": "Carl-Frederik Bévort",
+      "normalized_name": "carlfrederikbevort",
+      "rider_type": "",
+      "page_size": 6512,
+      "source_url": "https://en.wikipedia.org/wiki/Carl-Frederik_B%C3%A9vort"
+    },
+    {
+      "title": "Casper van Uden",
+      "normalized_name": "caspervanuden",
+      "rider_type": "",
+      "page_size": 4222,
+      "source_url": "https://en.wikipedia.org/wiki/Casper_van_Uden"
+    },
+    {
+      "title": "Clément Russo",
+      "normalized_name": "clementrusso",
+      "rider_type": "",
+      "page_size": 6838,
+      "source_url": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Russo"
+    },
+    {
+      "title": "Cristián Rodríguez (cyclist)",
+      "normalized_name": "cristianrodriguez",
+      "rider_type": "Climber",
+      "page_size": 7031,
+      "source_url": "https://en.wikipedia.org/wiki/Cristi%C3%A1n_Rodr%C3%ADguez_(cyclist)"
+    },
+    {
+      "title": "Cyril Barthe",
+      "normalized_name": "cyrilbarthe",
+      "rider_type": "Puncheur",
+      "page_size": 5728,
+      "source_url": "https://en.wikipedia.org/wiki/Cyril_Barthe"
+    },
+    {
+      "title": "Clément Champoussin",
+      "normalized_name": "clementchampoussin",
+      "rider_type": "Climber",
+      "page_size": 7550,
+      "source_url": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Champoussin"
+    },
+    {
+      "title": "Corbin Strong",
+      "normalized_name": "corbinstrong",
+      "rider_type": "Puncheur",
+      "page_size": 26079,
+      "source_url": "https://en.wikipedia.org/wiki/Corbin_Strong"
+    },
+    {
+      "title": "Cian Uijtdebroeks",
+      "normalized_name": "cianuijtdebroeks",
+      "rider_type": "Climber",
+      "page_size": 10607,
+      "source_url": "https://en.wikipedia.org/wiki/Cian_Uijtdebroeks"
+    },
+    {
+      "title": "Clément Berthet",
+      "normalized_name": "clementberthet",
+      "rider_type": "",
+      "page_size": 5363,
+      "source_url": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Berthet"
+    },
+    {
+      "title": "Daan Hoole",
+      "normalized_name": "daanhoole",
+      "rider_type": "Time trialist",
+      "page_size": 7583,
+      "source_url": "https://en.wikipedia.org/wiki/Daan_Hoole"
+    },
+    {
+      "title": "Colby Simmons",
+      "normalized_name": "colbysimmons",
+      "rider_type": "",
+      "page_size": 8127,
+      "source_url": "https://en.wikipedia.org/wiki/Colby_Simmons"
+    },
+    {
+      "title": "Clément Braz Afonso",
+      "normalized_name": "clementbrazafonso",
+      "rider_type": "Climber, puncheur",
+      "page_size": 3601,
+      "source_url": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Braz_Afonso"
+    },
+    {
+      "title": "Diego Ulissi",
+      "normalized_name": "diegoulissi",
+      "rider_type": "",
+      "page_size": 36592,
+      "source_url": "https://en.wikipedia.org/wiki/Diego_Ulissi"
+    },
+    {
+      "title": "Davide Formolo",
+      "normalized_name": "davideformolo",
+      "rider_type": "Climber",
+      "page_size": 16163,
+      "source_url": "https://en.wikipedia.org/wiki/Davide_Formolo"
+    },
+    {
+      "title": "Daniel Martínez (cyclist)",
+      "normalized_name": "danielmartinez",
+      "rider_type": "All-rounder",
+      "page_size": 22770,
+      "source_url": "https://en.wikipedia.org/wiki/Daniel_Mart%C3%ADnez_(cyclist)"
+    },
+    {
+      "title": "Darren Rafferty",
+      "normalized_name": "darrenrafferty",
+      "rider_type": "",
+      "page_size": 6125,
+      "source_url": "https://en.wikipedia.org/wiki/Darren_Rafferty"
+    },
+    {
+      "title": "Davide De Pretto",
+      "normalized_name": "davidedepretto",
+      "rider_type": "",
+      "page_size": 3909,
+      "source_url": "https://en.wikipedia.org/wiki/Davide_De_Pretto"
+    },
+    {
+      "title": "Davide Piganzoli",
+      "normalized_name": "davidepiganzoli",
+      "rider_type": "",
+      "page_size": 5466,
+      "source_url": "https://en.wikipedia.org/wiki/Davide_Piganzoli"
+    },
+    {
+      "title": "Darren van Bekkum",
+      "normalized_name": "darrenvanbekkum",
+      "rider_type": "Climber",
+      "page_size": 3255,
+      "source_url": "https://en.wikipedia.org/wiki/Darren_van_Bekkum"
+    },
+    {
+      "title": "Daniel Skerl",
+      "normalized_name": "danielskerl",
+      "rider_type": "",
+      "page_size": 2698,
+      "source_url": "https://en.wikipedia.org/wiki/Daniel_Skerl"
+    },
+    {
+      "title": "Diego Pescador",
+      "normalized_name": "diegopescador",
+      "rider_type": "Climber",
+      "page_size": 2774,
+      "source_url": "https://en.wikipedia.org/wiki/Diego_Pescador"
+    },
+    {
+      "title": "Davide Toneatti",
+      "normalized_name": "davidetoneatti",
+      "rider_type": "",
+      "page_size": 3334,
+      "source_url": "https://en.wikipedia.org/wiki/Davide_Toneatti"
+    },
+    {
+      "title": "Dries Van Gestel",
+      "normalized_name": "driesvangestel",
+      "rider_type": "",
+      "page_size": 5980,
+      "source_url": "https://en.wikipedia.org/wiki/Dries_Van_Gestel"
+    },
+    {
+      "title": "Dries De Bondt",
+      "normalized_name": "driesdebondt",
+      "rider_type": "Rouleur, Breakaway specialist",
+      "page_size": 7041,
+      "source_url": "https://en.wikipedia.org/wiki/Dries_De_Bondt"
+    },
+    {
+      "title": "Edward Planckaert",
+      "normalized_name": "edwardplanckaert",
+      "rider_type": "",
+      "page_size": 6016,
+      "source_url": "https://en.wikipedia.org/wiki/Edward_Planckaert"
+    },
+    {
+      "title": "Einer Rubio",
+      "normalized_name": "einerrubio",
+      "rider_type": "Climber",
+      "page_size": 5037,
+      "source_url": "https://en.wikipedia.org/wiki/Einer_Rubio"
+    },
+    {
+      "title": "Edoardo Zambanini",
+      "normalized_name": "edoardozambanini",
+      "rider_type": "Climber",
+      "page_size": 5276,
+      "source_url": "https://en.wikipedia.org/wiki/Edoardo_Zambanini"
+    },
+    {
+      "title": "Emiel Verstrynge",
+      "normalized_name": "emielverstrynge",
+      "rider_type": "",
+      "page_size": 8170,
+      "source_url": "https://en.wikipedia.org/wiki/Emiel_Verstrynge"
+    },
+    {
+      "title": "Enzo Paleni",
+      "normalized_name": "enzopaleni",
+      "rider_type": "",
+      "page_size": 5538,
+      "source_url": "https://en.wikipedia.org/wiki/Enzo_Paleni"
+    },
+    {
+      "title": "Emil Herzog",
+      "normalized_name": "emilherzog",
+      "rider_type": "",
+      "page_size": 4955,
+      "source_url": "https://en.wikipedia.org/wiki/Emil_Herzog"
+    },
+    {
+      "title": "Dries De Pooter",
+      "normalized_name": "driesdepooter",
+      "rider_type": "",
+      "page_size": 4109,
+      "source_url": "https://en.wikipedia.org/wiki/Dries_De_Pooter"
+    },
+    {
+      "title": "Dillon Corkery",
+      "normalized_name": "dilloncorkery",
+      "rider_type": "",
+      "page_size": 3576,
+      "source_url": "https://en.wikipedia.org/wiki/Dillon_Corkery"
+    },
+    {
+      "title": "Erik Resell",
+      "normalized_name": "erikresell",
+      "rider_type": "",
+      "page_size": 2863,
+      "source_url": "https://en.wikipedia.org/wiki/Erik_Resell"
+    },
+    {
+      "title": "Ethan Hayter",
+      "normalized_name": "ethanhayter",
+      "rider_type": "Time trialist",
+      "page_size": 23515,
+      "source_url": "https://en.wikipedia.org/wiki/Ethan_Hayter"
+    },
+    {
+      "title": "Fabio Van den Bossche",
+      "normalized_name": "fabiovandenbossche",
+      "rider_type": "",
+      "page_size": 14113,
+      "source_url": "https://en.wikipedia.org/wiki/Fabio_Van_den_Bossche"
+    },
+    {
+      "title": "Erlend Blikra",
+      "normalized_name": "erlendblikra",
+      "rider_type": "",
+      "page_size": 3883,
+      "source_url": "https://en.wikipedia.org/wiki/Erlend_Blikra"
+    },
+    {
+      "title": "Filippo Fiorelli",
+      "normalized_name": "filippofiorelli",
+      "rider_type": "",
+      "page_size": 5421,
+      "source_url": "https://en.wikipedia.org/wiki/Filippo_Fiorelli"
+    },
+    {
+      "title": "Ethan Vernon",
+      "normalized_name": "ethanvernon",
+      "rider_type": "Sprinter",
+      "page_size": 18462,
+      "source_url": "https://en.wikipedia.org/wiki/Ethan_Vernon"
+    },
+    {
+      "title": "Filippo Conca",
+      "normalized_name": "filippoconca",
+      "rider_type": "",
+      "page_size": 7163,
+      "source_url": "https://en.wikipedia.org/wiki/Filippo_Conca"
+    },
+    {
+      "title": "Felix Engelhardt",
+      "normalized_name": "felixengelhardt",
+      "rider_type": "",
+      "page_size": 7495,
+      "source_url": "https://en.wikipedia.org/wiki/Felix_Engelhardt"
+    },
+    {
+      "title": "Ewen Costiou",
+      "normalized_name": "ewencostiou",
+      "rider_type": "",
+      "page_size": 4063,
+      "source_url": "https://en.wikipedia.org/wiki/Ewen_Costiou"
+    },
+    {
+      "title": "Felix Ørn-Kristoff",
+      "normalized_name": "felixrnkristoff",
+      "rider_type": "",
+      "page_size": 5427,
+      "source_url": "https://en.wikipedia.org/wiki/Felix_%C3%98rn-Kristoff"
+    },
+    {
+      "title": "Florian Sénéchal",
+      "normalized_name": "floriansenechal",
+      "rider_type": "Classics specialist",
+      "page_size": 41546,
+      "source_url": "https://en.wikipedia.org/wiki/Florian_S%C3%A9n%C3%A9chal"
+    },
+    {
+      "title": "Filippo Zana",
+      "normalized_name": "filippozana",
+      "rider_type": "Climber",
+      "page_size": 6842,
+      "source_url": "https://en.wikipedia.org/wiki/Filippo_Zana"
+    },
+    {
+      "title": "Fredrik Dversnes",
+      "normalized_name": "fredrikdversnes",
+      "rider_type": "",
+      "page_size": 5073,
+      "source_url": "https://en.wikipedia.org/wiki/Fredrik_Dversnes"
+    },
+    {
+      "title": "Fran Miholjević",
+      "normalized_name": "franmiholjevic",
+      "rider_type": "",
+      "page_size": 5067,
+      "source_url": "https://en.wikipedia.org/wiki/Fran_Miholjevi%C4%87"
+    },
+    {
+      "title": "Francesco Busatto",
+      "normalized_name": "francescobusatto",
+      "rider_type": "",
+      "page_size": 4062,
+      "source_url": "https://en.wikipedia.org/wiki/Francesco_Busatto"
+    },
+    {
+      "title": "Gal Glivar",
+      "normalized_name": "galglivar",
+      "rider_type": "",
+      "page_size": 4201,
+      "source_url": "https://en.wikipedia.org/wiki/Gal_Glivar"
+    },
+    {
+      "title": "Frank van den Broek",
+      "normalized_name": "frankvandenbroek",
+      "rider_type": "",
+      "page_size": 6105,
+      "source_url": "https://en.wikipedia.org/wiki/Frank_van_den_Broek"
+    },
+    {
+      "title": "Florian Kajamini",
+      "normalized_name": "floriankajamini",
+      "rider_type": "Climber",
+      "page_size": 2458,
+      "source_url": "https://en.wikipedia.org/wiki/Florian_Kajamini"
+    },
+    {
+      "title": "Floris Van Tricht",
+      "normalized_name": "florisvantricht",
+      "rider_type": "",
+      "page_size": 2811,
+      "source_url": "https://en.wikipedia.org/wiki/Floris_Van_Tricht"
+    },
+    {
+      "title": "Frits Biesterbos",
+      "normalized_name": "fritsbiesterbos",
+      "rider_type": "",
+      "page_size": 6401,
+      "source_url": "https://en.wikipedia.org/wiki/Frits_Biesterbos"
+    },
+    {
+      "title": "George Bennett (cyclist)",
+      "normalized_name": "georgebennett",
+      "rider_type": "Climber",
+      "page_size": 60143,
+      "source_url": "https://en.wikipedia.org/wiki/George_Bennett_(cyclist)"
+    },
+    {
+      "title": "Gerben Thijssen",
+      "normalized_name": "gerbenthijssen",
+      "rider_type": "Sprinter",
+      "page_size": 12065,
+      "source_url": "https://en.wikipedia.org/wiki/Gerben_Thijssen"
+    },
+    {
+      "title": "Gonzalo Serrano",
+      "normalized_name": "gonzaloserrano",
+      "rider_type": "",
+      "page_size": 7347,
+      "source_url": "https://en.wikipedia.org/wiki/Gonzalo_Serrano"
+    },
+    {
+      "title": "Georg Zimmermann",
+      "normalized_name": "georgzimmermann",
+      "rider_type": "Climber",
+      "page_size": 7831,
+      "source_url": "https://en.wikipedia.org/wiki/Georg_Zimmermann"
+    },
+    {
+      "title": "Gijs Leemreize",
+      "normalized_name": "gijsleemreize",
+      "rider_type": "Climber",
+      "page_size": 6128,
+      "source_url": "https://en.wikipedia.org/wiki/Gijs_Leemreize"
+    },
+    {
+      "title": "Gleb Syritsa",
+      "normalized_name": "glebsyritsa",
+      "rider_type": "",
+      "page_size": 6226,
+      "source_url": "https://en.wikipedia.org/wiki/Gleb_Syritsa"
+    },
+    {
+      "title": "Georg Steinhauser",
+      "normalized_name": "georgsteinhauser",
+      "rider_type": "",
+      "page_size": 5041,
+      "source_url": "https://en.wikipedia.org/wiki/Georg_Steinhauser"
+    },
+    {
+      "title": "Gianmarco Garofoli",
+      "normalized_name": "gianmarcogarofoli",
+      "rider_type": "Climber",
+      "page_size": 4286,
+      "source_url": "https://en.wikipedia.org/wiki/Gianmarco_Garofoli"
+    },
+    {
+      "title": "Gil Gelders",
+      "normalized_name": "gilgelders",
+      "rider_type": "",
+      "page_size": 3432,
+      "source_url": "https://en.wikipedia.org/wiki/Gil_Gelders"
+    },
+    {
+      "title": "Gianluca Pollefliet",
+      "normalized_name": "gianlucapollefliet",
+      "rider_type": "Classics specialist",
+      "page_size": 3935,
+      "source_url": "https://en.wikipedia.org/wiki/Gianluca_Pollefliet"
+    },
+    {
+      "title": "Guillaume Boivin",
+      "normalized_name": "guillaumeboivin",
+      "rider_type": "",
+      "page_size": 12916,
+      "source_url": "https://en.wikipedia.org/wiki/Guillaume_Boivin"
+    },
+    {
+      "title": "Hugo Houle",
+      "normalized_name": "hugohoule",
+      "rider_type": "All-rounder",
+      "page_size": 17182,
+      "source_url": "https://en.wikipedia.org/wiki/Hugo_Houle"
+    },
+    {
+      "title": "Gregor Mühlberger",
+      "normalized_name": "gregormuhlberger",
+      "rider_type": "Climber",
+      "page_size": 10751,
+      "source_url": "https://en.wikipedia.org/wiki/Gregor_M%C3%BChlberger"
+    },
+    {
+      "title": "Hugo Hofstetter",
+      "normalized_name": "hugohofstetter",
+      "rider_type": "Sprinter",
+      "page_size": 12256,
+      "source_url": "https://en.wikipedia.org/wiki/Hugo_Hofstetter"
+    },
+    {
+      "title": "Harry Sweeny",
+      "normalized_name": "harrysweeny",
+      "rider_type": "",
+      "page_size": 29867,
+      "source_url": "https://en.wikipedia.org/wiki/Harry_Sweeny"
+    },
+    {
+      "title": "Harold Martín López",
+      "normalized_name": "haroldmartinlopez",
+      "rider_type": "Climber",
+      "page_size": 3900,
+      "source_url": "https://en.wikipedia.org/wiki/Harold_Mart%C3%ADn_L%C3%B3pez"
+    },
+    {
+      "title": "Henri Uhlig",
+      "normalized_name": "henriuhlig",
+      "rider_type": "",
+      "page_size": 4619,
+      "source_url": "https://en.wikipedia.org/wiki/Henri_Uhlig"
+    },
+    {
+      "title": "Henrik Pedersen (cyclist)",
+      "normalized_name": "henrikpedersen",
+      "rider_type": "",
+      "page_size": 3590,
+      "source_url": "https://en.wikipedia.org/wiki/Henrik_Pedersen_(cyclist)"
+    },
+    {
+      "title": "Guillermo Thomas Silva",
+      "normalized_name": "guillermothomassilva",
+      "rider_type": "Puncheur",
+      "page_size": 5148,
+      "source_url": "https://en.wikipedia.org/wiki/Guillermo_Thomas_Silva"
+    },
+    {
+      "title": "Henri-François Renard-Haquin",
+      "normalized_name": "henrifrancoisrenardhaquin",
+      "rider_type": "",
+      "page_size": 2559,
+      "source_url": "https://en.wikipedia.org/wiki/Henri-Fran%C3%A7ois_Renard-Haquin"
+    },
+    {
+      "title": "Iván García Cortina",
+      "normalized_name": "ivangarciacortina",
+      "rider_type": "",
+      "page_size": 12605,
+      "source_url": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Garc%C3%ADa_Cortina"
+    },
+    {
+      "title": "Jacopo Mosca",
+      "normalized_name": "jacopomosca",
+      "rider_type": "",
+      "page_size": 5840,
+      "source_url": "https://en.wikipedia.org/wiki/Jacopo_Mosca"
+    },
+    {
+      "title": "James Knox (cyclist)",
+      "normalized_name": "jamesknox",
+      "rider_type": "Climber",
+      "page_size": 8596,
+      "source_url": "https://en.wikipedia.org/wiki/James_Knox_(cyclist)"
+    },
+    {
+      "title": "Jake Stewart (cyclist)",
+      "normalized_name": "jakestewart",
+      "rider_type": "Classics specialist, lead-out",
+      "page_size": 10319,
+      "source_url": "https://en.wikipedia.org/wiki/Jake_Stewart_(cyclist)"
+    },
+    {
+      "title": "Itamar Einhorn",
+      "normalized_name": "itamareinhorn",
+      "rider_type": "Sprinter",
+      "page_size": 12847,
+      "source_url": "https://en.wikipedia.org/wiki/Itamar_Einhorn"
+    },
+    {
+      "title": "Ilan Van Wilder",
+      "normalized_name": "ilanvanwilder",
+      "rider_type": "All Rounder",
+      "page_size": 9554,
+      "source_url": "https://en.wikipedia.org/wiki/Ilan_Van_Wilder"
+    },
+    {
+      "title": "Iván Romeo",
+      "normalized_name": "ivanromeo",
+      "rider_type": "",
+      "page_size": 4952,
+      "source_url": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Romeo"
+    },
+    {
+      "title": "Jakob Söderqvist",
+      "normalized_name": "jakobsoderqvist",
+      "rider_type": "Time trialist",
+      "page_size": 6405,
+      "source_url": "https://en.wikipedia.org/wiki/Jakob_S%C3%B6derqvist"
+    },
+    {
+      "title": "Huub Artz",
+      "normalized_name": "huubartz",
+      "rider_type": "",
+      "page_size": 4801,
+      "source_url": "https://en.wikipedia.org/wiki/Huub_Artz"
+    },
+    {
+      "title": "Jakob Omrzel",
+      "normalized_name": "jakobomrzel",
+      "rider_type": "",
+      "page_size": 4089,
+      "source_url": "https://en.wikipedia.org/wiki/Jakob_Omrzel"
+    },
+    {
+      "title": "Jan Hirt",
+      "normalized_name": "janhirt",
+      "rider_type": "Climber",
+      "page_size": 12625,
+      "source_url": "https://en.wikipedia.org/wiki/Jan_Hirt"
+    },
+    {
+      "title": "James Shaw (cyclist)",
+      "normalized_name": "jamesshaw",
+      "rider_type": "Puncheur",
+      "page_size": 21245,
+      "source_url": "https://en.wikipedia.org/wiki/James_Shaw_(cyclist)"
+    },
+    {
+      "title": "Jefferson Alveiro Cepeda",
+      "normalized_name": "jeffersonalveirocepeda",
+      "rider_type": "",
+      "page_size": 7445,
+      "source_url": "https://en.wikipedia.org/wiki/Jefferson_Alveiro_Cepeda"
+    },
+    {
+      "title": "Jefferson Alexander Cepeda",
+      "normalized_name": "jeffersonalexandercepeda",
+      "rider_type": "Climber",
+      "page_size": 7524,
+      "source_url": "https://en.wikipedia.org/wiki/Jefferson_Alexander_Cepeda"
+    },
+    {
+      "title": "Javier Romo",
+      "normalized_name": "javierromo",
+      "rider_type": "",
+      "page_size": 6082,
+      "source_url": "https://en.wikipedia.org/wiki/Javier_Romo"
+    },
+    {
+      "title": "Jay Vine",
+      "normalized_name": "jayvine",
+      "rider_type": "Climber, Time trialist",
+      "page_size": 19689,
+      "source_url": "https://en.wikipedia.org/wiki/Jay_Vine"
+    },
+    {
+      "title": "Jenno Berckmoes",
+      "normalized_name": "jennoberckmoes",
+      "rider_type": "",
+      "page_size": 4881,
+      "source_url": "https://en.wikipedia.org/wiki/Jenno_Berckmoes"
+    },
+    {
+      "title": "Jensen Plowright",
+      "normalized_name": "jensenplowright",
+      "rider_type": "Sprinter",
+      "page_size": 4255,
+      "source_url": "https://en.wikipedia.org/wiki/Jensen_Plowright"
+    },
+    {
+      "title": "Jardi van der Lee",
+      "normalized_name": "jardivanderlee",
+      "rider_type": "Climber",
+      "page_size": 3675,
+      "source_url": "https://en.wikipedia.org/wiki/Jardi_van_der_Lee"
+    },
+    {
+      "title": "Jarno Widar",
+      "normalized_name": "jarnowidar",
+      "rider_type": "Climber",
+      "page_size": 6203,
+      "source_url": "https://en.wikipedia.org/wiki/Jarno_Widar"
+    },
+    {
+      "title": "Jonas Rickaert",
+      "normalized_name": "jonasrickaert",
+      "rider_type": "",
+      "page_size": 6923,
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Rickaert"
+    },
+    {
+      "title": "Johan Jacobs",
+      "normalized_name": "johanjacobs",
+      "rider_type": "",
+      "page_size": 9949,
+      "source_url": "https://en.wikipedia.org/wiki/Johan_Jacobs"
+    },
+    {
+      "title": "Jonas Rutsch",
+      "normalized_name": "jonasrutsch",
+      "rider_type": "Classics specialist",
+      "page_size": 5089,
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Rutsch"
+    },
+    {
+      "title": "Johan Price-Pejtersen",
+      "normalized_name": "johanpricepejtersen",
+      "rider_type": "Time trialist",
+      "page_size": 6249,
+      "source_url": "https://en.wikipedia.org/wiki/Johan_Price-Pejtersen"
+    },
+    {
+      "title": "Jonas Iversby Hvideberg",
+      "normalized_name": "jonasiversbyhvideberg",
+      "rider_type": "",
+      "page_size": 4840,
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Iversby_Hvideberg"
+    },
+    {
+      "title": "Jonas Abrahamsen",
+      "normalized_name": "jonasabrahamsen",
+      "rider_type": "",
+      "page_size": 9596,
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Abrahamsen"
+    },
+    {
+      "title": "Jon Barrenetxea",
+      "normalized_name": "jonbarrenetxea",
+      "rider_type": "All-rounder, puncheur",
+      "page_size": 4305,
+      "source_url": "https://en.wikipedia.org/wiki/Jon_Barrenetxea"
+    },
+    {
+      "title": "Johannes Staune-Mittet",
+      "normalized_name": "johannesstaunemittet",
+      "rider_type": "",
+      "page_size": 4040,
+      "source_url": "https://en.wikipedia.org/wiki/Johannes_Staune-Mittet"
+    },
+    {
+      "title": "Johannes Kulset",
+      "normalized_name": "johanneskulset",
+      "rider_type": "Climber",
+      "page_size": 5102,
+      "source_url": "https://en.wikipedia.org/wiki/Johannes_Kulset"
+    },
+    {
+      "title": "Jonas Geens",
+      "normalized_name": "jonasgeens",
+      "rider_type": "",
+      "page_size": 5492,
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Geens"
+    },
+    {
+      "title": "Jorge Arcas",
+      "normalized_name": "jorgearcas",
+      "rider_type": "",
+      "page_size": 3823,
+      "source_url": "https://en.wikipedia.org/wiki/Jorge_Arcas"
+    },
+    {
+      "title": "Julien Bernard",
+      "normalized_name": "julienbernard",
+      "rider_type": "",
+      "page_size": 6595,
+      "source_url": "https://en.wikipedia.org/wiki/Julien_Bernard"
+    },
+    {
+      "title": "Julius van den Berg",
+      "normalized_name": "juliusvandenberg",
+      "rider_type": "",
+      "page_size": 5829,
+      "source_url": "https://en.wikipedia.org/wiki/Julius_van_den_Berg"
+    },
+    {
+      "title": "Juan Pedro López",
+      "normalized_name": "juanpedrolopez",
+      "rider_type": "Climber",
+      "page_size": 5945,
+      "source_url": "https://en.wikipedia.org/wiki/Juan_Pedro_L%C3%B3pez"
+    },
+    {
+      "title": "Joseph Blackmore",
+      "normalized_name": "josephblackmore",
+      "rider_type": "",
+      "page_size": 9531,
+      "source_url": "https://en.wikipedia.org/wiki/Joseph_Blackmore"
+    },
+    {
+      "title": "Jordan Labrosse",
+      "normalized_name": "jordanlabrosse",
+      "rider_type": "",
+      "page_size": 2583,
+      "source_url": "https://en.wikipedia.org/wiki/Jordan_Labrosse"
+    },
+    {
+      "title": "Jørgen Nordhagen",
+      "normalized_name": "jrgennordhagen",
+      "rider_type": "",
+      "page_size": 7357,
+      "source_url": "https://en.wikipedia.org/wiki/J%C3%B8rgen_Nordhagen"
+    },
+    {
+      "title": "Juan Guillermo Martínez",
+      "normalized_name": "juanguillermomartinez",
+      "rider_type": "Climber",
+      "page_size": 4357,
+      "source_url": "https://en.wikipedia.org/wiki/Juan_Guillermo_Mart%C3%ADnez"
+    },
+    {
+      "title": "Joshua Giddings (cyclist)",
+      "normalized_name": "joshuagiddings",
+      "rider_type": "",
+      "page_size": 4543,
+      "source_url": "https://en.wikipedia.org/wiki/Joshua_Giddings_(cyclist)"
+    },
+    {
+      "title": "Josh Kench",
+      "normalized_name": "joshkench",
+      "rider_type": "",
+      "page_size": 2584,
+      "source_url": "https://en.wikipedia.org/wiki/Josh_Kench"
+    },
+    {
+      "title": "Kamil Gradek",
+      "normalized_name": "kamilgradek",
+      "rider_type": "Rouleur",
+      "page_size": 7737,
+      "source_url": "https://en.wikipedia.org/wiki/Kamil_Gradek"
+    },
+    {
+      "title": "Lennard Kämna",
+      "normalized_name": "lennardkamna",
+      "rider_type": "All-rounder",
+      "page_size": 17584,
+      "source_url": "https://en.wikipedia.org/wiki/Lennard_K%C3%A4mna"
+    },
+    {
+      "title": "Krists Neilands",
+      "normalized_name": "kristsneilands",
+      "rider_type": "",
+      "page_size": 10155,
+      "source_url": "https://en.wikipedia.org/wiki/Krists_Neilands"
+    },
+    {
+      "title": "Kevin Geniets",
+      "normalized_name": "kevingeniets",
+      "rider_type": "",
+      "page_size": 6766,
+      "source_url": "https://en.wikipedia.org/wiki/Kevin_Geniets"
+    },
+    {
+      "title": "Lewis Askey",
+      "normalized_name": "lewisaskey",
+      "rider_type": "",
+      "page_size": 8123,
+      "source_url": "https://en.wikipedia.org/wiki/Lewis_Askey"
+    },
+    {
+      "title": "Lennert Van Eetvelt",
+      "normalized_name": "lennertvaneetvelt",
+      "rider_type": "Climber",
+      "page_size": 9361,
+      "source_url": "https://en.wikipedia.org/wiki/Lennert_Van_Eetvelt"
+    },
+    {
+      "title": "Liam Slock",
+      "normalized_name": "liamslock",
+      "rider_type": "Time trialist",
+      "page_size": 4837,
+      "source_url": "https://en.wikipedia.org/wiki/Liam_Slock"
+    },
+    {
+      "title": "Lars Craps",
+      "normalized_name": "larscraps",
+      "rider_type": "",
+      "page_size": 3234,
+      "source_url": "https://en.wikipedia.org/wiki/Lars_Craps"
+    },
+    {
+      "title": "Léo Bisiaux",
+      "normalized_name": "leobisiaux",
+      "rider_type": "",
+      "page_size": 7183,
+      "source_url": "https://en.wikipedia.org/wiki/L%C3%A9o_Bisiaux"
+    },
+    {
+      "title": "Lennert Belmans",
+      "normalized_name": "lennertbelmans",
+      "rider_type": "",
+      "page_size": 2639,
+      "source_url": "https://en.wikipedia.org/wiki/Lennert_Belmans"
+    },
+    {
+      "title": "Magnus Cort",
+      "normalized_name": "magnuscort",
+      "rider_type": "Breakaway specialist, puncheur, sprinter",
+      "page_size": 33824,
+      "source_url": "https://en.wikipedia.org/wiki/Magnus_Cort"
+    },
+    {
+      "title": "Lorenzo Rota",
+      "normalized_name": "lorenzorota",
+      "rider_type": "",
+      "page_size": 8305,
+      "source_url": "https://en.wikipedia.org/wiki/Lorenzo_Rota"
+    },
+    {
+      "title": "Markus Hoelgaard",
+      "normalized_name": "markushoelgaard",
+      "rider_type": "",
+      "page_size": 5880,
+      "source_url": "https://en.wikipedia.org/wiki/Markus_Hoelgaard"
+    },
+    {
+      "title": "Mads Pedersen",
+      "normalized_name": "madspedersen",
+      "rider_type": "",
+      "page_size": 38443,
+      "source_url": "https://en.wikipedia.org/wiki/Mads_Pedersen"
+    },
+    {
+      "title": "Lionel Taminiaux",
+      "normalized_name": "lioneltaminiaux",
+      "rider_type": "",
+      "page_size": 5954,
+      "source_url": "https://en.wikipedia.org/wiki/Lionel_Taminiaux"
+    },
+    {
+      "title": "Marijn van den Berg",
+      "normalized_name": "marijnvandenberg",
+      "rider_type": "Sprinter, puncheur",
+      "page_size": 6494,
+      "source_url": "https://en.wikipedia.org/wiki/Marijn_van_den_Berg"
+    },
+    {
+      "title": "Luke Lamperti",
+      "normalized_name": "lukelamperti",
+      "rider_type": "",
+      "page_size": 9450,
+      "source_url": "https://en.wikipedia.org/wiki/Luke_Lamperti"
+    },
+    {
+      "title": "Madis Mihkels",
+      "normalized_name": "madismihkels",
+      "rider_type": "",
+      "page_size": 7244,
+      "source_url": "https://en.wikipedia.org/wiki/Madis_Mihkels"
+    },
+    {
+      "title": "Loe van Belle",
+      "normalized_name": "loevanbelle",
+      "rider_type": "",
+      "page_size": 4324,
+      "source_url": "https://en.wikipedia.org/wiki/Loe_van_Belle"
+    },
+    {
+      "title": "Lukas Nerurkar",
+      "normalized_name": "lukasnerurkar",
+      "rider_type": "",
+      "page_size": 8564,
+      "source_url": "https://en.wikipedia.org/wiki/Lukas_Nerurkar"
+    },
+    {
+      "title": "Michał Kwiatkowski",
+      "normalized_name": "michakwiatkowski",
+      "rider_type": "All-rounder",
+      "page_size": 49561,
+      "source_url": "https://en.wikipedia.org/wiki/Micha%C5%82_Kwiatkowski"
+    },
+    {
+      "title": "Damiano Caruso",
+      "normalized_name": "damianocaruso",
+      "rider_type": "Climber",
+      "page_size": 34131,
+      "source_url": "https://en.wikipedia.org/wiki/Damiano_Caruso"
+    },
+    {
+      "title": "Carlos Verona",
+      "normalized_name": "carlosverona",
+      "rider_type": "Climber",
+      "page_size": 8635,
+      "source_url": "https://en.wikipedia.org/wiki/Carlos_Verona"
+    },
+    {
+      "title": "Adam Yates",
+      "normalized_name": "adamyates",
+      "rider_type": "Climber",
+      "page_size": 88247,
+      "source_url": "https://en.wikipedia.org/wiki/Adam_Yates"
+    },
+    {
+      "title": "Mike Teunissen",
+      "normalized_name": "miketeunissen",
+      "rider_type": "",
+      "page_size": 20653,
+      "source_url": "https://en.wikipedia.org/wiki/Mike_Teunissen"
+    },
+    {
+      "title": "Laurens De Plus",
+      "normalized_name": "laurensdeplus",
+      "rider_type": "Climber",
+      "page_size": 9473,
+      "source_url": "https://en.wikipedia.org/wiki/Laurens_De_Plus"
+    },
+    {
+      "title": "Taco van der Hoorn",
+      "normalized_name": "tacovanderhoorn",
+      "rider_type": "Classics specialist",
+      "page_size": 7585,
+      "source_url": "https://en.wikipedia.org/wiki/Taco_van_der_Hoorn"
+    },
+    {
+      "title": "Luke Plapp",
+      "normalized_name": "lukeplapp",
+      "rider_type": "All-Rounder, Time trialist",
+      "page_size": 15176,
+      "source_url": "https://en.wikipedia.org/wiki/Luke_Plapp"
+    },
+    {
+      "title": "Santiago Buitrago",
+      "normalized_name": "santiagobuitrago",
+      "rider_type": "Climber",
+      "page_size": 13187,
+      "source_url": "https://en.wikipedia.org/wiki/Santiago_Buitrago"
+    },
+    {
+      "title": "Matthew Riccitello",
+      "normalized_name": "matthewriccitello",
+      "rider_type": "Climber",
+      "page_size": 6944,
+      "source_url": "https://en.wikipedia.org/wiki/Matthew_Riccitello"
+    },
+    {
+      "title": "Bob Jungels",
+      "normalized_name": "bobjungels",
+      "rider_type": "All-rounder",
+      "page_size": 31399,
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Jungels"
+    },
+    {
+      "title": "Wilco Kelderman",
+      "normalized_name": "wilcokelderman",
+      "rider_type": "All-rounder <br/> Climber",
+      "page_size": 24434,
+      "source_url": "https://en.wikipedia.org/wiki/Wilco_Kelderman"
+    },
+    {
+      "title": "Luka Mezgec",
+      "normalized_name": "lukamezgec",
+      "rider_type": "Sprinter<br>Lead-out specialist",
+      "page_size": 11794,
+      "source_url": "https://en.wikipedia.org/wiki/Luka_Mezgec"
+    },
+    {
+      "title": "Danny van Poppel",
+      "normalized_name": "dannyvanpoppel",
+      "rider_type": "",
+      "page_size": 16649,
+      "source_url": "https://en.wikipedia.org/wiki/Danny_van_Poppel"
+    },
+    {
+      "title": "Simone Consonni",
+      "normalized_name": "simoneconsonni",
+      "rider_type": "",
+      "page_size": 20858,
+      "source_url": "https://en.wikipedia.org/wiki/Simone_Consonni"
+    },
+    {
+      "title": "Davide Ballerini",
+      "normalized_name": "davideballerini",
+      "rider_type": "",
+      "page_size": 9229,
+      "source_url": "https://en.wikipedia.org/wiki/Davide_Ballerini"
+    },
+    {
+      "title": "Rémi Cavagna",
+      "normalized_name": "remicavagna",
+      "rider_type": "",
+      "page_size": 14733,
+      "source_url": "https://en.wikipedia.org/wiki/R%C3%A9mi_Cavagna"
+    },
+    {
+      "title": "Pavel Sivakov",
+      "normalized_name": "pavelsivakov",
+      "rider_type": "Climber",
+      "page_size": 14255,
+      "source_url": "https://en.wikipedia.org/wiki/Pavel_Sivakov"
+    },
+    {
+      "title": "Thymen Arensman",
+      "normalized_name": "thymenarensman",
+      "rider_type": "Climber",
+      "page_size": 11175,
+      "source_url": "https://en.wikipedia.org/wiki/Thymen_Arensman"
+    },
+    {
+      "title": "Florian Vermeersch",
+      "normalized_name": "florianvermeersch",
+      "rider_type": "Classics specialist",
+      "page_size": 12968,
+      "source_url": "https://en.wikipedia.org/wiki/Florian_Vermeersch"
+    },
+    {
+      "title": "Nikias Arndt",
+      "normalized_name": "nikiasarndt",
+      "rider_type": "",
+      "page_size": 13150,
+      "source_url": "https://en.wikipedia.org/wiki/Nikias_Arndt"
+    },
+    {
+      "title": "Jasper De Buyst",
+      "normalized_name": "jasperdebuyst",
+      "rider_type": "",
+      "page_size": 12210,
+      "source_url": "https://en.wikipedia.org/wiki/Jasper_De_Buyst"
+    },
+    {
+      "title": "Edward Theuns",
+      "normalized_name": "edwardtheuns",
+      "rider_type": "Classics specialist",
+      "page_size": 11040,
+      "source_url": "https://en.wikipedia.org/wiki/Edward_Theuns"
+    },
+    {
+      "title": "Marc Soler",
+      "normalized_name": "marcsoler",
+      "rider_type": "Climber",
+      "page_size": 13374,
+      "source_url": "https://en.wikipedia.org/wiki/Marc_Soler"
+    },
+    {
+      "title": "Tao Geoghegan Hart",
+      "normalized_name": "taogeogheganhart",
+      "rider_type": "Climber",
+      "page_size": 28957,
+      "source_url": "https://en.wikipedia.org/wiki/Tao_Geoghegan_Hart"
+    },
+    {
+      "title": "Bert Van Lerberghe",
+      "normalized_name": "bertvanlerberghe",
+      "rider_type": "",
+      "page_size": 7208,
+      "source_url": "https://en.wikipedia.org/wiki/Bert_Van_Lerberghe"
+    },
+    {
+      "title": "Nils Politt",
+      "normalized_name": "nilspolitt",
+      "rider_type": "Rouleur<br/> Classics specialist",
+      "page_size": 24400,
+      "source_url": "https://en.wikipedia.org/wiki/Nils_Politt"
+    },
+    {
+      "title": "Brandon McNulty",
+      "normalized_name": "brandonmcnulty",
+      "rider_type": "",
+      "page_size": 29419,
+      "source_url": "https://en.wikipedia.org/wiki/Brandon_McNulty"
+    },
+    {
+      "title": "Tobias Foss",
+      "normalized_name": "tobiasfoss",
+      "rider_type": "All Rounder, Time trialist",
+      "page_size": 13713,
+      "source_url": "https://en.wikipedia.org/wiki/Tobias_Foss"
+    },
+    {
+      "title": "Magnus Sheffield",
+      "normalized_name": "magnussheffield",
+      "rider_type": "All-rounder <br/> Time trialist",
+      "page_size": 11820,
+      "source_url": "https://en.wikipedia.org/wiki/Magnus_Sheffield"
+    },
+    {
+      "title": "Luke Durbridge",
+      "normalized_name": "lukedurbridge",
+      "rider_type": "Classics specialist <br/> Time trialist",
+      "page_size": 21446,
+      "source_url": "https://en.wikipedia.org/wiki/Luke_Durbridge"
+    },
+    {
+      "title": "Mikel Landa",
+      "normalized_name": "mikellanda",
+      "rider_type": "Climber",
+      "page_size": 39775,
+      "source_url": "https://en.wikipedia.org/wiki/Mikel_Landa"
+    },
+    {
+      "title": "Vegard Stake Laengen",
+      "normalized_name": "vegardstakelaengen",
+      "rider_type": "",
+      "page_size": 10544,
+      "source_url": "https://en.wikipedia.org/wiki/Vegard_Stake_Laengen"
+    },
+    {
+      "title": "Dylan van Baarle",
+      "normalized_name": "dylanvanbaarle",
+      "rider_type": "Rouleur",
+      "page_size": 61412,
+      "source_url": "https://en.wikipedia.org/wiki/Dylan_van_Baarle"
+    },
+    {
+      "title": "Jan Tratnik",
+      "normalized_name": "jantratnik",
+      "rider_type": "Rouleur",
+      "page_size": 25350,
+      "source_url": "https://en.wikipedia.org/wiki/Jan_Tratnik"
+    },
+    {
+      "title": "Christophe Laporte",
+      "normalized_name": "christophelaporte",
+      "rider_type": "Sprinter <br/> Classics specialist",
+      "page_size": 68745,
+      "source_url": "https://en.wikipedia.org/wiki/Christophe_Laporte"
+    },
+    {
+      "title": "Yves Lampaert",
+      "normalized_name": "yveslampaert",
+      "rider_type": "Classics specialist",
+      "page_size": 22803,
+      "source_url": "https://en.wikipedia.org/wiki/Yves_Lampaert"
+    },
+    {
+      "title": "Kasper Asgreen",
+      "normalized_name": "kasperasgreen",
+      "rider_type": "",
+      "page_size": 21370,
+      "source_url": "https://en.wikipedia.org/wiki/Kasper_Asgreen"
+    },
+    {
+      "title": "Mikkel Bjerg",
+      "normalized_name": "mikkelbjerg",
+      "rider_type": "Time trialist",
+      "page_size": 12981,
+      "source_url": "https://en.wikipedia.org/wiki/Mikkel_Bjerg"
+    },
+    {
+      "title": "Edoardo Affini",
+      "normalized_name": "edoardoaffini",
+      "rider_type": "Time trialist",
+      "page_size": 27067,
+      "source_url": "https://en.wikipedia.org/wiki/Edoardo_Affini"
+    }
+  ]
+}
