@@ -1,0 +1,284 @@
+[
+  {
+    "id": "flat_ace_cruise",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "高速巡航",
+    "description": "平坦区間を高い速度で巡航し、ライバルへ持続的な圧力をかける。",
+    "target": "本人",
+    "abilities": [
+      "cruise",
+      "stamina"
+    ]
+  },
+  {
+    "id": "flat_ace_counter",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "平坦カウンター",
+    "description": "平坦で生まれた攻撃へ素早く反応し、有力選手の動きに乗る。",
+    "target": "本人",
+    "abilities": [
+      "acceleration",
+      "positioning",
+      "fighting"
+    ]
+  },
+  {
+    "id": "flat_assist_pull",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "高速牽引",
+    "description": "平坦で高速隊列を作り、味方エースを勝負区間まで運ぶ。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "flat_assist_crosswind",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "横風ガード",
+    "description": "横風側を長く走り、味方エースの消耗と分断の危険を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "stamina",
+      "positioning",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_ace_acceleration",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "丘陵加速",
+    "description": "起伏の変化に合わせて加速し、丘陵区間で集団を絞り込む。",
+    "target": "本人",
+    "abilities": [
+      "punch",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "hill_ace_attack",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "短坂アタック",
+    "description": "短い急坂で鋭く仕掛け、ライバルとの小さな差を作る。",
+    "target": "本人",
+    "abilities": [
+      "punch",
+      "fighting"
+    ]
+  },
+  {
+    "id": "hill_assist_pace",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "丘陵ペース",
+    "description": "起伏区間を高い一定速度で牽引し、味方エースの脚を残す。",
+    "target": "味方エース",
+    "abilities": [
+      "punch",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_assist_cover",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "仕掛け封じ",
+    "description": "丘陵で危険な攻撃を追走し、味方エースに代わって差を消す。",
+    "target": "味方エース",
+    "abilities": [
+      "acceleration",
+      "fighting",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "mountain_ace_pace",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "登坂ペースアップ",
+    "description": "登りで段階的に速度を上げ、追走できるライバルを絞り込む。",
+    "target": "本人",
+    "abilities": [
+      "climbing",
+      "stamina"
+    ]
+  },
+  {
+    "id": "mountain_ace_summit",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "頂上前加速",
+    "description": "山頂前で加速し、下りへ入る前に有利な位置と時間差を作る。",
+    "target": "本人",
+    "abilities": [
+      "climbing",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "mountain_assist_guide",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "山岳先導",
+    "description": "山岳終盤まで高いペースで牽引し、味方エースを攻撃位置へ運ぶ。",
+    "target": "味方エース",
+    "abilities": [
+      "climbing",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "mountain_assist_chase",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "登坂チェイス",
+    "description": "登りで生まれた差を一定ペースで詰め、味方エースを先頭へ戻す。",
+    "target": "味方エース",
+    "abilities": [
+      "climbing",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_ace_acceleration",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "石畳加速",
+    "description": "安定した走行線から加速し、パヴェ区間で先頭位置を奪う。",
+    "target": "本人",
+    "abilities": [
+      "cobble",
+      "acceleration",
+      "bike_control"
+    ]
+  },
+  {
+    "id": "pave_ace_attack",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "悪路アタック",
+    "description": "路面の乱れを利用して仕掛け、悪路に弱いライバルを引き離す。",
+    "target": "本人",
+    "abilities": [
+      "cobble",
+      "fighting"
+    ]
+  },
+  {
+    "id": "pave_assist_pull",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "石畳牽引",
+    "description": "悪路で安全な走行線を保ちながら牽引し、味方エースを前方へ運ぶ。",
+    "target": "味方エース",
+    "abilities": [
+      "cobble",
+      "bike_control",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_assist_chase",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "パヴェ追走",
+    "description": "パヴェで先行した危険な選手を追い、味方エースを先頭集団へ戻す。",
+    "target": "味方エース",
+    "abilities": [
+      "cobble",
+      "cruise",
+      "teamwork"
+    ]
+  }
+]

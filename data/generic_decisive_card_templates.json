@@ -1,0 +1,476 @@
+[
+  {
+    "id": "ace_full_solo",
+    "roleType": "ace",
+    "role": "平坦エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "全開独走",
+    "description": "平坦で全力の単独走を開始し、大きなタイム差を狙う。",
+    "target": "本人",
+    "baseSpecialties": [
+      "高速巡航",
+      "平坦カウンター"
+    ],
+    "abilities": [
+      "cruise",
+      "stamina",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "ace_final_counter",
+    "roleType": "ace",
+    "role": "平坦エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "決定的カウンター",
+    "description": "ライバルの攻撃直後に最大加速し、その動きを逆に勝機へ変える。",
+    "target": "本人",
+    "baseSpecialties": [
+      "平坦カウンター"
+    ],
+    "abilities": [
+      "acceleration",
+      "positioning",
+      "fighting"
+    ]
+  },
+  {
+    "id": "ace_hill_decision",
+    "roleType": "ace",
+    "role": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "丘陵決戦",
+    "description": "丘陵の勝負所で全力加速し、追走集団を絞り込む。",
+    "target": "本人",
+    "baseSpecialties": [
+      "丘陵加速",
+      "短坂アタック"
+    ],
+    "abilities": [
+      "punch",
+      "acceleration",
+      "fighting"
+    ]
+  },
+  {
+    "id": "ace_short_climb_decision",
+    "roleType": "ace",
+    "role": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "短坂決戦",
+    "description": "短い急坂へ全力を集中し、頂上までに決定的な差を作る。",
+    "target": "本人",
+    "baseSpecialties": [
+      "短坂アタック"
+    ],
+    "abilities": [
+      "punch",
+      "fighting"
+    ]
+  },
+  {
+    "id": "ace_mountain_decision",
+    "roleType": "ace",
+    "role": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳決戦",
+    "description": "長い登りで最大出力を維持し、ライバルを一人ずつ脱落させる。",
+    "target": "本人",
+    "baseSpecialties": [
+      "登坂ペースアップ",
+      "頂上前加速"
+    ],
+    "abilities": [
+      "climbing",
+      "stamina",
+      "fighting"
+    ]
+  },
+  {
+    "id": "ace_summit_attack",
+    "roleType": "ace",
+    "role": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "頂上前アタック",
+    "description": "山頂前から全力で仕掛け、下りへ入る前に時間差を作る。",
+    "target": "本人",
+    "baseSpecialties": [
+      "頂上前加速"
+    ],
+    "abilities": [
+      "climbing",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "ace_pave_decision",
+    "roleType": "ace",
+    "role": "パヴェエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "石畳決戦",
+    "description": "パヴェで最大加速し、悪路適性の低い選手を脱落させる。",
+    "target": "本人",
+    "baseSpecialties": [
+      "石畳加速",
+      "悪路アタック"
+    ],
+    "abilities": [
+      "cobble",
+      "acceleration",
+      "bike_control"
+    ]
+  },
+  {
+    "id": "ace_rough_solo",
+    "roleType": "ace",
+    "role": "パヴェエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "悪路独走",
+    "description": "荒れた路面を利用して単独で抜け出し、追走との差を広げる。",
+    "target": "本人",
+    "baseSpecialties": [
+      "悪路アタック"
+    ],
+    "abilities": [
+      "cobble",
+      "fighting",
+      "stamina"
+    ]
+  },
+  {
+    "id": "ace_breakaway_win",
+    "roleType": "ace",
+    "role": "逃げエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "逃げ切り",
+    "description": "残り区間を全力で走り、プロトンの吸収を振り切る。",
+    "target": "本人",
+    "baseSpecialties": [
+      "逃げ選別",
+      "逃げ粘り"
+    ],
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "id": "ace_solo_bridge",
+    "roleType": "ace",
+    "role": "逃げエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "単独ブリッジ",
+    "description": "大きな体力を使って前方集団へ一気に合流する。",
+    "target": "本人",
+    "baseSpecialties": [
+      "逃げ参加",
+      "ブリッジ"
+    ],
+    "abilities": [
+      "cruise",
+      "acceleration",
+      "stamina"
+    ]
+  },
+  {
+    "id": "ace_descent_decision",
+    "roleType": "ace",
+    "role": "下りエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "下り勝負",
+    "description": "高速ダウンヒルで仕掛け、後続とのタイム差を広げる。",
+    "target": "本人",
+    "baseSpecialties": [
+      "下り加速",
+      "下りアタック"
+    ],
+    "abilities": [
+      "bikeControl",
+      "technique",
+      "fighting"
+    ]
+  },
+  {
+    "id": "ace_sprint_decision",
+    "roleType": "ace",
+    "role": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "スプリント決戦",
+    "description": "フィニッシュへ残した力をすべて使い、最高速で勝負する。",
+    "target": "本人",
+    "baseSpecialties": [
+      "高速巡航",
+      "平坦カウンター"
+    ],
+    "abilities": [
+      "sprint",
+      "acceleration",
+      "positioning"
+    ]
+  },
+  {
+    "id": "assist_full_pull",
+    "roleType": "assist",
+    "role": "平坦・TTアシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "全開牽引",
+    "description": "本人の体力を使い切る高速牽引で、味方エースを勝負区間へ運ぶ。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "高速牽引",
+      "ハイペース維持"
+    ],
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_crosswind_defense",
+    "roleType": "assist",
+    "role": "横風アシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "横風防衛",
+    "description": "横風による味方エースの消耗と分断を一度だけ防ぐ。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "横風ガード"
+    ],
+    "abilities": [
+      "cruise",
+      "positioning",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_hill_block",
+    "roleType": "assist",
+    "role": "丘陵アシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "丘陵封鎖",
+    "description": "丘陵で高いペースを維持し、ライバルの攻撃を封じる。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "丘陵ペース",
+      "仕掛け封じ"
+    ],
+    "abilities": [
+      "punch",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_total_devotion",
+    "roleType": "assist",
+    "role": "山岳アシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "全力献身",
+    "description": "山岳で体力を使い切り、味方エースを攻撃位置へ送り出す。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "山岳先導",
+      "最後の山岳牽引"
+    ],
+    "abilities": [
+      "climbing",
+      "stamina",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_mountain_rescue",
+    "roleType": "assist",
+    "role": "山岳アシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳救援",
+    "description": "山岳で遅れた味方エースを牽引し、先頭集団へ戻す。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "登坂チェイス",
+      "山岳ペースアップ"
+    ],
+    "abilities": [
+      "climbing",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_pave_guard",
+    "roleType": "assist",
+    "role": "パヴェアシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "石畳護衛",
+    "description": "パヴェで進路を確保し、味方エースを前方集団へ残す。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "石畳牽引",
+      "パヴェ追走"
+    ],
+    "abilities": [
+      "cobble",
+      "bike_control",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_final_launch",
+    "roleType": "assist",
+    "role": "リードアウト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "最終発射",
+    "description": "味方エースを最高速度でスプリントへ送り出す。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "高速リードアウト",
+      "トレイン加速"
+    ],
+    "abilities": [
+      "sprint",
+      "acceleration",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_emergency_reform",
+    "roleType": "assist",
+    "role": "ロードキャプテン",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "緊急再編",
+    "description": "崩れたチーム隊列を即座に組み直し、勝負位置へ戻す。",
+    "target": "味方チーム",
+    "baseSpecialties": [
+      "隊列再編"
+    ],
+    "abilities": [
+      "teamwork",
+      "technique",
+      "recovery"
+    ]
+  },
+  {
+    "id": "assist_full_return",
+    "roleType": "assist",
+    "role": "復帰アシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "全力復帰",
+    "description": "遅れた味方エースを全力でプロトンへ復帰させる。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "集団復帰",
+      "下り復帰"
+    ],
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_descent_guard",
+    "roleType": "assist",
+    "role": "下りアシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "下り護衛",
+    "description": "下りで味方エースを安全かつ高速に前方集団へ運ぶ。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "ダウンヒル牽引"
+    ],
+    "abilities": [
+      "bikeControl",
+      "technique",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_complete_absorption",
+    "roleType": "assist",
+    "role": "プロトンコントロール",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "完全吸収",
+    "description": "チームを全力追走させ、危険な逃げをプロトンへ吸収する。",
+    "target": "味方チーム",
+    "baseSpecialties": [
+      "逃げ吸収",
+      "ハイペース維持"
+    ],
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "assist_satellite_rescue",
+    "roleType": "assist",
+    "role": "サテライトアシスト",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "サテライト救援",
+    "description": "前方待機から合流し、補給・牽引・風よけをまとめて行う。",
+    "target": "味方エース",
+    "baseSpecialties": [
+      "サテライト合流",
+      "ブリッジ"
+    ],
+    "abilities": [
+      "climbing",
+      "stamina",
+      "recovery",
+      "teamwork"
+    ]
+  }
+]

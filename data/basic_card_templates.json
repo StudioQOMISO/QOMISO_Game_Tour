@@ -1,0 +1,420 @@
+[
+  {
+    "id": "flat_ace_position",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "ポジション確保",
+    "description": "平坦区間で集団前方へ移動し、分断や落車に巻き込まれる危険を下げる。",
+    "target": "本人",
+    "abilities": [
+      "positioning",
+      "bike_control"
+    ]
+  },
+  {
+    "id": "flat_ace_wheel",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "車輪キープ",
+    "description": "有利な選手の後輪を確保し、次の加速に必要な体力を温存する。",
+    "target": "本人",
+    "abilities": [
+      "positioning",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "flat_ace_cruise",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "巡航温存",
+    "description": "平坦で一定速度を保ち、勝負所までスタミナ消費を抑える。",
+    "target": "本人",
+    "abilities": [
+      "cruise",
+      "stamina"
+    ]
+  },
+  {
+    "id": "flat_assist_pull",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "平坦牽引",
+    "description": "平坦で隊列を引き、味方エースの体力消費を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "flat_assist_shelter",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "風よけ",
+    "description": "味方エースの前へ入り、空気抵抗による消耗を軽減する。",
+    "target": "味方エース",
+    "abilities": [
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "flat_assist_guide",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "前方誘導",
+    "description": "安全な進路を選び、味方エースを集団前方へ導く。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "bike_control",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_ace_rhythm",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "丘陵リズム",
+    "description": "起伏に合わせて出力を整え、短い登りでの消耗を抑える。",
+    "target": "本人",
+    "abilities": [
+      "punch",
+      "stamina"
+    ]
+  },
+  {
+    "id": "hill_ace_slope",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "短坂対応",
+    "description": "短い急坂でリズムを崩さず、先頭集団の位置を維持する。",
+    "target": "本人",
+    "abilities": [
+      "climbing",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "hill_ace_watch",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "仕掛け待ち",
+    "description": "周囲の動きを警戒し、丘陵での小さなアタックに反応する。",
+    "target": "本人",
+    "abilities": [
+      "positioning",
+      "fighting"
+    ]
+  },
+  {
+    "id": "hill_assist_pull",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "丘陵牽引",
+    "description": "起伏区間を一定ペースで引き、味方エースの消耗を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "punch",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_assist_position",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "位置引き上げ",
+    "description": "短坂の手前で味方エースを前方へ運び、仕掛けやすい位置を作る。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "acceleration",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_assist_chase",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "追走補助",
+    "description": "丘陵で生まれた小さな差を詰め、味方エースを先頭集団へ戻す。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "punch",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "mountain_ace_rhythm",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "登坂リズム",
+    "description": "一定の呼吸と出力で登り、長い山岳での体力消費を抑える。",
+    "target": "本人",
+    "abilities": [
+      "climbing",
+      "stamina"
+    ]
+  },
+  {
+    "id": "mountain_ace_steep",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "急勾配対応",
+    "description": "急勾配に合わせて出力を調整し、失速を防ぐ。",
+    "target": "本人",
+    "abilities": [
+      "climbing",
+      "recovery"
+    ]
+  },
+  {
+    "id": "mountain_ace_hold",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "山岳待機",
+    "description": "ライバルの直後を維持し、攻撃に反応できる位置で脚を残す。",
+    "target": "本人",
+    "abilities": [
+      "climbing",
+      "positioning"
+    ]
+  },
+  {
+    "id": "mountain_assist_pull",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "山岳牽引",
+    "description": "登りで一定ペースを刻み、味方エースの体力消費を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "climbing",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "mountain_assist_guard",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "山岳ガード",
+    "description": "登りで味方エースの前へ入り、風とペース変化から守る。",
+    "target": "味方エース",
+    "abilities": [
+      "climbing",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "mountain_assist_wheel",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "山岳番手",
+    "description": "味方エースの直後を確保し、相手の小さな攻撃へ反応する。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "climbing",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_ace_line",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "悪路ライン",
+    "description": "凹凸の少ない走行線を選び、パヴェでの速度低下を抑える。",
+    "target": "本人",
+    "abilities": [
+      "cobble",
+      "bike_control"
+    ]
+  },
+  {
+    "id": "pave_ace_absorb",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "衝撃吸収",
+    "description": "車体への衝撃をいなし、悪路区間での体力消費を軽減する。",
+    "target": "本人",
+    "abilities": [
+      "cobble",
+      "endurance"
+    ]
+  },
+  {
+    "id": "pave_ace_entry",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "ace",
+    "role": "エース",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "前方進入",
+    "description": "パヴェ突入前に位置を上げ、渋滞や分断の危険を下げる。",
+    "target": "本人",
+    "abilities": [
+      "positioning",
+      "cobble"
+    ]
+  },
+  {
+    "id": "pave_assist_guard",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "パヴェ護衛",
+    "description": "悪路で味方エースの進路を守り、分断とトラブルを軽減する。",
+    "target": "味方エース",
+    "abilities": [
+      "cobble",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_assist_path",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "進路確保",
+    "description": "集団前方に安全な走行線を作り、味方エースをパヴェへ導く。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "bike_control",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_assist_return",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "usageLimit": null,
+    "name": "トラブル復帰",
+    "description": "小さな遅れを牽引で取り戻し、味方エースを集団へ復帰させる。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "endurance",
+      "teamwork"
+    ]
+  }
+]

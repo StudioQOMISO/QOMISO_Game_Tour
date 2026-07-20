@@ -36,9 +36,27 @@
   "resourceRule": "作戦コストはターンごとの指示量。カード使用者の体力・SP消費は別に処理する",
   "assistCardPolicy": {
     "eliteSupportAptitudeThreshold": 80,
-    "primaryAceGuaranteedAssistCards": 2,
-    "sharedAssistRoleTemplates": 20,
-    "nonPrimaryAceGuaranteedAssistCards": 3,
+    "basicCardsAreShared": true,
+    "sharedBasicCardTemplates": 28,
+    "basicCardTerrains": [
+      "平坦",
+      "丘陵",
+      "山岳",
+      "パヴェ"
+    ],
+    "basicCardsPerTerrainRole": 3,
+    "specialtyCardsAreShared": true,
+    "sharedSpecialtyCardTemplates": 16,
+    "specialtyCardsPerTerrainRole": 2,
+    "primaryAceGuaranteedAssistCards": 0,
+    "genericDecisiveCardTemplates": 24,
+    "genericAceDecisiveCards": 12,
+    "genericAssistDecisiveCards": 12,
+    "sharedAssistRoleTemplates": 22,
+    "roleBasicCardTemplates": 4,
+    "roleSpecialtyCardTemplates": 18,
+    "roleDecisiveCardTemplates": 0,
+    "nonPrimaryAceGuaranteedAssistCards": 1,
     "nonPrimaryAceIncludesAssistDecisive": true
   }
 }

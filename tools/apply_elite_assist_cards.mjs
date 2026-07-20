@@ -5,29 +5,42 @@ const aceCardPath = "data/ace_signature_cards.json";
 const outputPath = "data/elite_assist_cards.json";
 const roleDefinitionPath = "data/rider_role_definitions.json";
 const roleTemplateOutputPath = "data/assist_card_role_templates.json";
+const basicTemplateOutputPath = "data/basic_card_templates.json";
+const specialtyTemplateOutputPath = "data/specialty_card_templates.json";
+const genericDecisiveOutputPath = "data/generic_decisive_card_templates.json";
 
 const assistRoleCards = {
   "サブエース": ["プランB", 2],
   "ロードキャプテン": ["隊列再編", 2],
-  "スーパー・ドメスティーク": ["全力献身", 3],
+
   "リードアウト": ["高速リードアウト", 2],
-  "最終発射台": ["最終発射", 3],
+
   "スプリントトレイン": ["トレイン加速", 2],
-  "平坦アシスト": ["平坦牽引", 1],
   "平坦ペースメーカー": ["ハイペース維持", 2],
-  "山岳アシスト": ["山岳牽引", 1],
   "山岳番手": ["最後の山岳牽引", 2],
   "山岳ペースメーカー": ["山岳ペースアップ", 2],
-  "TT牽引": ["エアロ牽引", 1],
-  "石畳護衛": ["パヴェ護衛", 1],
   "下り牽引": ["ダウンヒル牽引", 2],
-  "集団コントローラー": ["逃げ差調整", 1],
   "ブレイクアウェイキラー": ["逃げ吸収", 2],
-  "横風要員": ["横風ガード", 1],
   "トラブル復帰牽引": ["集団復帰", 2],
   "サテライトライダー": ["サテライト合流", 2],
-  "ポジションキーパー": ["前方位置キープ", 1],
 };
+
+const breakawaySpecialtyCards = [
+  { suffix: "join", name: "逃げ参加", description: "序盤の逃げ形成時、逃げ集団へ入る成功率を上げる。", target: "本人" },
+  { suffix: "bridge", name: "ブリッジ", description: "メイン集団から加速し、すでに形成された逃げ集団へ合流する。", target: "本人" },
+  { suffix: "rotation", slot: "basic", cost: 1, name: "先頭交代", description: "逃げ集団の先頭を長く引き、本人の体力を使ってタイム差を広げる。", target: "逃げ集団" },
+  { suffix: "control", slot: "basic", cost: 1, name: "ペース調整", description: "余計な体力消費を抑えながら、逃げ集団の速度とタイム差を維持する。", target: "逃げ集団" },
+  { suffix: "selection", name: "逃げ選別", description: "起伏や横風でペースを上げ、逃げ集団の人数を絞り込む。", target: "逃げ集団" },
+  { suffix: "survival", name: "逃げ粘り", description: "吸収されそうな場面で再加速し、逃げ集団の生存時間を延ばす。", target: "本人" },
+];
+
+const downhillSpecialtyCards = [
+  { suffix: "cornering", slot: "basic", cost: 1, name: "高速コーナリング", description: "コーナーでの速度低下と落車リスクを抑える。", target: "本人" },
+  { suffix: "acceleration", name: "下り加速", description: "下りの直線で速度を上げ、前方集団との差を縮める。", target: "本人" },
+  { suffix: "attack", name: "下りアタック", description: "テクニカルな下りで仕掛け、後続とのタイム差を作る。", target: "本人" },
+  { suffix: "safety", slot: "basic", cost: 1, name: "安全誘導", description: "安全な走行ラインを示し、味方エースの落車リスクを下げる。", target: "味方エース" },
+  { suffix: "return", name: "下り復帰", description: "下りで遅れた味方を牽引し、プロトンや前方集団へ復帰させる。", target: "味方エース" },
+];
 
 const card = (slot, name, description, target = "味方エース") => ({
   slot,
@@ -38,78 +51,48 @@ const card = (slot, name, description, target = "味方エース") => ({
   target,
 });
 
-const packages = {
+const decisivePackages = {
   "Tadej Pogacar": [
-    card("basic", "山岳番手", "登りで味方エースの直後を走り、相手の攻撃へ反応できる位置を維持する。"),
-    card("specialty", "サテライト合流", "先行グループから戻って味方エースと合流し、登りの攻撃を補助する。"),
   ],
   "Wout van Aert": [
-    card("basic", "石畳護衛", "悪路で味方エースを前方へ導き、分断と落車の危険を軽減する。"),
-    card("specialty", "万能アシスト", "地形に応じて牽引、追走、位置上げのうち最も必要な支援を行う。"),
   ],
-  "Mads Pedersen (cyclist)": [
-    card("basic", "平坦牽引", "平坦で隊列を引き、味方エースの体力消費を抑える。"),
-    card("specialty", "スプリントトレイン", "高速隊列を作り、スプリントエースを前方へ運ぶ。"),
+  "Mads Pedersen": [
     card("decisive", "耐久リードアウト", "長い距離を全開で牽引し、味方エースを最終発射位置へ届ける。"),
   ],
   "Florian Sénéchal": [
-    card("basic", "前方確保", "集団前方に安全な進路を作り、味方エースの位置を上げる。"),
-    card("specialty", "石畳ペース", "悪路で安定した速度を維持し、隊列の分断を防ぐ。"),
     card("decisive", "クラシック牽引", "終盤の悪路を全開で引き、味方エースへ攻撃機会を作る。"),
   ],
   "Victor Campenaerts": [
-    card("basic", "エアロ牽引", "空気抵抗を抑えた牽引で、味方エースの体力を温存する。"),
-    card("specialty", "逃げ吸収", "高い巡航力で逃げ集団とのタイム差を大きく縮める。"),
     card("decisive", "全開ブリッジ", "自分の体力を使い切る高速走で、味方エースを前方集団へ合流させる。"),
   ],
   "Stefan Bissegger": [
-    card("basic", "横風ガード", "横風側へ入り、味方エースの風による消耗を軽減する。"),
-    card("specialty", "TT牽引", "一定の高出力で隊列を引き、集団速度を引き上げる。"),
     card("decisive", "横風エンジン", "横風区間で全開牽引し、味方を前方集団へ残したまま集団を分断する。"),
   ],
   "Sepp Kuss": [
-    card("basic", "山岳ガード", "登りで味方エースの風よけとなり、体力消費を軽減する。"),
-    card("specialty", "最後の山岳牽引", "山岳終盤まで高いペースを維持し、味方エースを攻撃位置へ運ぶ。"),
     card("decisive", "山岳献身", "自分の残り体力を使い切り、味方エースの山岳攻撃を最大限に強化する。"),
   ],
   "Amaury Capiot": [
-    card("basic", "位置案内", "混雑した集団内で安全な進路を選び、味方エースを前方へ導く。"),
-    card("specialty", "平坦追走", "平坦区間で先行グループとの差を縮める。"),
     card("decisive", "集団復帰牽引", "遅れた味方エースを全力でメイングループへ復帰させる。"),
   ],
-  "Ben Turner (cyclist)": [
-    card("basic", "平坦牽引", "平坦で隊列を引き、味方エースの体力消費を抑える。"),
-    card("specialty", "逃げ差調整", "危険な逃げだけを追い、不要な消耗を避けながら差を管理する。"),
+  "Ben Turner": [
     card("decisive", "高速追走", "終盤に全開牽引し、逃げ集団を勝負圏内まで引き戻す。"),
   ],
   "Ethan Hayter": [
-    card("basic", "エアロ牽引", "空気抵抗を抑えた牽引で、味方エースの体力を温存する。"),
-    card("specialty", "ペースアップ", "平坦区間の速度を段階的に上げ、後方の選手を消耗させる。"),
     card("decisive", "高速発射", "高速巡航から一段加速し、味方エースをスプリント位置へ送り出す。"),
   ],
   "Johan Price-Pejtersen": [
-    card("basic", "TT牽引", "一定出力で隊列を引き、味方全体の体力消費を抑える。"),
-    card("specialty", "集団制御", "逃げとのタイム差を一定に保ち、勝負所まで展開を安定させる。"),
     card("decisive", "長距離追走", "長時間の全開巡航で、前方集団との大きな差を縮める。"),
   ],
   "Tobias Foss": [
-    card("basic", "隊列指示", "味方の並びを整え、次に使うアシストカードの効果を高める。"),
-    card("specialty", "クロノ牽引", "正確なペースで隊列を引き、味方エースを安全に運ぶ。"),
     card("decisive", "クロノ王の隊列再編", "崩れた隊列を立て直し、味方全員を勝負位置へ戻す。"),
   ],
   "Bob Jungels": [
-    card("basic", "ロード指揮", "集団状況を読み、味方エースが動くべき位置を確保する。"),
-    card("specialty", "平坦ペースメーカー", "長い平坦区間を高い一定速度で牽引する。"),
     card("decisive", "逃げ完全吸収", "チームをまとめて追走させ、危険な逃げを一気に吸収する。"),
   ],
   "Dylan van Baarle": [
-    card("basic", "パヴェ護衛", "石畳で味方エースの進路を確保し、悪路消耗を軽減する。"),
-    card("specialty", "ブレイク潰し", "悪路で先行した危険な選手を追走し、攻撃を無効化する。"),
     card("decisive", "石畳の追撃", "石畳区間を全開で追走し、味方エースを先頭グループへ運ぶ。"),
   ],
   "Edoardo Affini": [
-    card("basic", "隊列指示", "味方の並びを整え、牽引交代を安定させる。"),
-    card("specialty", "高速牽引", "平坦で高い速度を維持し、味方エースの体力を温存する。"),
     card("decisive", "高速再編", "散らばった味方を集め直し、高速隊列を即座に再構築する。"),
   ],
 };
@@ -138,13 +121,13 @@ const riders = parseCsv(await fs.readFile(rosterPath, "utf8"));
 const aceCards = JSON.parse(await fs.readFile(aceCardPath, "utf8"));
 const aceCardByRider = new Map(aceCards.map((entry) => [entry.riderName, entry.name]));
 const elite = riders.filter((row) => Number(row.support_aptitude) >= 80);
-const missing = elite.filter((row) => !packages[row.name]).map((row) => row.name);
+const missing = elite.filter((row) => !decisivePackages[row.name]).map((row) => row.name);
 if (elite.length !== 15 || missing.length) throw new Error("elite assist mapping mismatch: " + missing.join(" / "));
 
 const output = elite.map((row) => {
   const primaryAce = /(?:総合|スプリント|丘陵|山岳)エース/.test(row.preferred_roles);
-  const cards = packages[row.name];
-  const expectedCount = primaryAce ? 2 : 3;
+  const cards = decisivePackages[row.name];
+  const expectedCount = primaryAce ? 0 : 1;
   if (cards.length !== expectedCount) throw new Error(row.name + ": card count " + cards.length);
   if (!primaryAce && !cards.some((entry) => entry.slot === "decisive")) throw new Error(row.name + ": missing assist decisive");
   return {
@@ -160,13 +143,13 @@ const output = elite.map((row) => {
 });
 
 const totalCards = output.reduce((sum, entry) => sum + entry.cards.length, 0);
-if (totalCards !== 43) throw new Error("elite assist card total mismatch: " + totalCards);
+if (totalCards !== 13) throw new Error("elite assist card total mismatch: " + totalCards);
 await fs.writeFile(outputPath, JSON.stringify(output, null, 2) + "\n", "utf8");
 console.log(JSON.stringify({ eliteAssistRiders: output.length, primaryAces: output.filter((entry) => entry.primaryAce).length, assistCards: totalCards, outputPath }, null, 2));
 
 const roleDefinitions = JSON.parse(await fs.readFile(roleDefinitionPath, "utf8"));
 const roleByName = new Map(roleDefinitions.map((entry) => [entry.name, entry]));
-const roleTemplates = Object.entries(assistRoleCards).map(([role, [name, cost]]) => {
+const baseRoleTemplates = Object.entries(assistRoleCards).map(([role, [name, cost]]) => {
   const definition = roleByName.get(role);
   if (!definition) throw new Error("missing assist role definition: " + role);
   return {
@@ -180,5 +163,81 @@ const roleTemplates = Object.entries(assistRoleCards).map(([role, [name, cost]])
     abilities: definition.abilities,
   };
 });
-if (roleTemplates.length !== 20) throw new Error("assist role template count mismatch: " + roleTemplates.length);
+const breakawayDefinition = roleByName.get("逃げ屋");
+if (!breakawayDefinition) throw new Error("missing assist role definition: 逃げ屋");
+const breakawayTemplates = breakawaySpecialtyCards.map((entry) => ({
+  roleId: breakawayDefinition.id + "_" + entry.suffix,
+  role: breakawayDefinition.name,
+  slot: entry.slot || "specialty",
+  cost: entry.cost || 2,
+  name: entry.name,
+  description: entry.description,
+  target: entry.target,
+  abilities: breakawayDefinition.abilities,
+}));
+const downhillDefinition = roleByName.get("下り牽引");
+if (!downhillDefinition) throw new Error("missing assist role definition: 下り牽引");
+const downhillTemplates = downhillSpecialtyCards.map((entry) => ({
+  roleId: downhillDefinition.id + "_" + entry.suffix,
+  role: downhillDefinition.name,
+  slot: entry.slot || "specialty",
+  cost: entry.cost || 2,
+  name: entry.name,
+  description: entry.description,
+  target: entry.target,
+  abilities: downhillDefinition.abilities,
+}));
+const roleTemplates = [...baseRoleTemplates, ...breakawayTemplates, ...downhillTemplates];
+const roleBasicTemplates = roleTemplates.filter((entry) => entry.slot === "basic");
+const roleSpecialtyTemplates = roleTemplates.filter((entry) => entry.slot === "specialty");
+if (roleTemplates.length !== 22 || breakawayTemplates.length !== 6 || downhillTemplates.length !== 5 || roleBasicTemplates.length !== 4 || roleSpecialtyTemplates.length !== 18 || roleTemplates.some((entry) => entry.slot === "decisive")) {
+  throw new Error("assist role template count mismatch: " + roleTemplates.length);
+}
 await fs.writeFile(roleTemplateOutputPath, JSON.stringify(roleTemplates, null, 2) + "\n", "utf8");
+
+const basicCardTemplates = JSON.parse(await fs.readFile(basicTemplateOutputPath, "utf8"));
+const basicNames = new Set(basicCardTemplates.map((entry) => entry.name));
+const basicGroups = new Map();
+for (const entry of basicCardTemplates) {
+  const key = entry.terrainId + ":" + entry.roleType;
+  basicGroups.set(key, (basicGroups.get(key) || 0) + 1);
+  if (entry.slot !== "basic" || entry.cost !== 1) throw new Error("invalid basic card: " + entry.id);
+}
+if (basicCardTemplates.length !== 24 || basicNames.size !== 24 || basicGroups.size !== 8 || [...basicGroups.values()].some((count) => count !== 3)) {
+  throw new Error("basic card template matrix mismatch");
+}
+const specialtyCardTemplates = JSON.parse(await fs.readFile(specialtyTemplateOutputPath, "utf8"));
+const specialtyNames = new Set(specialtyCardTemplates.map((entry) => entry.name));
+const specialtyGroups = new Map();
+for (const entry of specialtyCardTemplates) {
+  const key = entry.terrainId + ":" + entry.roleType;
+  specialtyGroups.set(key, (specialtyGroups.get(key) || 0) + 1);
+  if (entry.slot !== "specialty" || entry.cost !== 2) throw new Error("invalid specialty card: " + entry.id);
+}
+if (specialtyCardTemplates.length !== 16 || specialtyNames.size !== 16 || specialtyGroups.size !== 8 || [...specialtyGroups.values()].some((count) => count !== 2)) {
+  throw new Error("specialty card template matrix mismatch");
+}
+const genericDecisiveCards = JSON.parse(await fs.readFile(genericDecisiveOutputPath, "utf8"));
+const genericNames = new Set(genericDecisiveCards.map((entry) => entry.name));
+const genericAceCount = genericDecisiveCards.filter((entry) => entry.roleType === "ace").length;
+const genericAssistCount = genericDecisiveCards.filter((entry) => entry.roleType === "assist").length;
+if (
+  genericDecisiveCards.length !== 24 ||
+  genericNames.size !== 24 ||
+  genericAceCount !== 12 ||
+  genericAssistCount !== 12 ||
+  genericDecisiveCards.some((entry) => entry.slot !== "decisive" || entry.cost !== 3 || entry.usageLimit !== 1)
+) {
+  throw new Error("generic decisive card template mismatch");
+}
+
+console.log(JSON.stringify({
+  roleTemplates: roleTemplates.length,
+  basicCardTemplates: basicCardTemplates.length,
+  basicGroups: Object.fromEntries(basicGroups),
+  specialtyCardTemplates: specialtyCardTemplates.length,
+  specialtyGroups: Object.fromEntries(specialtyGroups),
+  genericDecisiveCards: genericDecisiveCards.length,
+  genericAceCount,
+  genericAssistCount,
+}, null, 2));

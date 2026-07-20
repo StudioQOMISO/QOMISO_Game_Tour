@@ -28,21 +28,6 @@
     ]
   },
   {
-    "roleId": "super_domestique",
-    "role": "スーパー・ドメスティーク",
-    "slot": "decisive",
-    "cost": 3,
-    "name": "全力献身",
-    "description": "高強度牽引と長時間護衛を終盤まで維持する。",
-    "target": "味方エース",
-    "abilities": [
-      "support_aptitude",
-      "stamina",
-      "recovery",
-      "teamwork"
-    ]
-  },
-  {
     "roleId": "leadout",
     "role": "リードアウト",
     "slot": "specialty",
@@ -54,21 +39,6 @@
       "acceleration",
       "sprint",
       "cruise",
-      "teamwork"
-    ]
-  },
-  {
-    "roleId": "final_leadout",
-    "role": "最終発射台",
-    "slot": "decisive",
-    "cost": 3,
-    "name": "最終発射",
-    "description": "風よけを最後まで維持し発射タイミングを最適化する。",
-    "target": "味方エース",
-    "abilities": [
-      "acceleration",
-      "sprint",
-      "technique",
       "teamwork"
     ]
   },
@@ -88,20 +58,6 @@
     ]
   },
   {
-    "roleId": "flat_domestique",
-    "role": "平坦アシスト",
-    "slot": "basic",
-    "cost": 1,
-    "name": "平坦牽引",
-    "description": "エースの消耗と集団内トラブルを軽減する。",
-    "target": "味方エース",
-    "abilities": [
-      "cruise",
-      "stamina",
-      "teamwork"
-    ]
-  },
-  {
     "roleId": "flat_pacesetter",
     "role": "平坦ペースメーカー",
     "slot": "specialty",
@@ -113,21 +69,6 @@
       "cruise",
       "stamina",
       "recovery"
-    ]
-  },
-  {
-    "roleId": "climbing_domestique",
-    "role": "山岳アシスト",
-    "slot": "basic",
-    "cost": 1,
-    "name": "山岳牽引",
-    "description": "エースの登坂時消耗を抑え孤立を遅らせる。",
-    "target": "味方エース",
-    "abilities": [
-      "climb",
-      "stamina",
-      "recovery",
-      "teamwork"
     ]
   },
   {
@@ -160,35 +101,6 @@
     ]
   },
   {
-    "roleId": "tt_puller",
-    "role": "TT牽引",
-    "slot": "basic",
-    "cost": 1,
-    "name": "エアロ牽引",
-    "description": "高速隊列の平均速度を引き上げる。",
-    "target": "味方エース",
-    "abilities": [
-      "cruise",
-      "stamina",
-      "technique"
-    ]
-  },
-  {
-    "roleId": "cobbles_protector",
-    "role": "石畳護衛",
-    "slot": "basic",
-    "cost": 1,
-    "name": "パヴェ護衛",
-    "description": "パヴェ進入時の位置取りとトラブル耐性を補助する。",
-    "target": "味方エース",
-    "abilities": [
-      "pave",
-      "fighting",
-      "technique",
-      "cruise"
-    ]
-  },
-  {
     "roleId": "descending_guide",
     "role": "下り牽引",
     "slot": "specialty",
@@ -203,20 +115,6 @@
     ]
   },
   {
-    "roleId": "peloton_controller",
-    "role": "集団コントローラー",
-    "slot": "basic",
-    "cost": 1,
-    "name": "逃げ差調整",
-    "description": "追走強度とタイムギャップを安定させる。",
-    "target": "味方エース",
-    "abilities": [
-      "cruise",
-      "stamina",
-      "teamwork"
-    ]
-  },
-  {
     "roleId": "breakaway_killer",
     "role": "ブレイクアウェイキラー",
     "slot": "specialty",
@@ -227,21 +125,6 @@
     "abilities": [
       "cruise",
       "stamina",
-      "teamwork"
-    ]
-  },
-  {
-    "roleId": "crosswind_domestique",
-    "role": "横風要員",
-    "slot": "basic",
-    "cost": 1,
-    "name": "横風ガード",
-    "description": "横風消耗と集団分断リスクを軽減する。",
-    "target": "味方エース",
-    "abilities": [
-      "cruise",
-      "fighting",
-      "technique",
       "teamwork"
     ]
   },
@@ -275,16 +158,162 @@
     ]
   },
   {
-    "roleId": "position_keeper",
-    "role": "ポジションキーパー",
+    "roleId": "breakaway_specialist_join",
+    "role": "逃げ屋",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "逃げ参加",
+    "description": "序盤の逃げ形成時、逃げ集団へ入る成功率を上げる。",
+    "target": "本人",
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "breakaway_specialist_bridge",
+    "role": "逃げ屋",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "ブリッジ",
+    "description": "メイン集団から加速し、すでに形成された逃げ集団へ合流する。",
+    "target": "本人",
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "breakaway_specialist_rotation",
+    "role": "逃げ屋",
     "slot": "basic",
     "cost": 1,
-    "name": "前方位置キープ",
-    "description": "渋滞、落車、分断に巻き込まれる確率を下げる。",
+    "name": "先頭交代",
+    "description": "逃げ集団の先頭を長く引き、本人の体力を使ってタイム差を広げる。",
+    "target": "逃げ集団",
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "breakaway_specialist_control",
+    "role": "逃げ屋",
+    "slot": "basic",
+    "cost": 1,
+    "name": "ペース調整",
+    "description": "余計な体力消費を抑えながら、逃げ集団の速度とタイム差を維持する。",
+    "target": "逃げ集団",
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "breakaway_specialist_selection",
+    "role": "逃げ屋",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "逃げ選別",
+    "description": "起伏や横風でペースを上げ、逃げ集団の人数を絞り込む。",
+    "target": "逃げ集団",
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "breakaway_specialist_survival",
+    "role": "逃げ屋",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "逃げ粘り",
+    "description": "吸収されそうな場面で再加速し、逃げ集団の生存時間を延ばす。",
+    "target": "本人",
+    "abilities": [
+      "stamina",
+      "cruise",
+      "fighting",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "descending_guide_cornering",
+    "role": "下り牽引",
+    "slot": "basic",
+    "cost": 1,
+    "name": "高速コーナリング",
+    "description": "コーナーでの速度低下と落車リスクを抑える。",
+    "target": "本人",
+    "abilities": [
+      "bikeControl",
+      "technique",
+      "fighting"
+    ]
+  },
+  {
+    "roleId": "descending_guide_acceleration",
+    "role": "下り牽引",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "下り加速",
+    "description": "下りの直線で速度を上げ、前方集団との差を縮める。",
+    "target": "本人",
+    "abilities": [
+      "bikeControl",
+      "technique",
+      "fighting"
+    ]
+  },
+  {
+    "roleId": "descending_guide_attack",
+    "role": "下り牽引",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "下りアタック",
+    "description": "テクニカルな下りで仕掛け、後続とのタイム差を作る。",
+    "target": "本人",
+    "abilities": [
+      "bikeControl",
+      "technique",
+      "fighting"
+    ]
+  },
+  {
+    "roleId": "descending_guide_safety",
+    "role": "下り牽引",
+    "slot": "basic",
+    "cost": 1,
+    "name": "安全誘導",
+    "description": "安全な走行ラインを示し、味方エースの落車リスクを下げる。",
     "target": "味方エース",
     "abilities": [
+      "bikeControl",
       "technique",
-      "acceleration",
+      "fighting"
+    ]
+  },
+  {
+    "roleId": "descending_guide_return",
+    "role": "下り牽引",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "下り復帰",
+    "description": "下りで遅れた味方を牽引し、プロトンや前方集団へ復帰させる。",
+    "target": "味方エース",
+    "abilities": [
+      "bikeControl",
+      "technique",
       "fighting"
     ]
   }
