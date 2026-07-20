@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const csvPath = path.join(workspace, "data", "rider_parameters_300_fixed.csv");
+const aceSignaturePath = path.join(workspace, "data", "ace_signature_cards.json");
 
 const titles = new Map(Object.entries({
   "Jan Ullrich": "ドイツの巨砲",
@@ -72,6 +73,10 @@ const titles = new Map(Object.entries({
   "Nairo Quintana": "アンデスの鷹",
 }));
 
+const aceSignatures = JSON.parse(await fs.readFile(aceSignaturePath, "utf8"));
+const aceSignatureByName = new Map(aceSignatures.map((entry) => [entry.riderName, entry]));
+for (const entry of aceSignatures) titles.set(entry.riderName, entry.riderTitle);
+
 function parseCsv(text) {
   const rows = [];
   let row = [], cell = "", quoted = false;
@@ -104,23 +109,28 @@ headers.splice(headers.indexOf("name") + 1, 0, ...titleFields);
 
 for (const row of rows) {
   const famousAchievement = Number(row.world_road_gold) + Number(row.world_itt_gold) + Number(row.pave_wins) > 0;
-  const eligible = Number(row.credit_salary) >= 10000 || famousAchievement;
+  const signature = aceSignatureByName.get(row.name);
+  const eligible = titles.has(row.name);
   row.rider_title = titles.get(row.name) || "";
-  row.rider_title_eligibility = Number(row.credit_salary) >= 10000
-    ? "Credit 10,000以上"
-    : famousAchievement ? "著名実績枠" : "対象外";
+  row.rider_title_eligibility = signature
+    ? "エース固有枠"
+    : Number(row.credit_salary) >= 10000 ? "Credit 10,000以上"
+    : famousAchievement ? "著名実績枠"
+    : eligible ? "二つ名選定枠" : "対象外";
   const achievements = [];
   if (Number(row.world_road_gold)) achievements.push(`世界ロード金${row.world_road_gold}`);
   if (Number(row.world_itt_gold)) achievements.push(`世界ITT金${row.world_itt_gold}`);
   if (Number(row.pave_wins)) achievements.push(`パリ〜ルーベ優勝${row.pave_wins}`);
-  row.rider_title_basis = eligible
+  row.rider_title_basis = signature
+    ? signature.eligibility + "／エース適性" + row.ace_aptitude + "／固有勝負手「" + signature.name + "」"
+    : eligible
     ? [`Credit ${Number(row.credit_salary).toLocaleString("en-US")}`, row.primary_archetype, row.secondary_archetype, ...achievements].filter(Boolean).join("／")
     : "";
   if (eligible !== titles.has(row.name)) throw new Error(`二つ名対象との不一致: ${row.name}`);
 }
 
 const duplicateTitles = [...titles.values()].filter((title, index, all) => all.indexOf(title) !== index);
-if (titles.size !== 64 || duplicateTitles.length) throw new Error(`二つ名検証失敗: count=${titles.size}, duplicates=${duplicateTitles.join(" / ")}`);
+if (titles.size !== 103 || aceSignatures.length !== 50 || duplicateTitles.length) throw new Error(`二つ名検証失敗: count=${titles.size}, ace=${aceSignatures.length}, duplicates=${duplicateTitles.join(" / ")}`);
 
 await fs.writeFile(csvPath, [headers, ...rows.map((row) => headers.map((header) => row[header] ?? ""))]
   .map((cells) => cells.map(csvCell).join(",")).join("\n") + "\n", "utf8");

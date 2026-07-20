@@ -3,22 +3,26 @@
   "carryOverUnusedBudget": false,
   "maxIndividualCardsPerRiderPerTurn": 1,
   "maxTeamCardsPerTurn": 1,
+  "teamCardDeckSize": 6,
   "cardSlots": [
     {
       "id": "basic",
       "name": "基本技",
+      "countPerRider": 3,
       "cost": 1,
       "usage": "低コストの通常行動"
     },
     {
       "id": "specialty",
       "name": "得意技",
+      "countPerRider": 2,
       "cost": 2,
       "usage": "選手の得意分野を表す強い行動"
     },
     {
       "id": "decisive",
       "name": "勝負手",
+      "countPerRider": 1,
       "cost": 3,
       "usage": "原則レース中1回の決定的な行動"
     }
@@ -27,7 +31,14 @@
     1,
     2
   ],
-  "selectionMode": "選手を選ぶと3枚を固定表示し、選択カードを行動キューへ追加する",
+  "selectionMode": "選手を選ぶと基本技3枚、得意技2枚、勝負手1枚の計6枚を固定表示し、選択カードを行動キューへ追加する",
   "resolutionOrder": "プレイヤーが指定した行動キュー順",
-  "resourceRule": "作戦コストはターンごとの指示量。カード使用者の体力・SP消費は別に処理する"
+  "resourceRule": "作戦コストはターンごとの指示量。カード使用者の体力・SP消費は別に処理する",
+  "assistCardPolicy": {
+    "eliteSupportAptitudeThreshold": 80,
+    "primaryAceGuaranteedAssistCards": 2,
+    "sharedAssistRoleTemplates": 20,
+    "nonPrimaryAceGuaranteedAssistCards": 3,
+    "nonPrimaryAceIncludesAssistDecisive": true
+  }
 }

@@ -1,0 +1,852 @@
+[
+  {
+    "riderNo": 1,
+    "riderName": "Tadej Pogacar",
+    "riderTitle": "新時代の皇帝",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "皇帝のカウンター",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "総合エース",
+      "登坂力 / スタミナ / 回復力"
+    ]
+  },
+  {
+    "riderNo": 2,
+    "riderName": "Mathieu van der Poel",
+    "riderTitle": "虹色の暴君",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "暴君のロングスパート",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "耐久力 / 技術力 / バイクコントロール"
+    ]
+  },
+  {
+    "riderNo": 3,
+    "riderName": "Paul Seixas",
+    "riderTitle": "三色の新星",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "新星の山岳加速",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 4,
+    "riderName": "Isaac del Toro",
+    "riderTitle": "メキシコの火花",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "火花の登坂加速",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 5,
+    "riderName": "Jonas Vingegaard",
+    "riderTitle": "北海の山岳王",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳王の持続攻撃",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "総合エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 6,
+    "riderName": "Wout van Aert",
+    "riderTitle": "万能の銀弾",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "銀弾の全開牽引",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "技術力 / 闘争心 / 巡航力"
+    ]
+  },
+  {
+    "riderNo": 7,
+    "riderName": "Remco Evenepoel",
+    "riderTitle": "弾丸の天才",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "弾丸の独走",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "TT・ルーラー型",
+    "basedOn": [
+      "総合エース",
+      "巡航力 / スタミナ / 耐久力"
+    ]
+  },
+  {
+    "riderNo": 8,
+    "riderName": "Primoz Roglic",
+    "riderTitle": "不屈の跳躍者",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "跳躍者の最終加速",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "総合エース",
+      "スタミナ / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 9,
+    "riderName": "Julian Alaphilippe",
+    "riderTitle": "虹色の踊り子",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "踊り子の短坂アタック",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 自己主張 / 闘争心"
+    ]
+  },
+  {
+    "riderNo": 10,
+    "riderName": "Jasper Philipsen",
+    "riderTitle": "低地の快速王",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "快速王のファイナルスプリント",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 11,
+    "riderName": "Filippo Ganna",
+    "riderTitle": "蒼きトップギア",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "トップギアの独走",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "TT・ルーラー型",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "丘陵エース",
+      "巡航力 / 技術力 / 連携力"
+    ]
+  },
+  {
+    "riderNo": 12,
+    "riderName": "Egan Bernal",
+    "riderTitle": "アンデスの若き王",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "若き王の高地攻撃",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "総合エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 13,
+    "riderName": "Jonathan Milan",
+    "riderTitle": "アドリアの大砲",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "大砲のパワースプリント",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "TT・ルーラー型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 14,
+    "riderName": "Biniam Girmay",
+    "riderTitle": "アフリカの疾風",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "疾風の抜け出し",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "スプリントエース",
+      "加速力 / 自己主張 / 最高速"
+    ]
+  },
+  {
+    "riderNo": 15,
+    "riderName": "Arnaud De Lie",
+    "riderTitle": "ワロンの猛牛",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "猛牛の登りスプリント",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "スプリンター",
+    "basedOn": [
+      "丘陵エース",
+      "加速力 / パンチ力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 16,
+    "riderName": "Juan Ayuso",
+    "riderTitle": "イベリアの野心家",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "野心家の山岳加速",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 17,
+    "riderName": "Olav Kooij",
+    "riderTitle": "低地の若き矢",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "若き矢の最終加速",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "TT・ルーラー型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 18,
+    "riderName": "Alberto Bettiol",
+    "riderTitle": "トスカーナの剛脚",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "剛脚の石畳突破",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "闘争心 / バイクコントロール / 耐久力"
+    ]
+  },
+  {
+    "riderNo": 19,
+    "riderName": "Tim Wellens",
+    "riderTitle": "雨天の狩人",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "狩人の短坂連撃",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 20,
+    "riderName": "Mattias Skjelmose",
+    "riderTitle": "北欧の鋭刃",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "鋭刃の丘陵加速",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "総合型",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 21,
+    "riderName": "Kaden Groves",
+    "riderTitle": "豪州の快速車",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "快速車のパワースプリント",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 22,
+    "riderName": "Fabio Jakobsen",
+    "riderTitle": "不屈の疾走者",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "不屈の最終疾走",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 23,
+    "riderName": "Tom Pidcock",
+    "riderTitle": "英国の曲芸師",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "曲芸師の悪路アタック",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "バイクコントロール / 技術力 / 闘争心"
+    ]
+  },
+  {
+    "riderNo": 24,
+    "riderName": "Jasper Stuyven",
+    "riderTitle": "ルーヴェンの石畳槍",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "石畳槍のロングスパート",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "スプリンター",
+    "basedOn": [
+      "丘陵エース",
+      "パヴェ適性 / 技術力 / バイクコントロール"
+    ]
+  },
+  {
+    "riderNo": 25,
+    "riderName": "Warren Barguil",
+    "riderTitle": "ブルターニュの山猫",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山猫の頂上攻撃",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 26,
+    "riderName": "Maxim Van Gils",
+    "riderTitle": "低地のパンチ砲",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "パンチ砲の急坂加速",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 27,
+    "riderName": "Pascal Ackermann",
+    "riderTitle": "ドイツの急行",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "急行の最終スプリント",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "TT・ルーラー型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 28,
+    "riderName": "Giulio Ciccone",
+    "riderTitle": "青き山岳狩人",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳狩人の頂上攻撃",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 29,
+    "riderName": "Jai Hindley",
+    "riderTitle": "豪州の山岳航海士",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "航海士の持続登坂",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 登坂力"
+    ]
+  },
+  {
+    "riderNo": 30,
+    "riderName": "Matej Mohoric",
+    "riderTitle": "下りの異端児",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "異端児のダウンヒルアタック",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "バイクコントロール / 技術力 / 闘争心"
+    ]
+  },
+  {
+    "riderNo": 31,
+    "riderName": "David Gaudu",
+    "riderTitle": "ブルターニュの山岳剣",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳剣の頂上加速",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "総合型",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 32,
+    "riderName": "Tiesj Benoot",
+    "riderTitle": "石畳の闘犬",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "闘犬の悪路追走",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "闘争心 / バイクコントロール / 技術力"
+    ]
+  },
+  {
+    "riderNo": 33,
+    "riderName": "Valentin Madouas",
+    "riderTitle": "丘陵の青い閃光",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "青い閃光の短坂攻撃",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / バイクコントロール"
+    ]
+  },
+  {
+    "riderNo": 34,
+    "riderName": "Florian Lipowitz",
+    "riderTitle": "ドイツの山岳新星",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳新星の持続登坂",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 登坂力"
+    ]
+  },
+  {
+    "riderNo": 35,
+    "riderName": "Pello Bilbao",
+    "riderTitle": "バスクの急降下",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "バスクの下り攻撃",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "総合型",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / 闘争心"
+    ]
+  },
+  {
+    "riderNo": 36,
+    "riderName": "Romain Gregoire",
+    "riderTitle": "フランスの若き拳",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "若き拳の丘陵加速",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "スプリンター",
+    "basedOn": [
+      "丘陵エース",
+      "加速力 / パンチ力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 37,
+    "riderName": "Juan Sebastian Molano",
+    "riderTitle": "コロンビアの快速弾",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "快速弾のスプリント",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "TT・ルーラー型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 38,
+    "riderName": "Jhonatan Narvaez",
+    "riderTitle": "アンデスのパンチ砲",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "アンデスの連続加速",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / バイクコントロール"
+    ]
+  },
+  {
+    "riderNo": 39,
+    "riderName": "Felix Gall",
+    "riderTitle": "アルプスの登坂者",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "アルプスの持続登坂",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "総合型",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 40,
+    "riderName": "Jordi Meeus",
+    "riderTitle": "低地の突風",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "突風のファイナルスプリント",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 41,
+    "riderName": "Tim Merlier",
+    "riderTitle": "石畳の快速王",
+    "eligibility": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "石畳王の最終加速",
+    "description": "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。",
+    "primaryArchetype": "スプリンター",
+    "secondaryArchetype": "クラシック型",
+    "basedOn": [
+      "スプリントエース",
+      "最高速 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 42,
+    "riderName": "Antonio Tiberi",
+    "riderTitle": "ローマの計算者",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "計算者の総合攻撃",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "TT・ルーラー型",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 登坂力"
+    ]
+  },
+  {
+    "riderNo": 43,
+    "riderName": "Oscar Onley",
+    "riderTitle": "英国の山岳拳",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳拳の急坂加速",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "丘陵エース",
+      "パンチ力 / 加速力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 44,
+    "riderName": "Benoit Cosnefroy",
+    "riderTitle": "ノルマンディーの速射砲",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "速射砲の登りスプリント",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "パンチャー",
+    "secondaryArchetype": "スプリンター",
+    "basedOn": [
+      "丘陵エース",
+      "加速力 / パンチ力 / 自己主張"
+    ]
+  },
+  {
+    "riderNo": 47,
+    "riderName": "Guillaume Martin",
+    "riderTitle": "哲学する山岳者",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "哲学者の山岳攻撃",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "総合型",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 48,
+    "riderName": "Giulio Pellizzari",
+    "riderTitle": "アペニンの新星",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "アペニンの頂上加速",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "総合型",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 49,
+    "riderName": "Enric Mas",
+    "riderTitle": "静かなる山岳騎士",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "山岳騎士の持続攻撃",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "総合エース",
+      "回復力 / 日別回復 / 登坂力"
+    ]
+  },
+  {
+    "riderNo": 52,
+    "riderName": "John Degenkolb",
+    "riderTitle": "石畳の重戦車",
+    "eligibility": "丘陵エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "重戦車の石畳突撃",
+    "description": "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。",
+    "primaryArchetype": "クラシック型",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "丘陵エース",
+      "バイクコントロール / 闘争心 / パヴェ適性"
+    ]
+  },
+  {
+    "riderNo": 56,
+    "riderName": "Richard Carapaz",
+    "riderTitle": "アンデスの機関車",
+    "eligibility": "総合エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "機関車の山岳奇襲",
+    "description": "総合争いの勝負所で固有の攻撃を行い、ライバルからタイムを奪う。",
+    "primaryArchetype": "総合型",
+    "secondaryArchetype": "クライマー",
+    "basedOn": [
+      "総合エース",
+      "日別回復 / 回復力 / 登坂力"
+    ]
+  },
+  {
+    "riderNo": 68,
+    "riderName": "Nairo Quintana",
+    "riderTitle": "アンデスの鷹",
+    "eligibility": "山岳エース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "鷹の頂上攻撃",
+    "description": "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。",
+    "primaryArchetype": "クライマー",
+    "secondaryArchetype": "パンチャー",
+    "basedOn": [
+      "山岳エース",
+      "登坂力 / 回復力 / 日別回復"
+    ]
+  }
+]

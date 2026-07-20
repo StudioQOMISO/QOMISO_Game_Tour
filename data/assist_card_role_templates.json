@@ -1,0 +1,291 @@
+[
+  {
+    "roleId": "sub_ace",
+    "role": "サブエース",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "プランB",
+    "description": "エースの不調や脱落時に第二の勝利プランへ移行する。",
+    "target": "味方エース",
+    "abilities": [
+      "ace_aptitude",
+      "recovery",
+      "fighting"
+    ]
+  },
+  {
+    "roleId": "road_captain",
+    "role": "ロードキャプテン",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "隊列再編",
+    "description": "味方の位置取りと戦術判断を安定させる。",
+    "target": "味方チーム",
+    "abilities": [
+      "teamwork",
+      "technique",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "super_domestique",
+    "role": "スーパー・ドメスティーク",
+    "slot": "decisive",
+    "cost": 3,
+    "name": "全力献身",
+    "description": "高強度牽引と長時間護衛を終盤まで維持する。",
+    "target": "味方エース",
+    "abilities": [
+      "support_aptitude",
+      "stamina",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "leadout",
+    "role": "リードアウト",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "高速リードアウト",
+    "description": "味方スプリンターの位置取りと加速移行を補助する。",
+    "target": "味方エース",
+    "abilities": [
+      "acceleration",
+      "sprint",
+      "cruise",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "final_leadout",
+    "role": "最終発射台",
+    "slot": "decisive",
+    "cost": 3,
+    "name": "最終発射",
+    "description": "風よけを最後まで維持し発射タイミングを最適化する。",
+    "target": "味方エース",
+    "abilities": [
+      "acceleration",
+      "sprint",
+      "technique",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "sprint_train",
+    "role": "スプリントトレイン",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "トレイン加速",
+    "description": "終盤の隊列維持と速度の受け渡しを安定させる。",
+    "target": "味方チーム",
+    "abilities": [
+      "cruise",
+      "acceleration",
+      "sprint",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "flat_domestique",
+    "role": "平坦アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "name": "平坦牽引",
+    "description": "エースの消耗と集団内トラブルを軽減する。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "flat_pacesetter",
+    "role": "平坦ペースメーカー",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "ハイペース維持",
+    "description": "逃げとの差と集団速度を安定させる。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "climbing_domestique",
+    "role": "山岳アシスト",
+    "slot": "basic",
+    "cost": 1,
+    "name": "山岳牽引",
+    "description": "エースの登坂時消耗を抑え孤立を遅らせる。",
+    "target": "味方エース",
+    "abilities": [
+      "climb",
+      "stamina",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "last_mountain_domestique",
+    "role": "山岳番手",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "最後の山岳牽引",
+    "description": "山頂付近の攻撃対応と最終発射を支援する。",
+    "target": "味方エース",
+    "abilities": [
+      "climb",
+      "acceleration",
+      "stamina",
+      "recovery"
+    ]
+  },
+  {
+    "roleId": "mountain_pacesetter",
+    "role": "山岳ペースメーカー",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "山岳ペースアップ",
+    "description": "集団を絞り込み急なアタックを抑制する。",
+    "target": "味方エース",
+    "abilities": [
+      "climb",
+      "stamina",
+      "cruise"
+    ]
+  },
+  {
+    "roleId": "tt_puller",
+    "role": "TT牽引",
+    "slot": "basic",
+    "cost": 1,
+    "name": "エアロ牽引",
+    "description": "高速隊列の平均速度を引き上げる。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "technique"
+    ]
+  },
+  {
+    "roleId": "cobbles_protector",
+    "role": "石畳護衛",
+    "slot": "basic",
+    "cost": 1,
+    "name": "パヴェ護衛",
+    "description": "パヴェ進入時の位置取りとトラブル耐性を補助する。",
+    "target": "味方エース",
+    "abilities": [
+      "pave",
+      "fighting",
+      "technique",
+      "cruise"
+    ]
+  },
+  {
+    "roleId": "descending_guide",
+    "role": "下り牽引",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "ダウンヒル牽引",
+    "description": "下り速度と隊列安定性を高める。",
+    "target": "味方エース",
+    "abilities": [
+      "bikeControl",
+      "technique",
+      "fighting"
+    ]
+  },
+  {
+    "roleId": "peloton_controller",
+    "role": "集団コントローラー",
+    "slot": "basic",
+    "cost": 1,
+    "name": "逃げ差調整",
+    "description": "追走強度とタイムギャップを安定させる。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "breakaway_killer",
+    "role": "ブレイクアウェイキラー",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "逃げ吸収",
+    "description": "逃げとのタイム差を効率よく削る。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "crosswind_domestique",
+    "role": "横風要員",
+    "slot": "basic",
+    "cost": 1,
+    "name": "横風ガード",
+    "description": "横風消耗と集団分断リスクを軽減する。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "fighting",
+      "technique",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "chase_back_domestique",
+    "role": "トラブル復帰牽引",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "集団復帰",
+    "description": "復帰速度を上げエースの消耗を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "satellite_rider",
+    "role": "サテライトライダー",
+    "slot": "specialty",
+    "cost": 2,
+    "name": "サテライト合流",
+    "description": "合流後に補給、牽引、風よけを提供する。",
+    "target": "味方エース",
+    "abilities": [
+      "climb",
+      "stamina",
+      "recovery",
+      "teamwork"
+    ]
+  },
+  {
+    "roleId": "position_keeper",
+    "role": "ポジションキーパー",
+    "slot": "basic",
+    "cost": 1,
+    "name": "前方位置キープ",
+    "description": "渋滞、落車、分断に巻き込まれる確率を下げる。",
+    "target": "味方エース",
+    "abilities": [
+      "technique",
+      "acceleration",
+      "fighting"
+    ]
+  }
+]

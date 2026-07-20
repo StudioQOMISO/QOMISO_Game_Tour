@@ -1,0 +1,556 @@
+[
+  {
+    "riderNo": 1,
+    "riderName": "Tadej Pogacar",
+    "supportAptitude": 83,
+    "primaryAce": true,
+    "guaranteedAssistCards": 2,
+    "linkedAceDecisiveCard": "皇帝のカウンター",
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "山岳番手",
+        "description": "登りで味方エースの直後を走り、相手の攻撃へ反応できる位置を維持する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "サテライト合流",
+        "description": "先行グループから戻って味方エースと合流し、登りの攻撃を補助する。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "総合エース / 山岳賞ハンター / サテライトライダー",
+      "登坂力 / スタミナ / 回復力"
+    ]
+  },
+  {
+    "riderNo": 6,
+    "riderName": "Wout van Aert",
+    "supportAptitude": 90,
+    "primaryAce": true,
+    "guaranteedAssistCards": 2,
+    "linkedAceDecisiveCard": "銀弾の全開牽引",
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "石畳護衛",
+        "description": "悪路で味方エースを前方へ導き、分断と落車の危険を軽減する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "万能アシスト",
+        "description": "地形に応じて牽引、追走、位置上げのうち最も必要な支援を行う。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "丘陵エース / TTスペシャリスト / 石畳護衛",
+      "技術力 / 闘争心 / 巡航力"
+    ]
+  },
+  {
+    "riderNo": 45,
+    "riderName": "Mads Pedersen (cyclist)",
+    "supportAptitude": 82,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "平坦牽引",
+        "description": "平坦で隊列を引き、味方エースの体力消費を抑える。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "スプリントトレイン",
+        "description": "高速隊列を作り、スプリントエースを前方へ運ぶ。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "耐久リードアウト",
+        "description": "長い距離を全開で牽引し、味方エースを最終発射位置へ届ける。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "スプリントトレイン / 平坦アシスト / TT牽引",
+      "耐久力 / バイクコントロール / 連携力"
+    ]
+  },
+  {
+    "riderNo": 53,
+    "riderName": "Florian Sénéchal",
+    "supportAptitude": 81,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "前方確保",
+        "description": "集団前方に安全な進路を作り、味方エースの位置を上げる。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "石畳ペース",
+        "description": "悪路で安定した速度を維持し、隊列の分断を防ぐ。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "クラシック牽引",
+        "description": "終盤の悪路を全開で引き、味方エースへ攻撃機会を作る。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "平坦アシスト / 平坦ペースメーカー / TT牽引",
+      "連携力 / 技術力 / バイクコントロール"
+    ]
+  },
+  {
+    "riderNo": 55,
+    "riderName": "Victor Campenaerts",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "エアロ牽引",
+        "description": "空気抵抗を抑えた牽引で、味方エースの体力を温存する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "逃げ吸収",
+        "description": "高い巡航力で逃げ集団とのタイム差を大きく縮める。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "全開ブリッジ",
+        "description": "自分の体力を使い切る高速走で、味方エースを前方集団へ合流させる。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "サブエース / スーパー・ドメスティーク / TTスペシャリスト",
+      "巡航力 / 連携力 / 技術力"
+    ]
+  },
+  {
+    "riderNo": 59,
+    "riderName": "Stefan Bissegger",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "横風ガード",
+        "description": "横風側へ入り、味方エースの風による消耗を軽減する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "TT牽引",
+        "description": "一定の高出力で隊列を引き、集団速度を引き上げる。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "横風エンジン",
+        "description": "横風区間で全開牽引し、味方を前方集団へ残したまま集団を分断する。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "サブエース / スーパー・ドメスティーク / TTスペシャリスト",
+      "巡航力 / 連携力 / 技術力"
+    ]
+  },
+  {
+    "riderNo": 82,
+    "riderName": "Sepp Kuss",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "山岳ガード",
+        "description": "登りで味方エースの風よけとなり、体力消費を軽減する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "最後の山岳牽引",
+        "description": "山岳終盤まで高いペースを維持し、味方エースを攻撃位置へ運ぶ。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "山岳献身",
+        "description": "自分の残り体力を使い切り、味方エースの山岳攻撃を最大限に強化する。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "サブエース / スーパー・ドメスティーク / 山岳アシスト",
+      "連携力 / 回復力 / 日別回復"
+    ]
+  },
+  {
+    "riderNo": 88,
+    "riderName": "Amaury Capiot",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "位置案内",
+        "description": "混雑した集団内で安全な進路を選び、味方エースを前方へ導く。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "平坦追走",
+        "description": "平坦区間で先行グループとの差を縮める。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "集団復帰牽引",
+        "description": "遅れた味方エースを全力でメイングループへ復帰させる。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "山岳賞ハンター / 平坦アシスト / TT牽引",
+      "技術力 / 連携力 / 闘争心"
+    ]
+  },
+  {
+    "riderNo": 161,
+    "riderName": "Ben Turner (cyclist)",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "平坦牽引",
+        "description": "平坦で隊列を引き、味方エースの体力消費を抑える。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "逃げ差調整",
+        "description": "危険な逃げだけを追い、不要な消耗を避けながら差を管理する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "高速追走",
+        "description": "終盤に全開牽引し、逃げ集団を勝負圏内まで引き戻す。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "TTスペシャリスト / 平坦アシスト / 集団コントローラー",
+      "巡航力 / 連携力 / スタミナ"
+    ]
+  },
+  {
+    "riderNo": 182,
+    "riderName": "Ethan Hayter",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "エアロ牽引",
+        "description": "空気抵抗を抑えた牽引で、味方エースの体力を温存する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "ペースアップ",
+        "description": "平坦区間の速度を段階的に上げ、後方の選手を消耗させる。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "高速発射",
+        "description": "高速巡航から一段加速し、味方エースをスプリント位置へ送り出す。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "TTスペシャリスト / 平坦アシスト / 平坦ペースメーカー",
+      "連携力 / 巡航力 / 技術力"
+    ]
+  },
+  {
+    "riderNo": 183,
+    "riderName": "Johan Price-Pejtersen",
+    "supportAptitude": 81,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "TT牽引",
+        "description": "一定出力で隊列を引き、味方全体の体力消費を抑える。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "集団制御",
+        "description": "逃げとのタイム差を一定に保ち、勝負所まで展開を安定させる。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "長距離追走",
+        "description": "長時間の全開巡航で、前方集団との大きな差を縮める。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "TTスペシャリスト / 平坦アシスト / 集団コントローラー",
+      "巡航力 / 連携力 / 技術力"
+    ]
+  },
+  {
+    "riderNo": 264,
+    "riderName": "Tobias Foss",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "隊列指示",
+        "description": "味方の並びを整え、次に使うアシストカードの効果を高める。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "クロノ牽引",
+        "description": "正確なペースで隊列を引き、味方エースを安全に運ぶ。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "クロノ王の隊列再編",
+        "description": "崩れた隊列を立て直し、味方全員を勝負位置へ戻す。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "ロードキャプテン / TTスペシャリスト / 平坦アシスト",
+      "巡航力 / 連携力 / 技術力"
+    ]
+  },
+  {
+    "riderNo": 269,
+    "riderName": "Bob Jungels",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "ロード指揮",
+        "description": "集団状況を読み、味方エースが動くべき位置を確保する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "平坦ペースメーカー",
+        "description": "長い平坦区間を高い一定速度で牽引する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "逃げ完全吸収",
+        "description": "チームをまとめて追走させ、危険な逃げを一気に吸収する。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "ロードキャプテン / 平坦アシスト / 平坦ペースメーカー",
+      "連携力 / 巡航力 / 技術力"
+    ]
+  },
+  {
+    "riderNo": 284,
+    "riderName": "Dylan van Baarle",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "パヴェ護衛",
+        "description": "石畳で味方エースの進路を確保し、悪路消耗を軽減する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "ブレイク潰し",
+        "description": "悪路で先行した危険な選手を追走し、攻撃を無効化する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "石畳の追撃",
+        "description": "石畳区間を全開で追走し、味方エースを先頭グループへ運ぶ。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "平坦アシスト / TT牽引 / ブレイクアウェイキラー",
+      "巡航力 / 連携力 / パヴェ適性"
+    ]
+  },
+  {
+    "riderNo": 285,
+    "riderName": "Edoardo Affini",
+    "supportAptitude": 80,
+    "primaryAce": false,
+    "guaranteedAssistCards": 3,
+    "linkedAceDecisiveCard": null,
+    "cards": [
+      {
+        "slot": "basic",
+        "cost": 1,
+        "usageLimit": null,
+        "name": "隊列指示",
+        "description": "味方の並びを整え、牽引交代を安定させる。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "specialty",
+        "cost": 2,
+        "usageLimit": null,
+        "name": "高速牽引",
+        "description": "平坦で高い速度を維持し、味方エースの体力を温存する。",
+        "target": "味方エース"
+      },
+      {
+        "slot": "decisive",
+        "cost": 3,
+        "usageLimit": 1,
+        "name": "高速再編",
+        "description": "散らばった味方を集め直し、高速隊列を即座に再構築する。",
+        "target": "味方エース"
+      }
+    ],
+    "basedOn": [
+      "ロードキャプテン / TTスペシャリスト / 平坦アシスト",
+      "連携力 / 巡航力 / 技術力"
+    ]
+  }
+]
