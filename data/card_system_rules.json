@@ -46,8 +46,7 @@
     ],
     "basicCardsPerTerrainRole": 3,
     "specialtyCardsAreShared": true,
-    "sharedSpecialtyCardTemplates": 16,
-    "specialtyCardsPerTerrainRole": 2,
+    "sharedSpecialtyCardTemplates": 24,
     "primaryAceGuaranteedAssistCards": 0,
     "genericDecisiveCardTemplates": 24,
     "genericAceDecisiveCards": 12,
@@ -57,6 +56,8 @@
     "roleSpecialtyCardTemplates": 18,
     "roleDecisiveCardTemplates": 0,
     "nonPrimaryAceGuaranteedAssistCards": 1,
-    "nonPrimaryAceIncludesAssistDecisive": true
+    "nonPrimaryAceIncludesAssistDecisive": true,
+    "specialtyAceCardsPerTerrain": 2,
+    "specialtyAssistCardsPerTerrain": 4
   }
 }

@@ -71,6 +71,42 @@
     ]
   },
   {
+    "id": "flat_assist_positioning",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "位置取り護衛",
+    "description": "混雑した集団内で進路を確保し、味方エースを前方へ引き上げる。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "technique",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "flat_assist_rotation",
+    "terrainId": "flat",
+    "terrain": "平坦",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "ローテーション牽引",
+    "description": "味方と先頭交代しながら高速巡航を維持し、エースの消耗を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
     "id": "hill_ace_acceleration",
     "terrainId": "hill",
     "terrain": "丘陵",
@@ -137,6 +173,42 @@
     "abilities": [
       "acceleration",
       "fighting",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_assist_entry",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "坂前誘導",
+    "description": "登りに入る前に味方エースを集団前方へ運び、仕掛けへ備える。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "acceleration",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "hill_assist_crest",
+    "terrainId": "hill",
+    "terrain": "丘陵",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "丘越え牽引",
+    "description": "丘の頂上まで牽引し、味方エースの体力と加速力を温存する。",
+    "target": "味方エース",
+    "abilities": [
+      "punch",
+      "stamina",
       "teamwork"
     ]
   },
@@ -211,6 +283,42 @@
     ]
   },
   {
+    "id": "mountain_assist_entry",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "登り口誘導",
+    "description": "山岳開始前に集団前方を確保し、味方エースを安全に登りへ入れる。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "climbing",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "mountain_assist_shelter",
+    "terrainId": "mountain",
+    "terrain": "山岳",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "山岳風よけ",
+    "description": "登りで風よけとなり、味方エースの体力消費を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "climbing",
+      "stamina",
+      "teamwork"
+    ]
+  },
+  {
     "id": "pave_ace_acceleration",
     "terrainId": "pave",
     "terrain": "パヴェ",
@@ -278,6 +386,42 @@
     "abilities": [
       "cobble",
       "cruise",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_assist_entry",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "石畳進入",
+    "description": "パヴェ区間へ入る前に前方位置を確保し、分断や落車の危険を抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "positioning",
+      "cobble",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "pave_assist_line",
+    "terrainId": "pave",
+    "terrain": "パヴェ",
+    "roleType": "assist",
+    "role": "アシスト",
+    "slot": "specialty",
+    "cost": 2,
+    "usageLimit": null,
+    "name": "ライン誘導",
+    "description": "石畳で走りやすいラインを示し、味方エースの減速とトラブルを抑える。",
+    "target": "味方エース",
+    "abilities": [
+      "cobble",
+      "bike_control",
       "teamwork"
     ]
   }

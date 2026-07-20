@@ -162,7 +162,7 @@
 - tools/apply_ace_signature_cards.mjs: 二つ名・固有勝負手を現役CSVと能力CSVへ同期する再生成スクリプト
 - data/elite_assist_cards.json: アシスト適性80以上の非主エース13名へ保証する固有の支援型勝負手13枚
 - data/basic_card_templates.json: 4地形×2役割×各3枚の24種に、役割別4種を加えて使う共通基本カード28種
-- data/specialty_card_templates.json: 4地形 × 2役割 × 各2枚で構成する共通得意技16種
+- data/specialty_card_templates.json: 4地形ごとにエース用2枚・アシスト用4枚で構成する共通得意技24種
 - data/assist_card_role_templates.json: 基本技4種・得意技18種の役割共通カード22種
 - data/generic_decisive_card_templates.json: 得意技から発展するエース用12種・アシスト用12種の汎用勝負手24種
 - tools/apply_elite_assist_cards.mjs: 高適性アシスト対象とカード構成を検証・再生成するスクリプト

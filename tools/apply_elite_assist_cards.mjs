@@ -214,7 +214,9 @@ for (const entry of specialtyCardTemplates) {
   specialtyGroups.set(key, (specialtyGroups.get(key) || 0) + 1);
   if (entry.slot !== "specialty" || entry.cost !== 2) throw new Error("invalid specialty card: " + entry.id);
 }
-if (specialtyCardTemplates.length !== 16 || specialtyNames.size !== 16 || specialtyGroups.size !== 8 || [...specialtyGroups.values()].some((count) => count !== 2)) {
+const specialtyAceGroups = [...specialtyGroups].filter(([key]) => key.endsWith(":ace"));
+const specialtyAssistGroups = [...specialtyGroups].filter(([key]) => key.endsWith(":assist"));
+if (specialtyCardTemplates.length !== 24 || specialtyNames.size !== 24 || specialtyGroups.size !== 8 || specialtyAceGroups.some(([, count]) => count !== 2) || specialtyAssistGroups.some(([, count]) => count !== 4)) {
   throw new Error("specialty card template matrix mismatch");
 }
 const genericDecisiveCards = JSON.parse(await fs.readFile(genericDecisiveOutputPath, "utf8"));

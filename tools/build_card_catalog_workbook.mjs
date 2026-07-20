@@ -174,7 +174,7 @@ const allSheet = workbook.worksheets.add("カード一覧");
 const allMeta = styleDataSheet(
   allSheet,
   "カード一覧",
-  "固有勝負手50枚、汎用勝負手24枚、高適性アシスト勝負手13枚、共通基本28枚、共通得意技16枚、役割共通22枚を検索できます。",
+  "固有勝負手50枚、汎用勝負手24枚、高適性アシスト勝負手13枚、共通基本28枚、共通得意技24枚、役割共通22枚を検索できます。",
   ["分類", "No.", "選手名", "二つ名・状態", "役割・適性", "枠", "コスト", "回数", "カード名", "説明", "対象", "根拠能力・役割"],
   unifiedRows,
   [16, 7, 25, 22, 24, 13, 9, 9, 27, 58, 16, 38],
@@ -209,7 +209,7 @@ const specialtySheet = workbook.worksheets.add("得意技カード");
 const specialtyMeta = styleDataSheet(
   specialtySheet,
   "得意技カード",
-  "選手固有にしないコスト2の得意技。地形別共通16枚と役割共通18枚の全34枚です。",
+  "選手固有にしないコスト2の得意技。地形別共通24枚と役割共通18枚の全42枚です。",
   slotViewHeaders,
   specialtyRows,
   slotViewWidths,
@@ -306,7 +306,7 @@ const ruleRows = [
   ["デッキ", "チームカード枚数", rules.teamCardDeckSize, "チームカーから表示"],
   ...rules.cardSlots.map((slot) => ["個人カード", slot.name + "の枚数", slot.countPerRider, "コスト " + slot.cost + "／" + slot.usage]),
   ["個人カード", "基本技の共通テンプレート", rules.assistCardPolicy.sharedBasicCardTemplates, "地形別24枚＋役割別4枚"],
-  ["個人カード", "得意技の共通テンプレート", rules.assistCardPolicy.sharedSpecialtyCardTemplates, "4地形×2役割×各2枚"],
+  ["個人カード", "得意技の共通テンプレート", rules.assistCardPolicy.sharedSpecialtyCardTemplates, "4地形×（エース2枚＋アシスト4枚）"],
   ["個人カード", "汎用勝負手テンプレート", rules.assistCardPolicy.genericDecisiveCardTemplates, "エース12枚＋アシスト12枚"],
   ["アシスト", "高適性基準", rules.assistCardPolicy.eliteSupportAptitudeThreshold, "以上"],
   ["アシスト", "主エース兼任の保証枚数", rules.assistCardPolicy.primaryAceGuaranteedAssistCards, "得意技（基本技は共通）"],
