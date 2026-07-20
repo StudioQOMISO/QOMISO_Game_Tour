@@ -21,9 +21,9 @@ function parseCsv(text) {
   const headers = raw.shift();
   return raw.map((cells) => Object.fromEntries(headers.map((h, i) => [h, cells[i] ?? ""])));
 }
-const loadCsv = async (name) => parseCsv(await fs.readFile(path.join(workspace, "data", name), "utf8"));
+const loadCsv = async (name) => parseCsv(await fs.readFile(path.join(workspace, "選手スプレッドシート", name), "utf8"));
 const [active, retired, pending] = await Promise.all([
-  loadCsv("rider_parameters_active_300.csv"), loadCsv("rider_parameters_retired.csv"), loadCsv("rider_parameters_status_pending.csv"),
+  loadCsv("01_現役選手300名.csv"), loadCsv("02_引退選手.csv"), loadCsv("03_区分保留.csv"),
 ]);
 const normalize = (v) => String(v || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 const n = (v) => v === "" || v == null ? "" : Number(v);

@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-const files=["data/rider_parameters_active_300.csv","data/rider_parameters_retired.csv","data/rider_parameters_status_pending.csv","data/rider_parameters_300.csv","data/rider_parameters_300_fixed.csv","data/rider_parameters_300_pre_rebalance.csv"];
+const files=["選手スプレッドシート/01_現役選手300名.csv","選手スプレッドシート/02_引退選手.csv","選手スプレッドシート/03_区分保留.csv","data/rider_parameters_300.csv","data/rider_parameters_300_fixed.csv","data/rider_parameters_300_pre_rebalance.csv"];
 function parseCsv(text){const raw=[];let row=[],cell="",quoted=false;for(let i=0;i<text.length;i+=1){const c=text[i];if(c==='"'&&quoted&&text[i+1]==='"'){cell+='"';i+=1;}else if(c==='"')quoted=!quoted;else if(c===","&&!quoted){row.push(cell);cell="";}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&text[i+1]==='\n')i+=1;row.push(cell);if(row.some(v=>v!==''))raw.push(row);row=[];cell="";}else cell+=c;}if(cell||row.length){row.push(cell);raw.push(row);}const headers=raw.shift();return{headers,rows:raw.map(cells=>Object.fromEntries(headers.map((h,i)=>[h,cells[i]??''])))};}
 const csvCell=value=>/[",\r\n]/.test(String(value??""))?`"${String(value??"").replace(/"/g,'""')}"`:String(value??"");
 const serialize=parsed=>[parsed.headers.map(csvCell).join(","),...parsed.rows.map(row=>parsed.headers.map(h=>csvCell(row[h]??"")).join(","))].join("\n")+"\n";

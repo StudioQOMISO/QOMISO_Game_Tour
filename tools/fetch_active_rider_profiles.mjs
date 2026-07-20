@@ -8,7 +8,7 @@ const normalize=(v)=>String(v||"").replace(/\s*\(cyclist\)\s*$/i,"").normalize("
 const cleanWiki=(v)=>String(v||"").replace(/<!--.*?-->/gs,"").replace(/<ref[^>]*>[\s\S]*?<\/ref>|<ref[^>]*\/>/gi,"").replace(/\{\{[^{}]*\}\}/g," ").replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g,"$2").replace(/\[\[([^\]]+)\]\]/g,"$1").replace(/''+/g,"").replace(/\s+/g," ").trim();
 const getField=(text,field)=>text.match(new RegExp(`^[ \\t]*\\|[ \\t]*${field}[ \\t]*=[ \\t]*(.*)$`,"im"))?.[1]?.trim()||"";
 const sleep=(ms)=>new Promise(resolve=>setTimeout(resolve,ms));
-const rows=parseCsv(await fs.readFile("data/rider_parameters_active_300.csv","utf8"));
+const rows=parseCsv(await fs.readFile("選手スプレッドシート/01_現役選手300名.csv","utf8"));
 const profiles=[];
 for(let i=0;i<rows.length;i+=10){
   const titles=rows.slice(i,i+10).map(r=>r.name);

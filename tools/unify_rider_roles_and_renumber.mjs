@@ -105,7 +105,7 @@ for (const filePath of files) {
   await fs.writeFile(filePath, serializeCsv(parsed.headers, parsed.rows), "utf8");
   const roleCounts = new Map();
   for (const row of parsed.rows) for (const role of String(row.preferred_roles).split(" / ").filter(Boolean)) roleCounts.set(role, (roleCounts.get(role) || 0) + 1);
-  if (path.basename(filePath) === "rider_parameters_active_300.csv") {
+  if (path.basename(filePath) === "01_現役選手300名.csv") {
     for (const [role, count] of roleCounts) allRoleCounts.set(role, count);
   }
   result[path.relative(workspace, filePath)] = {
@@ -120,7 +120,7 @@ const taxonomyPath = path.join(workspace, "docs", "rider_role_taxonomy.md");
 const taxonomy = [
   "# 役割・戦術特性 — 統合定義",
   "",
-  "> 旧「得意役割」「専門役割」を単一カテゴリーへ統合する。表示順は主な役割から最大7項目。",
+  "> 旧「得意役割」「専門役割」を単一カテゴリーへ統合する。表示順は主な役割から3項目。技・行動は個人カードへ分離する。",
   "",
   "## No.再採番規則",
   "",
@@ -139,8 +139,6 @@ const taxonomy = [
   "",
   "- エースとサブエースは原則として同時に付与しない。",
   "- 役割は固定身分ではなく、能力・実績・走り方から判定する。",
-  "- 超ロングスパートは残り80〜100km級のソロレイド実績または再現性を重視する。",
-  "- 無賃乗車は車輪利用と脚の温存が巧みな選手に付与し、チームワーク型の役割とは慎重に併用する。",
   "",
 ].join("\n");
 await fs.writeFile(taxonomyPath, taxonomy, "utf8");

@@ -13,44 +13,48 @@ const ucrOrganization = {
 };
 
 const baseStats = {
-  sprint: 48,
-  punch: 45,
-  cruise: 50,
-  climb: 45,
-  stamina: 52,
-  technique: 44,
-  bikeControl: 46,
-  recovery: 47,
-  teamwork: 46,
-  ego: 42,
-  fighting: 50,
+  sprint: 0,
+  acceleration: 0,
+  punch: 0,
+  cruise: 0,
+  climb: 0,
+  stamina: 0,
+  resistance: 0,
+  technique: 0,
+  bikeControl: 0,
+  pave: 0,
+  recovery: 0,
+  dailyRecovery: 0,
+  teamwork: 0,
+  ego: 0,
+  fighting: 0,
 };
 
 const supportCards = [
-  { id: "coach", name: "冷静な監督", type: "作戦", bonus: { technique: 8, teamwork: 10, ego: -2 }, skill: "位置取り補正" },
-  { id: "sprinter", name: "黄金の発射台", type: "速度", bonus: { sprint: 14, punch: 2, teamwork: 4 }, skill: "最終直線加速" },
-  { id: "climber", name: "山岳王の助言", type: "登坂", bonus: { climb: 15, punch: 4, stamina: 3, fighting: 4 }, skill: "峠アタック" },
-  { id: "mechanic", name: "精密メカニック", type: "安定", bonus: { technique: 6, bikeControl: 8, stamina: 5 }, skill: "落車回避" },
-  { id: "domestique", name: "献身の牽引役", type: "連携", bonus: { teamwork: 15, cruise: 8, stamina: 5 }, skill: "風よけ" },
-  { id: "nutrition", name: "補給プランナー", type: "持久", bonus: { stamina: 10, climb: 4, recovery: 8 }, skill: "終盤回復" },
-  { id: "rival", name: "宿敵の存在", type: "精神", bonus: { ego: 12, fighting: 10 }, skill: "闘争本能" },
+  { id: "coach", name: "冷静な監督", type: "作戦", bonus: { technique: 2, teamwork: 3, ego: -1 }, skill: "位置取り補正" },
+  { id: "sprinter", name: "黄金の発射台", type: "速度", bonus: { sprint: 3, acceleration: 2, teamwork: 1 }, skill: "最終直線加速" },
+  { id: "climber", name: "山岳王の助言", type: "登坂", bonus: { climb: 3, punch: 1, resistance: 2, fighting: 1 }, skill: "峠アタック" },
+  { id: "mechanic", name: "精密メカニック", type: "安定", bonus: { technique: 2, bikeControl: 3 }, skill: "落車回避" },
+  { id: "domestique", name: "献身の牽引役", type: "連携", bonus: { teamwork: 3, cruise: 2, stamina: 1 }, skill: "風よけ" },
+  { id: "nutrition", name: "補給プランナー", type: "持久", bonus: { stamina: 2, resistance: 1, recovery: 3 }, skill: "終盤回復" },
+  { id: "rival", name: "宿敵の存在", type: "精神", bonus: { acceleration: 1, fighting: 3, ego: 1 }, skill: "闘争本能" },
 ];
 
 const equipmentCatalog = {
   frames: [
-    { id: "aero_italia", name: "Veloce Aero X", motif: "イタリアン・エアロフレーム系", bonus: { sprint: 4, cruise: 4, technique: 2, bikeControl: 1 }, fit: "平坦/TT" },
-    { id: "climb_classic", name: "Corsa Leggera", motif: "伝統系軽量クライミングフレーム", bonus: { climb: 7, stamina: 2 }, fit: "山岳" },
-    { id: "allround_race", name: "Universal Race Pro", motif: "万能レーシングフレーム系", bonus: { sprint: 3, climb: 3, technique: 2, bikeControl: 2 }, fit: "総合" },
+    { id: "aero_italia", name: "Veloce Aero X", motif: "イタリアン・エアロフレーム系", bonus: { sprint: 1, cruise: 2, technique: 1 }, fit: "平坦/TT" },
+    { id: "climb_classic", name: "Corsa Leggera", motif: "伝統系軽量クライミングフレーム", bonus: { climb: 2, acceleration: 1 }, fit: "山岳" },
+    { id: "allround_race", name: "Universal Race Pro", motif: "万能レーシングフレーム系", bonus: { cruise: 1, climb: 1, technique: 1, bikeControl: 1 }, fit: "総合" },
   ],
   wheels: [
-    { id: "deep_aero", name: "Nordwind Deep 60", motif: "ディープリム高速巡航系", bonus: { sprint: 3, cruise: 4, stamina: 2 }, fit: "平坦/横風注意" },
-    { id: "light_climb", name: "Alto Light 32", motif: "軽量山岳ホイール系", bonus: { climb: 5, bikeControl: 3 }, fit: "山岳/下り" },
-    { id: "pave_guard", name: "Pave Shield Wheel", motif: "石畳耐久ホイール系", bonus: { bikeControl: 6, fighting: 3 }, fit: "石畳" },
+    { id: "deep_aero", name: "Nordwind Deep 60", motif: "ディープリム高速巡航系", bonus: { sprint: 1, cruise: 2 }, fit: "平坦/横風注意" },
+    { id: "light_climb", name: "Alto Light 32", motif: "軽量山岳ホイール系", bonus: { climb: 2, bikeControl: 1 }, fit: "山岳/下り" },
+    { id: "pave_guard", name: "Pave Shield Wheel", motif: "石畳耐久ホイール系", bonus: { bikeControl: 2, resistance: 1 }, fit: "石畳" },
   ],
   tires: [
-    { id: "race_slick", name: "Corsa Slick", motif: "高速ロードタイヤ系", bonus: { sprint: 2, cruise: 2, stamina: 2 }, fit: "平坦" },
-    { id: "gravel_guard", name: "GravelGuard 40", motif: "グラベル対応タイヤ系", bonus: { bikeControl: 5, fighting: 3 }, fit: "グラベル" },
-    { id: "pave_endure", name: "Pave Endure", motif: "石畳耐パンクタイヤ系", bonus: { bikeControl: 5, teamwork: 2 }, fit: "石畳" },
+    { id: "race_slick", name: "Corsa Slick", motif: "高速ロードタイヤ系", bonus: { sprint: 1, cruise: 1 }, fit: "平坦" },
+    { id: "gravel_guard", name: "GravelGuard 40", motif: "グラベル対応タイヤ系", bonus: { bikeControl: 2, resistance: 1 }, fit: "グラベル" },
+    { id: "pave_endure", name: "Pave Endure", motif: "石畳耐パンクタイヤ系", bonus: { bikeControl: 2, resistance: 1 }, fit: "石畳" },
   ],
 };
 
@@ -107,15 +111,15 @@ const creditCapRules = {
 };
 
 const riders = [
-  { id: "ace", name: "ミハル・ヴァルガ", country: "スロバキア", era: "2010年代", motif: "Peter Sagan", primaryArchetype: "クラシック型", secondaryArchetype: "スプリンター", aptitudeTags: ["パンチ力", "ステージハンター", "逃げ屋"], aceAptitude: 93, supportAptitude: 70, preferredRoles: ["当日エース", "副エース", "ステージハンター"], creditSalary: 7600, stats: { sprint: 8, punch: 13, cruise: 9, climb: 8, stamina: 6, technique: 5, bikeControl: 8, recovery: 12, teamwork: 2, ego: 8, fighting: 7 } },
-  { id: "leadout", name: "リアム・マーサー", country: "オーストラリア", era: "2000-2010年代", motif: "Mark Renshaw", primaryArchetype: "スプリンター", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["リードアウト", "最高速", "隊列維持"], aceAptitude: 63, supportAptitude: 93, preferredRoles: ["リードアウト", "アシスト"], creditSalary: 4800, stats: { sprint: 10, punch: 7, cruise: 7, climb: 1, stamina: 4, technique: 6, bikeControl: 7, recovery: 8, teamwork: 8, ego: 2, fighting: 5 } },
-  { id: "climber", name: "ルカ・ベルティ", country: "イタリア", era: "1990年代", motif: "Marco Pantani", primaryArchetype: "クライマー", secondaryArchetype: "パンチャー", aptitudeTags: ["山岳アタック", "下り", "ステージハンター"], aceAptitude: 96, supportAptitude: 66, preferredRoles: ["当日エース", "副エース"], creditSalary: 10800, stats: { sprint: 2, punch: 10, cruise: 5, climb: 12, stamina: 7, technique: 5, bikeControl: 9, recovery: 8, teamwork: 4, ego: 7, fighting: 9 } },
-  { id: "rouleur", name: "バス・ヴァンデル", country: "ベルギー", era: "2010-2020年代", motif: "Tim Declercq", primaryArchetype: "TT・ルーラー型", secondaryArchetype: "クラシック型", aptitudeTags: ["巡航力", "横風", "逃げ屋"], aceAptitude: 56, supportAptitude: 95, preferredRoles: ["アシスト", "逃げ屋"], creditSalary: 3900, stats: { sprint: 5, punch: 4, cruise: 13, climb: 4, stamina: 10, technique: 6, bikeControl: 8, recovery: 10, teamwork: 7, ego: 3, fighting: 6 } },
-  { id: "captain", name: "風見 ハル", country: "日本", era: "2000-2010年代", motif: "Fumiyuki Beppu", primaryArchetype: "クラシック型", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["ロードキャプテン", "補給支援", "位置取り"], aceAptitude: 49, supportAptitude: 98, preferredRoles: ["ロードキャプテン", "アシスト"], creditSalary: 4400, stats: { sprint: 4, punch: 6, cruise: 10, climb: 5, stamina: 7, technique: 8, bikeControl: 10, recovery: 9, teamwork: 11, ego: 1, fighting: 7 } },
-  { id: "sprinter", name: "オーウェン・ブレイク", country: "イギリス", era: "2000-2020年代", motif: "Mark Cavendish", primaryArchetype: "スプリンター", secondaryArchetype: "クラシック型", aptitudeTags: ["最高速", "位置取り", "集団スプリント"], aceAptitude: 96, supportAptitude: 58, preferredRoles: ["当日エース"], creditSalary: 9000, stats: { sprint: 13, punch: 6, cruise: 8, climb: 0, stamina: 5, technique: 5, bikeControl: 6, recovery: 7, teamwork: 3, ego: 9, fighting: 6 } },
-  { id: "mountain_domestique", name: "イーサン・コール", country: "アメリカ", era: "2010-2020年代", motif: "Sepp Kuss", primaryArchetype: "クライマー", secondaryArchetype: "総合型", aptitudeTags: ["山岳牽引", "副エース", "日別回復"], aceAptitude: 78, supportAptitude: 92, preferredRoles: ["アシスト", "副エース"], creditSalary: 3600, stats: { sprint: 2, punch: 7, cruise: 8, climb: 9, stamina: 9, technique: 6, bikeControl: 8, recovery: 9, teamwork: 10, ego: 1, fighting: 8 } },
-  { id: "road_guard", name: "久遠 ダイチ", country: "日本", era: "2000-2020年代", motif: "Yukiya Arashiro", primaryArchetype: "クラシック型", secondaryArchetype: "パンチャー", aptitudeTags: ["耐久力", "逃げ屋", "悪路対応"], aceAptitude: 50, supportAptitude: 97, preferredRoles: ["アシスト", "ロードキャプテン", "逃げ屋"], creditSalary: 3200, stats: { sprint: 4, punch: 7, cruise: 10, climb: 3, stamina: 11, technique: 7, bikeControl: 7, recovery: 10, teamwork: 12, ego: 1, fighting: 7 } },
-  { id: "wind_captain", name: "ハリー・ウェイン", country: "イギリス", era: "2010-2020年代", motif: "Luke Rowe", primaryArchetype: "クラシック型", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["横風", "石畳", "ロードキャプテン"], aceAptitude: 55, supportAptitude: 97, preferredRoles: ["ロードキャプテン", "アシスト"], creditSalary: 4200, stats: { sprint: 5, punch: 7, cruise: 10, climb: 4, stamina: 8, technique: 10, bikeControl: 11, recovery: 10, teamwork: 11, ego: 2, fighting: 8 } },
+  { id: "ace", name: "Peter Sagan", country: "スロバキア", era: "2010年代", motif: "Peter Sagan", primaryArchetype: "クラシック型", secondaryArchetype: "スプリンター", aptitudeTags: ["パンチ力", "ステージハンター", "逃げ屋"], aceAptitude: 93, supportAptitude: 70, preferredRoles: ["エース", "ステージハンター"], creditSalary: 7600, paveBasis: "パリ〜ルーベ2018優勝、2019年5位、2014年6位", stats: { sprint: 81, acceleration: 83, punch: 84, cruise: 80, climb: 74, stamina: 82, resistance: 83, technique: 84, bikeControl: 84, pave: 84, recovery: 81, dailyRecovery: 81, teamwork: 70, ego: 82, fighting: 84 } },
+  { id: "leadout", name: "Mark Renshaw", country: "オーストラリア", era: "2000-2010年代", motif: "Mark Renshaw", primaryArchetype: "スプリンター", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["リードアウト", "最高速", "隊列維持"], aceAptitude: 63, supportAptitude: 93, preferredRoles: ["リードアウト", "最終発射台", "スプリントトレイン"], creditSalary: 4800, paveBasis: "パリ〜ルーベ2回出走、完走なし", stats: { sprint: 78, acceleration: 81, punch: 69, cruise: 80, climb: 58, stamina: 77, resistance: 79, technique: 83, bikeControl: 80, pave: 57, recovery: 76, dailyRecovery: 76, teamwork: 85, ego: 63, fighting: 74 } },
+  { id: "climber", name: "Marco Pantani", country: "イタリア", era: "1990年代", motif: "Marco Pantani", primaryArchetype: "クライマー", secondaryArchetype: "パンチャー", aptitudeTags: ["山岳アタック", "下り", "ステージハンター"], aceAptitude: 96, supportAptitude: 66, preferredRoles: ["エース", "ステージハンター", "山岳賞ハンター"], creditSalary: 10800, paveBasis: "パリ〜ルーベ未出走", stats: { sprint: 57, acceleration: 83, punch: 82, cruise: 68, climb: 85, stamina: 82, resistance: 84, technique: 76, bikeControl: 84, pave: 50, recovery: 78, dailyRecovery: 78, teamwork: 66, ego: 82, fighting: 85 } },
+  { id: "rouleur", name: "Tim Declercq", country: "ベルギー", era: "2010-2020年代", motif: "Tim Declercq", primaryArchetype: "TT・ルーラー型", secondaryArchetype: "クラシック型", aptitudeTags: ["巡航力", "横風", "逃げ屋"], aceAptitude: 56, supportAptitude: 95, preferredRoles: ["平坦ペースメーカー", "集団コントローラー", "TT牽引", "逃げ屋"], creditSalary: 3900, paveBasis: "パリ〜ルーベ最高39位", stats: { sprint: 61, acceleration: 66, punch: 65, cruise: 84, climb: 67, stamina: 84, resistance: 83, technique: 78, bikeControl: 80, pave: 69, recovery: 80, dailyRecovery: 80, teamwork: 84, ego: 60, fighting: 80 } },
+  { id: "captain", name: "Fumiyuki Beppu", country: "日本", era: "2000-2010年代", motif: "Fumiyuki Beppu", primaryArchetype: "クラシック型", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["ロードキャプテン", "補給支援", "位置取り"], aceAptitude: 49, supportAptitude: 98, preferredRoles: ["ロードキャプテン", "TT牽引", "横風要員"], creditSalary: 4400, paveBasis: "パリ〜ルーベ最高71位、5回出走1回完走", stats: { sprint: 66, acceleration: 70, punch: 72, cruise: 80, climb: 70, stamina: 80, resistance: 80, technique: 82, bikeControl: 82, pave: 64, recovery: 80, dailyRecovery: 80, teamwork: 85, ego: 58, fighting: 78 } },
+  { id: "sprinter", name: "Mark Cavendish", country: "イギリス", era: "2000-2020年代", motif: "Mark Cavendish", primaryArchetype: "スプリンター", secondaryArchetype: "クラシック型", aptitudeTags: ["最高速", "位置取り", "集団スプリント"], aceAptitude: 96, supportAptitude: 58, preferredRoles: ["エース"], creditSalary: 9000, paveBasis: "パリ〜ルーベ最高30位、2回出走1回完走", stats: { sprint: 85, acceleration: 84, punch: 68, cruise: 78, climb: 55, stamina: 75, resistance: 80, technique: 84, bikeControl: 75, pave: 69, recovery: 74, dailyRecovery: 74, teamwork: 68, ego: 84, fighting: 83 } },
+  { id: "mountain_domestique", name: "Sepp Kuss", country: "アメリカ", era: "2010-2020年代", motif: "Sepp Kuss", primaryArchetype: "クライマー", secondaryArchetype: "総合型", aptitudeTags: ["山岳牽引", "サブエース", "日別回復"], aceAptitude: 78, supportAptitude: 92, preferredRoles: ["サブエース", "山岳アシスト", "山岳番手", "スーパー・ドメスティーク"], creditSalary: 3600, paveBasis: "パリ〜ルーベ未出走", stats: { sprint: 57, acceleration: 76, punch: 77, cruise: 75, climb: 82, stamina: 82, resistance: 82, technique: 76, bikeControl: 80, pave: 50, recovery: 83, dailyRecovery: 85, teamwork: 85, ego: 58, fighting: 80 } },
+  { id: "road_guard", name: "Yukiya Arashiro", country: "日本", era: "2000-2020年代", motif: "Yukiya Arashiro", primaryArchetype: "クラシック型", secondaryArchetype: "パンチャー", aptitudeTags: ["耐久力", "逃げ屋", "悪路対応"], aceAptitude: 50, supportAptitude: 97, preferredRoles: ["平坦アシスト", "ロードキャプテン", "逃げ屋"], creditSalary: 3200, paveBasis: "パリ〜ルーベ1回出走、完走なし", stats: { sprint: 65, acceleration: 71, punch: 74, cruise: 80, climb: 68, stamina: 84, resistance: 84, technique: 79, bikeControl: 82, pave: 57, recovery: 82, dailyRecovery: 82, teamwork: 85, ego: 57, fighting: 82 } },
+  { id: "wind_captain", name: "Luke Rowe", country: "イギリス", era: "2010-2020年代", motif: "Luke Rowe", primaryArchetype: "クラシック型", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["横風", "石畳", "ロードキャプテン"], aceAptitude: 55, supportAptitude: 97, preferredRoles: ["ロードキャプテン", "石畳護衛", "横風要員"], creditSalary: 4200, paveBasis: "パリ〜ルーベ2015年8位、2016年14位、10回出走8回完走", stats: { sprint: 67, acceleration: 72, punch: 76, cruise: 81, climb: 65, stamina: 82, resistance: 84, technique: 83, bikeControl: 85, pave: 78, recovery: 80, dailyRecovery: 80, teamwork: 85, ego: 60, fighting: 83 } },
 ];
 const worldTeams = [
   { id: "desert_crown", name: "デザートクラウン・エミレーツ", era: "現代", motif: "中東資本の総合最強チーム系", country: "UAE", identity: "グランツール総合", style: "総合エースを山岳列車で守り、最後は個の爆発力で決める。" },
@@ -152,7 +156,7 @@ const stages = [
     condition: "石畳",
     tactic: "位置取り耐久戦",
     difficulty: 455,
-    weights: { sprint: 0.95, punch: 0.6, cruise: 1.2, climb: 0.15, stamina: 1.0, technique: 1.05, bikeControl: 0.5, recovery: 0.3, teamwork: 1.0, ego: 0.75, fighting: 1.2 },
+    weights: { sprint: 0.8, acceleration: 0.55, punch: 0.45, cruise: 1.0, climb: 0.1, stamina: 0.9, resistance: 0.9, technique: 0.75, bikeControl: 0.5, pave: 2.4, recovery: 0.25, teamwork: 0.8, fighting: 1.0 },
   },
   {
     id: "flanders_one_day",
@@ -164,7 +168,7 @@ const stages = [
     condition: "石畳 + 横風",
     tactic: "短坂アタック",
     difficulty: 465,
-    weights: { sprint: 0.85, punch: 1.35, cruise: 0.8, climb: 1.0, stamina: 0.85, technique: 1.0, bikeControl: 0.4, recovery: 0.45, teamwork: 0.9, ego: 0.9, fighting: 0.95 },
+    weights: { sprint: 0.75, acceleration: 1.1, punch: 1.35, cruise: 0.8, climb: 1.0, stamina: 0.85, resistance: 1.0, technique: 0.8, bikeControl: 0.55, pave: 1.2, recovery: 0.45, teamwork: 0.9, fighting: 0.95 },
   },
   {
     id: "strade_one_day",
@@ -176,7 +180,7 @@ const stages = [
     condition: "グラベル",
     tactic: "未舗装路アタック",
     difficulty: 445,
-    weights: { sprint: 0.7, punch: 1.25, cruise: 0.85, climb: 0.95, stamina: 0.85, technique: 1.0, bikeControl: 0.5, recovery: 0.4, teamwork: 0.75, ego: 0.95, fighting: 0.9 },
+    weights: { sprint: 0.6, acceleration: 1.0, punch: 1.25, cruise: 0.85, climb: 0.95, stamina: 0.85, resistance: 1.15, technique: 1.0, bikeControl: 0.8, recovery: 0.4, teamwork: 0.75, fighting: 0.9 },
   },
   {
     id: "grand_tour_flat",
@@ -188,7 +192,7 @@ const stages = [
     condition: "横風",
     tactic: "高速隊列",
     difficulty: 400,
-    weights: { sprint: 1.35, punch: 0.35, cruise: 1.4, climb: 0.25, stamina: 0.8, technique: 0.85, bikeControl: 0.25, recovery: 0.25, teamwork: 1.25, ego: 0.45, fighting: 0.65 },
+    weights: { sprint: 2.5, acceleration: 1.6, punch: 0.1, cruise: 1.0, climb: 0, stamina: 0.4, resistance: 0.6, technique: 0.6, bikeControl: 0.1, recovery: 0, teamwork: 1.0, fighting: 0.1 },
   },
   {
     id: "grand_tour_mountain",
@@ -200,7 +204,7 @@ const stages = [
     condition: "向かい風",
     tactic: "峠決戦",
     difficulty: 485,
-    weights: { sprint: 0.3, punch: 0.75, cruise: 0.45, climb: 1.55, stamina: 1.05, technique: 0.45, bikeControl: 0.65, recovery: 0.45, teamwork: 0.85, ego: 0.85, fighting: 1.05 },
+    weights: { sprint: 0.05, acceleration: 0.8, punch: 0.4, cruise: 0.15, climb: 2.5, stamina: 1.0, resistance: 1.3, technique: 0.2, bikeControl: 0.2, recovery: 0.3, teamwork: 0.5, fighting: 0.3 },
   },
   {
     id: "grand_tour_itt",
@@ -212,7 +216,7 @@ const stages = [
     condition: "石畳セクター",
     tactic: "単独巡航",
     difficulty: 455,
-    weights: { sprint: 0.55, punch: 0.2, cruise: 1.6, climb: 0.55, stamina: 1.15, technique: 1.15, bikeControl: 0.3, recovery: 0.15, teamwork: 0.15, ego: 1.05, fighting: 1.0 },
+    weights: { sprint: 0, acceleration: 0.1, punch: 0, cruise: 3.0, climb: 0.3, stamina: 1.0, resistance: 1.0, technique: 1.0, bikeControl: 0.1, pave: 0.3, recovery: 0.1, teamwork: 0, fighting: 0.1 },
   },
   {
     id: "team_ttt",
@@ -224,7 +228,7 @@ const stages = [
     condition: "横風ローテーション",
     tactic: "隊列同期",
     difficulty: 470,
-    weights: { sprint: 0.8, punch: 0.25, cruise: 1.45, climb: 0.35, stamina: 1.0, technique: 1.0, bikeControl: 0.25, recovery: 0.25, teamwork: 1.6, ego: 0.15, fighting: 0.7 },
+    weights: { sprint: 0.5, acceleration: 0.6, punch: 0.25, cruise: 1.45, climb: 0.35, stamina: 1.0, resistance: 1.0, technique: 1.0, bikeControl: 0.25, recovery: 0.25, teamwork: 1.6, fighting: 0.5 },
   },
 ];
 const grandTourOperationModes = [
@@ -347,22 +351,22 @@ const battleModes = {
 };
 const sectorTargetKm = 10;
 const actionCards = [
-  { id: "position", name: "位置取り", cpuAction: "牽制", focus: ["technique", "teamwork"], fatigue: 0.7, sprintCost: 2, fuelCost: 0.4, lactateCost: 2 },
-  { id: "tempo", name: "牽引", cpuAction: "温存", focus: ["cruise", "stamina", "teamwork"], fatigue: 1.1, sprintCost: 3, fuelCost: 0.7, lactateCost: 1 },
-  { id: "attack", name: "アタック", cpuAction: "追走", focus: ["punch", "climb", "fighting"], fatigue: 2.8, sprintCost: 12, fuelCost: 1.5, lactateCost: 16 },
-  { id: "protect", name: "エース保護", cpuAction: "揺さぶり", focus: ["stamina", "technique", "teamwork"], fatigue: 0.8, sprintCost: 2, fuelCost: 0.5, lactateCost: 1 },
-  { id: "sprint", name: "スプリント準備", cpuAction: "発射台", focus: ["sprint", "technique", "teamwork"], fatigue: 2.2, sprintCost: 18, fuelCost: 1.2, lactateCost: 22 },
-  { id: "feed", name: "補給", cpuAction: "補給地点の位置取り", focus: ["technique", "teamwork", "stamina"], fatigue: 0.4, sprintCost: 0, fuelCost: 0, lactateCost: 0 },
-  { id: "descent", name: "高速ダウンヒル", cpuAction: "下りで加速", focus: ["bikeControl", "technique", "fighting"], fatigue: 1.2, sprintCost: 1, fuelCost: 0.6, lactateCost: 2 },
+  { id: "position", name: "位置取り", cpuAction: "牽制", focus: ["technique", "acceleration", "teamwork"], fatigue: 0.7, sprintCost: 2, fuelCost: 0.4, lactateCost: 2 },
+  { id: "tempo", name: "牽引", cpuAction: "温存", focus: ["cruise", "stamina", "resistance", "teamwork"], fatigue: 1.1, sprintCost: 3, fuelCost: 0.7, lactateCost: 1 },
+  { id: "attack", name: "アタック", cpuAction: "追走", focus: ["punch", "climb", "acceleration", "resistance"], fatigue: 2.8, sprintCost: 12, fuelCost: 1.5, lactateCost: 16 },
+  { id: "protect", name: "エース保護", cpuAction: "揺さぶり", focus: ["stamina", "resistance", "teamwork"], fatigue: 0.8, sprintCost: 2, fuelCost: 0.5, lactateCost: 1 },
+  { id: "sprint", name: "スプリント準備", cpuAction: "発射台", focus: ["sprint", "acceleration", "technique", "teamwork"], fatigue: 2.2, sprintCost: 18, fuelCost: 1.2, lactateCost: 22 },
+  { id: "feed", name: "補給", cpuAction: "補給地点の位置取り", focus: ["technique", "teamwork", "recovery"], fatigue: 0.4, sprintCost: 0, fuelCost: 0, lactateCost: 0 },
+  { id: "descent", name: "高速ダウンヒル", cpuAction: "下りで加速", focus: ["bikeControl", "technique", "resistance"], fatigue: 1.2, sprintCost: 1, fuelCost: 0.6, lactateCost: 2 },
 ];
 
 const passiveAbilities = {
   ace: { name: "万能型", detail: "第3分野を示す適性タグの補正を副脚質に近い水準まで引き上げる", versatile: true },
   leadout: { name: "黄金の発射台", detail: "終盤のスプリント消費を軽減し、フィニッシュを強化", sprintCostRate: -0.1, finishBonus: 5 },
-  climber: { name: "山岳リズム", detail: "当日エース時、山岳で疲労増加を軽減", aceOnly: true, condition: "mountain", mountainFatigueRate: -0.14, phaseBonus: 4 },
+  climber: { name: "山岳リズム", detail: "エース時、山岳で疲労増加を軽減", aceOnly: true, condition: "mountain", mountainFatigueRate: -0.14, phaseBonus: 4 },
   rouleur: { name: "巡航耐性", detail: "牽引と長距離巡航で疲労増加を軽減", fatigueRate: -0.05, tempoFatigueRate: -0.1 },
   captain: { name: "ロードキャプテン", detail: "補給効率を上げ、健康度低下を軽減", feedBonus: 4, healthWearRate: -0.1 },
-  sprinter: { name: "スプリント温存", detail: "当日エース時、スプリント残量を維持", aceOnly: true, sprintCostRate: -0.16, finishBonus: 10 },
+  sprinter: { name: "スプリント温存", detail: "エース時、スプリント残量を維持", aceOnly: true, sprintCostRate: -0.16, finishBonus: 10 },
   mountain_domestique: { name: "山岳ガード", detail: "山岳でエースの疲労増加を軽減", condition: "mountain", mountainFatigueRate: -0.09 },
   road_guard: { name: "風よけ職人", detail: "全セクターの疲労増加を軽減", fatigueRate: -0.07 },
   wind_captain: { name: "エシュロン指揮", detail: "横風区間の疲労と健康度低下を軽減", condition: "wind", windFatigueRate: -0.16, healthWearRate: -0.05 },
@@ -384,33 +388,37 @@ const raceMetricLabels = {
   lactate: { label: "乳酸負荷", goodWhenHigh: false, detail: "高いほど再加速とスプリントが鈍る" },
 };
 const statLabels = {
-  sprint: "瞬発力",
+  sprint: "スプリント",
+  acceleration: "加速力",
   punch: "パンチ力",
   cruise: "巡航力",
   climb: "登坂力",
   stamina: "持久力",
+  resistance: "耐性",
   technique: "技術",
   bikeControl: "バイクコントロール",
+  pave: "パヴェ",
   recovery: "回復力",
+  dailyRecovery: "日間回復力",
   teamwork: "チームワーク",
   ego: "エゴ",
   fighting: "負けん気",
 };
 const archetypeStatBonuses = {
-  "総合型": { climb: 1, stamina: 1, recovery: 1 },
-  "スプリンター": { sprint: 1.4, technique: 0.6 },
-  "クライマー": { climb: 1.4, stamina: 0.6 },
-  "パンチャー": { punch: 1.4, recovery: 0.6 },
-  "クラシック型": { bikeControl: 1, stamina: 0.6, technique: 0.4 },
-  "TT・ルーラー型": { cruise: 1.2, technique: 0.4, stamina: 0.4 },
+  "総合型": { climb: 1, stamina: 1, resistance: 0.5, recovery: 0.5, dailyRecovery: 1 },
+  "スプリンター": { sprint: 1.4, acceleration: 0.8, technique: 0.3 },
+  "クライマー": { climb: 1.4, stamina: 0.6, resistance: 0.5 },
+  "パンチャー": { punch: 1.4, acceleration: 0.6, resistance: 0.3 },
+  "クラシック型": { bikeControl: 1, stamina: 0.6, resistance: 0.5, technique: 0.4 },
+  "TT・ルーラー型": { cruise: 1.2, technique: 0.4, stamina: 0.4, resistance: 0.5 },
 };
 const aptitudeTagStatBonuses = {
   "パンチ力": { punch: 1 }, "ステージハンター": { fighting: 0.6, recovery: 0.4 }, "逃げ屋": { cruise: 0.6, stamina: 0.4 },
-  "リードアウト": { sprint: 0.5, teamwork: 0.5 }, "最高速": { sprint: 1 }, "隊列維持": { teamwork: 0.6, technique: 0.4 },
-  "山岳アタック": { climb: 0.5, punch: 0.5 }, "下り": { bikeControl: 1 }, "巡航力": { cruise: 1 }, "横風": { technique: 0.5, stamina: 0.5 },
+  "リードアウト": { sprint: 0.4, acceleration: 0.3, teamwork: 0.3 }, "最高速": { sprint: 0.7, acceleration: 0.3 }, "隊列維持": { teamwork: 0.6, technique: 0.4 },
+  "山岳アタック": { climb: 0.4, punch: 0.3, acceleration: 0.3 }, "下り": { bikeControl: 1 }, "巡航力": { cruise: 1 }, "横風": { technique: 0.5, stamina: 0.5 },
   "ロードキャプテン": { teamwork: 1 }, "補給支援": { teamwork: 0.5, recovery: 0.5 }, "位置取り": { technique: 1 },
-  "集団スプリント": { sprint: 0.5, technique: 0.5 }, "山岳牽引": { climb: 0.5, teamwork: 0.5 }, "副エース": { fighting: 0.5, teamwork: 0.5 },
-  "日別回復": { recovery: 1 }, "耐久力": { stamina: 1 }, "悪路対応": { bikeControl: 0.6, technique: 0.4 }, "石畳": { bikeControl: 0.5, stamina: 0.5 },
+  "集団スプリント": { sprint: 0.5, technique: 0.5 }, "山岳牽引": { climb: 0.5, teamwork: 0.5 }, "サブエース": { fighting: 0.5, teamwork: 0.5 },
+  "日別回復": { dailyRecovery: 1 }, "耐久力": { stamina: 0.5, resistance: 0.5 }, "悪路対応": { bikeControl: 0.6, technique: 0.4 }, "石畳": { bikeControl: 0.5, stamina: 0.5 },
 };
 
 const state = {
@@ -426,6 +434,8 @@ const state = {
   teamObjective: "gc",
   selectedActiveAbility: "protect_ace",
   raceMetrics: createInitialRaceMetrics(),
+  stageRaceDay: 0,
+  stageRaceCarryover: null,
   log: ["カードバトル開始。選手8枚、サポート4枚、戦術5枚でロードレースを制する。"],
 };
 
@@ -434,6 +444,40 @@ const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 function createInitialRaceMetrics() {
   return { fatigue: 4, sprint: 100, nutrition: Math.round(90 + Math.random() * 5), health: Math.round(94 + Math.random() * 5), lactate: 6, feeds: 0, crashes: 0, activeUsed: false, activeName: "" };
 }
+
+function calculateNextDayRecovery(metrics, dailyRecovery) {
+  const recoveryRate = clamp((dailyRecovery - 50) / 35, 0, 1);
+  const amounts = {
+    fatigue: Math.round(8 + recoveryRate * 16),
+    sprint: Math.round(20 + recoveryRate * 30),
+    nutrition: 45,
+    health: Math.round(3 + recoveryRate * 5),
+    lactate: Math.round(18 + recoveryRate * 28),
+  };
+  return {
+    amounts,
+    metrics: {
+      fatigue: clamp(metrics.fatigue - amounts.fatigue, 4, 100),
+      sprint: clamp(metrics.sprint + amounts.sprint, 0, 100),
+      nutrition: clamp(metrics.nutrition + amounts.nutrition, 0, 95),
+      health: clamp(metrics.health + amounts.health, 0, 99),
+      lactate: clamp(metrics.lactate - amounts.lactate, 4, 100),
+      feeds: 0,
+      crashes: 0,
+      activeUsed: false,
+      activeName: "",
+    },
+  };
+}
+
+function getRaceStartMetrics(stage) {
+  if (stage.format === "ステージレース" && state.stageRaceCarryover) return { ...state.stageRaceCarryover };
+  return createInitialRaceMetrics();
+}
+function refreshRacePreview() {
+  state.raceMetrics = getRaceStartMetrics(getSelectedStage());
+}
+
 
 function getSupportBonus() {
   return state.selectedSupports.reduce((total, id) => {
@@ -469,11 +513,25 @@ function getSelectedEquipmentItems() {
 }
 
 function getTeamBonus() {
-  return state.selectedTeam.reduce((total, id) => {
-    const rider = riders.find((item) => item.id === id);
-    Object.entries(rider.stats).forEach(([stat, value]) => {
-      total[stat] = (total[stat] || 0) + value;
-    });
+  const selected = state.selectedTeam.map((id) => riders.find((item) => item.id === id)).filter(Boolean);
+  if (selected.length === 0) return {};
+  const ace = selected.find((rider) => rider.id === state.raceAce) || selected[0];
+  const supportRiders = selected.filter((rider) => rider.id !== ace.id);
+  const teamAverage = (stat) => selected.reduce((sum, rider) => sum + rider.stats[stat], 0) / selected.length;
+
+  return Object.keys(baseStats).reduce((total, stat) => {
+    if (stat === "teamwork") {
+      total[stat] = Math.round(teamAverage(stat));
+      return total;
+    }
+    const strongestSupport = supportRiders
+      .map((rider) => rider.stats[stat])
+      .sort((a, b) => b - a)
+      .slice(0, 2);
+    const supportAverage = strongestSupport.length
+      ? strongestSupport.reduce((sum, value) => sum + value, 0) / strongestSupport.length
+      : ace.stats[stat];
+    total[stat] = Math.round(ace.stats[stat] * 0.65 + supportAverage * 0.25 + teamAverage(stat) * 0.1);
     return total;
   }, {});
 }
@@ -549,13 +607,13 @@ function getSquadStructureBonus() {
   const balance = getSquadBalance();
   if (balance.selected.length === 0) return {};
   if (balance.penalty <= 0) {
-    return { teamwork: balance.supportCapableCount * 3, technique: balance.supportCapableCount, stamina: Math.floor(balance.structureScore / 3) };
+    return { teamwork: Math.min(3, Math.floor(balance.supportCapableCount / 2)), technique: 1, stamina: 1, resistance: 1 };
   }
   return {
-    teamwork: -balance.penalty * 8,
-    technique: -balance.penalty * 3,
-    stamina: -balance.penalty * 2,
-    ego: -balance.penalty,
+    teamwork: -balance.penalty * 3,
+    technique: -balance.penalty,
+    stamina: -balance.penalty,
+    resistance: -balance.penalty,
   };
 }
 
@@ -573,11 +631,11 @@ function getRiderIdentityBonus() {
     bonus[stat] = (bonus[stat] || 0) + value * scale;
   });
   riders.filter((rider) => state.selectedTeam.includes(rider.id)).forEach((rider) => {
-    const aceScale = rider.id === state.raceAce ? 1.6 : 1;
-    add(archetypeStatBonuses[rider.primaryArchetype], 0.7 * aceScale);
-    add(archetypeStatBonuses[rider.secondaryArchetype], 0.35 * aceScale);
+    const roleScale = rider.id === state.raceAce ? 1 : 0.15;
+    add(archetypeStatBonuses[rider.primaryArchetype], 0.7 * roleScale);
+    add(archetypeStatBonuses[rider.secondaryArchetype], 0.35 * roleScale);
     const versatile = passiveAbilities[rider.id]?.versatile;
-    const tagScale = (versatile ? 0.55 : 0.3) * aceScale;
+    const tagScale = (versatile ? 0.55 : 0.3) * roleScale;
     rider.aptitudeTags.forEach((tag) => add(aptitudeTagStatBonuses[tag], tagScale));
   });
   return Object.fromEntries(Object.entries(bonus).map(([stat, value]) => [stat, Math.round(value)]));
@@ -590,7 +648,7 @@ function getFinalStats() {
   const structure = getSquadStructureBonus();
   const identity = getRiderIdentityBonus();
   return Object.keys(baseStats).reduce((finalStats, stat) => {
-    finalStats[stat] = clamp((state.stats[stat] || 0) + (support[stat] || 0) + (team[stat] || 0) + (equipment[stat] || 0) + (structure[stat] || 0) + (identity[stat] || 0), 0, 160);
+    finalStats[stat] = clamp((team[stat] || 50) + (state.stats[stat] || 0) + (support[stat] || 0) + (equipment[stat] || 0) + (structure[stat] || 0) + (identity[stat] || 0), 50, 90);
     return finalStats;
   }, {});
 }
@@ -715,24 +773,29 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
   const distance = Math.max(0, sector.kmTo - sector.km);
   const terrainLoad = stage.type === "山岳" ? 0.9 : stage.type === "丘陵" ? 0.45 : 0.1;
   const surfaceLoad = stage.condition.includes("石畳") || stage.condition.includes("グラベル") ? 0.5 : 0;
+  const surfaceSkill = stage.condition.includes("石畳")
+    ? stats.pave * 0.7 + stats.bikeControl * 0.3
+    : stats.bikeControl;
   const windLoad = stage.condition.includes("風") ? 0.35 : 0;
   const isDescent = sector.card.id === "descent" || sector.phase.includes("下り");
   const draftingRelief = clamp((stats.teamwork - 70) / 260, 0, 0.28);
   const enduranceRelief = clamp(stats.stamina / 900, 0.04, 0.18);
+  const resistanceRelief = clamp((stats.resistance - 60) / 100, 0, 0.25);
   const notes = [];
 
   const passiveFatigueRate = passiveEffects.fatigueRate
     + passiveEffects.mountainFatigueRate
     + passiveEffects.windFatigueRate
     + (sector.card.id === "tempo" ? passiveEffects.tempoFatigueRate : 0);
+  const highIntensityShare = ["attack", "sprint"].includes(sector.card.id) ? resistanceRelief : resistanceRelief * 0.35;
   const fatigueGain = (distance * 0.22 + sector.card.fatigue + terrainLoad + surfaceLoad + windLoad)
-    * (1 - draftingRelief - enduranceRelief)
+    * (1 - draftingRelief - enduranceRelief - highIntensityShare)
     * clamp(1 + passiveFatigueRate, 0.55, 1.25);
   metrics.fatigue = clamp(metrics.fatigue + fatigueGain, 0, 100);
   metrics.nutrition = clamp(metrics.nutrition - distance * 0.17 - sector.card.fuelCost - terrainLoad * 0.25, 0, 100);
   metrics.sprint = clamp(metrics.sprint - sector.card.sprintCost * clamp(1 + passiveEffects.sprintCostRate, 0.55, 1.2), 0, 100);
 
-  const metabolicStress = (sector.card.lactateCost || 0) + terrainLoad * (sector.card.id === "attack" ? 4 : 1.4);
+  const metabolicStress = ((sector.card.lactateCost || 0) + terrainLoad * (sector.card.id === "attack" ? 4 : 1.4)) * (1 - resistanceRelief);
   const stressMultiplier = clamp(1 + metrics.fatigue / 180 + Math.max(0, 50 - metrics.nutrition) / 100, 0.85, 1.75);
   metrics.lactate = clamp(metrics.lactate + metabolicStress * stressMultiplier, 0, 100);
 
@@ -748,7 +811,7 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
     metrics.sprint = clamp(metrics.sprint + sprintRecovery, 0, 100);
     if (lactateRecovery >= 4) notes.push("回復力で乳酸負荷-" + Math.round(lactateRecovery) + " / スプリント+" + Math.round(sprintRecovery));
   }
-  const healthWear = (distance * 0.012 + surfaceLoad * (1 - clamp(stats.bikeControl / 180, 0, 0.85)) * 0.45 + Math.max(0, metrics.fatigue - 60) * 0.006)
+  const healthWear = (distance * 0.012 + surfaceLoad * (1 - clamp(surfaceSkill / 180, 0, 0.85)) * 0.45 + Math.max(0, metrics.fatigue - 60) * 0.006)
     * clamp(1 + passiveEffects.healthWearRate, 0.55, 1.2);
   metrics.health = clamp(metrics.health - healthWear, 0, 100);
 
@@ -776,14 +839,14 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
     metrics.health = clamp(metrics.health - (metrics.fatigue - 78) * 0.035, 0, 100);
   }
 
-  if (surfaceLoad > 0 && stats.bikeControl < 85) {
+  if (surfaceLoad > 0 && surfaceSkill < 85) {
     metrics.health = clamp(metrics.health - 0.5, 0, 100);
     notes.push("バイクコントロール不足で悪路消耗");
   }
 
   let incidentPenalty = 0;
   if (isDescent) {
-    const crashRisk = clamp(18 - stats.bikeControl * 0.11 + metrics.fatigue * 0.07 + Math.max(0, 100 - metrics.health) * 0.03, 1, 22);
+    const crashRisk = clamp(18 - surfaceSkill * 0.11 + metrics.fatigue * 0.07 + Math.max(0, 100 - metrics.health) * 0.03, 1, 22);
     if (Math.random() * 100 < crashRisk) {
       metrics.health = clamp(metrics.health - 12, 0, 100);
       metrics.fatigue = clamp(metrics.fatigue + 8, 0, 100);
@@ -834,7 +897,7 @@ function renderStats() {
   const finalStats = getFinalStats();
   statsNode.innerHTML = Object.entries(finalStats)
     .map(([stat, value]) => {
-      const width = clamp(Math.round((value / 160) * 100), 4, 100);
+      const width = clamp(Math.round(((value - 50) / 40) * 100), 4, 100);
       return `
         <div class="stat-row">
           <span>${statLabels[stat]}</span>
@@ -884,6 +947,8 @@ function renderTeamList() {
         <button class="card-button ${selected ? "selected" : ""}" type="button" data-rider="${rider.id}">
           <div class="card-meta"><strong>${rider.name}</strong><span>${rider.primaryArchetype} / ${rider.secondaryArchetype}</span></div>
           <span>タグ: ${rider.aptitudeTags.join(" / ")}</span>
+          <span>SP${rider.stats.sprint} / 加速${rider.stats.acceleration} / 登坂${rider.stats.climb} / 巡航${rider.stats.cruise} / 持久${rider.stats.stamina} / パヴェ${rider.stats.pave} / 日間${rider.stats.dailyRecovery}</span>
+          <span class="rider-record">${rider.paveBasis}</span>
           <span>A${rider.aceAptitude} / S${rider.supportAptitude} / P: ${passiveAbilities[rider.id]?.name || "なし"}</span>
         </button>
       `;
@@ -894,9 +959,9 @@ function renderTeamList() {
 
 function getRaceRole(riderId) {
   if (!state.selectedTeam.includes(riderId)) return "候補";
-  if (state.raceAce === riderId) return "当日エース";
+  if (state.raceAce === riderId) return "エース";
   const rider = riders.find((item) => item.id === riderId);
-  return rider?.preferredRoles[0] || "アシスト";
+  return rider?.preferredRoles[0] || "平坦アシスト";
 }
 
 function getBestStat(stats) {
@@ -1036,7 +1101,7 @@ function renderAbilities() {
   if (passiveNode) {
     passiveNode.innerHTML = `
       <div><span>自動発動パッシブ</span><strong>${passiveEffects.labels.join(" / ") || "なし"}</strong></div>
-      <small>編成、当日エース、コース条件に応じて疲労・補給・健康度・終盤出力を補正</small>
+      <small>編成、エース、コース条件に応じて疲労・補給・健康度・終盤出力を補正</small>
     `;
   }
 
@@ -1073,10 +1138,11 @@ function renderStages() {
 
 function renderRaceSummary() {
   const stage = getSelectedStage();
+  const stageRaceLabel = stage.format === "ステージレース" ? ` / Day ${state.stageRaceDay + 1} / 日間回復${getFinalStats().dailyRecovery}` : "";
   document.querySelector("#seasonWeek").textContent = `${state.selectedActionCards.length} / 7`;
   document.querySelector("#teamPower").textContent = calculatePower();
   document.querySelector("#winRate").textContent = `${calculateWinRate()}%`;
-  document.querySelector("#tacticLabel").textContent = `${stage.tactic} / ${getSquadStructureLabel()}`;
+  document.querySelector("#tacticLabel").textContent = `${stage.tactic} / ${getSquadStructureLabel()}${stageRaceLabel}`;
 }
 
 function renderRaceCondition() {
@@ -1174,7 +1240,7 @@ function toggleActionCard(id) {
   } else {
     state.log.unshift("戦術デッキは5枚まで。別カードを外してから選択。");
   }
-  state.raceMetrics = createInitialRaceMetrics();
+  refreshRacePreview();
   render();
 }
 function toggleSupport(id) {
@@ -1190,13 +1256,13 @@ function toggleSupport(id) {
 
 function setRaceAce(id) {
   if (!state.selectedTeam.includes(id)) {
-    state.log.unshift("当日エースはチーム内の選手から指名する。");
+    state.log.unshift("エースはチーム内の選手から指名する。");
     render();
     return;
   }
   state.raceAce = id;
   const rider = riders.find((item) => item.id === id);
-  state.log.unshift(`${rider.name}をこの日の当日エースに指名。ほかの選手は各自の得意役割を担当する。`);
+  state.log.unshift(`${rider.name}をこの日のエースに指名。ほかの選手は各自の役割・戦術特性を担当する。`);
   render();
 }
 
@@ -1226,10 +1292,10 @@ function runRace() {
   const playerBasePower = calculatePower();
   const cpuBasePower = getCpuPower(stage);
   const sectors = buildRaceSectors(stage);
-  const metrics = createInitialRaceMetrics();
+  const metrics = getRaceStartMetrics(stage);
   const passiveEffects = getTeamPassiveEffects(stage);
   const activeAbility = getSelectedActiveAbility();
-  let momentum = (playerBasePower - cpuBasePower) * 0.18 + (ace ? (ace.stats.ego + ace.stats.fighting) * 0.3 : 0);
+  let momentum = (playerBasePower - cpuBasePower) * 0.18 + (ace ? (ace.stats.fighting + ace.stats.acceleration) * 0.04 - Math.max(0, ace.stats.ego - ace.stats.teamwork) * 0.15 : 0);
   const sectorLogs = [];
 
   sectors.forEach((sector) => {
@@ -1253,9 +1319,21 @@ function runRace() {
     result === "勝利"
       ? "セクターごとのカード選択で脚と位置取りを残し、勝負所を取り切った。"
       : "セクターのどこかで主導権を失い、最後の局面で届かなかった。";
+  let stageDayText = "";
+  let recoveryText = "";
+  if (stage.format === "ステージレース") {
+    const overnight = calculateNextDayRecovery(metrics, finalStats.dailyRecovery);
+    state.stageRaceDay += 1;
+    state.stageRaceCarryover = overnight.metrics;
+    stageDayText = ` / Day ${state.stageRaceDay}`;
+    recoveryText = ` 翌日回復（日間回復力${finalStats.dailyRecovery}）: 疲労-${overnight.amounts.fatigue}、SP+${overnight.amounts.sprint}、補給+${overnight.amounts.nutrition}、健康+${overnight.amounts.health}、乳酸負荷-${overnight.amounts.lactate}。翌日開始: 疲労${Math.round(overnight.metrics.fatigue)}、SP${Math.round(overnight.metrics.sprint)}、補給${Math.round(overnight.metrics.nutrition)}、健康${Math.round(overnight.metrics.health)}、乳酸負荷${Math.round(overnight.metrics.lactate)}。`;
+  } else {
+    state.stageRaceDay = 0;
+    state.stageRaceCarryover = null;
+  }
 
   state.log.unshift(
-    `${stage.name} [${stage.format} / ${stage.type} / ${stage.condition}]: ${result}。当日エース ${ace ? ace.name : "未指名"} / ${getSquadStructureLabel()} / ${getRaceDistance(stage)}km / ${sectors.length}セクター / 戦力${playerBasePower} / ${battleModes[state.battleMode].label}${cpuBasePower} / 判定${roll} / 勝率${winRate}%。最終状態: 疲労${Math.round(metrics.fatigue)}、スプリント${Math.round(metrics.sprint)}、補給${Math.round(metrics.nutrition)}、健康度${Math.round(metrics.health)}、乳酸負荷${Math.round(metrics.lactate)}、補給回数${metrics.feeds}、落車${metrics.crashes}回。パッシブ: ${passiveEffects.labels.join("・") || "なし"}。アクティブ: ${metrics.activeUsed ? metrics.activeName : `${activeAbility.name}（不発）`}。${detail}`,
+    `${stage.name} [${stage.format} / ${stage.type} / ${stage.condition}${stageDayText}]: ${result}。エース ${ace ? ace.name : "未指名"} / ${getSquadStructureLabel()} / ${getRaceDistance(stage)}km / ${sectors.length}セクター / 戦力${playerBasePower} / ${battleModes[state.battleMode].label}${cpuBasePower} / 判定${roll} / 勝率${winRate}%。最終状態: 疲労${Math.round(metrics.fatigue)}、スプリント${Math.round(metrics.sprint)}、補給${Math.round(metrics.nutrition)}、健康度${Math.round(metrics.health)}、乳酸負荷${Math.round(metrics.lactate)}、補給回数${metrics.feeds}、落車${metrics.crashes}回。パッシブ: ${passiveEffects.labels.join("・") || "なし"}。アクティブ: ${metrics.activeUsed ? metrics.activeName : `${activeAbility.name}（不発）`}。${detail}${recoveryText}`,
     ...sectorLogs.reverse(),
   );
   state.raceMetrics = metrics;
@@ -1274,6 +1352,8 @@ function resetGame() {
   state.battleMode = "cpu";
   state.selectedActiveAbility = "protect_ace";
   state.raceMetrics = createInitialRaceMetrics();
+  state.stageRaceDay = 0;
+  state.stageRaceCarryover = null;
   state.log = ["カード編成を初期化。能力値の育成・レベル上げ・限界突破は行わない。"];
   render();
 }
@@ -1289,7 +1369,7 @@ function bindEvents() {
 
     if (activeAbilityButton) {
       state.selectedActiveAbility = activeAbilityButton.dataset.activeAbility;
-      state.raceMetrics = createInitialRaceMetrics();
+      refreshRacePreview();
       render();
       return;
     }
@@ -1305,8 +1385,17 @@ function bindEvents() {
     if (riderButton && event.detail >= 2) setRaceAce(riderButton.dataset.rider);
     else if (riderButton) toggleRider(riderButton.dataset.rider);
     if (stageButton) {
+      const previousStage = getSelectedStage();
+      const nextStage = stages.find((stage) => stage.id === stageButton.dataset.stage);
+      const continuesStageRace = previousStage?.format === "ステージレース" && nextStage?.format === "ステージレース" && state.stageRaceCarryover;
       state.selectedStage = stageButton.dataset.stage;
-      state.raceMetrics = createInitialRaceMetrics();
+      if (continuesStageRace) {
+        state.raceMetrics = { ...state.stageRaceCarryover };
+      } else {
+        state.stageRaceDay = 0;
+        state.stageRaceCarryover = null;
+        state.raceMetrics = createInitialRaceMetrics();
+      }
       render();
     }
   });

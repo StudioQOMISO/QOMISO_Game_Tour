@@ -78,9 +78,9 @@ function aptitudes(no, oldClass, oldRole, oldTag, credit) {
 
 function preferredRoles(oldClass, oldRole, oldTag, name) {
   const roles = [];
-  if (oldClass === "勝利担当") roles.push("当日エース", "副エース");
+  if (oldClass === "勝利担当") roles.push("エース");
   if (oldRole === "山岳アシスト" || oldRole === "平坦・横風ルーラー" || oldRole === "石畳ガード" || oldRole === "TTT・万能アシスト") roles.push("アシスト");
-  if (oldRole === "山岳アシスト" && oldTag.includes("緊急エース可")) roles.push("副エース");
+  if (oldRole === "山岳アシスト" && oldTag.includes("緊急エース可")) roles.push("サブエース");
   if (oldRole === "ロードキャプテン") roles.push("ロードキャプテン", "アシスト");
   if (oldRole === "リードアウト") roles.push("リードアウト", "アシスト");
   if (oldRole === "石畳ガード" || oldRole === "TTT・万能アシスト") roles.push("ロードキャプテン");
@@ -132,21 +132,21 @@ const riders = sourceRows.map((row) => {
 });
 
 const replacementSpecs = new Map([
-  [86, { name: "Mads Pedersen", country: "デンマーク", era: "現代", primary: "クラシック型", secondary: "スプリンター", aceAptitude: 94, supportAptitude: 85, preferred: "当日エース / 副エース", specialistRole: "", credit: 10000, motif: "石畳、最高速、長距離耐久、反復スプリント", url: "https://en.wikipedia.org/wiki/Special:Search?search=Mads%20Pedersen%20cyclist" }],
-  [89, { name: "Jasper Philipsen", country: "ベルギー", era: "現代", primary: "スプリンター", secondary: "クラシック型", aceAptitude: 96, supportAptitude: 68, preferred: "当日エース / 副エース", specialistRole: "", credit: 9800, motif: "最高速、位置取り、クラシックスプリント", url: "https://en.wikipedia.org/wiki/Special:Search?search=Jasper%20Philipsen%20cyclist" }],
-  [104, { name: "Biniam Girmay", country: "エリトリア", era: "現代", primary: "スプリンター", secondary: "パンチャー", aceAptitude: 93, supportAptitude: 80, preferred: "当日エース / 副エース", specialistRole: "", credit: 9000, motif: "登りスプリント、石畳、位置取り、勝負強さ", url: "https://en.wikipedia.org/wiki/Special:Search?search=Biniam%20Girmay%20cyclist" }],
-  [105, { name: "Tom Pidcock", country: "イギリス", era: "現代", primary: "クラシック型", secondary: "パンチャー", aceAptitude: 91, supportAptitude: 78, preferred: "当日エース / 副エース", specialistRole: "", credit: 9000, motif: "パンチ力、下り、バイクコントロール、複合競技", url: "https://en.wikipedia.org/wiki/Special:Search?search=Tom%20Pidcock%20cyclist" }],
-  [106, { name: "Joao Almeida", country: "ポルトガル", era: "現代", primary: "総合型", secondary: "TT・ルーラー型", aceAptitude: 93, supportAptitude: 82, preferred: "当日エース / 副エース", specialistRole: "", credit: 9500, motif: "粘る登坂、TT、長期総合、日ごとの回復", url: "https://en.wikipedia.org/wiki/Special:Search?search=Joao%20Almeida%20cyclist" }],
-  [111, { name: "Juan Ayuso", country: "スペイン", era: "現代", primary: "総合型", secondary: "パンチャー", aceAptitude: 92, supportAptitude: 75, preferred: "当日エース / 副エース", specialistRole: "", credit: 9000, motif: "若手総合、登坂、TT、加速力", url: "https://en.wikipedia.org/wiki/Special:Search?search=Juan%20Ayuso%20cyclist" }],
-  [136, { name: "Carlos Rodriguez", country: "スペイン", era: "現代", primary: "総合型", secondary: "クライマー", aceAptitude: 90, supportAptitude: 80, preferred: "当日エース / 副エース", specialistRole: "", credit: 8500, motif: "総合安定、登坂、下り、若手エース", url: "https://en.wikipedia.org/wiki/Special:Search?search=Carlos%20Rodriguez%20cyclist" }],
-  [137, { name: "Jonathan Milan", country: "イタリア", era: "現代", primary: "スプリンター", secondary: "TT・ルーラー型", aceAptitude: 94, supportAptitude: 78, preferred: "当日エース / リードアウト", specialistRole: "", credit: 8800, motif: "大出力スプリント、巡航、トラック由来の速度", url: "https://en.wikipedia.org/wiki/Special:Search?search=Jonathan%20Milan%20cyclist" }],
-  [138, { name: "Olav Kooij", country: "オランダ", era: "現代", primary: "スプリンター", secondary: "TT・ルーラー型", aceAptitude: 93, supportAptitude: 77, preferred: "当日エース / リードアウト", specialistRole: "", credit: 8200, motif: "最高速、位置取り、若さ、集団スプリント", url: "https://en.wikipedia.org/wiki/Special:Search?search=Olav%20Kooij%20cyclist" }],
-  [183, { name: "Arnaud De Lie", country: "ベルギー", era: "現代", primary: "パンチャー", secondary: "スプリンター", aceAptitude: 91, supportAptitude: 78, preferred: "当日エース / 副エース", specialistRole: "", credit: 8200, motif: "登りスプリント、悪路、爆発力、力強い加速", url: "https://en.wikipedia.org/wiki/Special:Search?search=Arnaud%20De%20Lie%20cyclist" }],
+  [86, { name: "Mads Pedersen", country: "デンマーク", era: "現代", primary: "クラシック型", secondary: "スプリンター", aceAptitude: 94, supportAptitude: 85, preferred: "エース", specialistRole: "", credit: 10000, motif: "石畳、最高速、長距離耐久、反復スプリント", url: "https://en.wikipedia.org/wiki/Special:Search?search=Mads%20Pedersen%20cyclist" }],
+  [89, { name: "Jasper Philipsen", country: "ベルギー", era: "現代", primary: "スプリンター", secondary: "クラシック型", aceAptitude: 96, supportAptitude: 68, preferred: "エース", specialistRole: "", credit: 9800, motif: "最高速、位置取り、クラシックスプリント", url: "https://en.wikipedia.org/wiki/Special:Search?search=Jasper%20Philipsen%20cyclist" }],
+  [104, { name: "Biniam Girmay", country: "エリトリア", era: "現代", primary: "スプリンター", secondary: "パンチャー", aceAptitude: 93, supportAptitude: 80, preferred: "エース", specialistRole: "", credit: 9000, motif: "登りスプリント、石畳、位置取り、勝負強さ", url: "https://en.wikipedia.org/wiki/Special:Search?search=Biniam%20Girmay%20cyclist" }],
+  [105, { name: "Tom Pidcock", country: "イギリス", era: "現代", primary: "クラシック型", secondary: "パンチャー", aceAptitude: 91, supportAptitude: 78, preferred: "エース", specialistRole: "", credit: 9000, motif: "パンチ力、下り、バイクコントロール、複合競技", url: "https://en.wikipedia.org/wiki/Special:Search?search=Tom%20Pidcock%20cyclist" }],
+  [106, { name: "Joao Almeida", country: "ポルトガル", era: "現代", primary: "総合型", secondary: "TT・ルーラー型", aceAptitude: 93, supportAptitude: 82, preferred: "エース", specialistRole: "", credit: 9500, motif: "粘る登坂、TT、長期総合、日ごとの回復", url: "https://en.wikipedia.org/wiki/Special:Search?search=Joao%20Almeida%20cyclist" }],
+  [111, { name: "Juan Ayuso", country: "スペイン", era: "現代", primary: "総合型", secondary: "パンチャー", aceAptitude: 92, supportAptitude: 75, preferred: "エース", specialistRole: "", credit: 9000, motif: "若手総合、登坂、TT、加速力", url: "https://en.wikipedia.org/wiki/Special:Search?search=Juan%20Ayuso%20cyclist" }],
+  [136, { name: "Carlos Rodriguez", country: "スペイン", era: "現代", primary: "総合型", secondary: "クライマー", aceAptitude: 90, supportAptitude: 80, preferred: "エース", specialistRole: "", credit: 8500, motif: "総合安定、登坂、下り、若手エース", url: "https://en.wikipedia.org/wiki/Special:Search?search=Carlos%20Rodriguez%20cyclist" }],
+  [137, { name: "Jonathan Milan", country: "イタリア", era: "現代", primary: "スプリンター", secondary: "TT・ルーラー型", aceAptitude: 94, supportAptitude: 78, preferred: "エース / リードアウト", specialistRole: "", credit: 8800, motif: "大出力スプリント、巡航、トラック由来の速度", url: "https://en.wikipedia.org/wiki/Special:Search?search=Jonathan%20Milan%20cyclist" }],
+  [138, { name: "Olav Kooij", country: "オランダ", era: "現代", primary: "スプリンター", secondary: "TT・ルーラー型", aceAptitude: 93, supportAptitude: 77, preferred: "エース / リードアウト", specialistRole: "", credit: 8200, motif: "最高速、位置取り、若さ、集団スプリント", url: "https://en.wikipedia.org/wiki/Special:Search?search=Olav%20Kooij%20cyclist" }],
+  [183, { name: "Arnaud De Lie", country: "ベルギー", era: "現代", primary: "パンチャー", secondary: "スプリンター", aceAptitude: 91, supportAptitude: 78, preferred: "エース", specialistRole: "", credit: 8200, motif: "登りスプリント、悪路、爆発力、力強い加速", url: "https://en.wikipedia.org/wiki/Special:Search?search=Arnaud%20De%20Lie%20cyclist" }],
 ]);
 for (const rider of riders) {
   if (replacementSpecs.has(Number(rider.no))) Object.assign(rider, replacementSpecs.get(Number(rider.no)));
-  if (rider.name === "Tadej Pogacar") Object.assign(rider, { aceAptitude: 99, supportAptitude: 84, preferred: "当日エース / 副エース", credit: 15000, motif: "別格総合、登坂、TT、パンチ、回復" });
-  if (rider.name === "Wout van Aert") Object.assign(rider, { aceAptitude: 92, supportAptitude: 94, preferred: "当日エース / 副エース / アシスト", credit: 9800 });
+  if (rider.name === "Tadej Pogacar") Object.assign(rider, { aceAptitude: 99, supportAptitude: 84, preferred: "エース", credit: 15000, motif: "別格総合、登坂、TT、パンチ、回復" });
+  if (rider.name === "Wout van Aert") Object.assign(rider, { aceAptitude: 92, supportAptitude: 94, preferred: "エース / アシスト", credit: 9800 });
 }
 
 riders.push(...expansionRows.map((rider) => ({
@@ -269,7 +269,7 @@ summary.getRange("D5:F10").format = { borders: { preset: "inside", style: "thin"
 summary.getRange("A15:F15").merge(); summary.getRange("A15").values = [["主脚質・副脚質＋適性タグのルール"]]; summary.getRange("A15:F15").format = sectionFormat;
 summary.getRange("A16:B23").values = [
   ["選手固有", "主脚質 / 副脚質 / 適性タグ（最大3つ） / エース適性 / アシスト適性"],
-  ["レース役割", "当日エース / 副エース / アシスト / ロードキャプテン / リードアウト / ステージハンター / 逃げ屋"],
+  ["レース役割", "エース / アシスト / ロードキャプテン / リードアウト / ステージハンター / 逃げ屋"],
   ["8人編成", "エース候補2名＋支援役割6名を基本形。支援役割は固定身分ではなく当日の任務"],
   ["役割変更", "コース、体調、疲労、健康度、年間目標により同じ選手の担当を変更可能"],
   ["適性値", "0〜100。高いほどその任務で能力と固有パッシブを発揮しやすい"],
@@ -392,7 +392,7 @@ gtSheet.tables.add("A4:Q304", true, "GrandTourAchievementTable").style = "TableS
 const exported = await SpreadsheetFile.exportXlsx(workbook);
 await exported.save(workbookPath);
 
-const roleOrder = ["当日エース", "副エース", "アシスト", "ロードキャプテン", "リードアウト", "ステージハンター", "逃げ屋"];
+const roleOrder = ["エース", "サブエース", "アシスト", "ロードキャプテン", "リードアウト", "ステージハンター", "逃げ屋"];
 const counts = Object.fromEntries(archetypes.map((a) => [a, riders.filter((r) => r.primary === a).length]));
 let md = `# 初期ロードレース選手モチーフ300名一覧（近代・現代）\n\n> 初期300名から歴史・クラシック選手を除外済み。ゲーム本編では全員を架空名・架空プロフィールへ変換する。仮Creditはゲーム内編成コストであり、現実の年俸・市場価値ではない。\n\n## 分類方針\n\n- 選手固有: 主脚質 / 副脚質 / 適性タグ（最大3つ） / エース適性 / アシスト適性\n- レースごとの役割: ${roleOrder.join(" / ")}\n- 固定の「勝利担当」「アシスト系」分類は使用しない\n- 8人編成はエース候補2名＋支援役割6名を基本形とする\n- Credit上限: 通常レース42,000Cr / 上位レース45,000Cr / 最高峰レース48,000Cr\n- 最高額: Tadej Pogacarモチーフ15,000Cr（最高峰枠の31.3%、残り7枠33,000Cr）\n- 次点: Mathieu van der Poelモチーフ13,000Cr（モニュメント8勝の最上位クラシック枠）\n- ステージハンター適性: ${riders.filter((r) => r.preferred.includes("ステージハンター")).length}名\n- 逃げ屋適性: ${riders.filter((r) => r.preferred.includes("逃げ屋")).length}名\n- 歴史・クラシック選手: 0名（別枠管理）\n- 日本人モチーフ: Fumiyuki Beppu / Yukiya Arashiro\n\n## 主脚質の人数\n\n| 主脚質 | 人数 |\n|---|---:|\n${archetypes.map((a) => `| ${a} | ${counts[a]} |`).join("\n")}\n| 合計 | 300 |\n\n## 専門役割\n\n| 専門役割 | 人数 | 対象選手 |\n|---|---:|---|\n| ステージハンター | ${riders.filter((r) => r.preferred.includes("ステージハンター")).length} | ${riders.filter((r) => r.preferred.includes("ステージハンター")).map((r) => r.name).join(" / ")} |\n| 逃げ屋 | ${riders.filter((r) => r.preferred.includes("逃げ屋")).length} | ${riders.filter((r) => r.preferred.includes("逃げ屋")).map((r) => r.name).join(" / ")} |\n`;
 md += "\n## Credit実績補正基準\n\n- 実績は加算せず、GT総合・GTステージ・最終各賞・モニュメントのうち最も高い最低価格だけを採用する。\n- 既存の脚質・役割評価による価格は下げず、実績に対して安すぎるカードのみ引き上げる。\n- モニュメント: 8勝以上13,000 / 7勝12,000 / 6勝11,500 / 5勝11,000 / 4勝10,500 / 3勝9,500 / 2勝8,500 Cr。\n- GT個人ステージ: 50勝以上11,000 / 35勝以上10,500 / 25勝以上10,000 / 15勝以上9,000 / 10勝以上8,200 Cr。\n- GT最終各賞: 8回以上10,500 / 5回以上9,500 / 3回以上8,500 Cr。GT総合1勝は8,500 Cr。複数回総合優勝は別表の高い基準を使う。\n";

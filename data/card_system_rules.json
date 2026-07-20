@@ -1,0 +1,33 @@
+{
+  "turnBudget": 5,
+  "carryOverUnusedBudget": false,
+  "maxIndividualCardsPerRiderPerTurn": 1,
+  "maxTeamCardsPerTurn": 1,
+  "cardSlots": [
+    {
+      "id": "basic",
+      "name": "基本技",
+      "cost": 1,
+      "usage": "低コストの通常行動"
+    },
+    {
+      "id": "specialty",
+      "name": "得意技",
+      "cost": 2,
+      "usage": "選手の得意分野を表す強い行動"
+    },
+    {
+      "id": "decisive",
+      "name": "勝負手",
+      "cost": 3,
+      "usage": "原則レース中1回の決定的な行動"
+    }
+  ],
+  "teamCardCostRange": [
+    1,
+    2
+  ],
+  "selectionMode": "選手を選ぶと3枚を固定表示し、選択カードを行動キューへ追加する",
+  "resolutionOrder": "プレイヤーが指定した行動キュー順",
+  "resourceRule": "作戦コストはターンごとの指示量。カード使用者の体力・SP消費は別に処理する"
+}

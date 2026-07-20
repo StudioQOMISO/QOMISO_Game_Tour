@@ -10,9 +10,9 @@ const fixedCsvPath = path.join(workspace, "data", "rider_parameters_300_fixed.cs
 const candidatesCsvPath = path.join(workspace, "data", "rider_motif_candidates_500.csv");
 const rosterJsonPath = path.join(workspace, "data", "uci_2026_worldteam_roster.json");
 const profileJsonPath = path.join(workspace, "data", "rider_activity_profiles_2026.json");
-const activeCsvPath = path.join(workspace, "data", "rider_parameters_active_300.csv");
-const retiredCsvPath = path.join(workspace, "data", "rider_parameters_retired.csv");
-const pendingCsvPath = path.join(workspace, "data", "rider_parameters_status_pending.csv");
+const activeCsvPath = path.join(workspace, "選手スプレッドシート", "01_現役選手300名.csv");
+const retiredCsvPath = path.join(workspace, "選手スプレッドシート", "02_引退選手.csv");
+const pendingCsvPath = path.join(workspace, "選手スプレッドシート", "03_区分保留.csv");
 const reportPath = path.join(workspace, "docs", "rider_active_retired_roster_2026.md");
 
 const normalize = (value) => String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");

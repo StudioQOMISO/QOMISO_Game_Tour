@@ -12,9 +12,9 @@ const markdownPath = path.join(workspace, "docs", "rider_parameters_300.md");
 const paveJsonPath = path.join(workspace, "data", "paris_roubaix_results_300.json");
 const worldJsonPath = path.join(workspace, "data", "world_championship_achievements_300.json");
 const roleDefinitionPath = path.join(workspace, "data", "rider_role_definitions.json");
-const activeRosterPath = path.join(workspace, "data", "rider_parameters_active_300.csv");
-const retiredRosterPath = path.join(workspace, "data", "rider_parameters_retired.csv");
-const pendingRosterPath = path.join(workspace, "data", "rider_parameters_status_pending.csv");
+const activeRosterPath = path.join(workspace, "選手スプレッドシート", "01_現役選手300名.csv");
+const retiredRosterPath = path.join(workspace, "選手スプレッドシート", "02_引退選手.csv");
+const pendingRosterPath = path.join(workspace, "選手スプレッドシート", "03_区分保留.csv");
 
 const statKeys = ["sprint", "acceleration", "punch", "cruise", "climb", "stamina", "resistance", "technique", "bikeControl", "pave", "recovery", "dailyRecovery", "teamwork", "ego", "fighting"];
 const statLabels = ["スプリント", "加速力", "パンチ力", "巡航力", "登坂力", "持久力", "耐性", "技術", "バイクコントロール", "パヴェ", "回復力", "日間回復力", "チームワーク", "エゴ", "負けん気"];

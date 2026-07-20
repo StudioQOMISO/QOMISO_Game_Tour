@@ -154,7 +154,7 @@ async function main() {
       stats.ego,
       stats.fighting,
       primary.includes("cobble") ? "cobble/wind" : primary === "itt" ? "itt/ttt" : primary === "gc" ? "mountain/itt" : primary === "sprint" ? "flat" : primary === "climber" ? "mountain" : "hill/breakaway",
-      "Use only as research motif; create fictional name, nationality variant, visual design, and career history before game use",
+      "Use as a real-rider reference; rate only from public results and riding characteristics before game use",
     ];
     lines.push(row.map(escapeCsv).join(","));
   }

@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const filePath = path.join(workspace, "data", "rider_parameters_active_300.csv");
+const filePath = path.join(workspace, "選手スプレッドシート", "01_現役選手300名.csv");
 const specialists = new Set([
   "Remco Evenepoel", "Wout van Aert", "Filippo Ganna", "Joshua Tarling", "Stefan Bissegger",
   "Victor Campenaerts", "Tobias Foss", "Edoardo Affini", "Brandon McNulty", "Jay Vine",

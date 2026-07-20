@@ -8,7 +8,7 @@ const workbookPath=path.join(outputDir,"QOMISO_Game_Tour_実在選手300名_全�
 function parseCsv(text){const raw=[];let row=[],cell="",quoted=false;for(let i=0;i<text.length;i+=1){const c=text[i];if(c==='"'&&quoted&&text[i+1]==='"'){cell+='"';i+=1;}else if(c==='"')quoted=!quoted;else if(c===","&&!quoted){row.push(cell);cell="";}else if((c==="\n"||c==="\r")&&!quoted){if(c==="\r"&&text[i+1]==="\n")i+=1;row.push(cell);if(row.some(v=>v!==""))raw.push(row);row=[];cell="";}else cell+=c;}if(cell||row.length){row.push(cell);raw.push(row);}const headers=raw.shift();return raw.map(cells=>Object.fromEntries(headers.map((h,i)=>[h,cells[i]??""])));}
 const normalize=value=>String(value||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
 const stats=["sprint","acceleration","punch","cruise","climb","stamina","resistance","technique","bikeControl","pave","recovery","dailyRecovery","teamwork","ego","fighting"];
-const sources=await Promise.all(["rider_parameters_active_300.csv","rider_parameters_retired.csv","rider_parameters_status_pending.csv"].map(async file=>parseCsv(await fs.readFile(path.join(root,"data",file),"utf8"))));
+const sources=await Promise.all(["01_現役選手300名.csv","02_引退選手.csv","03_区分保留.csv"].map(async file=>parseCsv(await fs.readFile(path.join(root,"選手スプレッドシート",file),"utf8"))));
 const byName=new Map(sources.flat().map(row=>[normalize(row.name),row]));
 const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(workbookPath));
 let changed=0;

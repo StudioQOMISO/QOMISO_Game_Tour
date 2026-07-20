@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 
-const activePath = "data/rider_parameters_active_300.csv";
-const pendingPath = "data/rider_parameters_status_pending.csv";
+const activePath = "選手スプレッドシート/01_現役選手300名.csv";
+const pendingPath = "選手スプレッドシート/03_区分保留.csv";
 const incoming = new Map([
   ["Julian Alaphilippe", { team: "Tudor Pro Cycling Team", source: "https://www.letour.fr/en/riders" }],
   ["Tom Pidcock", { team: "Pinarello–Q36.5 Pro Cycling Team", source: "https://www.letour.fr/en/riders" }],

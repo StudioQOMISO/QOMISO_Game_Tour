@@ -1,9 +1,9 @@
 import fs from "node:fs/promises";
 
 const files = [
-  "data/rider_parameters_active_300.csv",
-  "data/rider_parameters_retired.csv",
-  "data/rider_parameters_status_pending.csv",
+  "選手スプレッドシート/01_現役選手300名.csv",
+  "選手スプレッドシート/02_引退選手.csv",
+  "選手スプレッドシート/03_区分保留.csv",
   "data/rider_parameters_300.csv",
   "data/rider_parameters_300_fixed.csv",
   "data/rider_parameters_300_pre_rebalance.csv",
@@ -48,7 +48,7 @@ const reports={};
 for(const file of files){
   try{await fs.access(file);}catch{continue;}
   const parsed=parseCsv(await fs.readFile(file,"utf8"));
-  const isActive=file.endsWith("rider_parameters_active_300.csv");
+  const isActive=file.endsWith("01_現役選手300名.csv");
   const topByStat={};
   for(const stat of stats){
     const ranked=[...parsed.rows].sort((a,b)=>score(b,stat)-score(a,stat)||Number(b[stat])-Number(a[stat])||a.name.localeCompare(b.name,"en"));

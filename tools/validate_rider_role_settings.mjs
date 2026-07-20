@@ -7,7 +7,7 @@ const definitions = JSON.parse(await fs.readFile(path.join(workspace, "data", "r
 const names = new Set(definitions.map((role) => role.name));
 const errors = [];
 
-if (definitions.length !== 30) errors.push(`役割数: ${definitions.length}（30必須）`);
+if (definitions.length !== 28) errors.push(`役割数: ${definitions.length}（28必須）`);
 if (names.size !== definitions.length) errors.push("役割名またはIDが重複しています");
 if (new Set(definitions.map((role) => role.id)).size !== definitions.length) errors.push("役割IDが重複しています");
 for (const role of definitions) {
@@ -35,19 +35,19 @@ function parseCsv(text) {
   return rows.map((cells) => Object.fromEntries(headers.map((header, index) => [header, cells[index] ?? ""])));
 }
 
-const csvFiles = (await fs.readdir(path.join(workspace, "data"))).filter((name) =>
-  /^rider_parameters.*\.csv$/i.test(name) && !name.includes("_pre_rebalance")
-);
+const csvDir = path.join(workspace, "選手スプレッドシート");
+const csvFiles = ["01_現役選手300名.csv", "02_引退選手.csv", "03_区分保留.csv"];
 let checkedRiders = 0;
 for (const file of csvFiles) {
-  const rows = parseCsv(await fs.readFile(path.join(workspace, "data", file), "utf8"));
+  const rows = parseCsv(await fs.readFile(path.join(csvDir, file), "utf8"));
   if (!rows.length || !("preferred_roles" in rows[0])) continue;
   for (const rider of rows) {
     checkedRiders += 1;
     const assigned = String(rider.preferred_roles || "").split(" / ").filter(Boolean);
-    if (assigned.length > 7) errors.push(`${file}:${rider.name}: 役割が7件を超えています`);
+    if (assigned.length !== 3) errors.push(`${file}:${rider.name}: 役割が3件ではありません`);
     if (new Set(assigned).size !== assigned.length) errors.push(`${file}:${rider.name}: 役割が重複しています`);
-    if (assigned.includes("エース") && assigned.includes("サブエース")) errors.push(`${file}:${rider.name}: エースとサブエースが重複しています`);
+    const aceRoles = assigned.filter((role) => role.endsWith("エース") && role !== "サブエース");
+    if (aceRoles.length > 1 || (aceRoles.length && assigned.includes("サブエース"))) errors.push(`${file}:${rider.name}: エース役割が重複しています`);
     for (const role of assigned) if (!names.has(role)) errors.push(`${file}:${rider.name}: 未定義の役割 ${role}`);
     if (String(rider.specialist_role || "").trim()) errors.push(`${file}:${rider.name}: specialist_role が空欄ではありません`);
   }

@@ -14,7 +14,7 @@ function replaceOnce(before, after) {
 
 replaceOnce(
   'const roleDefinitionPath = path.join(workspace, "data", "rider_role_definitions.json");',
-  'const roleDefinitionPath = path.join(workspace, "data", "rider_role_definitions.json");\nconst activeRosterPath = path.join(workspace, "data", "rider_parameters_active_300.csv");\nconst retiredRosterPath = path.join(workspace, "data", "rider_parameters_retired.csv");\nconst pendingRosterPath = path.join(workspace, "data", "rider_parameters_status_pending.csv");'
+  'const roleDefinitionPath = path.join(workspace, "data", "rider_role_definitions.json");\nconst activeRosterPath = path.join(workspace, "選手スプレッドシート", "01_現役選手300名.csv");\nconst retiredRosterPath = path.join(workspace, "選手スプレッドシート", "02_引退選手.csv");\nconst pendingRosterPath = path.join(workspace, "選手スプレッドシート", "03_区分保留.csv");'
 );
 
 replaceOnce(

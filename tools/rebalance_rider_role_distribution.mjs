@@ -6,9 +6,9 @@ const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..
 const files = [
   "data/rider_parameters_300.csv",
   "data/rider_parameters_300_fixed.csv",
-  "data/rider_parameters_active_300.csv",
-  "data/rider_parameters_retired.csv",
-  "data/rider_parameters_status_pending.csv",
+  "選手スプレッドシート/01_現役選手300名.csv",
+  "選手スプレッドシート/02_引退選手.csv",
+  "選手スプレッドシート/03_区分保留.csv",
 ];
 const roleOrder = JSON.parse(await fs.readFile(path.join(workspace, "data", "rider_role_definitions.json"), "utf8")).map((role) => role.name);
 const controlledRoles = ["TTスペシャリスト", "TT牽引", "平坦アシスト", "横風要員", "逃げ屋"];

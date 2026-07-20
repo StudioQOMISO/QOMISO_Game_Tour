@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const csvPath = path.join(root, "data", "rider_parameters_active_300.csv");
+const csvPath = path.join(root, "選手スプレッドシート", "01_現役選手300名.csv");
 const profilePath = path.join(root, "data", "rider_activity_profiles_2026.json");
 const candidatePath = path.join(root, "data", "rider_motif_candidates_500.csv");
 const fetchProfiles = process.argv.includes("--fetch-profiles");

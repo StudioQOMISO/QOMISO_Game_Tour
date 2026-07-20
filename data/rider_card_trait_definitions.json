@@ -1,0 +1,71 @@
+[
+  {
+    "id": "long_range_attacker",
+    "category": "個人カード",
+    "name": "超ロングスパート",
+    "cardMeaning": "残り80〜100km級から単独または少人数で仕掛ける。",
+    "gameEffect": "長距離単独走の維持力と攻撃判断を強化する。",
+    "abilities": [
+      "cruise",
+      "stamina",
+      "fighting",
+      "recovery"
+    ],
+    "term": "Long-range attacker / Solo raid"
+  },
+  {
+    "id": "bridger",
+    "category": "個人カード",
+    "name": "ブリッジャー",
+    "cardMeaning": "集団と先頭グループの間を一気に埋める。",
+    "gameEffect": "短時間の高出力で前方グループへ合流しやすくする。",
+    "abilities": [
+      "acceleration",
+      "cruise",
+      "stamina",
+      "fighting"
+    ],
+    "term": "Bridger / Bridge the gap"
+  },
+  {
+    "id": "counter_attacker",
+    "category": "個人カード",
+    "name": "カウンターアタッカー",
+    "cardMeaning": "他選手の攻撃が止まった直後の隙に反撃する。",
+    "gameEffect": "攻撃直後の成功判定を強化する。",
+    "abilities": [
+      "acceleration",
+      "punch",
+      "technique",
+      "fighting"
+    ],
+    "term": "Counter-attacker"
+  },
+  {
+    "id": "echelon_specialist",
+    "category": "個人カード",
+    "name": "横風分断",
+    "cardMeaning": "横風区間でエシュロンを作り集団を意図的に分断する。",
+    "gameEffect": "ライバルを後方集団へ落とす成功率を高める。",
+    "abilities": [
+      "cruise",
+      "fighting",
+      "technique",
+      "teamwork"
+    ],
+    "term": "Echelon specialist"
+  },
+  {
+    "id": "wheel_sucker",
+    "category": "個人カード",
+    "name": "無賃乗車",
+    "cardMeaning": "他チームのトレインや車輪を利用し先頭交代を抑える。",
+    "gameEffect": "スタミナを節約する一方で協調への貢献は下がる。",
+    "abilities": [
+      "technique",
+      "fighting",
+      "ego"
+    ],
+    "term": "Wheel-sucker / Sit-on"
+  }
+]
