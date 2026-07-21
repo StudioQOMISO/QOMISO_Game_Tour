@@ -57,7 +57,6 @@ const decisivePackages = {
   "Wout van Aert": [
   ],
   "Mads Pedersen": [
-    card("decisive", "耐久リードアウト", "長い距離を全開で牽引し、味方エースを最終発射位置へ届ける。"),
   ],
   "Florian Sénéchal": [
     card("decisive", "クラシック牽引", "終盤の悪路を全開で引き、味方エースへ攻撃機会を作る。"),
@@ -143,7 +142,7 @@ const output = elite.map((row) => {
 });
 
 const totalCards = output.reduce((sum, entry) => sum + entry.cards.length, 0);
-if (totalCards !== 13) throw new Error("elite assist card total mismatch: " + totalCards);
+if (totalCards !== 12) throw new Error("elite assist card total mismatch: " + totalCards);
 await fs.writeFile(outputPath, JSON.stringify(output, null, 2) + "\n", "utf8");
 console.log(JSON.stringify({ eliteAssistRiders: output.length, primaryAces: output.filter((entry) => entry.primaryAce).length, assistCards: totalCards, outputPath }, null, 2));
 

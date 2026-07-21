@@ -1,0 +1,977 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/yo7aem",
+    "id": "yo7aem",
+    "slide": 3,
+    "layoutId": "22f57179-1186-4166-8b39-b96eeeb2f9cd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1aada8b3-d926-44bc-aeb4-9cc885ef205d",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "22f57179-1186-4166-8b39-b96eeeb2f9cd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1aada8b3-d926-44bc-aeb4-9cc885ef205d",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1aada8b3-d926-44bc-aeb4-9cc885ef205d",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bmhov69",
+      "id": "1",
+      "bbox": [
+        42,
+        34,
+        420,
+        28
+      ],
+      "geometry": "rect",
+      "text": "QOMISO Game Tour",
+      "textPreview": "QOMISO Game Tour",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QOMISO Game Tour"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QOMISO Game Tour",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QOMISO Game Tour",
+              "fontSize": 16,
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zadgfq5o",
+      "id": "2",
+      "bbox": [
+        42,
+        72,
+        950,
+        56
+      ],
+      "geometry": "rect",
+      "text": "勝敗はエース、アシスト、年俸の三角形で決まる",
+      "textPreview": "勝敗はエース、アシスト、年俸の三角形で決まる",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "勝敗はエース、アシスト、年俸の三角形で決まる"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "勝敗はエース、アシスト、年俸の三角形で決まる",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "勝敗はエース、アシスト、年俸の三角形で決まる",
+              "fontSize": 38,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y94zmlo3",
+      "id": "3",
+      "bbox": [
+        1162,
+        42,
+        72,
+        34
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 18,
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gfil0nq",
+      "id": "4",
+      "bbox": [
+        42,
+        144,
+        1196,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8f6hsv65",
+      "id": "5",
+      "bbox": [
+        448,
+        337,
+        390,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ned0jq50",
+      "id": "6",
+      "bbox": [
+        520,
+        395,
+        260,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/md4zq5of",
+      "id": "7",
+      "bbox": [
+        770,
+        395,
+        260,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkby9g7m",
+      "id": "8",
+      "bbox": [
+        515,
+        148,
+        250,
+        124
+      ],
+      "geometry": "rect",
+      "fillColor": "#172020",
+      "lineColor": "#172020",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2hgb61",
+      "id": "9",
+      "bbox": [
+        538,
+        174,
+        205,
+        34
+      ],
+      "geometry": "rect",
+      "text": "当日エース",
+      "textPreview": "当日エース",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当日エース"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当日エース",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当日エース",
+              "fontSize": 26,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/algrmpsv",
+      "id": "10",
+      "bbox": [
+        540,
+        218,
+        200,
+        30
+      ],
+      "geometry": "rect",
+      "text": "勝たせる選手",
+      "textPreview": "勝たせる選手",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F4C84A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "勝たせる選手"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "勝たせる選手",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F4C84A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "勝たせる選手",
+              "fontSize": 18,
+              "color": "#F4C84A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmp8vu9g",
+      "id": "11",
+      "bbox": [
+        205,
+        428,
+        250,
+        124
+      ],
+      "geometry": "rect",
+      "fillColor": "#EDEDED",
+      "lineColor": "#EDEDED",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wny9oza1",
+      "id": "12",
+      "bbox": [
+        228,
+        454,
+        205,
+        34
+      ],
+      "geometry": "rect",
+      "text": "アシスト",
+      "textPreview": "アシスト",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "アシスト"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "アシスト",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "アシスト",
+              "fontSize": 26,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xo7qxkrm",
+      "id": "13",
+      "bbox": [
+        230,
+        498,
+        200,
+        30
+      ],
+      "geometry": "rect",
+      "text": "守る・牽く・戻す",
+      "textPreview": "守る・牽く・戻す",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "守る・牽く・戻す"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "守る・牽く・戻す",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F6368",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "守る・牽く・戻す",
+              "fontSize": 18,
+              "color": "#5F6368",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ypgrqps7",
+      "id": "14",
+      "bbox": [
+        825,
+        428,
+        250,
+        124
+      ],
+      "geometry": "rect",
+      "fillColor": "#EDEDED",
+      "lineColor": "#EDEDED",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqp8zu9s",
+      "id": "15",
+      "bbox": [
+        848,
+        454,
+        205,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Credit年俸",
+      "textPreview": "Credit年俸",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Credit年俸"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Credit年俸",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Credit年俸",
+              "fontSize": 26,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kry9szax",
+      "id": "16",
+      "bbox": [
+        850,
+        498,
+        200,
+        30
+      ],
+      "geometry": "rect",
+      "text": "総額上限で制限",
+      "textPreview": "総額上限で制限",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "総額上限で制限"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "総額上限で制限",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F6368",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "総額上限で制限",
+              "fontSize": 18,
+              "color": "#5F6368",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lsrq14ri",
+      "id": "17",
+      "bbox": [
+        130,
+        190,
+        340,
+        160
+      ],
+      "geometry": "rect",
+      "text": "高額エースを複数入れると、年俸超過とエゴ過多で隊列が崩れる。\n低〜中年俸の名アシストが、グランツールや横風、石畳、TTTで価値を持つ。",
+      "textPreview": "高額エースを複数入れると、年俸超過とエゴ過多で隊列が崩れる。 | 低〜中年俸の名アシストが、グランツールや横風、石畳、TTTで価値を持つ。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "高額エースを複数入れると、年俸超"
+          },
+          {
+            "index": 2,
+            "text": "過とエゴ過多で隊列が崩れる。"
+          },
+          {
+            "index": 3,
+            "text": "低〜中年俸の名アシストが、グランツ"
+          },
+          {
+            "index": 4,
+            "text": "ールや横風、石畳、TTTで価値を持つ"
+          },
+          {
+            "index": 5,
+            "text": "。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "高額エースを複数入れると、年俸超過とエゴ過多で隊列が崩れる。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "高額エースを複数入れると、年俸超過とエゴ過多で隊列が崩れる。",
+              "fontSize": 22,
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "低〜中年俸の名アシストが、グランツールや横風、石畳、TTTで価値を持つ。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "低〜中年俸の名アシストが、グランツールや横風、石畳、TTTで価値を持つ。",
+              "fontSize": 22,
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6t0ru9s3",
+      "id": "18",
+      "bbox": [
+        42,
+        660,
+        1196,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDDDDD",
+      "lineColor": "#DDDDDD",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u983e9o",
+      "id": "19",
+      "bbox": [
+        42,
+        672,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Publisher pitch deck",
+      "textPreview": "Publisher pitch deck",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Publisher pitch deck"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Publisher pitch deck",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Publisher pitch deck",
+              "fontSize": 13,
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3i98bepw",
+      "id": "20",
+      "bbox": [
+        1030,
+        672,
+        208,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Studio QOMISO",
+      "textPreview": "Studio QOMISO",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Studio QOMISO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Studio QOMISO",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Studio QOMISO",
+              "fontSize": 13,
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

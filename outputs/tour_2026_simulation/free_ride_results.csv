@@ -1,0 +1,22 @@
+stage,route,type,highMountain,place,rider,team,role,victoryType,stageGapSeconds,events,fatigueStart,healthStart,assistProtectionPercent,mountainTimeLossSeconds,sprintPosition,boxedIn,leadoutPower,positioningPower,finalLaunchPower,freeRidePower,borrowedLeadoutPower,leadoutLaunchBonus
+5,Lannemezan > Pau,平坦,false,5,Filippo Conca,Team 18,エース,,0,,6.2,100,13,0,92,no,0,0,0,3.28,3.57,3.28
+5,Lannemezan > Pau,平坦,false,9,Magnus Cort,Team 06,アシスト/自由役,,93,エシュロン+93s,6.5,100,0,0,92,no,0,0,0,3.65,3.57,3.42
+5,Lannemezan > Pau,平坦,false,20,Jonas Abrahamsen,Team 14,エース,,0,,8.9,100,13,0,87,no,3.72,0,1.73,3.7,3.57,4.65
+7,Hagetmau > Bordeaux,平坦,false,6,Filippo Conca,Team 18,エース,,0,,9.7,100,12,0,86,no,0,0,0,3.28,3.57,3.28
+7,Hagetmau > Bordeaux,平坦,false,11,Jonas Abrahamsen,Team 14,エース,,0,,14,100,12,0,90,no,3.72,0,1.73,3.7,3.57,4.65
+7,Hagetmau > Bordeaux,平坦,false,29,Magnus Cort,Team 06,アシスト/自由役,,0,,10.5,100,0,0,86,no,0,0,0,3.65,3.57,3.42
+8,Périgueux > Bergerac,平坦,false,5,Jonas Abrahamsen,Team 14,エース,,0,,8.9,100,13,0,83,no,3.72,0,1.73,3.7,3.57,4.65
+8,Périgueux > Bergerac,平坦,false,6,Filippo Conca,Team 18,エース,,0,,5,100,12,0,91,no,0,0,0,3.28,3.57,3.28
+8,Périgueux > Bergerac,平坦,false,13,Magnus Cort,Team 06,アシスト/自由役,,0,,6.1,100,0,0,85,no,0,0,0,3.65,3.57,3.42
+11,Vichy > Nevers,平坦,false,3,Jonas Abrahamsen,Team 14,エース,,0,,7.6,100,14,0,94,no,3.72,0,1.73,3.7,3.57,4.65
+11,Vichy > Nevers,平坦,false,6,Magnus Cort,Team 06,アシスト/自由役,,0,,6.2,100,0,0,83,no,0,0,0,3.65,3.57,3.42
+11,Vichy > Nevers,平坦,false,7,Filippo Conca,Team 18,エース,,0,,6,100,14,0,95,no,0,0,0,3.28,3.57,3.28
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,7,Filippo Conca,Team 18,エース,,0,,1.2,100,15,0,77,no,0,0,0,3.28,3.57,3.28
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,10,Jonas Abrahamsen,Team 14,エース,,0,,2.5,100,15,0,85,no,3.72,0,1.73,3.7,3.57,4.65
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,20,Magnus Cort,Team 06,アシスト/自由役,,0,,1.7,100,0,0,90,no,0,0,0,3.65,3.57,3.42
+17,Chambéry > Voiron,平坦,false,7,Filippo Conca,Team 18,エース,,0,,0,100,16,0,79,no,0,0,0,3.28,3.57,3.28
+17,Chambéry > Voiron,平坦,false,11,Jonas Abrahamsen,Team 14,エース,,0,,0,100,15,0,83,no,3.72,0,1.73,3.7,3.57,4.65
+17,Chambéry > Voiron,平坦,false,12,Magnus Cort,Team 06,アシスト/自由役,,0,,0,100,0,0,90,no,0,0,0,3.65,3.57,3.42
+21,Thoiry > Paris Champs-Élysées,平坦,false,6,Magnus Cort,Team 06,アシスト/自由役,,0,,20.7,100,0,0,83,no,0,0,0,3.65,3.57,3.42
+21,Thoiry > Paris Champs-Élysées,平坦,false,7,Filippo Conca,Team 18,エース,,70,エシュロン+70s,20.1,100,9,0,80,no,0,0,0,3.28,3.57,3.28
+21,Thoiry > Paris Champs-Élysées,平坦,false,16,Jonas Abrahamsen,Team 14,エース,,0,,25.1,100,10,0,85,no,3.72,0,1.73,3.7,3.57,4.65

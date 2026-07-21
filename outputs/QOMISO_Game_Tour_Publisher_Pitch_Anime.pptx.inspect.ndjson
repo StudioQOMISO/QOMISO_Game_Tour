@@ -1,0 +1,179 @@
+{"kind":"deck","id":"pr/j0tzik","name":"Deck"}
+{"kind":"layout","layoutId":"34e08c8c-00a7-4265-a7f8-0b908ad94f4f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3af5b8a2-96ef-4d49-b8aa-6ae6f844bd19","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/0c9az5","slide":1,"title":"QOMISO","textShapes":5}
+{"kind":"shape","id":"sh/fq94bml8","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/ep032hkn","slide":1,"bbox":[0,0,500,720]}
+{"kind":"textbox","id":"sh/torm9c32","slide":1,"text":"QOMISO\nGAME TOUR","textPreview":"QOMISO | GAME TOUR","textChars":16,"textLines":2,"bbox":[52,70,610,164]}
+{"kind":"shape","id":"sh/snil0rmh","slide":1,"bbox":[58,256,210,10]}
+{"kind":"textbox","id":"sh/rm9k7mlc","slide":1,"text":"ロードレースを、\n育成とターン制チームバトルに。","textPreview":"ロードレースを、 | 育成とターン制チームバトルに。","textChars":24,"textLines":2,"bbox":[58,292,520,92]}
+{"kind":"textbox","id":"sh/6l03yh4r","slide":1,"text":"ライトアニメ調 / 少しデフォルメ等身 / モバイルゲーム向け","textPreview":"ライトアニメ調 / 少しデフォルメ等身 / モバイルゲーム向け","textChars":31,"textLines":1,"bbox":[60,412,500,34]}
+{"kind":"shape","id":"sh/5kr25c36","slide":1,"bbox":[58,520,378,78]}
+{"kind":"textbox","id":"sh/4jilw7ml","slide":1,"text":"Publisher Pitch","textPreview":"Publisher Pitch","textChars":15,"textLines":1,"bbox":[84,538,240,26]}
+{"kind":"textbox","id":"sh/utsj6dsf","slide":1,"text":"投資判断用ビジュアル版","textPreview":"投資判断用ビジュアル版","textChars":11,"textLines":1,"bbox":[84,570,240,20]}
+{"kind":"image","id":"im/5w7q9on2","slide":1,"name":"","alt":"Light anime road cycling game key visual","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/0c9az5","slide":1,"text":""}
+{"kind":"slide","id":"sl/sq5mcn","slide":2,"title":"QOMISO GAME TOUR","textShapes":7}
+{"kind":"shape","id":"sh/gzatwv69","slide":2,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/10ja507u","slide":2,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/698rql87","slide":2,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/rahszqps","slide":2,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/svqtsvqd","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"shape","id":"sh/twja1g7y","slide":2,"bbox":[58,112,690,186]}
+{"kind":"textbox","id":"sh/i58rm18b","slide":2,"text":"スポーツゲームに足りないのは、\n“勝たせる役”の快感です。","textPreview":"スポーツゲームに足りないのは、 | “勝たせる役”の快感です。","textChars":29,"textLines":2,"bbox":[88,144,620,92]}
+{"kind":"textbox","id":"sh/j6hsv6pw","slide":2,"text":"スターの能力値だけではなく、横風、石畳、山岳入口、隊列、犠牲になるアシストが勝敗を作る。","textPreview":"スターの能力値だけではなく、横風、石畳、山岳入口、隊列、犠牲になるアシストが勝敗を作る。","textChars":44,"textLines":1,"bbox":[90,252,610,30]}
+{"kind":"shape","id":"sh/r698jax8","slide":2,"bbox":[820,132,330,360]}
+{"kind":"textbox","id":"sh/65grq5gn","slide":2,"text":"Market Hook","textPreview":"Market Hook","textChars":11,"textLines":1,"bbox":[850,166,230,26]}
+{"kind":"textbox","id":"sh/t8rqlkfe","slide":2,"text":"スター収集だけではない\nチーム構造のゲーム","textPreview":"スター収集だけではない | チーム構造のゲーム","textChars":21,"textLines":2,"bbox":[850,222,250,86]}
+{"kind":"shape","id":"sh/s7i9sfyt","slide":2,"bbox":[850,338,210,6]}
+{"kind":"textbox","id":"sh/fa98nax4","slide":2,"text":"エース過多は失速。\n名アシストが勝利を作る。","textPreview":"エース過多は失速。 | 名アシストが勝利を作る。","textChars":22,"textLines":2,"bbox":[850,372,250,70]}
+{"kind":"image","id":"im/el4ru503","slide":2,"name":"","alt":"Light anime road cycling game key visual","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/sq5mcn","slide":2,"text":""}
+{"kind":"slide","id":"sl/2j16pq","slide":3,"title":"QOMISO GAME TOUR","textShapes":10}
+{"kind":"shape","id":"sh/907ql472","slide":3,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/8zy9szqx","slide":3,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/v2psnup8","slide":3,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/a1grup8n","slide":3,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/xorap47e","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"shape","id":"sh/wni9wzqt","slide":3,"bbox":[56,98,640,178]}
+{"kind":"textbox","id":"sh/jq9srepk","slide":3,"text":"2-3分で終わる、\n200kmの勝負所。","textPreview":"2-3分で終わる、 | 200kmの勝負所。","textChars":20,"textLines":2,"bbox":[88,128,560,96]}
+{"kind":"textbox","id":"sh/ip0ry98z","slide":3,"text":"カード選択 → シミュレート → 次の展開。CPU戦も対人戦もターン制で成立。","textPreview":"カード選択 → シミュレート → 次の展開。CPU戦も対人戦もターン制で成立。","textChars":39,"textLines":1,"bbox":[92,232,552,28]}
+{"kind":"shape","id":"sh/4je5o32p","slide":3,"bbox":[110,510,960,4]}
+{"kind":"shape","id":"sh/pkn6x83a","slide":3,"bbox":[66,482,84,54]}
+{"kind":"textbox","id":"sh/2hcnmtkz","slide":3,"text":"Start","textPreview":"Start","textChars":5,"textLines":1,"bbox":[75,500,66,18]}
+{"kind":"shape","id":"sh/3ilovylk","slide":3,"bbox":[256,482,84,54]}
+{"kind":"textbox","id":"sh/cnepsn21","slide":3,"text":"横風","textPreview":"横風","textChars":2,"textLines":1,"bbox":[265,500,66,18]}
+{"kind":"shape","id":"sh/don61s3m","slide":3,"bbox":[446,482,84,54]}
+{"kind":"textbox","id":"sh/qlw7qdkv","slide":3,"text":"補給","textPreview":"補給","textChars":2,"textLines":1,"bbox":[455,500,66,18]}
+{"kind":"shape","id":"sh/rm5ozilg","slide":3,"bbox":[636,482,84,54]}
+{"kind":"textbox","id":"sh/0bypwn2x","slide":3,"text":"山岳","textPreview":"山岳","textChars":2,"textLines":1,"bbox":[645,500,66,18]}
+{"kind":"shape","id":"sh/1c765sji","slide":3,"bbox":[826,482,84,54]}
+{"kind":"textbox","id":"sh/9836psbm","slide":3,"text":"石畳","textPreview":"石畳","textChars":2,"textLines":1,"bbox":[835,500,66,18]}
+{"kind":"shape","id":"sh/87u5gnu1","slide":3,"bbox":[1016,482,84,54]}
+{"kind":"textbox","id":"sh/n6lonitw","slide":3,"text":"Finish","textPreview":"Finish","textChars":6,"textLines":1,"bbox":[1025,500,66,18]}
+{"kind":"image","id":"im/ve1cfm5o","slide":3,"name":"","alt":"Light anime road cycling game key visual","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/2j16pq","slide":3,"text":""}
+{"kind":"slide","id":"sl/6quh2l","slide":4,"title":"QOMISO GAME TOUR","textShapes":11}
+{"kind":"shape","id":"sh/fidonupw","slide":4,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/uh4nep8b","slide":4,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/tgb6lk7q","slide":4,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/sf25cfql","slide":4,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/7utoju90","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"shape","id":"sh/6tknap8f","slide":4,"bbox":[54,100,720,142]}
+{"kind":"textbox","id":"sh/5sbmhkru","slide":4,"text":"勝つのは、最強選手ではなく\n“勝たせる8人”です。","textPreview":"勝つのは、最強選手ではなく | “勝たせる8人”です。","textChars":25,"textLines":2,"bbox":[86,126,640,82]}
+{"kind":"shape","id":"sh/kr258fq9","slide":4,"bbox":[74,306,440,88]}
+{"kind":"textbox","id":"sh/a5c7y9of","slide":4,"text":"当日エース","textPreview":"当日エース","textChars":5,"textLines":1,"bbox":[98,321,220,28]}
+{"kind":"textbox","id":"sh/b6lo7e50","slide":4,"text":"誰を勝たせるか","textPreview":"誰を勝たせるか","textChars":7,"textLines":1,"bbox":[98,356,350,22]}
+{"kind":"shape","id":"sh/c7up0j6l","slide":4,"bbox":[604,306,440,88]}
+{"kind":"textbox","id":"sh/x8n69on6","slide":4,"text":"アシスト","textPreview":"アシスト","textChars":4,"textLines":1,"bbox":[628,321,220,28]}
+{"kind":"textbox","id":"sh/2hc7upoj","slide":4,"text":"牽く・守る・戻す","textPreview":"牽く・守る・戻す","textChars":8,"textLines":1,"bbox":[628,356,350,22]}
+{"kind":"shape","id":"sh/nilo3u54","slide":4,"bbox":[74,432,440,88]}
+{"kind":"textbox","id":"sh/o3upwz6p","slide":4,"text":"Credit年俸","textPreview":"Credit年俸","textChars":8,"textLines":1,"bbox":[98,447,220,28]}
+{"kind":"textbox","id":"sh/p43654nu","slide":4,"text":"総額上限で抑える","textPreview":"総額上限で抑える","textChars":8,"textLines":1,"bbox":[98,482,350,22]}
+{"kind":"shape","id":"sh/edsnqpo7","slide":4,"bbox":[604,432,440,88]}
+{"kind":"textbox","id":"sh/fe1ozu5s","slide":4,"text":"メンタル","textPreview":"メンタル","textChars":4,"textLines":1,"bbox":[628,447,220,28]}
+{"kind":"textbox","id":"sh/j6xcbmh8","slide":4,"text":"チームワーク/エゴ/負けん気","textPreview":"チームワーク/エゴ/負けん気","textChars":14,"textLines":1,"bbox":[628,482,350,22]}
+{"kind":"image","id":"im/h43m58b6","slide":4,"name":"","alt":"Light anime road cycling game key visual","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/6quh2l","slide":4,"text":""}
+{"kind":"slide","id":"sl/bv2wma","slide":5,"title":"QOMISO GAME TOUR","textShapes":22}
+{"kind":"shape","id":"sh/xk7yhwnm","slide":5,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/ahgz6h4b","slide":5,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/bipgfm5w","slide":5,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/ofyh47m5","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"textbox","id":"sh/pg7ydcnq","slide":5,"text":"年間カレンダーが、\n継続課金と復帰導線になる。","textPreview":"年間カレンダーが、 | 継続課金と復帰導線になる。","textChars":23,"textLines":2,"bbox":[58,104,770,104]}
+{"kind":"shape","id":"sh/2twf2h4z","slide":5,"bbox":[72,312,146,126]}
+{"kind":"textbox","id":"sh/nu5gbm5k","slide":5,"text":"年初の機材","textPreview":"年初の機材","textChars":5,"textLines":1,"bbox":[84,360,122,24]}
+{"kind":"textbox","id":"sh/0rex07m9","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[222,358,36,26]}
+{"kind":"shape","id":"sh/1sny9cne","slide":5,"bbox":[266,312,146,126]}
+{"kind":"textbox","id":"sh/h0jehw7u","slide":5,"text":"スカウト","textPreview":"スカウト","textChars":4,"textLines":1,"bbox":[278,360,122,24]}
+{"kind":"textbox","id":"sh/gzqdor69","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[416,358,36,26]}
+{"kind":"shape","id":"sh/vyhwfmp4","slide":5,"bbox":[460,312,146,126]}
+{"kind":"textbox","id":"sh/ux8vmhoj","slide":5,"text":"8人編成","textPreview":"8人編成","textChars":4,"textLines":1,"bbox":[472,360,122,24]}
+{"kind":"textbox","id":"sh/twzedc7y","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[610,358,36,26]}
+{"kind":"shape","id":"sh/8vqdk76d","slide":5,"bbox":[654,312,146,126]}
+{"kind":"textbox","id":"sh/7uhwb2ps","slide":5,"text":"ワンデイ","textPreview":"ワンデイ","textChars":4,"textLines":1,"bbox":[666,360,122,24]}
+{"kind":"textbox","id":"sh/6t8vixo7","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[804,358,36,26]}
+{"kind":"shape","id":"sh/lsfu9c7m","slide":5,"bbox":[848,312,146,126]}
+{"kind":"textbox","id":"sh/kr6dg761","slide":5,"text":"21ステージ","textPreview":"21ステージ","textChars":6,"textLines":1,"bbox":[860,360,122,24]}
+{"kind":"textbox","id":"sh/cbadw7ex","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[998,358,36,26]}
+{"kind":"shape","id":"sh/xcje5cfi","slide":5,"bbox":[1042,312,146,126]}
+{"kind":"textbox","id":"sh/a9svuxw7","slide":5,"text":"契約更新","textPreview":"契約更新","textChars":4,"textLines":1,"bbox":[1054,360,122,24]}
+{"kind":"shape","id":"sh/ba1w32xs","slide":5,"bbox":[118,534,170,104]}
+{"kind":"textbox","id":"sh/o7adsne1","slide":5,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[136,547,132,45]}
+{"kind":"textbox","id":"sh/p8je1sfm","slide":5,"text":"グランツール全ステージ","textPreview":"グランツール全ステージ","textChars":11,"textLines":1,"bbox":[132,596,142,30]}
+{"kind":"shape","id":"sh/258vqxwv","slide":5,"bbox":[352,534,170,104]}
+{"kind":"textbox","id":"sh/n6hwz2xg","slide":5,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[370,547,132,45]}
+{"kind":"textbox","id":"sh/83ux4re5","slide":5,"text":"ワールド級チーム","textPreview":"ワールド級チーム","textChars":8,"textLines":1,"bbox":[366,596,142,30]}
+{"kind":"shape","id":"sh/943edwfq","slide":5,"bbox":[586,534,170,104]}
+{"kind":"textbox","id":"sh/jypg3qhs","slide":5,"text":"500","textPreview":"500","textChars":3,"textLines":1,"bbox":[604,547,132,45]}
+{"kind":"textbox","id":"sh/ixgzulgn","slide":5,"text":"選手モチーフDB","textPreview":"選手モチーフDB","textChars":8,"textLines":1,"bbox":[600,596,142,30]}
+{"kind":"shape","id":"sh/507y50zy","slide":5,"bbox":[830,534,170,104]}
+{"kind":"textbox","id":"sh/4zyhwvyd","slide":5,"text":"40","textPreview":"40","textChars":2,"textLines":1,"bbox":[848,547,132,45]}
+{"kind":"textbox","id":"sh/r2pg7ah4","slide":5,"text":"歴史的イベント","textPreview":"歴史的イベント","textChars":7,"textLines":1,"bbox":[844,596,142,30]}
+{"kind":"notes","id":"nt/bv2wma","slide":5,"text":""}
+{"kind":"slide","id":"sl/d72ncf","slide":6,"title":"QOMISO GAME TOUR","textShapes":12}
+{"kind":"shape","id":"sh/tgve1s3a","slide":6,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/8fmd8n2p","slide":6,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/jadwvyl8","slide":6,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/y9kv2tkn","slide":6,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/lcvex83y","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"shape","id":"sh/kbmd432d","slide":6,"bbox":[58,100,720,140]}
+{"kind":"textbox","id":"sh/bmtwrylw","slide":6,"text":"最高峰は、\nグランツールとクラシック。","textPreview":"最高峰は、 | グランツールとクラシック。","textChars":19,"textLines":2,"bbox":[88,126,650,82]}
+{"kind":"shape","id":"sh/alkvytkb","slide":6,"bbox":[82,300,120,42]}
+{"kind":"textbox","id":"sh/w7u5wjql","slide":6,"text":"平坦","textPreview":"平坦","textChars":2,"textLines":1,"bbox":[92,310,100,20]}
+{"kind":"shape","id":"sh/x8365or6","slide":6,"bbox":[218,300,120,42]}
+{"kind":"textbox","id":"sh/a5cnut8f","slide":6,"text":"丘陵","textPreview":"丘陵","textChars":2,"textLines":1,"bbox":[228,310,100,20]}
+{"kind":"shape","id":"sh/v6lo3y90","slide":6,"bbox":[354,300,120,42]}
+{"kind":"textbox","id":"sh/83u5sjq9","slide":6,"text":"山岳","textPreview":"山岳","textChars":2,"textLines":1,"bbox":[364,310,100,20]}
+{"kind":"shape","id":"sh/94361oru","slide":6,"bbox":[490,300,120,42]}
+{"kind":"textbox","id":"sh/mhcnq98j","slide":6,"text":"ITT","textPreview":"ITT","textChars":3,"textLines":1,"bbox":[500,310,100,20]}
+{"kind":"shape","id":"sh/n2loze94","slide":6,"bbox":[626,300,120,42]}
+{"kind":"textbox","id":"sh/szep43qt","slide":6,"text":"TTT","textPreview":"TTT","textChars":3,"textLines":1,"bbox":[636,310,100,20]}
+{"kind":"shape","id":"sh/t076d8re","slide":6,"bbox":[82,372,120,42]}
+{"kind":"textbox","id":"sh/1w36h8ji","slide":6,"text":"横風","textPreview":"横風","textChars":2,"textLines":1,"bbox":[92,382,100,20]}
+{"kind":"shape","id":"sh/0vu5o3ix","slide":6,"bbox":[218,372,150,42]}
+{"kind":"textbox","id":"sh/fu1ofy1c","slide":6,"text":"グラベル","textPreview":"グラベル","textChars":4,"textLines":1,"bbox":[228,382,130,20]}
+{"kind":"shape","id":"sh/etsnmd0r","slide":6,"bbox":[384,372,120,42]}
+{"kind":"textbox","id":"sh/tsj6d8j6","slide":6,"text":"石畳","textPreview":"石畳","textChars":2,"textLines":1,"bbox":[394,382,100,20]}
+{"kind":"shape","id":"sh/sra5k3il","slide":6,"bbox":[78,478,790,82]}
+{"kind":"textbox","id":"sh/rq1oby1g","slide":6,"text":"コースの表情がチーム編成を変える。総合狙い、スプリント、クラシック特化で遊び方が分かれる。","textPreview":"コースの表情がチーム編成を変える。総合狙い、スプリント、クラシック特化で遊び方が分かれる。","textChars":45,"textLines":1,"bbox":[106,506,730,28]}
+{"kind":"image","id":"im/jixg3u1c","slide":6,"name":"","alt":"Light anime road cycling game key visual","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/d72ncf","slide":6,"text":""}
+{"kind":"slide","id":"sl/3k70f7","slide":7,"title":"QOMISO GAME TOUR","textShapes":12}
+{"kind":"shape","id":"sh/g3apgrup","slide":7,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/fi1o7md4","slide":7,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/uhs7ehcz","slide":7,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/p83qdwvm","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"textbox","id":"sh/47upkru1","slide":7,"text":"課金は“勝利販売”ではなく、\nチーム作りの幅を売る。","textPreview":"課金は“勝利販売”ではなく、 | チーム作りの幅を売る。","textChars":26,"textLines":2,"bbox":[58,105,820,104]}
+{"kind":"shape","id":"sh/36lobmdg","slide":7,"bbox":[88,282,1080,58]}
+{"kind":"textbox","id":"sh/25c7ihcv","slide":7,"text":"Season Pass","textPreview":"Season Pass","textChars":11,"textLines":1,"bbox":[118,296,240,26]}
+{"kind":"textbox","id":"sh/5cz61sv2","slide":7,"text":"年間報酬、育成素材、称号、見た目","textPreview":"年間報酬、育成素材、称号、見た目","textChars":16,"textLines":1,"bbox":[390,298,690,24]}
+{"kind":"shape","id":"sh/kbqp87uh","slide":7,"bbox":[88,362,1080,58]}
+{"kind":"textbox","id":"sh/y5wv654j","slide":7,"text":"Scout","textPreview":"Scout","textChars":5,"textLines":1,"bbox":[118,376,240,26]}
+{"kind":"textbox","id":"sh/z65wzal4","slide":7,"text":"選手候補とスタッフ。Credit年俸で過剰強化を抑制","textPreview":"選手候補とスタッフ。Credit年俸で過剰強化を抑制","textChars":26,"textLines":1,"bbox":[390,378,690,24]}
+{"kind":"shape","id":"sh/07ed8fmp","slide":7,"bbox":[88,442,1080,58]}
+{"kind":"textbox","id":"sh/l8ne1k3a","slide":7,"text":"Cosmetics","textPreview":"Cosmetics","textChars":9,"textLines":1,"bbox":[118,456,240,26]}
+{"kind":"textbox","id":"sh/m9wva54v","slide":7,"text":"ウェア、バイクカラー、UIテーマ","textPreview":"ウェア、バイクカラー、UIテーマ","textChars":16,"textLines":1,"bbox":[390,458,690,24]}
+{"kind":"shape","id":"sh/napw3al0","slide":7,"bbox":[88,522,1080,58]}
+{"kind":"textbox","id":"sh/8bydcfml","slide":7,"text":"Expansion","textPreview":"Expansion","textChars":9,"textLines":1,"bbox":[118,536,240,26]}
+{"kind":"textbox","id":"sh/9c7e5k36","slide":7,"text":"架空グランツール、クラシック、歴史的イベント","textPreview":"架空グランツール、クラシック、歴史的イベント","textChars":22,"textLines":1,"bbox":[390,538,690,24]}
+{"kind":"textbox","id":"sh/udgfep4r","slide":7,"text":"避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ","textPreview":"避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ","textChars":39,"textLines":1,"bbox":[92,642,980,28]}
+{"kind":"notes","id":"nt/3k70f7","slide":7,"text":""}
+{"kind":"slide","id":"sl/vlbk28","slide":8,"title":"QOMISO GAME TOUR","textShapes":8}
+{"kind":"shape","id":"sh/4fq5cb21","slide":8,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/5gz65gj6","slide":8,"bbox":[42,28,212,34]}
+{"kind":"textbox","id":"sh/u9on61kj","slide":8,"text":"QOMISO GAME TOUR","textPreview":"QOMISO GAME TOUR","textChars":16,"textLines":1,"bbox":[58,36,180,18]}
+{"kind":"shape","id":"sh/vax4zm14","slide":8,"bbox":[1164,28,66,34]}
+{"kind":"textbox","id":"sh/gbq58r2p","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1178,35,38,18]}
+{"kind":"shape","id":"sh/hczm1wja","slide":8,"bbox":[58,96,880,142]}
+{"kind":"textbox","id":"sh/e5snil03","slide":8,"text":"Vertical Sliceに必要なのは、\n“走っている絵”と“勝敗が動く手触り”。","textPreview":"Vertical Sliceに必要なのは、 | “走っている絵”と“勝敗が動く手触り”。","textChars":42,"textLines":2,"bbox":[88,122,820,82]}
+{"kind":"shape","id":"sh/z61obq1o","slide":8,"bbox":[78,300,520,238]}
+{"kind":"textbox","id":"sh/z29kvid0","slide":8,"text":"開発支援を求める領域","textPreview":"開発支援を求める領域","textChars":10,"textLines":1,"bbox":[112,330,380,30]}
+{"kind":"textbox","id":"sh/y103mdcf","slide":8,"text":"モバイルUI/UX\nライブサービス設計\nマネタイズ監修\n法務・権利確認\nカード/機材ビジュアル制作","textPreview":"モバイルUI/UX | ライブサービス設計 | マネタイズ監修 | 法務・権利確認 | カード/機材ビジュアル制作","textChars":49,"textLines":5,"bbox":[112,384,390,112]}
+{"kind":"shape","id":"sh/lor2xsv6","slide":8,"bbox":[700,320,370,150]}
+{"kind":"textbox","id":"sh/03ilonul","slide":8,"text":"Prototype Scope","textPreview":"Prototype Scope","textChars":15,"textLines":1,"bbox":[734,350,300,28]}
+{"kind":"textbox","id":"sh/nqtkj2tw","slide":8,"text":"1年短縮版 / 1つの21ステージ / 3クラシック / 50-100架空選手","textPreview":"1年短縮版 / 1つの21ステージ / 3クラシック / 50-100架空選手","textChars":39,"textLines":1,"bbox":[736,400,285,52]}
+{"kind":"shape","id":"sh/mp03qxcr","slide":8,"bbox":[62,596,1038,54]}
+{"kind":"textbox","id":"sh/9sb2lsb2","slide":8,"text":"スター選手を集めるゲームではない。ロードレースのチーム戦を遊ばせるゲームです。","textPreview":"スター選手を集めるゲームではない。ロードレースのチーム戦を遊ばせるゲームです。","textChars":39,"textLines":1,"bbox":[90,612,980,22]}
+{"kind":"image","id":"im/ut4r2hcj","slide":8,"name":"","alt":"Light anime road cycling game key visual","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/vlbk28","slide":8,"text":""}

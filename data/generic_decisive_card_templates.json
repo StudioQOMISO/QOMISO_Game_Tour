@@ -235,6 +235,27 @@
     ]
   },
   {
+    "id": "ace_wheel_sucker",
+    "roleType": "ace",
+    "role": "スプリントエース",
+    "slot": "decisive",
+    "cost": 3,
+    "usageLimit": 1,
+    "name": "無賃乗車",
+    "description": "他チームのスプリントトレインへ乗り、脚を温存したまま好位置から勝負する。",
+    "target": "本人",
+    "terrainId": "flat",
+    "baseSpecialties": [
+      "平坦カウンター"
+    ],
+    "abilities": [
+      "sprint",
+      "acceleration",
+      "positioning",
+      "technique"
+    ]
+  },
+  {
     "id": "assist_full_pull",
     "roleType": "assist",
     "role": "平坦・TTアシスト",

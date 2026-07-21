@@ -1,0 +1,837 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/lmwg2s",
+    "id": "lmwg2s",
+    "slide": 8,
+    "layoutId": "98b3e32f-7b80-4c4d-b10d-4a5a942840a4",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "112072a1-6a96-4c52-8026-907a92a87723",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "98b3e32f-7b80-4c4d-b10d-4a5a942840a4",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "112072a1-6a96-4c52-8026-907a92a87723",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "112072a1-6a96-4c52-8026-907a92a87723",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tgjuhk7m",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Cute deformed road cycling sports game key visual",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "10919e9f-bf5e-4f61-abdc-9eff62e9c073",
+        "contentType": "image/png",
+        "byteLength": 2795100
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v65432ds",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5w3axc7",
+      "id": "3",
+      "bbox": [
+        42,
+        28,
+        222,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 3
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5w7m9cbu",
+      "id": "4",
+      "bbox": [
+        60,
+        38,
+        185,
+        18
+      ],
+      "geometry": "rect",
+      "text": "QOMISO GAME TOUR",
+      "textPreview": "QOMISO GAME TOUR",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QOMISO GAME TOUR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QOMISO GAME TOUR",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QOMISO GAME TOUR",
+              "fontSize": 13,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvylg7up",
+      "id": "5",
+      "bbox": [
+        1164,
+        28,
+        66,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFD84A",
+      "lineColor": "#FF8A32",
+      "lineWidth": 3
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ju5472t4",
+      "id": "6",
+      "bbox": [
+        1178,
+        38,
+        38,
+        18
+      ],
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 14,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itw3excj",
+      "id": "7",
+      "bbox": [
+        58,
+        96,
+        900,
+        146
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFD84A",
+      "lineWidth": 5
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l03mx8vq",
+      "id": "8",
+      "bbox": [
+        88,
+        122,
+        840,
+        82
+      ],
+      "geometry": "rect",
+      "text": "Vertical Sliceに必要なのは、\n“かわいい絵”と“勝敗が動く手触り”。",
+      "textPreview": "Vertical Sliceに必要なのは、 | “かわいい絵”と“勝敗が動く手触り”。",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Vertical Sliceに必要なのは、"
+          },
+          {
+            "index": 2,
+            "text": "“かわいい絵”と“勝敗が動く手触り”。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vertical Sliceに必要なのは、",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vertical Sliceに必要なのは、",
+              "fontSize": 37,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "“かわいい絵”と“勝敗が動く手触り”。",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“かわいい絵”と“勝敗が動く手触り”。",
+              "fontSize": 37,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zul4nu5",
+      "id": "9",
+      "bbox": [
+        78,
+        300,
+        520,
+        238
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFD84A",
+      "lineWidth": 4
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2dcvmp8b",
+      "id": "10",
+      "bbox": [
+        112,
+        330,
+        380,
+        30
+      ],
+      "geometry": "rect",
+      "text": "開発支援を求める領域",
+      "textPreview": "開発支援を求める領域",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#FF8A32",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "開発支援を求める領域"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "開発支援を求める領域",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#FF8A32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "開発支援を求める領域",
+              "fontSize": 27,
+              "color": "#FF8A32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3elcvupw",
+      "id": "11",
+      "bbox": [
+        112,
+        384,
+        390,
+        112
+      ],
+      "geometry": "rect",
+      "text": "モバイルUI/UX\nライブサービス設計\nマネタイズ監修\n法務・権利確認\nカード/機材ビジュアル制作",
+      "textPreview": "モバイルUI/UX | ライブサービス設計 | マネタイズ監修 | 法務・権利確認 | カード/機材ビジュアル制作",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "モバイルUI/UX"
+          },
+          {
+            "index": 2,
+            "text": "ライブサービス設計"
+          },
+          {
+            "index": 3,
+            "text": "マネタイズ監修"
+          },
+          {
+            "index": 4,
+            "text": "法務・権利確認"
+          },
+          {
+            "index": 5,
+            "text": "カード/機材ビジュアル制作"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "モバイルUI/UX",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "モバイルUI/UX",
+              "fontSize": 22,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ライブサービス設計",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ライブサービス設計",
+              "fontSize": 22,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "マネタイズ監修",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "マネタイズ監修",
+              "fontSize": 22,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "法務・権利確認",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "法務・権利確認",
+              "fontSize": 22,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "カード/機材ビジュアル制作",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "カード/機材ビジュアル制作",
+              "fontSize": 22,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ofedozqh",
+      "id": "12",
+      "bbox": [
+        700,
+        320,
+        370,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#58C7FF",
+      "lineWidth": 4
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pgnux472",
+      "id": "13",
+      "bbox": [
+        734,
+        350,
+        300,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Prototype Scope",
+      "textPreview": "Prototype Scope",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prototype Scope"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prototype Scope",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prototype Scope",
+              "fontSize": 27,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhwvqp87",
+      "id": "14",
+      "bbox": [
+        736,
+        400,
+        285,
+        52
+      ],
+      "geometry": "rect",
+      "text": "1年短縮版 / 1つの21ステージ / 3クラシック / 50-100架空選手",
+      "textPreview": "1年短縮版 / 1つの21ステージ / 3クラシック / 50-100架空選手",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1年短縮版 / 1つの21ステージ /"
+          },
+          {
+            "index": 2,
+            "text": "3クラシック / 50-100架空選手"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1年短縮版 / 1つの21ステージ / 3クラシック / 50-100架空選手",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1年短縮版 / 1つの21ステージ / 3クラシック / 50-100架空選手",
+              "fontSize": 20,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi5czups",
+      "id": "15",
+      "bbox": [
+        62,
+        596,
+        1038,
+        54
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2E7BFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3edszqd",
+      "id": "16",
+      "bbox": [
+        90,
+        612,
+        980,
+        22
+      ],
+      "geometry": "rect",
+      "text": "かわいい育成ゲームの入口で、ロードレースのチーム戦を遊ばせる。",
+      "textPreview": "かわいい育成ゲームの入口で、ロードレースのチーム戦を遊ばせる。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "かわいい育成ゲームの入口で、ロードレースのチーム戦を遊ばせる。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "かわいい育成ゲームの入口で、ロードレースのチーム戦を遊ばせる。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "かわいい育成ゲームの入口で、ロードレースのチーム戦を遊ばせる。",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

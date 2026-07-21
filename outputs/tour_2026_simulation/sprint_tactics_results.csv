@@ -1,0 +1,146 @@
+stage,route,type,highMountain,place,rider,team,role,victoryType,stageGapSeconds,events,fatigueStart,healthStart,assistProtectionPercent,mountainTimeLossSeconds,sprintPosition,boxedIn,leadoutPower,positioningPower,finalLaunchPower,freeRidePower,borrowedLeadoutPower,leadoutLaunchBonus
+5,Lannemezan > Pau,平坦,false,1,Tim Merlier,Team 11,エース,集団/本命,0,,7.1,100,14,0,73,no,4.24,1.7,3.21,0,0,4.42
+5,Lannemezan > Pau,平坦,false,2,Mads Pedersen,Team 01,エース,,0,,1.3,100,13,0,80,no,4.16,1.7,3.13,0,0,4.32
+5,Lannemezan > Pau,平坦,false,3,Casper van Uden,Team 19,エース,,0,,8.1,100,13,0,68,no,5.19,0,3.12,0,0,4.88
+5,Lannemezan > Pau,平坦,false,4,Wout van Aert,Team 04,エース,,0,,2.1,100,13,0,84,no,7.14,0.33,4.72,0,0,7
+5,Lannemezan > Pau,平坦,false,5,Filippo Conca,Team 18,エース,,0,,6.2,100,13,0,92,no,0,0,0,3.28,3.57,3.28
+5,Lannemezan > Pau,平坦,false,6,Mathieu van der Poel,Team 05,エース,,0,,1.6,100,13,0,79,no,5.15,0,3.1,0,0,4.85
+5,Lannemezan > Pau,平坦,false,7,Jasper Philipsen,Team 06,エース,,93,エシュロン+93s,6.7,100,14,0,73,no,2.89,0,1.88,0,0,2.81
+5,Lannemezan > Pau,平坦,false,8,Jonas Rickaert,Team 01,アシスト/自由役,,0,,8.7,100,0,0,53,no,0,0,0,0,0,0
+5,Lannemezan > Pau,平坦,false,9,Magnus Cort,Team 06,アシスト/自由役,,93,エシュロン+93s,6.5,100,0,0,92,no,0,0,0,3.65,3.57,3.42
+5,Lannemezan > Pau,平坦,false,10,Alberto Bettiol,Team 10,エース,,92,エシュロン+92s,2.9,100,13,0,78,no,5.12,0.43,3.09,0,0,4.82
+5,Lannemezan > Pau,平坦,false,11,Julian Alaphilippe,Team 12,エース,,0,,3.4,100,13,0,67,no,5.39,0.33,3.05,0,0,4.95
+5,Lannemezan > Pau,平坦,false,12,Arnaud De Lie,Team 17,エース,,0,,3.7,97,13,0,74,no,0,2.56,0,0,0,0
+5,Lannemezan > Pau,平坦,false,13,Amanuel Ghebreigzabhier,Team 13,エース,,0,,10.1,100,14,0,80,no,5.44,0.62,3.04,0,0,4.97
+5,Lannemezan > Pau,平坦,false,16,Filippo Ganna,Team 09,エース,,0,,2.6,100,13,0,74,no,4.33,1.56,3.31,0,0,4.53
+5,Lannemezan > Pau,平坦,false,18,Olav Kooij,Team 16,エース,,0,,6.9,100,14,0,61,no,0.34,0.34,0,0,0,0.19
+5,Lannemezan > Pau,平坦,false,20,Jonas Abrahamsen,Team 14,エース,,0,,8.9,100,13,0,87,no,3.72,0,1.73,3.7,3.57,4.65
+5,Lannemezan > Pau,平坦,false,22,Gleb Syritsa,Team 03,エース,,0,,10.6,100,13,0,71,no,5.19,0,3.12,0,0,4.88
+5,Lannemezan > Pau,平坦,false,23,Tadej Pogacar,Team 02,エース,,0,,0,96,13,0,74,no,7,0,4.99,0,0,7.09
+5,Lannemezan > Pau,平坦,false,27,Jonas Vingegaard,Team 08,エース,,0,,0.7,100,13,0,70,no,5.23,0,3.15,0,0,4.92
+5,Lannemezan > Pau,平坦,false,45,Biniam Girmay,Team 20,エース,,0,,9.3,100,13,0,53,no,0.34,0.34,0,0,0,0.19
+5,Lannemezan > Pau,平坦,false,51,Remco Evenepoel,Team 07,エース,,0,,0.7,100,13,0,67,no,4.3,0,3.28,0,0,4.5
+5,Lannemezan > Pau,平坦,false,69,Jonathan Milan,Team 15,エース,,0,,6.9,100,13,0,50,yes,0.33,0.33,0,0,0,0.18
+7,Hagetmau > Bordeaux,平坦,false,1,Mads Pedersen,Team 01,エース,集団/本命,0,,4.8,100,12,0,85,no,4.16,1.7,3.13,0,0,4.32
+7,Hagetmau > Bordeaux,平坦,false,2,Wout van Aert,Team 04,エース,,0,,5.3,100,11,0,84,no,7.14,0.33,4.72,0,0,7
+7,Hagetmau > Bordeaux,平坦,false,3,Casper van Uden,Team 19,エース,,0,,13,100,12,0,74,no,5.19,0,3.12,0,0,4.88
+7,Hagetmau > Bordeaux,平坦,false,4,Tim Merlier,Team 11,エース,,0,,11.4,100,13,0,75,no,4.24,1.7,3.21,0,0,4.42
+7,Hagetmau > Bordeaux,平坦,false,5,Jonathan Milan,Team 15,エース,,0,,11,100,11,0,54,no,0.33,0.33,0,0,0,0.18
+7,Hagetmau > Bordeaux,平坦,false,6,Filippo Conca,Team 18,エース,,0,,9.7,100,12,0,86,no,0,0,0,3.28,3.57,3.28
+7,Hagetmau > Bordeaux,平坦,false,7,Jonas Vingegaard,Team 08,エース,,77,エシュロン+77s,4.7,100,11,0,74,no,5.23,0,3.15,0,0,4.92
+7,Hagetmau > Bordeaux,平坦,false,8,Filippo Ganna,Team 09,エース,,0,,5.6,100,12,0,80,no,4.33,1.56,3.31,0,0,4.53
+7,Hagetmau > Bordeaux,平坦,false,9,Amanuel Ghebreigzabhier,Team 13,エース,,64,エシュロン+64s,16,100,12,0,82,no,5.44,0.62,3.04,0,0,4.97
+7,Hagetmau > Bordeaux,平坦,false,10,Olav Kooij,Team 16,エース,,0,,10.9,100,13,0,55,no,0.34,0.34,0,0,0,0.19
+7,Hagetmau > Bordeaux,平坦,false,11,Jonas Abrahamsen,Team 14,エース,,0,,14,100,12,0,90,no,3.72,0,1.73,3.7,3.57,4.65
+7,Hagetmau > Bordeaux,平坦,false,12,Tadej Pogacar,Team 02,エース,,0,,3.9,100,11,0,84,no,7,0,4.99,0,0,7.09
+7,Hagetmau > Bordeaux,平坦,false,13,Julian Alaphilippe,Team 12,エース,,0,,6.3,100,11,0,78,no,5.39,0.33,3.05,0,0,4.95
+7,Hagetmau > Bordeaux,平坦,false,15,Alberto Bettiol,Team 10,エース,,0,,5.9,100,12,0,81,no,5.12,0.43,3.09,0,0,4.82
+7,Hagetmau > Bordeaux,平坦,false,16,Mathieu van der Poel,Team 05,エース,,95,エシュロン+95s,5.1,100,11,0,81,no,5.15,0,3.1,0,0,4.85
+7,Hagetmau > Bordeaux,平坦,false,20,Biniam Girmay,Team 20,エース,,0,,13.3,100,12,0,54,no,0.34,0.34,0,0,0,0.19
+7,Hagetmau > Bordeaux,平坦,false,26,Arnaud De Lie,Team 17,エース,,0,,6.5,100,12,0,74,no,0,2.56,0,0,0,0
+7,Hagetmau > Bordeaux,平坦,false,40,Gleb Syritsa,Team 03,エース,,0,,16.8,100,12,0,64,no,5.19,0,3.12,0,0,4.88
+7,Hagetmau > Bordeaux,平坦,false,57,Remco Evenepoel,Team 07,エース,,0,,4.5,100,11,0,67,no,4.3,0,3.28,0,0,4.5
+7,Hagetmau > Bordeaux,平坦,false,99,Jasper Philipsen,Team 06,エース,,0,,10.5,100,13,0,67,yes,2.89,0,1.88,0,0,2.81
+8,Périgueux > Bergerac,平坦,false,1,Wout van Aert,Team 04,エース,集団/本命,0,,0.3,100,12,0,89,no,7.14,0.33,4.72,0,0,7
+8,Périgueux > Bergerac,平坦,false,2,Mathieu van der Poel,Team 05,エース,,0,,0,100,12,0,77,no,5.15,0,3.1,0,0,4.85
+8,Périgueux > Bergerac,平坦,false,3,Tim Merlier,Team 11,エース,,0,,6.8,100,14,0,82,no,4.24,1.7,3.21,0,0,4.42
+8,Périgueux > Bergerac,平坦,false,4,Jasper Philipsen,Team 06,エース,,0,,5.7,100,14,0,63,no,2.89,0,1.88,0,0,2.81
+8,Périgueux > Bergerac,平坦,false,5,Jonas Abrahamsen,Team 14,エース,,0,,8.9,100,13,0,83,no,3.72,0,1.73,3.7,3.57,4.65
+8,Périgueux > Bergerac,平坦,false,6,Filippo Conca,Team 18,エース,,0,,5,100,12,0,91,no,0,0,0,3.28,3.57,3.28
+8,Périgueux > Bergerac,平坦,false,7,Casper van Uden,Team 19,エース,,0,,8.7,100,13,0,69,no,5.19,0,3.12,0,0,4.88
+8,Périgueux > Bergerac,平坦,false,8,Mads Pedersen,Team 01,エース,,0,,0,100,13,0,80,no,4.16,1.7,3.13,0,0,4.32
+8,Périgueux > Bergerac,平坦,false,9,Alberto Bettiol,Team 10,エース,,0,,1,100,13,0,74,no,5.12,0.43,3.09,0,0,4.82
+8,Périgueux > Bergerac,平坦,false,10,Tadej Pogacar,Team 02,エース,,0,,0,100,12,0,82,no,7,0,4.99,0,0,7.09
+8,Périgueux > Bergerac,平坦,false,11,Jonathan Milan,Team 15,エース,,0,,6.3,100,12,0,59,no,0.33,0.33,0,0,0,0.18
+8,Périgueux > Bergerac,平坦,false,12,Amanuel Ghebreigzabhier,Team 13,エース,,0,,11.2,100,13,0,82,no,5.44,0.62,3.04,0,0,4.97
+8,Périgueux > Bergerac,平坦,false,14,Filippo Ganna,Team 09,エース,,0,,0.7,100,13,0,82,no,4.33,1.56,3.31,0,0,4.53
+8,Périgueux > Bergerac,平坦,false,15,Olav Kooij,Team 16,エース,,0,,6.2,100,14,0,58,no,0.34,0.34,0,0,0,0.19
+8,Périgueux > Bergerac,平坦,false,17,Gleb Syritsa,Team 03,エース,,0,,11.9,100,13,0,70,no,5.19,0,3.12,0,0,4.88
+8,Périgueux > Bergerac,平坦,false,22,Julian Alaphilippe,Team 12,エース,,0,,1.5,100,12,0,72,no,5.39,0.33,3.05,0,0,4.95
+8,Périgueux > Bergerac,平坦,false,26,Arnaud De Lie,Team 17,エース,,0,,1.7,100,13,0,69,no,0,2.56,0,0,0,0
+8,Périgueux > Bergerac,平坦,false,29,Remco Evenepoel,Team 07,エース,,0,,0,100,12,0,68,no,4.3,0,3.28,0,0,4.5
+8,Périgueux > Bergerac,平坦,false,49,Biniam Girmay,Team 20,エース,,0,,8.6,100,13,0,55,no,0.34,0.34,0,0,0,0.19
+8,Périgueux > Bergerac,平坦,false,65,Jonas Vingegaard,Team 08,エース,,0,,0,100,12,0,70,no,5.23,0,3.15,0,0,4.92
+11,Vichy > Nevers,平坦,false,1,Mads Pedersen,Team 01,エース,集団/本命,0,,2.9,100,14,0,82,no,4.16,1.7,3.13,0,0,4.32
+11,Vichy > Nevers,平坦,false,2,Tim Merlier,Team 11,エース,,0,,6.6,100,14,0,82,no,4.24,1.7,3.21,0,0,4.42
+11,Vichy > Nevers,平坦,false,3,Jonas Abrahamsen,Team 14,エース,,0,,7.6,100,14,0,94,no,3.72,0,1.73,3.7,3.57,4.65
+11,Vichy > Nevers,平坦,false,4,Jasper Philipsen,Team 06,エース,,0,,6.3,100,14,0,74,no,2.89,0,1.88,0,0,2.81
+11,Vichy > Nevers,平坦,false,5,Jonathan Milan,Team 15,エース,,0,,6.5,100,14,0,62,no,0.33,0.33,0,0,0,0.18
+11,Vichy > Nevers,平坦,false,6,Magnus Cort,Team 06,アシスト/自由役,,0,,6.2,100,0,0,83,no,0,0,0,3.65,3.57,3.42
+11,Vichy > Nevers,平坦,false,7,Filippo Conca,Team 18,エース,,0,,6,100,14,0,95,no,0,0,0,3.28,3.57,3.28
+11,Vichy > Nevers,平坦,false,8,Casper van Uden,Team 19,エース,,0,,7,100,14,0,75,no,5.19,0,3.12,0,0,4.88
+11,Vichy > Nevers,平坦,false,9,Gleb Syritsa,Team 03,エース,,0,,8.4,100,14,0,70,no,5.19,0,3.12,0,0,4.88
+11,Vichy > Nevers,平坦,false,10,Wout van Aert,Team 04,エース,,0,,3.3,100,14,0,84,no,7.14,0.33,4.72,0,0,7
+11,Vichy > Nevers,平坦,false,12,Arnaud De Lie,Team 17,エース,,0,,4.3,100,14,0,73,no,0,2.56,0,0,0,0
+11,Vichy > Nevers,平坦,false,13,Biniam Girmay,Team 20,エース,,0,,6.5,100,13,0,53,no,0.34,0.34,0,0,0,0.19
+11,Vichy > Nevers,平坦,false,17,Mathieu van der Poel,Team 05,エース,,0,,3,100,14,0,70,no,5.15,0,3.1,0,0,4.85
+11,Vichy > Nevers,平坦,false,19,Remco Evenepoel,Team 07,エース,,0,,2.6,100,13,0,67,no,4.3,0,3.28,0,0,4.5
+11,Vichy > Nevers,平坦,false,21,Tadej Pogacar,Team 02,エース,,0,,1.9,100,14,0,84,no,7,0,4.99,0,0,7.09
+11,Vichy > Nevers,平坦,false,26,Amanuel Ghebreigzabhier,Team 13,エース,,0,,8,100,14,0,73,no,5.44,0.62,3.04,0,0,4.97
+11,Vichy > Nevers,平坦,false,30,Olav Kooij,Team 16,エース,,0,,6.5,100,14,0,55,no,0.34,0.34,0,0,0,0.19
+11,Vichy > Nevers,平坦,false,31,Filippo Ganna,Team 09,エース,,0,,3.6,100,14,0,77,no,4.33,1.56,3.31,0,0,4.53
+11,Vichy > Nevers,平坦,false,36,Julian Alaphilippe,Team 12,エース,,0,,4.1,100,14,0,77,no,5.39,0.33,3.05,0,0,4.95
+11,Vichy > Nevers,平坦,false,69,Jonas Vingegaard,Team 08,エース,,0,,2.6,100,13,0,70,no,5.23,0,3.15,0,0,4.92
+11,Vichy > Nevers,平坦,false,131,Alberto Bettiol,Team 10,エース,,0,,3.8,100,14,0,82,yes,5.12,0.43,3.09,0,0,4.82
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,1,Wout van Aert,Team 04,エース,集団/本命,0,,0,100,15,0,83,no,7.14,0.33,4.72,0,0,7
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,2,Mads Pedersen,Team 01,エース,,0,,0,100,15,0,83,no,4.16,1.7,3.13,0,0,4.32
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,3,Arnaud De Lie,Team 17,エース,,0,,0,100,15,0,75,no,0,2.56,0,0,0,0
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,4,Tim Merlier,Team 11,エース,,65,エシュロン+65s,1.9,100,15,0,81,no,4.24,1.7,3.21,0,0,4.42
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,5,Mathieu van der Poel,Team 05,エース,,0,,0,100,15,0,74,no,5.15,0,3.1,0,0,4.85
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,6,Amanuel Ghebreigzabhier,Team 13,エース,,78,エシュロン+78s,3.2,100,15,0,75,no,5.44,0.62,3.04,0,0,4.97
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,7,Filippo Conca,Team 18,エース,,0,,1.2,100,15,0,77,no,0,0,0,3.28,3.57,3.28
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,8,Casper van Uden,Team 19,エース,,0,,2.5,100,15,0,75,no,5.19,0,3.12,0,0,4.88
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,9,Jasper Philipsen,Team 06,エース,,0,,1.5,100,15,0,56,no,2.89,0,1.88,0,0,2.81
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,10,Jonas Abrahamsen,Team 14,エース,,0,,2.5,100,15,0,85,no,3.72,0,1.73,3.7,3.57,4.65
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,11,Filippo Ganna,Team 09,エース,,0,,0,100,15,0,82,no,4.33,1.56,3.31,0,0,4.53
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,12,Jonathan Milan,Team 15,エース,,0,,1.7,100,14,0,61,no,0.33,0.33,0,0,0,0.18
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,14,Olav Kooij,Team 16,エース,,0,,1.7,100,15,0,59,no,0.34,0.34,0,0,0,0.19
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,15,Tadej Pogacar,Team 02,エース,,0,,0,100,14,0,78,no,7,0,4.99,0,0,7.09
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,18,Gleb Syritsa,Team 03,エース,,0,,3.5,100,15,0,75,no,5.19,0,3.12,0,0,4.88
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,19,Julian Alaphilippe,Team 12,エース,,59,エシュロン+59s,0,100,14,0,80,no,5.39,0.33,3.05,0,0,4.95
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,25,Alberto Bettiol,Team 10,エース,,49,エシュロン+49s,0,100,15,0,73,no,5.12,0.43,3.09,0,0,4.82
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,26,Remco Evenepoel,Team 07,エース,,0,,0,100,14,0,70,no,4.3,0,3.28,0,0,4.5
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,32,Jonas Vingegaard,Team 08,エース,,0,,0,100,14,0,72,no,5.23,0,3.15,0,0,4.92
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,平坦,false,41,Biniam Girmay,Team 20,エース,,0,,1.7,100,14,0,56,no,0.34,0.34,0,0,0,0.19
+17,Chambéry > Voiron,平坦,false,1,Jasper Philipsen,Team 06,エース,集団/本命,0,,0,100,16,0,77,no,2.89,0,1.88,0,0,2.81
+17,Chambéry > Voiron,平坦,false,2,Wout van Aert,Team 04,エース,,0,,0,100,16,0,95,no,7.14,0.33,4.72,0,0,7
+17,Chambéry > Voiron,平坦,false,3,Mathieu van der Poel,Team 05,エース,,0,,0,100,16,0,80,no,5.15,0,3.1,0,0,4.85
+17,Chambéry > Voiron,平坦,false,4,Casper van Uden,Team 19,エース,,0,,0,100,16,0,75,no,5.19,0,3.12,0,0,4.88
+17,Chambéry > Voiron,平坦,false,5,Tim Merlier,Team 11,エース,,0,,0,100,16,0,84,no,4.24,1.7,3.21,0,0,4.42
+17,Chambéry > Voiron,平坦,false,6,Mads Pedersen,Team 01,エース,,66,エシュロン+66s,0,100,16,0,82,no,4.16,1.7,3.13,0,0,4.32
+17,Chambéry > Voiron,平坦,false,7,Filippo Conca,Team 18,エース,,0,,0,100,16,0,79,no,0,0,0,3.28,3.57,3.28
+17,Chambéry > Voiron,平坦,false,8,Biniam Girmay,Team 20,エース,,0,,0,100,15,0,64,no,0.34,0.34,0,0,0,0.19
+17,Chambéry > Voiron,平坦,false,9,Alberto Bettiol,Team 10,エース,,0,,0,100,16,0,72,no,5.12,0.43,3.09,0,0,4.82
+17,Chambéry > Voiron,平坦,false,10,Tadej Pogacar,Team 02,エース,,0,,0,100,16,0,79,no,7,0,4.99,0,0,7.09
+17,Chambéry > Voiron,平坦,false,11,Jonas Abrahamsen,Team 14,エース,,0,,0,100,15,0,83,no,3.72,0,1.73,3.7,3.57,4.65
+17,Chambéry > Voiron,平坦,false,14,Olav Kooij,Team 16,エース,,0,,0,100,16,0,56,no,0.34,0.34,0,0,0,0.19
+17,Chambéry > Voiron,平坦,false,15,Jonathan Milan,Team 15,エース,,72,エシュロン+72s,0,100,15,0,59,no,0.33,0.33,0,0,0,0.18
+17,Chambéry > Voiron,平坦,false,17,Arnaud De Lie,Team 17,エース,,0,,0,100,16,0,71,no,0,2.56,0,0,0,0
+17,Chambéry > Voiron,平坦,false,19,Gleb Syritsa,Team 03,エース,,0,,0,100,15,0,75,no,5.19,0,3.12,0,0,4.88
+17,Chambéry > Voiron,平坦,false,20,Filippo Ganna,Team 09,エース,,0,,0,100,16,0,83,no,4.33,1.56,3.31,0,0,4.53
+17,Chambéry > Voiron,平坦,false,27,Amanuel Ghebreigzabhier,Team 13,エース,,59,エシュロン+59s,0,100,16,0,79,no,5.44,0.62,3.04,0,0,4.97
+17,Chambéry > Voiron,平坦,false,28,Julian Alaphilippe,Team 12,エース,,0,,0,100,15,0,76,no,5.39,0.33,3.05,0,0,4.95
+17,Chambéry > Voiron,平坦,false,45,Jonas Vingegaard,Team 08,エース,,57,エシュロン+57s,0,100,15,0,77,no,5.23,0,3.15,0,0,4.92
+17,Chambéry > Voiron,平坦,false,85,Remco Evenepoel,Team 07,エース,,0,,0,100,15,0,71,no,4.3,0,3.28,0,0,4.5
+21,Thoiry > Paris Champs-Élysées,平坦,false,1,Alberto Bettiol,Team 10,エース,集団/本命,0,,13.8,100,10,0,71,no,5.12,0.43,3.09,0,0,4.82
+21,Thoiry > Paris Champs-Élysées,平坦,false,2,Gleb Syritsa,Team 03,エース,,0,,27.5,100,10,0,71,no,5.19,0,3.12,0,0,4.88
+21,Thoiry > Paris Champs-Élysées,平坦,false,3,Tim Merlier,Team 11,エース,,78,エシュロン+78s,21.9,90,11,0,80,no,4.24,1.7,3.21,0,0,4.42
+21,Thoiry > Paris Champs-Élysées,平坦,false,4,Jasper Philipsen,Team 06,エース,,0,,21,100,11,0,65,no,2.89,0,1.88,0,0,2.81
+21,Thoiry > Paris Champs-Élysées,平坦,false,5,Mathieu van der Poel,Team 05,エース,,0,,11.5,100,9,0,66,no,5.15,0,3.1,0,0,4.85
+21,Thoiry > Paris Champs-Élysées,平坦,false,6,Magnus Cort,Team 06,アシスト/自由役,,0,,20.7,100,0,0,83,no,0,0,0,3.65,3.57,3.42
+21,Thoiry > Paris Champs-Élysées,平坦,false,7,Filippo Conca,Team 18,エース,,70,エシュロン+70s,20.1,100,9,0,80,no,0,0,0,3.28,3.57,3.28
+21,Thoiry > Paris Champs-Élysées,平坦,false,8,Amanuel Ghebreigzabhier,Team 13,エース,,0,,26.4,100,10,0,73,no,5.44,0.62,3.04,0,0,4.97
+21,Thoiry > Paris Champs-Élysées,平坦,false,9,Biniam Girmay,Team 20,エース,,0,,21.4,100,9,0,66,no,0.34,0.34,0,0,0,0.19
+21,Thoiry > Paris Champs-Élysées,平坦,false,10,Arne Marit,Team 06,アシスト/自由役,,0,,23.3,100,0,0,43,no,0,0,0,0,0,0
+21,Thoiry > Paris Champs-Élysées,平坦,false,11,Mads Pedersen,Team 01,エース,,0,,10.9,100,10,0,76,no,4.16,1.7,3.13,0,0,4.32
+21,Thoiry > Paris Champs-Élysées,平坦,false,12,Arnaud De Lie,Team 17,エース,,0,,15.5,100,10,0,63,no,0,2.56,0,0,0,0
+21,Thoiry > Paris Champs-Élysées,平坦,false,13,Wout van Aert,Team 04,エース,,0,,12.3,100,9,0,86,no,7.14,0.33,4.72,0,0,7
+21,Thoiry > Paris Champs-Élysées,平坦,false,14,Tadej Pogacar,Team 02,エース,,0,,8.1,100,9,0,85,no,7,0,4.99,0,0,7.09
+21,Thoiry > Paris Champs-Élysées,平坦,false,15,Olav Kooij,Team 16,エース,,0,,21.4,100,11,0,58,no,0.34,0.34,0,0,0,0.19
+21,Thoiry > Paris Champs-Élysées,平坦,false,16,Jonas Abrahamsen,Team 14,エース,,0,,25.1,100,10,0,85,no,3.72,0,1.73,3.7,3.57,4.65
+21,Thoiry > Paris Champs-Élysées,平坦,false,17,Casper van Uden,Team 19,エース,,0,,22.9,100,10,0,60,no,5.19,0,3.12,0,0,4.88
+21,Thoiry > Paris Champs-Élysées,平坦,false,18,Jonathan Milan,Team 15,エース,,0,,21.4,100,9,0,49,no,0.33,0.33,0,0,0,0.18
+21,Thoiry > Paris Champs-Élysées,平坦,false,19,Julian Alaphilippe,Team 12,エース,,0,,15,100,9,0,73,no,5.39,0.33,3.05,0,0,4.95
+21,Thoiry > Paris Champs-Élysées,平坦,false,21,Filippo Ganna,Team 09,エース,,51,エシュロン+51s,13.1,100,10,0,74,no,4.33,1.56,3.31,0,0,4.53
+21,Thoiry > Paris Champs-Élysées,平坦,false,37,Jonas Vingegaard,Team 08,エース,,0,,10.3,100,9,0,63,no,5.23,0,3.15,0,0,4.92
+21,Thoiry > Paris Champs-Élysées,平坦,false,39,Remco Evenepoel,Team 07,エース,,0,,10,100,9,0,64,no,4.3,0,3.28,0,0,4.5

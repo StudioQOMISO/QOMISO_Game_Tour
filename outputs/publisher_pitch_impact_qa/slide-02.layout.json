@@ -1,0 +1,688 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ubzgug",
+    "id": "ubzgug",
+    "slide": 2,
+    "layoutId": "b6a134ee-8873-4bbb-9fc1-a65a14580993",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "c7f40f9d-396d-411e-b331-3b3c24481bf2",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b6a134ee-8873-4bbb-9fc1-a65a14580993",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "c7f40f9d-396d-411e-b331-3b3c24481bf2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "c7f40f9d-396d-411e-b331-3b3c24481bf2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/jqlw3udk",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Road cycling race key visual",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "14c17ede-ba80-43cb-8afc-1fa4202090e3",
+        "contentType": "image/png",
+        "byteLength": 2630732
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h43qp4rq",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#000000",
+      "lineColor": "#000000",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3upgja5",
+      "id": "3",
+      "bbox": [
+        46,
+        34,
+        260,
+        26
+      ],
+      "geometry": "rect",
+      "text": "QOMISO GAME TOUR",
+      "textPreview": "QOMISO GAME TOUR",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QOMISO GAME TOUR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QOMISO GAME TOUR",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#E7ECEF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QOMISO GAME TOUR",
+              "fontSize": 15,
+              "color": "#E7ECEF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6l8re9w",
+      "id": "4",
+      "bbox": [
+        1160,
+        34,
+        70,
+        26
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#E7ECEF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 15,
+              "color": "#E7ECEF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5c7i9sb",
+      "id": "5",
+      "bbox": [
+        46,
+        66,
+        1188,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58nqtor2",
+      "id": "6",
+      "bbox": [
+        58,
+        118,
+        740,
+        118
+      ],
+      "geometry": "rect",
+      "text": "スポーツゲームに足りないのは、\n“勝たせる役”の快感です。",
+      "textPreview": "スポーツゲームに足りないのは、 | “勝たせる役”の快感です。",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "fontSize": 48,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "スポーツゲームに足りないのは、"
+          },
+          {
+            "index": 2,
+            "text": "“勝たせる役”の快感です。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "スポーツゲームに足りないのは、",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "スポーツゲームに足りないのは、",
+              "fontSize": 48,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "“勝たせる役”の快感です。",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“勝たせる役”の快感です。",
+              "fontSize": 48,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47epkjah",
+      "id": "7",
+      "bbox": [
+        62,
+        265,
+        720,
+        74
+      ],
+      "geometry": "rect",
+      "text": "ロードレースの本質はスターの能力値だけではない。\n横風、石畳、山岳入口、補給、隊列、犠牲になるアシストが勝敗を作る。",
+      "textPreview": "ロードレースの本質はスターの能力値だけではない。 | 横風、石畳、山岳入口、補給、隊列、犠牲になるアシストが勝敗を作る。",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ロードレースの本質はスターの能力値だけではない。"
+          },
+          {
+            "index": 2,
+            "text": "横風、石畳、山岳入口、補給、隊列、犠牲になるアシストが勝敗を作る。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ロードレースの本質はスターの能力値だけではない。",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ロードレースの本質はスターの能力値だけではない。",
+              "fontSize": 23,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "横風、石畳、山岳入口、補給、隊列、犠牲になるアシストが勝敗を作る。",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "横風、石畳、山岳入口、補給、隊列、犠牲になるアシストが勝敗を作る。",
+              "fontSize": 23,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra58vy9s",
+      "id": "8",
+      "bbox": [
+        820,
+        142,
+        330,
+        390
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0E1419",
+      "lineColor": "#323C44",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69w7mtsn",
+      "id": "9",
+      "bbox": [
+        850,
+        176,
+        230,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Market Hook",
+      "textPreview": "Market Hook",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFD43B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Market Hook"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Market Hook",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFD43B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Market Hook",
+              "fontSize": 24,
+              "color": "#FFD43B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrmd43yd",
+      "id": "10",
+      "bbox": [
+        850,
+        232,
+        250,
+        86
+      ],
+      "geometry": "rect",
+      "text": "スター収集だけではない\nチーム構造のゲーム",
+      "textPreview": "スター収集だけではない | チーム構造のゲーム",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "fontSize": 31,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "スター収集だけで"
+          },
+          {
+            "index": 2,
+            "text": "はない"
+          },
+          {
+            "index": 3,
+            "text": "チーム構造のゲーム"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "スター収集だけではない",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "スター収集だけではない",
+              "fontSize": 31,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "チーム構造のゲーム",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "チーム構造のゲーム",
+              "fontSize": 31,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsvex8zi",
+      "id": "11",
+      "bbox": [
+        850,
+        348,
+        210,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F04B37",
+      "lineColor": "#F04B37",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5kv2dg7",
+      "id": "12",
+      "bbox": [
+        850,
+        382,
+        250,
+        80
+      ],
+      "geometry": "rect",
+      "text": "エース過多は失速。\n名アシストが勝利を作る。",
+      "textPreview": "エース過多は失速。 | 名アシストが勝利を作る。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "エース過多は失速。"
+          },
+          {
+            "index": 2,
+            "text": "名アシストが勝利を作る。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "エース過多は失速。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "エース過多は失速。",
+              "fontSize": 22,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "名アシストが勝利を作る。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "名アシストが勝利を作る。",
+              "fontSize": 22,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,914 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/txl8jx",
+    "id": "txl8jx",
+    "slide": 3,
+    "layoutId": "52dac6a3-c2a7-4d06-8a52-a984dbd0e91e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "12896e2d-5152-41d2-ab0f-ef6b3276b138",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "52dac6a3-c2a7-4d06-8a52-a984dbd0e91e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "12896e2d-5152-41d2-ab0f-ef6b3276b138",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "12896e2d-5152-41d2-ab0f-ef6b3276b138",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/d0f2dgfi",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Cute deformed road cycling sports game key visual",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "a5f7a035-c262-4ead-b0d4-962ee4ead538",
+        "contentType": "image/png",
+        "byteLength": 2493830
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zipcf2h4",
+      "id": "2",
+      "bbox": [
+        42,
+        28,
+        222,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 3
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehwb6xgj",
+      "id": "3",
+      "bbox": [
+        60,
+        38,
+        185,
+        18
+      ],
+      "geometry": "rect",
+      "text": "QOMISO GAME TOUR",
+      "textPreview": "QOMISO GAME TOUR",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QOMISO GAME TOUR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QOMISO GAME TOUR",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QOMISO GAME TOUR",
+              "fontSize": 13,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgnudszy",
+      "id": "4",
+      "bbox": [
+        1164,
+        28,
+        66,
+        38
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFD84A",
+      "lineColor": "#FF8A32",
+      "lineWidth": 3
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfet4nyd",
+      "id": "5",
+      "bbox": [
+        1178,
+        38,
+        38,
+        18
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 14,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re5cb2hs",
+      "id": "6",
+      "bbox": [
+        54,
+        92,
+        650,
+        180
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#58C7FF",
+      "lineWidth": 5
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qdwb2xg7",
+      "id": "7",
+      "bbox": [
+        86,
+        124,
+        580,
+        94
+      ],
+      "geometry": "rect",
+      "text": "2-3分で終わる、\n200kmの勝負所。",
+      "textPreview": "2-3分で終わる、 | 200kmの勝負所。",
+      "resolvedFontSize": 43,
+      "resolvedTextStyle": {
+        "fontSize": 43,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2-3分で終わる、"
+          },
+          {
+            "index": 2,
+            "text": "200kmの勝負所。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2-3分で終わる、",
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2-3分で終わる、",
+              "fontSize": 43,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "200kmの勝負所。",
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "200kmの勝負所。",
+              "fontSize": 43,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcrupwf2",
+      "id": "8",
+      "bbox": [
+        90,
+        232,
+        560,
+        30
+      ],
+      "geometry": "rect",
+      "text": "カード選択 → シミュレート → 次の展開。CPU戦も対人戦もターン制で成立。",
+      "textPreview": "カード選択 → シミュレート → 次の展開。CPU戦も対人戦もターン制で成立。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#65728B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "カード選択 → シミュレート →"
+          },
+          {
+            "index": 2,
+            "text": "次の展開。CPU戦も対人戦もターン制で成立。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "カード選択 → シミュレート → 次の展開。CPU戦も対人戦もターン制で成立。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#65728B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "カード選択 → シミュレート → 次の展開。CPU戦も対人戦もターン制で成立。",
+              "fontSize": 19,
+              "color": "#65728B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbidgryx",
+      "id": "9",
+      "bbox": [
+        112,
+        510,
+        960,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahkzipsr",
+      "id": "10",
+      "bbox": [
+        62,
+        480,
+        86,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vitgrutc",
+      "id": "11",
+      "bbox": [
+        70,
+        500,
+        68,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Start",
+      "textPreview": "Start",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start",
+              "fontSize": 15,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w32hkzax",
+      "id": "12",
+      "bbox": [
+        252,
+        480,
+        86,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4byt4bi",
+      "id": "13",
+      "bbox": [
+        260,
+        500,
+        68,
+        18
+      ],
+      "geometry": "rect",
+      "text": "横風",
+      "textPreview": "横風",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "横風"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "横風",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "横風",
+              "fontSize": 15,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/md0fepsv",
+      "id": "14",
+      "bbox": [
+        442,
+        480,
+        86,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/netgnatg",
+      "id": "15",
+      "bbox": [
+        450,
+        500,
+        68,
+        18
+      ],
+      "geometry": "rect",
+      "text": "補給",
+      "textPreview": "補給",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "補給"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "補給",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "補給",
+              "fontSize": 15,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8f2xgfal",
+      "id": "16",
+      "bbox": [
+        632,
+        480,
+        86,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFD84A",
+      "lineColor": "#FF8A32",
+      "lineWidth": 4
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gbypkb6",
+      "id": "17",
+      "bbox": [
+        640,
+        500,
+        68,
+        18
+      ],
+      "geometry": "rect",
+      "text": "山岳",
+      "textPreview": "山岳",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#FF8A32",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "山岳"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "山岳",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FF8A32",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "山岳",
+              "fontSize": 15,
+              "color": "#FF8A32",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/694zq9sz",
+      "id": "18",
+      "bbox": [
+        822,
+        480,
+        86,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFD84A",
+      "lineColor": "#FF8A32",
+      "lineWidth": 4
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adgzetk",
+      "id": "19",
+      "bbox": [
+        830,
+        500,
+        68,
+        18
+      ],
+      "geometry": "rect",
+      "text": "石畳",
+      "textPreview": "石畳",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#FF8A32",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "石畳"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "石畳",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FF8A32",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "石畳",
+              "fontSize": 15,
+              "color": "#FF8A32",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3e5wr69w",
+      "id": "20",
+      "bbox": [
+        1012,
+        480,
+        86,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 4
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2twvi18b",
+      "id": "21",
+      "bbox": [
+        1020,
+        500,
+        68,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Finish",
+      "textPreview": "Finish",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#2E7BFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Finish"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Finish",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#2E7BFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Finish",
+              "fontSize": 15,
+              "color": "#2E7BFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

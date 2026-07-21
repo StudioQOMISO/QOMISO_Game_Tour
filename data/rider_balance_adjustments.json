@@ -1,0 +1,17 @@
+{
+  "reason": "2026 Tour simulation balance pass",
+  "adjustments": {
+    "Egan Bernal": {
+      "climb": 77,
+      "stamina": 76,
+      "recovery": 78,
+      "dailyRecovery": 78
+    },
+    "Paul Seixas": {
+      "climb": 83,
+      "stamina": 78,
+      "recovery": 81,
+      "dailyRecovery": 81
+    }
+  }
+}

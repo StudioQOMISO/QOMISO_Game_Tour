@@ -1,0 +1,516 @@
+stage,route,km,checkpointType,checkpoint,category,passagePlace,rider,team,points,finishLinked
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,1,Callum Scotson,Team 10,25,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,2,Wout van Aert,Team 04,20,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,3,Jonas Rutsch,Team 08,16,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,4,Anders Foldager,Team 16,14,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,5,Jonathan Milan,Team 15,12,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,6,Darren Rafferty,Team 12,10,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,7,Jasper Philipsen,Team 06,9,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,8,Arnaud De Lie,Team 17,8,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,9,Mads Pedersen,Team 01,7,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,10,Ben O'Connor,Team 04,6,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,11,Tim Merlier,Team 11,5,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,12,Biniam Girmay,Team 20,4,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,13,Bert Van Lerberghe,Team 07,3,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,14,Gerben Thijssen,Team 13,2,false
+2,Tarragona > Barcelona,83.6,intermediateSprint,VILADECANS,,15,Edward Theuns,Team 09,1,false
+2,Tarragona > Barcelona,94.2,kom,Côte de Begues,2,1,Mathieu van der Poel,Team 05,5,false
+2,Tarragona > Barcelona,94.2,kom,Côte de Begues,2,2,Jenno Berckmoes,Team 04,3,false
+2,Tarragona > Barcelona,94.2,kom,Côte de Begues,2,3,Egan Bernal,Team 18,2,false
+2,Tarragona > Barcelona,94.2,kom,Côte de Begues,2,4,Amanuel Ghebreigzabhier,Team 13,1,false
+2,Tarragona > Barcelona,141.6,kom,Côte du Château de Montjuïc,3,1,Damiano Caruso,Team 16,2,false
+2,Tarragona > Barcelona,141.6,kom,Côte du Château de Montjuïc,3,2,Axel Laurance,Team 16,1,false
+2,Tarragona > Barcelona,153.8,kom,Côte du Château de Montjuïc,3,1,Jonas Abrahamsen,Team 14,2,false
+2,Tarragona > Barcelona,153.8,kom,Côte du Château de Montjuïc,3,2,Lorenzo Rota,Team 08,1,false
+2,Tarragona > Barcelona,166,kom,Côte du Château de Montjuïc,3,1,Isaac del Toro,Team 19,2,false
+2,Tarragona > Barcelona,166,kom,Côte du Château de Montjuïc,3,2,Julian Alaphilippe,Team 12,1,false
+3,Granollers > Les Angles,17.2,kom,Côte de Saint Feliu de Codines,3,1,Sepp Kuss,Team 19,2,false
+3,Granollers > Les Angles,17.2,kom,Côte de Saint Feliu de Codines,3,2,Remco Evenepoel,Team 07,1,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,1,Mads Pedersen,Team 01,25,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,2,Biniam Girmay,Team 20,20,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,3,Jasper Philipsen,Team 06,16,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,4,Clément Russo,Team 06,14,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,5,Gonzalo Serrano,Team 20,12,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,6,Casper van Uden,Team 19,10,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,7,Mike Teunissen,Team 08,9,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,8,Alec Segaert,Team 18,8,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,9,Julius van den Berg,Team 11,7,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,10,Jonas Rickaert,Team 01,6,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,11,Davide Ballerini,Team 10,5,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,12,Jonathan Milan,Team 15,4,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,13,Luke Durbridge,Team 04,3,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,14,Johan Jacobs,Team 14,2,false
+3,Granollers > Les Angles,98.4,intermediateSprint,CAMPDEVÀNOL,,15,Darren Rafferty,Team 12,1,false
+3,Granollers > Les Angles,127.7,kom,Col de Toses,1,1,Jonas Vingegaard,Team 08,10,false
+3,Granollers > Les Angles,127.7,kom,Col de Toses,1,2,Isaac del Toro,Team 19,8,false
+3,Granollers > Les Angles,127.7,kom,Col de Toses,1,3,Jacopo Mosca,Team 12,6,false
+3,Granollers > Les Angles,127.7,kom,Col de Toses,1,4,Remco Evenepoel,Team 07,4,false
+3,Granollers > Les Angles,127.7,kom,Col de Toses,1,5,Georg Zimmermann,Team 15,2,false
+3,Granollers > Les Angles,127.7,kom,Col de Toses,1,6,Thymen Arensman,Team 12,1,false
+3,Granollers > Les Angles,172.3,kom,Col du Calvaire,3,1,Edoardo Zambanini,Team 03,2,false
+3,Granollers > Les Angles,172.3,kom,Col du Calvaire,3,2,Iván Romeo,Team 07,1,false
+3,Granollers > Les Angles,195.9,kom,LES ANGLES,3,1,Tadej Pogacar,Team 02,2,true
+3,Granollers > Les Angles,195.9,kom,LES ANGLES,3,2,Paul Seixas,Team 13,1,true
+4,Carcassonne > Foix,48.2,kom,Col de Bedos,4,1,Guillermo Thomas Silva,Team 14,1,false
+4,Carcassonne > Foix,64.9,kom,Col du Paradis,3,1,Remco Evenepoel,Team 07,2,false
+4,Carcassonne > Foix,64.9,kom,Col du Paradis,3,2,Remi Cavagna,Team 03,1,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,1,Danny van Poppel,Team 03,25,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,2,Arnaud De Lie,Team 17,20,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,3,Julius van den Berg,Team 11,16,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,4,Tim Merlier,Team 11,14,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,5,Mads Pedersen,Team 01,12,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,6,Biniam Girmay,Team 20,10,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,7,Jasper Philipsen,Team 06,9,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,8,Gerben Thijssen,Team 13,8,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,9,Jonathan Milan,Team 15,7,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,10,Nikias Arndt,Team 02,6,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,11,Callum Scotson,Team 10,5,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,12,Olav Kooij,Team 16,4,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,13,Wout van Aert,Team 04,3,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,14,Einer Rubio,Team 11,2,false
+4,Carcassonne > Foix,93.4,intermediateSprint,QUILLAN,,15,Simone Consonni,Team 05,1,false
+4,Carcassonne > Foix,104.9,kom,Col de Coudons,2,1,Gonzalo Serrano,Team 20,5,false
+4,Carcassonne > Foix,104.9,kom,Col de Coudons,2,2,Mads Pedersen,Team 01,3,false
+4,Carcassonne > Foix,104.9,kom,Col de Coudons,2,3,Isaac del Toro,Team 19,2,false
+4,Carcassonne > Foix,104.9,kom,Col de Coudons,2,4,Remi Cavagna,Team 03,1,false
+4,Carcassonne > Foix,146.7,kom,Col de Montségur,2,1,Henri-François Renard-Haquin,Team 15,5,false
+4,Carcassonne > Foix,146.7,kom,Col de Montségur,2,2,Filippo Conca,Team 18,3,false
+4,Carcassonne > Foix,146.7,kom,Col de Montségur,2,3,Jonas Abrahamsen,Team 14,2,false
+4,Carcassonne > Foix,146.7,kom,Col de Montségur,2,4,Magnus Cort,Team 06,1,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,1,Filippo Conca,Team 18,25,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,2,Mads Pedersen,Team 01,20,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,3,Mathieu van der Poel,Team 05,16,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,4,Jasper Philipsen,Team 06,14,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,5,Tim Merlier,Team 11,12,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,6,Biniam Girmay,Team 20,10,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,7,Olav Kooij,Team 16,9,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,8,Wout van Aert,Team 04,8,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,9,Jonas Abrahamsen,Team 14,7,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,10,Arne Marit,Team 06,6,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,11,Gerben Thijssen,Team 13,5,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,12,Arnaud De Lie,Team 17,4,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,13,Jonas Rickaert,Team 01,3,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,14,Mike Teunissen,Team 08,2,false
+5,Lannemezan > Pau,113.5,intermediateSprint,VIC-EN-BIGORRE,,15,Danny van Poppel,Team 03,1,false
+5,Lannemezan > Pau,132.7,kom,Côte de Baleix,3,1,Wout van Aert,Team 04,2,false
+5,Lannemezan > Pau,132.7,kom,Côte de Baleix,3,2,Mads Pedersen,Team 01,1,false
+6,Pau > Gavarnie-Gèdre,50.9,kom,Côte de Loucrup,4,1,Tadej Pogacar,Team 02,1,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,1,Mads Pedersen,Team 01,25,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,2,Jonas Abrahamsen,Team 14,20,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,3,Jonathan Milan,Team 15,16,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,4,Tim Merlier,Team 11,14,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,5,Jasper Philipsen,Team 06,12,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,6,Olav Kooij,Team 16,10,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,7,Clément Russo,Team 06,9,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,8,Jasper De Buyst,Team 02,8,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,9,Léo Bisiaux,Team 11,7,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,10,Luka Mezgec,Team 04,6,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,11,Alberto Bettiol,Team 10,5,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,12,Arnaud De Lie,Team 17,4,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,13,Bert Van Lerberghe,Team 07,3,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,14,Biniam Girmay,Team 20,2,false
+6,Pau > Gavarnie-Gèdre,59.1,intermediateSprint,POUZAC,,15,Mathieu van der Poel,Team 05,1,false
+6,Pau > Gavarnie-Gèdre,77.3,kom,Côte de Mauvezin,3,1,Chris Hamilton,Team 13,2,false
+6,Pau > Gavarnie-Gèdre,77.3,kom,Côte de Mauvezin,3,2,Remco Evenepoel,Team 07,1,false
+6,Pau > Gavarnie-Gèdre,118.1,kom,Col d'Aspin,1,1,Tadej Pogacar,Team 02,10,false
+6,Pau > Gavarnie-Gèdre,118.1,kom,Col d'Aspin,1,2,Remco Evenepoel,Team 07,8,false
+6,Pau > Gavarnie-Gèdre,118.1,kom,Col d'Aspin,1,3,Primoz Roglic,Team 03,6,false
+6,Pau > Gavarnie-Gèdre,118.1,kom,Col d'Aspin,1,4,Jonas Vingegaard,Team 08,4,false
+6,Pau > Gavarnie-Gèdre,118.1,kom,Col d'Aspin,1,5,Davide Formolo,Team 03,2,false
+6,Pau > Gavarnie-Gèdre,118.1,kom,Col d'Aspin,1,6,Wout van Aert,Team 04,1,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,1,Tadej Pogacar,Team 02,20,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,2,Remco Evenepoel,Team 07,15,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,3,Paul Seixas,Team 13,12,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,4,Ilan Van Wilder,Team 01,10,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,5,Primoz Roglic,Team 03,8,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,6,Jonas Vingegaard,Team 08,6,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,7,Lionel Taminiaux,Team 09,4,false
+6,Pau > Gavarnie-Gèdre,147.8,kom,Col du Tourmalet - Souvenir Jacques Goddet,HC,8,Gijs Leemreize,Team 17,2,false
+6,Pau > Gavarnie-Gèdre,186.2,kom,GAVARNIE-GÈDRE,2,1,Tadej Pogacar,Team 02,5,true
+6,Pau > Gavarnie-Gèdre,186.2,kom,GAVARNIE-GÈDRE,2,2,Jonas Vingegaard,Team 08,3,true
+6,Pau > Gavarnie-Gèdre,186.2,kom,GAVARNIE-GÈDRE,2,3,Primoz Roglic,Team 03,2,true
+6,Pau > Gavarnie-Gèdre,186.2,kom,GAVARNIE-GÈDRE,2,4,Einer Rubio,Team 11,1,true
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,1,Tim Merlier,Team 11,25,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,2,Mads Pedersen,Team 01,20,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,3,Olav Kooij,Team 16,16,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,4,Wout van Aert,Team 04,14,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,5,Filippo Conca,Team 18,12,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,6,Magnus Cort,Team 06,10,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,7,Biniam Girmay,Team 20,9,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,8,Luka Mezgec,Team 04,8,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,9,Tadej Pogacar,Team 02,7,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,10,Amanuel Ghebreigzabhier,Team 13,6,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,11,Mathieu van der Poel,Team 05,5,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,12,Gerben Thijssen,Team 13,4,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,13,Arnaud De Lie,Team 17,3,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,14,Jonas Abrahamsen,Team 14,2,false
+7,Hagetmau > Bordeaux,120.3,intermediateSprint,LANDIRAS,,15,Jasper Philipsen,Team 06,1,false
+7,Hagetmau > Bordeaux,137.3,kom,Côte de Béguey,4,1,Tadej Pogacar,Team 02,1,false
+8,Périgueux > Bergerac,102.6,kom,Côte de Domme,4,1,Iván García Cortina,Team 20,1,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,1,Mads Pedersen,Team 01,25,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,2,Tim Merlier,Team 11,20,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,3,Alberto Bettiol,Team 10,16,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,4,Olav Kooij,Team 16,14,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,5,Jonas Abrahamsen,Team 14,12,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,6,Mathieu van der Poel,Team 05,10,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,7,Jasper Philipsen,Team 06,9,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,8,Magnus Cort,Team 06,8,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,9,Biniam Girmay,Team 20,7,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,10,Johan Jacobs,Team 14,6,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,11,Arnaud De Lie,Team 17,5,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,12,Edward Theuns,Team 09,4,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,13,Gleb Syritsa,Team 03,3,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,14,Wout van Aert,Team 04,2,false
+8,Périgueux > Bergerac,122.8,intermediateSprint,SAINT-CYPRIEN,,15,Gal Glivar,Team 07,1,false
+8,Périgueux > Bergerac,140.4,kom,Côte du Buisson-de-Cadouin,4,1,Egan Bernal,Team 18,1,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,1,Julius van den Berg,Team 11,25,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,2,Léo Bisiaux,Team 11,20,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,3,Tim Merlier,Team 11,16,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,4,Jonas Rickaert,Team 01,14,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,5,Jenno Berckmoes,Team 04,12,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,6,Mads Pedersen,Team 01,10,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,7,Frank van den Broek,Team 04,9,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,8,Biniam Girmay,Team 20,8,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,9,Olav Kooij,Team 16,7,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,10,Jasper Philipsen,Team 06,6,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,11,Emiel Verstrynge,Team 11,5,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,12,Arne Marit,Team 06,4,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,13,Bert Van Lerberghe,Team 07,3,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,14,Johan Jacobs,Team 14,2,false
+9,Malemort > Ussel,13.9,intermediateSprint,BEYNAT,,15,Gerben Thijssen,Team 13,1,false
+9,Malemort > Ussel,46,kom,Côte de Naves,3,1,Casper Pedersen,Team 20,2,false
+9,Malemort > Ussel,46,kom,Côte de Naves,3,2,Clément Champoussin,Team 10,1,false
+9,Malemort > Ussel,74.1,kom,Suc au May,2,1,Gianmarco Garofoli,Team 17,5,false
+9,Malemort > Ussel,74.1,kom,Suc au May,2,2,Egan Bernal,Team 18,3,false
+9,Malemort > Ussel,74.1,kom,Suc au May,2,3,Jonas Geens,Team 14,2,false
+9,Malemort > Ussel,74.1,kom,Suc au May,2,4,Aurélien Paret-Peintre,Team 07,1,false
+9,Malemort > Ussel,98.5,kom,Côte de la Croix du Pey,3,1,Arjen Livyns,Team 01,2,false
+9,Malemort > Ussel,98.5,kom,Côte de la Croix du Pey,3,2,Filippo Fiorelli,Team 07,1,false
+9,Malemort > Ussel,130.1,kom,Mont Bessou,4,1,Jonas Abrahamsen,Team 14,1,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,1,Gerben Thijssen,Team 13,25,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,2,Filippo Fiorelli,Team 07,20,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,3,Davide Ballerini,Team 10,16,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,4,Julius van den Berg,Team 11,14,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,5,Jasper Philipsen,Team 06,12,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,6,Darren Rafferty,Team 12,10,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,7,Wout van Aert,Team 04,9,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,8,Olav Kooij,Team 16,8,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,9,Jonas Rickaert,Team 01,7,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,10,Tim Merlier,Team 11,6,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,11,Arne Marit,Team 06,5,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,12,Biniam Girmay,Team 20,4,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,13,Mads Pedersen,Team 01,3,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,14,Danny van Poppel,Team 03,2,false
+10,Aurillac > Le Lioran,25.5,intermediateSprint,LACAPELLE-DEL-FRAISSE,,15,Jonathan Milan,Team 15,1,false
+10,Aurillac > Le Lioran,68,kom,Côte de Pailherols,3,1,Primoz Roglic,Team 03,2,false
+10,Aurillac > Le Lioran,68,kom,Côte de Pailherols,3,2,Jonas Iversby Hvideberg,Team 10,1,false
+10,Aurillac > Le Lioran,97.3,kom,Col de la Griffoul,2,1,Amanuel Ghebreigzabhier,Team 13,5,false
+10,Aurillac > Le Lioran,97.3,kom,Col de la Griffoul,2,2,Emiel Verstrynge,Team 11,3,false
+10,Aurillac > Le Lioran,97.3,kom,Col de la Griffoul,2,3,Edoardo Zambanini,Team 03,2,false
+10,Aurillac > Le Lioran,97.3,kom,Col de la Griffoul,2,4,Jorge Arcas,Team 12,1,false
+10,Aurillac > Le Lioran,103.8,kom,Col de Prat de Bouc,3,1,Ethan Hayter,Team 15,2,false
+10,Aurillac > Le Lioran,103.8,kom,Col de Prat de Bouc,3,2,Juan Pedro López,Team 12,1,false
+10,Aurillac > Le Lioran,118.8,kom,Côte de Murat,3,1,Julian Alaphilippe,Team 12,2,false
+10,Aurillac > Le Lioran,118.8,kom,Côte de Murat,3,2,Callum Thornley,Team 09,1,false
+10,Aurillac > Le Lioran,135.7,kom,Puy Mary - Pas de Peyrol,1,1,Tadej Pogacar,Team 02,10,false
+10,Aurillac > Le Lioran,135.7,kom,Puy Mary - Pas de Peyrol,1,2,Jonas Iversby Hvideberg,Team 10,8,false
+10,Aurillac > Le Lioran,135.7,kom,Puy Mary - Pas de Peyrol,1,3,Ben O'Connor,Team 04,6,false
+10,Aurillac > Le Lioran,135.7,kom,Puy Mary - Pas de Peyrol,1,4,Ethan Hayter,Team 15,4,false
+10,Aurillac > Le Lioran,135.7,kom,Puy Mary - Pas de Peyrol,1,5,Remco Evenepoel,Team 07,2,false
+10,Aurillac > Le Lioran,135.7,kom,Puy Mary - Pas de Peyrol,1,6,Paul Seixas,Team 13,1,false
+10,Aurillac > Le Lioran,152.1,kom,Col de Pertus,1,1,Jonas Vingegaard,Team 08,10,false
+10,Aurillac > Le Lioran,152.1,kom,Col de Pertus,1,2,Tadej Pogacar,Team 02,8,false
+10,Aurillac > Le Lioran,152.1,kom,Col de Pertus,1,3,Remco Evenepoel,Team 07,6,false
+10,Aurillac > Le Lioran,152.1,kom,Col de Pertus,1,4,Adam Yates,Team 13,4,false
+10,Aurillac > Le Lioran,152.1,kom,Col de Pertus,1,5,Primoz Roglic,Team 03,2,false
+10,Aurillac > Le Lioran,152.1,kom,Col de Pertus,1,6,Paul Seixas,Team 13,1,false
+10,Aurillac > Le Lioran,163.9,kom,Col de Font de Cère,3,1,Callum Scotson,Team 10,2,false
+10,Aurillac > Le Lioran,163.9,kom,Col de Font de Cère,3,2,Egan Bernal,Team 18,1,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,1,Tim Merlier,Team 11,25,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,2,Biniam Girmay,Team 20,20,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,3,Mads Pedersen,Team 01,16,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,4,Magnus Cort,Team 06,14,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,5,Gerben Thijssen,Team 13,12,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,6,Arnaud De Lie,Team 17,10,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,7,Jonathan Milan,Team 15,9,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,8,Mathieu van der Poel,Team 05,8,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,9,Jonas Abrahamsen,Team 14,7,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,10,Olav Kooij,Team 16,6,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,11,Filippo Conca,Team 18,5,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,12,Casper van Uden,Team 19,4,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,13,Christophe Laporte,Team 06,3,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,14,Alberto Bettiol,Team 10,2,false
+11,Vichy > Nevers,27.9,intermediateSprint,SAINT-POURÇAIN-SUR-SIOULE,,15,Danny van Poppel,Team 03,1,false
+11,Vichy > Nevers,32.9,kom,Côte de Billonnière,4,1,Gal Glivar,Team 07,1,false
+11,Vichy > Nevers,123.4,kom,Côte de Billy-Chevannes,4,1,Adam Yates,Team 13,1,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,1,Mads Pedersen,Team 01,25,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,2,Mathieu van der Poel,Team 05,20,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,3,Tim Merlier,Team 11,16,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,4,Amanuel Ghebreigzabhier,Team 13,14,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,5,Jonas Abrahamsen,Team 14,12,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,6,Magnus Cort,Team 06,10,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,7,Jonas Rickaert,Team 01,9,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,8,Jonathan Milan,Team 15,8,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,9,Jasper Philipsen,Team 06,7,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,10,Biniam Girmay,Team 20,6,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,11,Darren Rafferty,Team 12,5,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,12,Casper van Uden,Team 19,4,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,13,Wout van Aert,Team 04,3,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,14,Gleb Syritsa,Team 03,2,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,45.8,intermediateSprint,DECIZE,,15,Arnaud De Lie,Team 17,1,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,76.5,kom,Côte de Lanty,4,1,Mads Pedersen,Team 01,1,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,97.8,kom,Côte de Cuzy,4,1,Remco Evenepoel,Team 07,1,false
+12,Circuit Nevers Magny-Cours > Chalon-sur-Saône,159.4,kom,Côte de Montagny-lès-Buxy,4,1,Guillermo Thomas Silva,Team 14,1,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,1,Tim Merlier,Team 11,25,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,2,Johan Jacobs,Team 14,20,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,3,Jakob Omrzel,Team 16,16,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,4,Jonathan Milan,Team 15,14,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,5,Biniam Girmay,Team 20,12,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,6,Darren Rafferty,Team 12,10,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,7,Arjen Livyns,Team 01,9,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,8,Jasper Philipsen,Team 06,8,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,9,Edward Theuns,Team 09,7,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,10,Emiel Verstrynge,Team 11,6,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,11,Bert Van Lerberghe,Team 07,5,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,12,Carlos Canal,Team 04,4,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,13,Nils Politt,Team 11,3,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,14,Jonas Rickaert,Team 01,2,false
+13,Dole > Belfort,137.8,intermediateSprint,MÉLISEY,,15,Filippo Conca,Team 18,1,false
+13,Dole > Belfort,157.4,kom,Col des Croix,3,1,Mathieu van der Poel,Team 05,2,false
+13,Dole > Belfort,157.4,kom,Col des Croix,3,2,Damiano Caruso,Team 16,1,false
+13,Dole > Belfort,175.9,kom,Ballon d'Alsace,1,1,Paul Seixas,Team 13,10,false
+13,Dole > Belfort,175.9,kom,Ballon d'Alsace,1,2,Sepp Kuss,Team 19,8,false
+13,Dole > Belfort,175.9,kom,Ballon d'Alsace,1,3,Marc Soler,Team 18,6,false
+13,Dole > Belfort,175.9,kom,Ballon d'Alsace,1,4,Tadej Pogacar,Team 02,4,false
+13,Dole > Belfort,175.9,kom,Ballon d'Alsace,1,5,Gal Glivar,Team 07,2,false
+13,Dole > Belfort,175.9,kom,Ballon d'Alsace,1,6,Remco Evenepoel,Team 07,1,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,1,Tim Merlier,Team 11,25,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,2,Frank van den Broek,Team 04,20,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,3,Mads Pedersen,Team 01,16,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,4,Jasper Philipsen,Team 06,14,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,5,Jonathan Milan,Team 15,12,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,6,Biniam Girmay,Team 20,10,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,7,Edward Theuns,Team 09,9,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,8,Mike Teunissen,Team 08,8,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,9,Arne Marit,Team 06,7,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,10,Alberto Bettiol,Team 10,6,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,11,Gerben Thijssen,Team 13,5,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,12,Julius van den Berg,Team 11,4,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,13,Kamil Gradek,Team 06,3,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,14,Olav Kooij,Team 16,2,false
+14,Mulhouse > Le Markstein Fellering,12.6,intermediateSprint,WATTWILLER,,15,Jonas Abrahamsen,Team 14,1,false
+14,Mulhouse > Le Markstein Fellering,36.6,kom,Grand Ballon,1,1,Julian Alaphilippe,Team 12,10,false
+14,Mulhouse > Le Markstein Fellering,36.6,kom,Grand Ballon,1,2,Jonas Vingegaard,Team 08,8,false
+14,Mulhouse > Le Markstein Fellering,36.6,kom,Grand Ballon,1,3,Tadej Pogacar,Team 02,6,false
+14,Mulhouse > Le Markstein Fellering,36.6,kom,Grand Ballon,1,4,Mads Pedersen,Team 01,4,false
+14,Mulhouse > Le Markstein Fellering,36.6,kom,Grand Ballon,1,5,Lionel Taminiaux,Team 09,2,false
+14,Mulhouse > Le Markstein Fellering,36.6,kom,Grand Ballon,1,6,Primoz Roglic,Team 03,1,false
+14,Mulhouse > Le Markstein Fellering,71.3,kom,Col du Page,2,1,Sepp Kuss,Team 19,5,false
+14,Mulhouse > Le Markstein Fellering,71.3,kom,Col du Page,2,2,Taco van der Hoorn,Team 01,3,false
+14,Mulhouse > Le Markstein Fellering,71.3,kom,Col du Page,2,3,Filippo Ganna,Team 09,2,false
+14,Mulhouse > Le Markstein Fellering,71.3,kom,Col du Page,2,4,Luke Plapp,Team 06,1,false
+14,Mulhouse > Le Markstein Fellering,94.4,kom,Ballon d'Alsace,1,1,Tadej Pogacar,Team 02,10,false
+14,Mulhouse > Le Markstein Fellering,94.4,kom,Ballon d'Alsace,1,2,Santiago Buitrago,Team 04,8,false
+14,Mulhouse > Le Markstein Fellering,94.4,kom,Ballon d'Alsace,1,3,Remco Evenepoel,Team 07,6,false
+14,Mulhouse > Le Markstein Fellering,94.4,kom,Ballon d'Alsace,1,4,Jacopo Mosca,Team 12,4,false
+14,Mulhouse > Le Markstein Fellering,94.4,kom,Ballon d'Alsace,1,5,Mads Pedersen,Team 01,2,false
+14,Mulhouse > Le Markstein Fellering,94.4,kom,Ballon d'Alsace,1,6,Julian Alaphilippe,Team 12,1,false
+14,Mulhouse > Le Markstein Fellering,149.4,kom,Col du Haag,1,1,Paul Seixas,Team 13,10,false
+14,Mulhouse > Le Markstein Fellering,149.4,kom,Col du Haag,1,2,Jonas Vingegaard,Team 08,8,false
+14,Mulhouse > Le Markstein Fellering,149.4,kom,Col du Haag,1,3,Filippo Ganna,Team 09,6,false
+14,Mulhouse > Le Markstein Fellering,149.4,kom,Col du Haag,1,4,Wilco Kelderman,Team 06,4,false
+14,Mulhouse > Le Markstein Fellering,149.4,kom,Col du Haag,1,5,Alberto Bettiol,Team 10,2,false
+14,Mulhouse > Le Markstein Fellering,149.4,kom,Col du Haag,1,6,Tadej Pogacar,Team 02,1,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,1,Davide Toneatti,Team 19,25,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,2,Tim Merlier,Team 11,20,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,3,Jonathan Milan,Team 15,16,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,4,Jonas Abrahamsen,Team 14,14,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,5,Filippo Fiorelli,Team 07,12,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,6,Mads Pedersen,Team 01,10,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,7,Ethan Hayter,Team 15,9,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,8,Jasper Philipsen,Team 06,8,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,9,Callum Scotson,Team 10,7,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,10,Arne Marit,Team 06,6,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,11,Casper van Uden,Team 19,5,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,12,Lionel Taminiaux,Team 09,4,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,13,Clément Russo,Team 06,3,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,14,Biniam Girmay,Team 20,2,false
+15,Champagnole > Plateau de Solaison,17.3,intermediateSprint,SAINT-LAURENT-EN-GRANDVAUX,,15,Danny van Poppel,Team 03,1,false
+15,Champagnole > Plateau de Solaison,36.8,kom,Côte des Rousses,3,1,Brandon McNulty,Team 07,2,false
+15,Champagnole > Plateau de Solaison,36.8,kom,Côte des Rousses,3,2,Remco Evenepoel,Team 07,1,false
+15,Champagnole > Plateau de Solaison,136,kom,Le Salève - Col de la Croisette,1,1,Tadej Pogacar,Team 02,10,false
+15,Champagnole > Plateau de Solaison,136,kom,Le Salève - Col de la Croisette,1,2,Gijs Leemreize,Team 17,8,false
+15,Champagnole > Plateau de Solaison,136,kom,Le Salève - Col de la Croisette,1,3,Jonas Vingegaard,Team 08,6,false
+15,Champagnole > Plateau de Solaison,136,kom,Le Salève - Col de la Croisette,1,4,Paul Seixas,Team 13,4,false
+15,Champagnole > Plateau de Solaison,136,kom,Le Salève - Col de la Croisette,1,5,Carlos Verona,Team 17,2,false
+15,Champagnole > Plateau de Solaison,136,kom,Le Salève - Col de la Croisette,1,6,Remco Evenepoel,Team 07,1,false
+15,Champagnole > Plateau de Solaison,146,kom,Côte du Mont,3,1,Marc Soler,Team 18,2,false
+15,Champagnole > Plateau de Solaison,146,kom,Côte du Mont,3,2,Juan Ayuso,Team 14,1,false
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,1,Primoz Roglic,Team 03,20,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,2,Tadej Pogacar,Team 02,15,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,3,Jonas Vingegaard,Team 08,12,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,4,Paul Seixas,Team 13,10,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,5,Tao Geoghegan Hart,Team 13,8,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,6,Sepp Kuss,Team 19,6,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,7,Davide Formolo,Team 03,4,true
+15,Champagnole > Plateau de Solaison,183.9,kom,PLATEAU DE SOLAISON BRISON,HC,8,Santiago Buitrago,Team 04,2,true
+16,Évian-les-Bains > Thonon-les-Bains,9.7,kom,Point chrono n°2 / Côte de Larringes,2,1,Julian Alaphilippe,Team 12,5,false
+16,Évian-les-Bains > Thonon-les-Bains,9.7,kom,Point chrono n°2 / Côte de Larringes,2,2,Clément Russo,Team 06,3,false
+16,Évian-les-Bains > Thonon-les-Bains,9.7,kom,Point chrono n°2 / Côte de Larringes,2,3,Jorge Arcas,Team 12,2,false
+16,Évian-les-Bains > Thonon-les-Bains,9.7,kom,Point chrono n°2 / Côte de Larringes,2,4,Gleb Syritsa,Team 03,1,false
+17,Chambéry > Voiron,19.2,kom,Côte de Bassa,4,1,Jonas Iversby Hvideberg,Team 10,1,false
+17,Chambéry > Voiron,35.5,kom,Côte de Rossillon,4,1,Jonas Iversby Hvideberg,Team 10,1,false
+17,Chambéry > Voiron,49.6,kom,Col des Près,3,1,Emiel Verstrynge,Team 11,2,false
+17,Chambéry > Voiron,49.6,kom,Col des Près,3,2,Gonzalo Serrano,Team 20,1,false
+17,Chambéry > Voiron,59.5,kom,Côte de Saint-Jean d'Arvey,4,1,Joseph Blackmore,Team 16,1,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,1,Tim Merlier,Team 11,25,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,2,Jasper Philipsen,Team 06,20,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,3,Mads Pedersen,Team 01,16,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,4,Jonathan Milan,Team 15,14,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,5,Tadej Pogacar,Team 02,12,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,6,Biniam Girmay,Team 20,10,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,7,Mathieu van der Poel,Team 05,9,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,8,Wout van Aert,Team 04,8,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,9,Casper van Uden,Team 19,7,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,10,Amanuel Ghebreigzabhier,Team 13,6,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,11,Jonas Abrahamsen,Team 14,5,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,12,Erik Nordsæter Resell,Team 09,4,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,13,Olav Kooij,Team 16,3,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,14,Jonas Rickaert,Team 01,2,false
+17,Chambéry > Voiron,147.5,intermediateSprint,COLOMBE,,15,Johan Jacobs,Team 14,1,false
+18,Voiron > Orcières-Merlette,36.7,kom,Côte d'Engins,1,1,Mads Pedersen,Team 01,10,false
+18,Voiron > Orcières-Merlette,36.7,kom,Côte d'Engins,1,2,Edoardo Zambanini,Team 03,8,false
+18,Voiron > Orcières-Merlette,36.7,kom,Côte d'Engins,1,3,Ilan Van Wilder,Team 01,6,false
+18,Voiron > Orcières-Merlette,36.7,kom,Côte d'Engins,1,4,Gijs Leemreize,Team 17,4,false
+18,Voiron > Orcières-Merlette,36.7,kom,Côte d'Engins,1,5,Tadej Pogacar,Team 02,2,false
+18,Voiron > Orcières-Merlette,36.7,kom,Côte d'Engins,1,6,Diego Pescador,Team 08,1,false
+18,Voiron > Orcières-Merlette,92.2,kom,Côte de Monteynard,2,1,Clément Russo,Team 06,5,false
+18,Voiron > Orcières-Merlette,92.2,kom,Côte de Monteynard,2,2,Amanuel Ghebreigzabhier,Team 13,3,false
+18,Voiron > Orcières-Merlette,92.2,kom,Côte de Monteynard,2,3,Liam Slock,Team 17,2,false
+18,Voiron > Orcières-Merlette,92.2,kom,Côte de Monteynard,2,4,Luke Plapp,Team 06,1,false
+18,Voiron > Orcières-Merlette,112.8,kom,Côte des Terrasses,3,1,Jacopo Mosca,Team 12,2,false
+18,Voiron > Orcières-Merlette,112.8,kom,Côte des Terrasses,3,2,Jonas Vingegaard,Team 08,1,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,1,Mads Pedersen,Team 01,25,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,2,Callum Scotson,Team 10,20,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,3,Tim Merlier,Team 11,16,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,4,Gerben Thijssen,Team 13,14,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,5,Jonas Rickaert,Team 01,12,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,6,Emiel Verstrynge,Team 11,10,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,7,Jasper Philipsen,Team 06,9,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,8,Gal Glivar,Team 07,8,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,9,Dries Van Gestel,Team 13,7,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,10,Johan Jacobs,Team 14,6,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,11,Jonathan Milan,Team 15,5,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,12,Biniam Girmay,Team 20,4,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,13,Luka Mezgec,Team 04,3,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,14,Bert Van Lerberghe,Team 07,2,false
+18,Voiron > Orcières-Merlette,129.1,intermediateSprint,CORPS,,15,Ilan Van Wilder,Team 01,1,false
+18,Voiron > Orcières-Merlette,166.2,kom,Côte de Saint-Léger-les-Mélèzes,3,1,Paul Seixas,Team 13,2,false
+18,Voiron > Orcières-Merlette,166.2,kom,Côte de Saint-Léger-les-Mélèzes,3,2,Isaac del Toro,Team 19,1,false
+18,Voiron > Orcières-Merlette,185.2,kom,ORCIÈRES-MERLETTE,1,1,Paul Seixas,Team 13,10,true
+18,Voiron > Orcières-Merlette,185.2,kom,ORCIÈRES-MERLETTE,1,2,Callum Scotson,Team 10,8,true
+18,Voiron > Orcières-Merlette,185.2,kom,ORCIÈRES-MERLETTE,1,3,Primoz Roglic,Team 03,6,true
+18,Voiron > Orcières-Merlette,185.2,kom,ORCIÈRES-MERLETTE,1,4,Remco Evenepoel,Team 07,4,true
+18,Voiron > Orcières-Merlette,185.2,kom,ORCIÈRES-MERLETTE,1,5,Lionel Taminiaux,Team 09,2,true
+18,Voiron > Orcières-Merlette,185.2,kom,ORCIÈRES-MERLETTE,1,6,Julian Alaphilippe,Team 12,1,true
+19,Gap > Alpe d'Huez,4.8,kom,Col Bayard,2,1,Lionel Taminiaux,Team 09,5,false
+19,Gap > Alpe d'Huez,4.8,kom,Col Bayard,2,2,Alastair Mackellar,Team 18,3,false
+19,Gap > Alpe d'Huez,4.8,kom,Col Bayard,2,3,Chris Hamilton,Team 13,2,false
+19,Gap > Alpe d'Huez,4.8,kom,Col Bayard,2,4,Clément Russo,Team 06,1,false
+19,Gap > Alpe d'Huez,25.2,kom,Col du Noyer,1,1,Tadej Pogacar,Team 02,10,false
+19,Gap > Alpe d'Huez,25.2,kom,Col du Noyer,1,2,Jonas Vingegaard,Team 08,8,false
+19,Gap > Alpe d'Huez,25.2,kom,Col du Noyer,1,3,Primoz Roglic,Team 03,6,false
+19,Gap > Alpe d'Huez,25.2,kom,Col du Noyer,1,4,Paul Seixas,Team 13,4,false
+19,Gap > Alpe d'Huez,25.2,kom,Col du Noyer,1,5,Remco Evenepoel,Team 07,2,false
+19,Gap > Alpe d'Huez,25.2,kom,Col du Noyer,1,6,Ilan Van Wilder,Team 01,1,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,1,Danny van Poppel,Team 03,25,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,2,Jasper Philipsen,Team 06,20,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,3,Gerben Thijssen,Team 13,16,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,4,Filippo Conca,Team 18,14,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,5,Olav Kooij,Team 16,12,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,6,Mads Pedersen,Team 01,10,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,7,Bert Van Lerberghe,Team 07,9,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,8,Jonathan Milan,Team 15,8,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,9,Guillermo Thomas Silva,Team 14,7,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,10,Biniam Girmay,Team 20,6,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,11,Tim Merlier,Team 11,5,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,12,Mike Teunissen,Team 08,4,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,13,Arnaud De Lie,Team 17,3,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,14,Frank van den Broek,Team 04,2,false
+19,Gap > Alpe d'Huez,89.4,intermediateSprint,LE PÉRIER,,15,Brandon Rivera,Team 15,1,false
+19,Gap > Alpe d'Huez,99.2,kom,Col d'Ornon,2,1,Lionel Taminiaux,Team 09,5,false
+19,Gap > Alpe d'Huez,99.2,kom,Col d'Ornon,2,2,Marc Soler,Team 18,3,false
+19,Gap > Alpe d'Huez,99.2,kom,Col d'Ornon,2,3,Gleb Syritsa,Team 03,2,false
+19,Gap > Alpe d'Huez,99.2,kom,Col d'Ornon,2,4,Stefan Bissegger,Team 16,1,false
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,1,Remco Evenepoel,Team 07,20,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,2,Tadej Pogacar,Team 02,15,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,3,Primoz Roglic,Team 03,12,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,4,Jonas Vingegaard,Team 08,10,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,5,Clément Champoussin,Team 10,8,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,6,Chris Hamilton,Team 13,6,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,7,Brandon Rivera,Team 15,4,true
+19,Gap > Alpe d'Huez,127.9,kom,ALPE D'HUEZ,HC,8,Harold Martín López,Team 14,2,true
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,1,Ilan Van Wilder,Team 01,20,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,2,Jonas Vingegaard,Team 08,15,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,3,Tadej Pogacar,Team 02,12,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,4,Santiago Buitrago,Team 04,10,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,5,Jonas Iversby Hvideberg,Team 10,8,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,6,Paul Seixas,Team 13,6,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,7,Davide Formolo,Team 03,4,false
+20,Le Bourg d'Oisans > Alpe d'Huez,33.7,kom,Col de la Croix de Fer,HC,8,Primoz Roglic,Team 03,2,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,1,Magnus Cort,Team 06,25,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,2,Madis Mihkels,Team 20,20,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,3,Luka Mezgec,Team 04,16,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,4,Alberto Bettiol,Team 10,14,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,5,Jonas Abrahamsen,Team 14,12,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,6,Tim Merlier,Team 11,10,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,7,Mads Pedersen,Team 01,9,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,8,Danny van Poppel,Team 03,8,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,9,Biniam Girmay,Team 20,7,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,10,Lennert Belmans,Team 20,6,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,11,Casper van Uden,Team 19,5,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,12,Casper Pedersen,Team 20,4,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,13,Jonathan Milan,Team 15,3,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,14,Gonzalo Serrano,Team 20,2,false
+20,Le Bourg d'Oisans > Alpe d'Huez,66.5,intermediateSprint,SAINT-JULIEN-MONT-DENIS,,15,Julius van den Berg,Team 11,1,false
+20,Le Bourg d'Oisans > Alpe d'Huez,87.6,kom,Col du Télégraphe,1,1,Primoz Roglic,Team 03,10,false
+20,Le Bourg d'Oisans > Alpe d'Huez,87.6,kom,Col du Télégraphe,1,2,Matthew Riccitello,Team 20,8,false
+20,Le Bourg d'Oisans > Alpe d'Huez,87.6,kom,Col du Télégraphe,1,3,Alastair Mackellar,Team 18,6,false
+20,Le Bourg d'Oisans > Alpe d'Huez,87.6,kom,Col du Télégraphe,1,4,Paul Seixas,Team 13,4,false
+20,Le Bourg d'Oisans > Alpe d'Huez,87.6,kom,Col du Télégraphe,1,5,Ilan Van Wilder,Team 01,2,false
+20,Le Bourg d'Oisans > Alpe d'Huez,87.6,kom,Col du Télégraphe,1,6,Tadej Pogacar,Team 02,1,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,1,Tadej Pogacar,Team 02,20,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,2,Jonas Vingegaard,Team 08,15,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,3,Paul Seixas,Team 13,12,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,4,Remco Evenepoel,Team 07,10,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,5,Ilan Van Wilder,Team 01,8,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,6,Brieuc Rolland,Team 05,6,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,7,Santiago Buitrago,Team 04,4,false
+20,Le Bourg d'Oisans > Alpe d'Huez,110.5,kom,Col du Galibier - Souvenir Henri Desgrange,HC,8,Julian Alaphilippe,Team 12,2,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,1,Tadej Pogacar,Team 02,20,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,2,Remco Evenepoel,Team 07,15,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,3,Chris Hamilton,Team 13,12,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,4,Clément Champoussin,Team 10,10,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,5,Egan Bernal,Team 18,8,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,6,Paul Seixas,Team 13,6,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,7,Einer Rubio,Team 11,4,false
+20,Le Bourg d'Oisans > Alpe d'Huez,156.5,kom,Col de Sarenne,HC,8,Wilco Kelderman,Team 06,2,false
+21,Thoiry > Paris Champs-Élysées,43.1,kom,Côte du Pavé des Gardes,4,1,Thymen Arensman,Team 12,1,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,1,Mads Pedersen,Team 01,25,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,2,Jasper Philipsen,Team 06,20,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,3,Tim Merlier,Team 11,16,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,4,Luka Mezgec,Team 04,14,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,5,Filippo Conca,Team 18,12,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,6,Mathieu van der Poel,Team 05,10,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,7,Jonathan Milan,Team 15,9,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,8,Gleb Syritsa,Team 03,8,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,9,Wout van Aert,Team 04,7,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,10,Biniam Girmay,Team 20,6,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,11,Olav Kooij,Team 16,5,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,12,Casper van Uden,Team 19,4,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,13,Jonas Abrahamsen,Team 14,3,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,14,Amanuel Ghebreigzabhier,Team 13,2,false
+21,Thoiry > Paris Champs-Élysées,71.7,intermediateSprint,PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage),,15,Tadej Pogacar,Team 02,1,false
+21,Thoiry > Paris Champs-Élysées,90.3,kom,Côte de la Butte Montmartre,4,1,Antoine L'Hote,Team 15,1,false
+21,Thoiry > Paris Champs-Élysées,106.2,kom,Côte de la Butte Montmartre,4,1,Chris Hamilton,Team 13,1,false
+21,Thoiry > Paris Champs-Élysées,122.2,kom,Côte de la Butte Montmartre,4,1,Remco Evenepoel,Team 07,1,false

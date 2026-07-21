@@ -1,0 +1,51 @@
+{
+  "workbookPath": "C:\\QOMISO_Work\\QOMISO_Game_Tour\\outputs\\019f7863-1000-7941-8be7-a93707fedcde\\QOMISO_Game_Tour_実在選手300名_全パラメーター.xlsx",
+  "sheets": [
+    "概要",
+    "現役選手300名",
+    "レジェンド・引退選手",
+    "区分保留",
+    "実績・根拠",
+    "設定・定義"
+  ],
+  "roleRows": 30,
+  "formulaErrorMatches": 0,
+  "previews": [
+    {
+      "sheet": "概要",
+      "range": "A1:H20",
+      "fileName": "qa_01_概要.png",
+      "bytes": 75904
+    },
+    {
+      "sheet": "現役選手300名",
+      "range": "A1:AF16",
+      "fileName": "qa_02_現役選手300名.png",
+      "bytes": 395172
+    },
+    {
+      "sheet": "レジェンド・引退選手",
+      "range": "A1:AF16",
+      "fileName": "qa_03_レジェンド・引退選手.png",
+      "bytes": 269736
+    },
+    {
+      "sheet": "区分保留",
+      "range": "A1:AF16",
+      "fileName": "qa_04_区分保留.png",
+      "bytes": 374119
+    },
+    {
+      "sheet": "実績・根拠",
+      "range": "A1:AN16",
+      "fileName": "qa_05_実績・根拠.png",
+      "bytes": 171948
+    },
+    {
+      "sheet": "設定・定義",
+      "range": "A1:Q40",
+      "fileName": "qa_06_設定・定義.png",
+      "bytes": 364407
+    }
+  ]
+}

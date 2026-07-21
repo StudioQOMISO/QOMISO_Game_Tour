@@ -1,0 +1,161 @@
+place,rider,team,mountainPoints,mountainWins,gcPlace
+1,Tadej Pogacar,Team 02,183,12,1
+2,Jonas Vingegaard,Team 08,116,2,4
+3,Remco Evenepoel,Team 07,101,4,3
+4,Paul Seixas,Team 13,93,4,5
+5,Primoz Roglic,Team 03,77,3,2
+6,Ilan Van Wilder,Team 01,47,1,6
+7,Santiago Buitrago,Team 04,24,0,29
+8,Chris Hamilton,Team 13,23,2,24
+9,Julian Alaphilippe,Team 12,22,3,46
+10,Mads Pedersen,Team 01,21,2,12
+11,Sepp Kuss,Team 19,21,2,15
+12,Jonas Iversby Hvideberg,Team 10,19,2,35
+13,Clément Champoussin,Team 10,19,0,13
+14,Lionel Taminiaux,Team 09,18,2,16
+15,Egan Bernal,Team 18,15,1,8
+16,Gijs Leemreize,Team 17,14,0,31
+17,Isaac del Toro,Team 19,13,1,9
+18,Edoardo Zambanini,Team 03,12,1,19
+19,Jacopo Mosca,Team 12,12,1,21
+20,Marc Soler,Team 18,11,1,39
+21,Callum Scotson,Team 10,10,1,73
+22,Davide Formolo,Team 03,10,0,10
+23,Clément Russo,Team 06,9,1,55
+24,Amanuel Ghebreigzabhier,Team 13,9,1,118
+25,Alastair Mackellar,Team 18,9,0,17
+26,Matthew Riccitello,Team 20,8,0,11
+27,Tao Geoghegan Hart,Team 13,8,0,33
+28,Filippo Ganna,Team 09,8,0,54
+29,Mathieu van der Poel,Team 05,7,2,53
+30,Ethan Hayter,Team 15,6,1,70
+31,Gonzalo Serrano,Team 20,6,1,80
+32,Ben O'Connor,Team 04,6,0,26
+33,Wilco Kelderman,Team 06,6,0,30
+34,Brieuc Rolland,Team 05,6,0,41
+35,Jonas Abrahamsen,Team 14,5,2,63
+36,Gianmarco Garofoli,Team 17,5,1,27
+37,Adam Yates,Team 13,5,1,32
+38,Emiel Verstrynge,Team 11,5,1,68
+39,Henri-François Renard-Haquin,Team 15,5,1,139
+40,Einer Rubio,Team 11,5,0,14
+41,Brandon Rivera,Team 15,4,0,44
+42,Damiano Caruso,Team 16,3,1,28
+43,Wout van Aert,Team 04,3,1,49
+44,Gal Glivar,Team 07,3,1,98
+45,Filippo Conca,Team 18,3,0,74
+46,Gleb Syritsa,Team 03,3,0,81
+47,Jorge Arcas,Team 12,3,0,95
+48,Taco van der Hoorn,Team 01,3,0,97
+49,Jenno Berckmoes,Team 04,3,0,135
+50,Guillermo Thomas Silva,Team 14,2,2,48
+51,Brandon McNulty,Team 07,2,1,38
+52,Thymen Arensman,Team 12,2,1,43
+53,Arjen Livyns,Team 01,2,1,69
+54,Casper Pedersen,Team 20,2,1,79
+55,Jonas Geens,Team 14,2,0,18
+56,Georg Zimmermann,Team 15,2,0,20
+57,Carlos Verona,Team 17,2,0,34
+58,Harold Martín López,Team 14,2,0,40
+59,Alberto Bettiol,Team 10,2,0,67
+60,Luke Plapp,Team 06,2,0,82
+61,Remi Cavagna,Team 03,2,0,88
+62,Liam Slock,Team 17,2,0,114
+63,Antoine L'Hote,Team 15,1,1,71
+64,Joseph Blackmore,Team 16,1,1,85
+65,Iván García Cortina,Team 20,1,1,100
+66,Juan Ayuso,Team 14,1,0,7
+67,Aurélien Paret-Peintre,Team 07,1,0,22
+68,Juan Pedro López,Team 12,1,0,25
+69,Diego Pescador,Team 08,1,0,42
+70,Magnus Cort,Team 06,1,0,50
+71,Axel Laurance,Team 16,1,0,51
+72,Lorenzo Rota,Team 08,1,0,52
+73,Iván Romeo,Team 07,1,0,60
+74,Stefan Bissegger,Team 16,1,0,65
+75,Callum Thornley,Team 09,1,0,76
+76,Filippo Fiorelli,Team 07,1,0,125
+77,Laurens De Plus,Team 03,0,0,23
+78,Gil Gelders,Team 17,0,0,36
+79,Pavel Sivakov,Team 01,0,0,37
+80,Mikel Landa,Team 08,0,0,45
+81,Arnaud De Lie,Team 17,0,0,47
+82,Anders Foldager,Team 16,0,0,56
+83,Léo Bisiaux,Team 11,0,0,57
+84,Carlos Canal,Team 04,0,0,58
+85,Brady Gilmore,Team 03,0,0,59
+86,Madis Mihkels,Team 20,0,0,61
+87,Andreas Kron,Team 20,0,0,62
+88,Dries Van Gestel,Team 13,0,0,64
+89,Fredrik Dversnes,Team 12,0,0,66
+90,Cyril Barthe,Team 16,0,0,72
+91,Johannes Staune-Mittet,Team 18,0,0,75
+92,Christopher Juul-Jensen,Team 19,0,0,77
+93,Bart Lemmen,Team 11,0,0,78
+94,Bob Jungels,Team 11,0,0,83
+95,Joshua Giddings,Team 05,0,0,84
+96,Artem Shmidt,Team 12,0,0,86
+97,Erik Nordsæter Resell,Team 09,0,0,87
+98,Adrien Boichis,Team 14,0,0,89
+99,Magnus Sheffield,Team 19,0,0,90
+100,Albert Withen Philipsen,Team 09,0,0,91
+101,Jan Tratnik,Team 05,0,0,92
+102,Johan Price-Pejtersen,Team 01,0,0,93
+103,Edoardo Affini,Team 10,0,0,94
+104,Alec Segaert,Team 18,0,0,96
+105,Dylan van Baarle,Team 13,0,0,99
+106,Florian Vermeersch,Team 02,0,0,101
+107,Nils Politt,Team 11,0,0,102
+108,Edward Planckaert,Team 09,0,0,103
+109,Felix Engelhardt,Team 18,0,0,104
+110,Baptiste Veistroffer,Team 09,0,0,105
+111,Yves Lampaert,Team 08,0,0,106
+112,Mikkel Bjerg,Team 02,0,0,107
+113,Luke Durbridge,Team 04,0,0,108
+114,Kasper Asgreen,Team 05,0,0,109
+115,Davide Piganzoli,Team 18,0,0,110
+116,Vegard Stake Laengen,Team 02,0,0,111
+117,Kamil Gradek,Team 06,0,0,112
+118,Josh Kench,Team 05,0,0,113
+119,Jakob Söderqvist,Team 08,0,0,115
+120,Michał Kwiatkowski,Team 17,0,0,116
+121,Francesco Busatto,Team 10,0,0,117
+122,Alexander Hajek,Team 15,0,0,119
+123,Lars Craps,Team 15,0,0,120
+124,Adrià Pericas,Team 17,0,0,121
+125,Frank van den Broek,Team 04,0,0,122
+126,Alessandro Covi,Team 19,0,0,123
+127,Anders Halland Johannessen,Team 07,0,0,124
+128,Alessandro Borgo,Team 01,0,0,126
+129,Andrea Raccagni Noviero,Team 19,0,0,127
+130,Alberto Bruttomesso,Team 10,0,0,128
+131,Anton Kuzmin,Team 14,0,0,129
+132,Markus Hoelgaard,Team 05,0,0,130
+133,Biniam Girmay,Team 20,0,0,131
+134,Davide Toneatti,Team 19,0,0,132
+135,Jakob Omrzel,Team 16,0,0,133
+136,Gerben Thijssen,Team 13,0,0,134
+137,Olav Kooij,Team 16,0,0,136
+138,Lennert Belmans,Team 20,0,0,137
+139,Jonathan Milan,Team 15,0,0,138
+140,Jasper Philipsen,Team 06,0,0,140
+141,Darren Rafferty,Team 12,0,0,141
+142,Jonas Rutsch,Team 08,0,0,142
+143,Tim Merlier,Team 11,0,0,143
+144,Jonas Rickaert,Team 01,0,0,144
+145,Jordan Labrosse,Team 02,0,0,145
+146,Luka Mezgec,Team 04,0,0,146
+147,Danny van Poppel,Team 03,0,0,147
+148,Arne Marit,Team 06,0,0,148
+149,Edward Theuns,Team 09,0,0,149
+150,Bert Van Lerberghe,Team 07,0,0,150
+151,Mike Teunissen,Team 08,0,0,151
+152,Nikias Arndt,Team 02,0,0,152
+153,Simone Consonni,Team 05,0,0,153
+154,Johan Jacobs,Team 14,0,0,154
+155,Christophe Laporte,Team 06,0,0,155
+156,Davide Ballerini,Team 10,0,0,156
+157,Jasper De Buyst,Team 02,0,0,157
+158,Julius van den Berg,Team 11,0,0,158
+159,Casper van Uden,Team 19,0,0,159
+160,Floris Van Tricht,Team 02,0,0,160

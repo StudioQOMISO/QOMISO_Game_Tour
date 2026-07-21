@@ -3,21 +3,54 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>QOMISO Game Tour</title>
-    <link rel="stylesheet" href="styles.css?v=20260715-card" />
+    <title>QOMISO Game Tour — Tour de France 2026</title>
+    <link rel="stylesheet" href="styles.css?v=20260721-rider-detail" />
   </head>
   <body>
     <main class="app-shell">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Road Race Card Battle</p>
+          <p class="eyebrow">Tour de France 2026 / Road Race Card Battle</p>
           <h1>QOMISO Game Tour</h1>
         </div>
         <div class="season-chip">
-          <span>戦術デッキ</span>
+          <span>TOUR作戦コスト</span>
           <strong id="seasonWeek">5 / 7</strong>
         </div>
       </header>
+
+      <section class="panel scout-panel" aria-labelledby="scoutTitle">
+        <div class="scout-copy">
+          <p class="eyebrow">Rider Scout</p>
+          <h2 id="scoutTitle">選手と契約して、最初の8人を揃える</h2>
+          <p>選手を獲得すると、その選手が持つ6枚のカードも同時に使用可能になります。重複は能力強化ではなく契約ポイントへ変換されます。</p>
+          <div class="scout-status" aria-label="スカウト所持資源">
+            <span><small>スカウトCredit</small><strong id="scoutCredits">0</strong></span>
+            <span><small>契約ポイント</small><strong id="contractPoints">0</strong></span>
+            <span><small>10連保証</small><strong>エース候補1人</strong></span>
+            <span><small>契約済み</small><strong id="ownedRiderCount">0 / 300</strong></span>
+          </div>
+          <div class="scout-actions">
+            <button id="tutorialScoutBtn" class="primary-button scout-primary" type="button">初回無料10連</button>
+            <button id="singleScoutBtn" class="scout-button" type="button">1回引く <small>300 Cr</small></button>
+            <button id="tenScoutBtn" class="scout-button" type="button">10連を引く <small>2,700 Cr</small></button>
+          </div>
+          <p class="scout-rates">全選手を同じ枠から抽選。10連はエース適性85以上の候補を1人保証します。</p>
+        </div>
+        <div class="scout-reveal" aria-live="polite">
+          <div id="scoutMessage" class="scout-message">まずは初回無料10連でチームを結成しよう。</div>
+          <div id="scoutResults" class="scout-results"></div>
+        </div>
+        <div class="owned-riders">
+          <div class="panel-heading compact-heading">
+            <div><p class="eyebrow">My Riders</p><h2>契約済み選手</h2></div>
+            <span class="counter">ここから8人を編成</span>
+          </div>
+          <div id="ownedRiderDetail" class="owned-rider-detail" aria-live="polite"></div>
+          <div id="ownedRiderList" class="owned-rider-list"></div>
+        </div>
+      </section>
+
 
       <section class="hero-panel">
         <div class="rider-card">
@@ -40,7 +73,7 @@
         <div class="race-map">
           <canvas id="courseCanvas" width="760" height="220" aria-label="レースコース断面図"></canvas>
           <div class="map-labels">
-            <span>ワンデー</span>
+            <span>21 STAGES</span>
             <span>平坦</span>
             <span>丘陵</span>
             <span>山岳</span>
@@ -53,24 +86,25 @@
         <article class="panel">
           <div class="panel-heading">
             <div>
-              <p class="eyebrow">Action Deck</p>
-              <h2>戦術カードデッキ</h2>
+              <p class="eyebrow">Rider Cards</p>
+              <h2 id="cardDeckTitle">選手固有カード</h2>
             </div>
             <button id="resetBtn" class="icon-button" type="button" title="デッキ初期化" aria-label="デッキ初期化">↺</button>
           </div>
 
           <div class="stats" id="stats"></div>
 
-          <div class="commands" id="actionCardDeck"></div>
+          <div class="selected-rider-summary" id="selectedRiderSummary"></div>
+          <div class="commands rider-card-grid" id="actionCardDeck"></div>
         </article>
 
         <article class="panel">
           <div class="panel-heading">
             <div>
-              <p class="eyebrow">Support Deck</p>
-              <h2>サポートデッキ</h2>
+              <p class="eyebrow">Team Car</p>
+              <h2>レース用チームカード</h2>
             </div>
-            <span class="counter"><strong id="deckCount">0</strong>/4</span>
+            <span class="counter"><strong id="deckCount">0</strong>/1</span>
           </div>
           <div class="deck-list" id="supportDeck"></div>
         </article>
@@ -85,6 +119,27 @@
           </div>
           <div class="team-list" id="teamList"></div>
         </article>
+      </section>
+      <section class="panel team-deck-builder-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Team Card Deck</p>
+            <h2>18種類から6枚を編成</h2>
+          </div>
+          <span class="counter"><strong id="teamDeckCount">6</strong>/6 cards</span>
+        </div>
+        <p class="team-deck-rule">各ステージ前に18種類から好きな6枚を選択。選んだ6枚はランダム抽選せず、レース中いつでも使用できます。</p>
+        <div class="team-deck-builder" id="teamDeckBuilder"></div>
+      </section>
+
+
+      <section class="panel action-queue-panel">
+        <div class="panel-heading">
+          <div><p class="eyebrow">Action Queue</p><h2>行動キュー</h2></div>
+          <span class="counter"><strong id="queueCost">0</strong>/5 cost</span>
+        </div>
+        <div class="queue-rule">1ターンにつき1選手1枚・チームカード1枚まで。左から順に解決します。</div>
+        <div class="action-queue" id="actionQueue"></div>
       </section>
 
 
@@ -105,8 +160,8 @@
       <section class="panel grand-tour-panel">
         <div class="panel-heading">
           <div>
-            <p class="eyebrow">Grand Tour</p>
-            <h2>21ステージ構成</h2>
+            <p class="eyebrow">Tour de France 2026</p>
+            <h2>公式ルート全21ステージ</h2>
           </div>
           <span class="counter"><strong>21</strong> stages</span>
         </div>
@@ -158,8 +213,8 @@
         <article class="panel race-panel">
           <div class="panel-heading">
             <div>
-              <p class="eyebrow">Stage Battle</p>
-              <h2>ターン制レースバトル</h2>
+              <p class="eyebrow">Tour Stage Battle</p>
+              <h2>2026 ツール・ド・フランス</h2>
             </div>
             <button id="raceBtn" class="primary-button" type="button">セクター開始</button>
           </div>
@@ -170,6 +225,7 @@
           </div>
 
           <div class="stage-selector" id="stageSelector"></div>
+          <div class="course-event-preview" id="courseEventPreview"></div>
           <div class="race-score">
             <div>
               <span>総合戦力</span>
@@ -200,6 +256,10 @@
       </section>
     </main>
 
-    <script src="app.js?v=20260719-pave-results"></script>
+    <script src="data/tour_2026_route.js?v=20260721"></script>
+    <script src="data/rider_roster.js?v=20260721-gacha300"></script>
+    <script src="data/rider_card_catalog.js?v=20260721-gacha300"></script>
+    <script src="data/team_card_catalog.js?v=20260721-team18"></script>
+    <script src="app.js?v=20260721-team18-free6"></script>
   </body>
 </html>

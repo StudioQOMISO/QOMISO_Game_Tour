@@ -1,0 +1,442 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/t2xzat",
+    "id": "t2xzat",
+    "slide": 1,
+    "layoutId": "98b3e32f-7b80-4c4d-b10d-4a5a942840a4",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "112072a1-6a96-4c52-8026-907a92a87723",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "98b3e32f-7b80-4c4d-b10d-4a5a942840a4",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "112072a1-6a96-4c52-8026-907a92a87723",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "112072a1-6a96-4c52-8026-907a92a87723",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/cbipsvmx",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Cute deformed road cycling sports game key visual",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "ff8324ab-78dc-402e-82ac-310fbfd9bd17",
+        "contentType": "image/png",
+        "byteLength": 2795100
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1wf61wb",
+      "id": "2",
+      "bbox": [
+        46,
+        60,
+        476,
+        540
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFD84A",
+      "lineWidth": 5
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r25gz6xw",
+      "id": "3",
+      "bbox": [
+        78,
+        92,
+        420,
+        150
+      ],
+      "geometry": "rect",
+      "text": "QOMISO\nGAME TOUR",
+      "textPreview": "QOMISO | GAME TOUR",
+      "resolvedFontSize": 58,
+      "resolvedTextStyle": {
+        "fontSize": 58,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QOMISO"
+          },
+          {
+            "index": 2,
+            "text": "GAME TOUR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QOMISO",
+          "resolvedTextStyle": {
+            "fontSize": 58,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QOMISO",
+              "fontSize": 58,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "GAME TOUR",
+          "resolvedTextStyle": {
+            "fontSize": 58,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GAME TOUR",
+              "fontSize": 58,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fex4re5",
+      "id": "4",
+      "bbox": [
+        84,
+        264,
+        190,
+        10
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFD84A",
+      "lineColor": "#FFD84A",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50nyxwfq",
+      "id": "5",
+      "bbox": [
+        82,
+        302,
+        390,
+        94
+      ],
+      "geometry": "rect",
+      "text": "かわいい育成スポーツ感で、\nロードレースのチーム戦を遊ばせる。",
+      "textPreview": "かわいい育成スポーツ感で、 | ロードレースのチーム戦を遊ばせる。",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#183057",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "かわいい育成スポーツ感で、"
+          },
+          {
+            "index": 2,
+            "text": "ロードレースのチーム戦を遊ばせる。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "かわいい育成スポーツ感で、",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "かわいい育成スポーツ感で、",
+              "fontSize": 27,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ロードレースのチーム戦を遊ばせる。",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#183057",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ロードレースのチーム戦を遊ばせる。",
+              "fontSize": 27,
+              "color": "#183057",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idwf2hwf",
+      "id": "6",
+      "bbox": [
+        84,
+        422,
+        380,
+        50
+      ],
+      "geometry": "rect",
+      "text": "3頭身デフォルメ / 育成 / Credit年俸 / ターン制レース",
+      "textPreview": "3頭身デフォルメ / 育成 / Credit年俸 / ターン制レース",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#65728B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3頭身デフォルメ / 育成 / Credit年俸 /"
+          },
+          {
+            "index": 2,
+            "text": "ターン制レース"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3頭身デフォルメ / 育成 / Credit年俸 / ターン制レース",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#65728B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3頭身デフォルメ / 育成 / Credit年俸 / ターン制レース",
+              "fontSize": 18,
+              "color": "#65728B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3e5wvmxk",
+      "id": "7",
+      "bbox": [
+        82,
+        520,
+        318,
+        56
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2E7BFF",
+      "lineColor": "#2E7BFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obyxgbep",
+      "id": "8",
+      "bbox": [
+        106,
+        536,
+        230,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Publisher Pitch",
+      "textPreview": "Publisher Pitch",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Publisher Pitch"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Publisher Pitch",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Publisher Pitch",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

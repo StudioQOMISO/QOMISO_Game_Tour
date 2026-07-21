@@ -1,0 +1,57 @@
+slot,card,uses,averagePower,riders,teams,profiles,phases
+basic,平坦牽引,622,1.837,46,18,flat / hill / mountain / tt,control / decisive / setup
+specialty,山岳先導,392,4.601,27,19,mountain,control / decisive / setup
+specialty,高速リードアウト,349,3.522,22,18,flat / hill / mountain / tt,control / decisive / setup
+basic,位置引き上げ,218,1.503,26,18,flat / hill,control / decisive / setup
+specialty,ローテーション牽引,202,3.537,26,19,flat / tt,control / decisive / setup
+specialty,最後の山岳牽引,200,3.575,13,10,hill / mountain,control / decisive / setup
+basic,山岳牽引,196,2.08,29,18,hill / mountain,control / setup
+basic,トラブル復帰,126,1.246,17,14,flat / hill / mountain / tt,control / decisive / setup
+basic,丘陵牽引,120,1.643,13,10,hill / mountain,control / decisive
+specialty,高速牽引,114,3.946,22,18,flat / tt,setup
+decisive,最終発射,99,6.698,14,14,flat / hill,decisive
+basic,車輪キープ,89,2.072,8,8,flat / hill / tt,control / decisive / setup
+basic,風よけ,89,1.142,11,9,flat / hill / mountain / tt,control / decisive / setup
+specialty,登坂ペースアップ,88,4.368,8,8,hill / mountain,control / setup
+specialty,登坂チェイス,80,4.385,7,7,mountain,control / setup
+basic,巡航温存,80,1.554,6,6,flat / mountain / tt,control / setup
+decisive,山岳救援,64,5.924,8,8,mountain,decisive
+decisive,全開牽引,64,5.553,17,15,flat / hill / tt,decisive
+basic,安全誘導,62,1.201,5,5,flat / hill / mountain / tt,decisive / setup
+specialty,トレイン加速,47,3.369,3,2,flat / hill,control / decisive / setup
+decisive,全力献身,40,6.103,5,5,mountain,decisive
+basic,進路確保,38,1.053,8,7,flat / hill,setup
+specialty,坂前誘導,36,3.169,8,7,hill,decisive / setup
+specialty,丘陵加速,32,4.231,3,3,hill,control / decisive / setup
+basic,急勾配対応,32,2.084,4,4,mountain,setup
+specialty,高速巡航,29,4.175,3,3,flat / tt,control / decisive / setup
+specialty,ブリッジ,28,2.75,4,4,mountain / tt,decisive / setup
+basic,登坂リズム,28,1.875,2,2,hill / mountain,control / setup
+specialty,丘越え牽引,24,3.567,2,2,hill,control / decisive / setup
+decisive,無賃乗車,21,7.871,3,3,flat,decisive
+basic,ペース調整,17,1.522,1,1,flat / mountain / tt,control
+decisive,サテライト救援,16,5.376,2,2,mountain,decisive
+specialty,隊列再編,14,2.236,2,2,hill / mountain / tt,setup
+decisive,弾丸の独走,12,6.148,1,1,hill / mountain,decisive
+decisive,山岳王の封鎖,12,6.115,1,1,hill / mountain,decisive
+specialty,短坂アタック,12,4.243,1,1,hill,control / decisive / setup
+specialty,頂上前加速,12,3.636,1,1,hill / mountain,decisive / setup
+specialty,逃げ吸収,10,3.618,3,3,tt,control / decisive / setup
+decisive,高速発射,9,5.872,1,1,flat / tt,decisive
+decisive,横風エンジン,9,5.816,1,1,flat / tt,decisive
+specialty,ダウンヒル牽引,9,2.327,1,1,flat / tt,control
+basic,前方誘導,9,1.632,2,2,flat / tt,setup
+decisive,皇帝のカウンター,8,6.683,1,1,mountain,decisive
+decisive,新星の飛躍,8,6.67,1,1,mountain,decisive
+decisive,火花の噴出,8,6.13,1,1,mountain,decisive
+decisive,丘陵封鎖,8,4.529,2,2,hill,decisive
+basic,前方進入,8,1.023,2,2,hill,setup
+basic,パヴェ護衛,8,0.967,2,2,hill,setup
+specialty,山岳ペースアップ,6,3.408,1,1,hill / tt,control / decisive
+decisive,猛牛の突進,4,6.261,1,1,hill,decisive
+decisive,山岳献身,4,5.116,1,1,hill,decisive
+decisive,若き王の帰還,4,4.897,1,1,hill,decisive
+decisive,長距離追走,2,7.199,1,1,tt,decisive
+decisive,石畳の追撃,2,6.699,1,1,tt,decisive
+decisive,高速再編,2,5.965,1,1,tt,decisive
+basic,追走補助,2,1.385,1,1,tt,control

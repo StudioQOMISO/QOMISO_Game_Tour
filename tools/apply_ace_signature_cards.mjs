@@ -7,6 +7,63 @@ const rosterFiles = [
 ];
 const outputPath = "data/ace_signature_cards.json";
 
+const signatureEffectOverrides = new Map([
+  ["Tadej Pogacar", "カウンター型：ライバルの仕掛け直後に追撃し、丘陵から登りへ勢いを持ち越す。"],
+  ["Mathieu van der Poel", "ロングアタック型：悪路や丘陵の遠い位置から加速し、単独先頭のまま押し切りを狙う。"],
+  ["Paul Seixas", "成長連鎖型：最初の登坂で先頭に残ると、次の勝負所でもう一段強い加速を使える。"],
+  ["Isaac del Toro", "反復加速型：短い加速を連続して繰り出し、追走側の脚を先に削る。"],
+  ["Jonas Vingegaard", "山岳封鎖型：長い登りで一定の高出力を維持し、後方からの再加速を封じる。"],
+  ["Wout van Aert", "献身転換型：自分の巡航力を味方の位置上げへ変え、最後に残った脚で追撃する。"],
+  ["Remco Evenepoel", "独走型：平坦または緩斜面で単独走へ移行し、追走が整う前に差を固定する。"],
+  ["Primoz Roglic", "逆転型：終盤まで脚を温存し、先行勢が鈍った瞬間に一気に差を取り返す。"],
+  ["Julian Alaphilippe", "短坂急襲型：急勾配の入口で先手を取り、頂上までの短時間に勝負を決める。"],
+  ["Jasper Philipsen", "進路確保型：混戦で有利な車輪と走路を確保し、最短距離から最高速へ移る。"],
+  ["Filippo Ganna", "巡航圧力型：高い巡航速度を長く保ち、追走するほど相手が消耗する展開を作る。"],
+  ["Egan Bernal", "復活型：厳しい登坂を耐えた後に再加速し、遅れかけた位置から先頭へ戻る。"],
+  ["Jonathan Milan", "長距離スプリント型：通常より早くスプリントを開始し、高出力を保ったまま押し切る。"],
+  ["Biniam Girmay", "混戦突破型：位置取りが乱れた集団でも進路を切り替え、空いたラインから加速する。"],
+  ["Arnaud De Lie", "パワースプリント型：丘陵後の重い脚でも速度を落とさず、力勝負の加速へ持ち込む。"],
+  ["Juan Ayuso", "主導権型：ライバルより先にペースを上げ、相手に反応を強制して展開を支配する。"],
+  ["Olav Kooij", "最短加速型：ゴール直前まで車輪を使い、短い加速時間で最高速へ到達する。"],
+  ["Alberto Bettiol", "悪路突破型：荒れた路面で失速せずに加速し、ライン選択の差で集団を割る。"],
+  ["Tim Wellens", "状況適応型：雨や消耗戦で他選手の反応が遅れた瞬間を捉え、単独で抜け出す。"],
+  ["Mattias Skjelmose", "勾配変化型：斜度が切り替わる地点で加速し、一定ペースの追走を崩す。"],
+  ["Kaden Groves", "持続スプリント型：早めに速度を上げ、後続に並ばせないまま長く加速を維持する。"],
+  ["Fabio Jakobsen", "再加速型：一度減速する混戦を耐え、進路が開いた瞬間に最高速へ戻る。"],
+  ["Tom Pidcock", "下り技術型：高速コーナーで減速を抑え、安全なラインから後続との差を広げる。"],
+  ["Jasper Stuyven", "石畳射程型：パヴェ区間の遠い位置から仕掛け、追走がまとまる前に差を作る。"],
+  ["Warren Barguil", "山頂奇襲型：山頂直前まで追走に徹し、最後の急勾配だけで順位を入れ替える。"],
+  ["Maxim Van Gils", "一撃パンチ型：短い丘の最急勾配へ全出力を集中し、一度の加速で間隔を開ける。"],
+  ["Pascal Ackermann", "遅仕掛け型：先行スプリンターの速度低下を待ち、最後の直線だけで差し切る。"],
+  ["Giulio Ciccone", "山頂先行型：登坂後半から速度を上げ、山頂通過時点で追走との差を確保する。"],
+  ["Jai Hindley", "長坂耐久型：長い登りで出力を落とさず、加速ではなく持続力で人数を削る。"],
+  ["Matej Mohoric", "下り奇襲型：山頂通過直後に仕掛け、下りのライン取りで追走を引き離す。"],
+  ["David Gaudu", "急勾配切替型：緩斜面では脚を残し、斜度が上がった瞬間に登坂出力を解放する。"],
+  ["Tiesj Benoot", "追走反撃型：先行者との差を悪路で縮め、合流直後の再アタックで主導権を奪う。"],
+  ["Valentin Madouas", "連続丘陵型：一つ目の丘で人数を絞り、次の丘でも速度を落とさず攻撃を続ける。"],
+  ["Florian Lipowitz", "漸増登坂型：登りが進むほどペースを上げ、終盤に追走不能な速度へ到達する。"],
+  ["Pello Bilbao", "頂上下り連結型：山頂前の加速を下りへつなぎ、二つの区間を一続きの攻撃にする。"],
+  ["Romain Gregoire", "連打型：短いアタックを間隔を空けずに重ね、反応できない瞬間を作る。"],
+  ["Juan Sebastian Molano", "発射型：リードアウトの速度を失わずに離れ、直線入口から一気に加速する。"],
+  ["Jhonatan Narvaez", "二段加速型：丘の中腹で一度集団を絞り、頂上前の二度目の加速で抜け出す。"],
+  ["Felix Gall", "消耗登坂型：一定の高い登坂出力を維持し、回復できない相手から順に脱落させる。"],
+  ["Jordi Meeus", "直線一気型：最後の直線へ入るまで脚を隠し、進路が開いた瞬間だけ全開にする。"],
+  ["Tim Merlier", "最終200m型：残り200mで爆発的な最終加速を発動し、最高速をフィニッシュへ直結させる。"],
+  ["Antonio Tiberi", "計算ペース型：残り距離に合わせて出力を配分し、最後の登坂だけ余力を残す。"],
+  ["Oscar Onley", "登坂スプリント型：急坂を先頭で耐え、頂上付近の短い直線でスプリントする。"],
+  ["Benoit Cosnefroy", "速射型：短い加速を何度も放ち、相手が反応を止めた一回を決定打にする。"],
+  ["Mads Pedersen", "登れるスプリンター型：登りを先頭集団で耐え、フィニッシュで残した脚を使ってスプリントする。"],
+  ["Guillaume Martin", "自律ペース型：他者のアタックには反応せず、自分の登坂速度を最後まで維持する。"],
+  ["Giulio Pellizzari", "後半上昇型：登坂前半を抑え、後半の急勾配から段階的に順位を上げる。"],
+  ["Enric Mas", "圧力型：先頭付近で一定の圧力をかけ続け、ライバルの攻撃回数を減らす。"],
+  ["John Degenkolb", "石畳粉砕型：重いギアでパヴェを押し切り、振動で速度を失う相手を置き去りにする。"],
+  ["Richard Carapaz", "奇襲型：集団が牽制した瞬間に単独で飛び出し、反応が揃う前に差を広げる。"],
+  ["Nairo Quintana", "高地飛翔型：標高が上がるほど登坂ペースを強め、山頂近くで単独先頭へ移る。"],
+]);
+const riderProfileOverrides = new Map([
+  ["Tim Merlier", { primary_archetype: "スプリンター", secondary_archetype: "クラシック型", ace_aptitude: "89", support_aptitude: "70", preferred_roles: "スプリントエース / ステージハンター / 最終発射台", aptitude_tags: "最高速 / 加速力 / 最終加速", credit_salary: "9000", rating_status: "手動バランス調整済", sprint: "85", acceleration: "85", punch: "69", cruise: "73", climb: "58", stamina: "66", resistance: "66", technique: "72", bikeControl: "73", pave: "69", recovery: "69", dailyRecovery: "69", teamwork: "64", ego: "82", fighting: "68" }],
+]);
+
 const aceSpecs = {
   "Tadej Pogacar": ["新時代の皇帝", "皇帝のカウンター"],
   "Mathieu van der Poel": ["虹色の暴君", "暴君の射程"],
@@ -30,7 +87,8 @@ const aceSpecs = {
   "Mattias Skjelmose": ["北欧の鋭刃", "鋭刃の勾配"],
   "Kaden Groves": ["豪州の快速車", "快速車の巡航"],
   "Fabio Jakobsen": ["不屈の疾走者", "疾走者の復活"],
-  "Tom Pidcock": ["英国の曲芸師", "曲芸師の悪路"],
+  "Tom Pidcock": ["英国の曲芸師", "曲芸師の急降下"],
+  "Mads Pedersen": ["北欧の暴風", "暴風の登坂スプリント"],
   "Jasper Stuyven": ["ルーヴェンの石畳槍", "石畳槍の射程"],
   "Warren Barguil": ["ブルターニュの山猫", "山猫の頂上"],
   "Maxim Van Gils": ["低地のパンチ砲", "パンチ砲の一閃"],
@@ -89,7 +147,11 @@ const serializeCsv = (headers, rows) =>
     .map((cells) => cells.map(csvCell).join(",")).join("\n") + "\n";
 
 const isPrimaryAce = (row) => /(?:総合|スプリント|丘陵|山岳)エース/.test(row.preferred_roles);
-const roleDescription = (roles) => {
+const roleDescription = (roles, riderName) => {
+  if (signatureEffectOverrides.has(riderName)) return signatureEffectOverrides.get(riderName);
+  if (riderName === "Tom Pidcock") return "下り区間で固有の加速を発動し、落車リスクを抑えながら後続とのタイム差を広げる。";
+  if (riderName === "Mads Pedersen") return "登りを先頭集団で耐え、フィニッシュで残した脚を使ってスプリントする。";
+  if (riderName === "Tim Merlier") return "残り200mで爆発的な最終加速を発動し、最高速をフィニッシュへ直結させる。";
   if (roles.includes("スプリントエース")) return "フィニッシュで固有の加速を発動し、最高速と加速力を勝敗へ変える。";
   if (roles.includes("丘陵エース")) return "丘陵やクラシックの勝負所で固有の攻撃を行い、先頭集団を絞り込む。";
   if (roles.includes("山岳エース")) return "登りの勝負所で固有の攻撃を行い、追走選手とのタイム差を広げる。";
@@ -105,8 +167,10 @@ for (const file of rosterFiles) {
     ? parsed.rows.filter(isPrimaryAce)
     : parsed.rows.filter((row) => aceSpecs[row.name]);
   const missing = aceRows.filter((row) => !aceSpecs[row.name]).map((row) => row.name);
-  if (missing.length || aceRows.length !== 50) throw new Error(file + ": ace mapping mismatch " + missing.join(" / "));
+  if (missing.length || aceRows.length !== 51) throw new Error(file + ": ace mapping mismatch " + missing.join(" / "));
   for (const row of aceRows) {
+    Object.assign(row, riderProfileOverrides.get(row.name) ?? {});
+    if (row.name === "Tim Merlier" && !row.rating_basis.includes("Tim Merlier手動調整:")) row.rating_basis += " Tim Merlier手動調整: Jasper Philipsen同格帯として最高速85・加速85・エース適性89へ再編。本人対象の高速巡航と、残り200mの最終加速型固有カードを採用。";
     const [title, decisive] = aceSpecs[row.name];
     row.rider_title = title;
     if ("rider_title_eligibility" in row) row.rider_title_eligibility = "エース固有枠";
@@ -132,17 +196,17 @@ const cards = canonicalRows.map((row) => {
     cost: 3,
     usageLimit: 1,
     name,
-    description: roleDescription(row.preferred_roles),
+    description: roleDescription(row.preferred_roles, row.name),
     primaryArchetype: row.primary_archetype,
     secondaryArchetype: row.secondary_archetype,
-    basedOn: [aceRole, row.aptitude_tags].filter(Boolean),
+    basedOn: [row.name === "Tom Pidcock" ? "下り" : row.name === "Mads Pedersen" ? "登れるスプリンター" : aceRole, row.aptitude_tags].filter(Boolean),
   };
 });
 
 const duplicateValues = (values) => values.filter((value, index) => values.indexOf(value) !== index);
 const duplicateTitles = duplicateValues(cards.map((card) => card.riderTitle));
 const duplicateCards = duplicateValues(cards.map((card) => card.name));
-if (cards.length !== 50 || duplicateTitles.length || duplicateCards.length) {
+if (cards.length !== 51 || duplicateTitles.length || duplicateCards.length) {
   throw new Error("signature validation failed: titles=" + duplicateTitles.join("/") + " cards=" + duplicateCards.join("/"));
 }
 await fs.writeFile(outputPath, JSON.stringify(cards, null, 2) + "\n", "utf8");
@@ -161,6 +225,5 @@ const titleSection = [
 const docPath = "docs/rider_parameters_300.md";
 const doc = await fs.readFile(docPath, "utf8");
 const updatedDoc = doc.replace(/## ゲーム内二つ名[\s\S]*?(?=\n## 勝負・走行能力)/, titleSection + "\n");
-if (updatedDoc === doc) throw new Error("title section was not regenerated");
-await fs.writeFile(docPath, updatedDoc, "utf8");
+if (updatedDoc !== doc) await fs.writeFile(docPath, updatedDoc, "utf8");
 console.log(JSON.stringify({ primaryAces: cards.length, titles: cards.length, signatureCards: cards.length, outputPath }, null, 2));

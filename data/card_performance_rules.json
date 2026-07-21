@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "turnBudget": 5,
+  "maxIndividualCardsPerRiderPerTurn": 1,
+  "phases": [
+    {
+      "id": "setup",
+      "label": "展開形成",
+      "weight": 0.25,
+      "allowedSlots": ["basic", "specialty"]
+    },
+    {
+      "id": "control",
+      "label": "勝負所への運搬",
+      "weight": 0.3,
+      "allowedSlots": ["basic", "specialty"]
+    },
+    {
+      "id": "decisive",
+      "label": "決着",
+      "weight": 0.45,
+      "allowedSlots": ["basic", "specialty", "decisive"]
+    }
+  ],
+  "slotBasePower": {
+    "basic": 1.35,
+    "specialty": 2.75,
+    "decisive": 4.8
+  },
+  "riderLoadBySlot": {
+    "basic": 0.4,
+    "specialty": 0.8,
+    "decisive": 1.5
+  },
+  "loadPenaltyPerPoint": 0.07,
+  "minimumLoadMultiplier": 0.72,
+  "terrainMultiplier": {
+    "exact": 1.18,
+    "neutral": 1,
+    "ttUsesFlat": 1.08,
+    "mismatch": 0.62
+  },
+  "targetMultiplier": {
+    "本人": 1,
+    "味方エース": 1.08,
+    "味方チーム": 1.04,
+    "default": 1
+  },
+  "roleTypeMultiplier": {
+    "ace": 1,
+    "assist": 1.06
+  },
+  "keywordBonuses": {
+    "setup": {
+      "keywords": ["位置", "進路", "隊列", "ライン", "誘導", "風よけ", "保護", "補給"],
+      "bonus": 0.45
+    },
+    "control": {
+      "keywords": ["牽引", "巡航", "追走", "復帰", "ローテーション", "ペース", "運ぶ"],
+      "bonus": 0.55
+    },
+    "decisive": {
+      "keywords": ["アタック", "加速", "スプリント", "独走", "決戦", "追撃", "カウンター", "全開", "発射"],
+      "bonus": 0.7
+    }
+  },
+  "abilityAliases": {
+    "positioning": ["technique", "acceleration"],
+    "bike_control": ["bikeControl"],
+    "climbing": ["climb"],
+    "cobble": ["pave"],
+    "endurance": ["resistance", "stamina"],
+    "ace_aptitude": ["ace_aptitude"]
+  },
+  "archetypeFallbackAbilities": {
+    "総合型": ["climb", "stamina", "recovery"],
+    "スプリンター": ["sprint", "acceleration", "technique"],
+    "クライマー": ["climb", "stamina", "recovery"],
+    "パンチャー": ["punch", "acceleration", "fighting"],
+    "クラシック型": ["pave", "resistance", "bikeControl"],
+    "TT・ルーラー型": ["cruise", "stamina", "technique"]
+  }
+}

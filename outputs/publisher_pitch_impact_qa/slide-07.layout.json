@@ -1,0 +1,919 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gdb3df",
+    "id": "gdb3df",
+    "slide": 7,
+    "layoutId": "b6a134ee-8873-4bbb-9fc1-a65a14580993",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "c7f40f9d-396d-411e-b331-3b3c24481bf2",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#070A0D",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b6a134ee-8873-4bbb-9fc1-a65a14580993",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "c7f40f9d-396d-411e-b331-3b3c24481bf2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "c7f40f9d-396d-411e-b331-3b3c24481bf2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83e54v21",
+      "id": "1",
+      "bbox": [
+        46,
+        34,
+        260,
+        26
+      ],
+      "geometry": "rect",
+      "text": "QOMISO GAME TOUR",
+      "textPreview": "QOMISO GAME TOUR",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QOMISO GAME TOUR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QOMISO GAME TOUR",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#E7ECEF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QOMISO GAME TOUR",
+              "fontSize": 15,
+              "color": "#E7ECEF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7254vq1g",
+      "id": "2",
+      "bbox": [
+        1160,
+        34,
+        70,
+        26
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#E7ECEF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 15,
+              "color": "#E7ECEF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hwn25kv",
+      "id": "3",
+      "bbox": [
+        46,
+        66,
+        1188,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h8761kji",
+      "id": "4",
+      "bbox": [
+        58,
+        105,
+        820,
+        112
+      ],
+      "geometry": "rect",
+      "text": "課金は“勝利販売”ではなく、\nチーム作りの幅を売る。",
+      "textPreview": "課金は“勝利販売”ではなく、 | チーム作りの幅を売る。",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "fontSize": 48,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "課金は“勝利販売”ではなく、"
+          },
+          {
+            "index": 2,
+            "text": "チーム作りの幅を売る。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "課金は“勝利販売”ではなく、",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "課金は“勝利販売”ではなく、",
+              "fontSize": 48,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "チーム作りの幅を売る。",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "チーム作りの幅を売る。",
+              "fontSize": 48,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7y58f2x",
+      "id": "5",
+      "bbox": [
+        88,
+        282,
+        1080,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111820",
+      "lineColor": "#3A444C",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6poza1c",
+      "id": "6",
+      "bbox": [
+        118,
+        296,
+        240,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Season Pass",
+      "textPreview": "Season Pass",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Season Pass"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Season Pass",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Season Pass",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5gn65k7",
+      "id": "7",
+      "bbox": [
+        390,
+        298,
+        690,
+        24
+      ],
+      "geometry": "rect",
+      "text": "年間報酬、育成素材、称号、見た目",
+      "textPreview": "年間報酬、育成素材、称号、見た目",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "年間報酬、育成素材、称号、見た目"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "年間報酬、育成素材、称号、見た目",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "年間報酬、育成素材、称号、見た目",
+              "fontSize": 20,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pc765kju",
+      "id": "8",
+      "bbox": [
+        88,
+        362,
+        1080,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111820",
+      "lineColor": "#FFD43B",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4by5cf29",
+      "id": "9",
+      "bbox": [
+        118,
+        376,
+        240,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Scout",
+      "textPreview": "Scout",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFD43B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Scout"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Scout",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFD43B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Scout",
+              "fontSize": 23,
+              "color": "#FFD43B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4badgj",
+      "id": "10",
+      "bbox": [
+        390,
+        378,
+        690,
+        24
+      ],
+      "geometry": "rect",
+      "text": "選手候補とスタッフ。Credit年俸で過剰強化を抑制",
+      "textPreview": "選手候補とスタッフ。Credit年俸で過剰強化を抑制",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "選手候補とスタッフ。Credit年俸で過剰強化を抑制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "選手候補とスタッフ。Credit年俸で過剰強化を抑制",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "選手候補とスタッフ。Credit年俸で過剰強化を抑制",
+              "fontSize": 20,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rexsjix4",
+      "id": "11",
+      "bbox": [
+        88,
+        442,
+        1080,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111820",
+      "lineColor": "#3A444C",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cf6tcnyp",
+      "id": "12",
+      "bbox": [
+        118,
+        456,
+        240,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Cosmetics",
+      "textPreview": "Cosmetics",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cosmetics"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cosmetics",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cosmetics",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgfalsfa",
+      "id": "13",
+      "bbox": [
+        390,
+        458,
+        690,
+        24
+      ],
+      "geometry": "rect",
+      "text": "ウェア、バイクカラー、UIテーマ",
+      "textPreview": "ウェア、バイクカラー、UIテーマ",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ウェア、バイクカラー、UIテーマ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ウェア、バイクカラー、UIテーマ",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ウェア、バイクカラー、UIテーマ",
+              "fontSize": 20,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhobedgv",
+      "id": "14",
+      "bbox": [
+        88,
+        522,
+        1080,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111820",
+      "lineColor": "#3A444C",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zixsnix0",
+      "id": "15",
+      "bbox": [
+        118,
+        536,
+        240,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Expansion",
+      "textPreview": "Expansion",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Expansion"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Expansion",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Expansion",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0j6tgnyl",
+      "id": "16",
+      "bbox": [
+        390,
+        538,
+        690,
+        24
+      ],
+      "geometry": "rect",
+      "text": "架空グランツール、クラシック、歴史的イベント",
+      "textPreview": "架空グランツール、クラシック、歴史的イベント",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#E7ECEF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "架空グランツール、クラシック、歴史的イベント"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "架空グランツール、クラシック、歴史的イベント",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#E7ECEF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "架空グランツール、クラシック、歴史的イベント",
+              "fontSize": 20,
+              "color": "#E7ECEF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4fapsf6",
+      "id": "17",
+      "bbox": [
+        92,
+        642,
+        980,
+        28
+      ],
+      "geometry": "rect",
+      "text": "避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ",
+      "textPreview": "避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#A7B0B7",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#A7B0B7",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "避ける: 凸前提 / 期間限定人権 / 課金限定の勝利能力 / 機材性能ガチャ",
+              "fontSize": 19,
+              "color": "#A7B0B7",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

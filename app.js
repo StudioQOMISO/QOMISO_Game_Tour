@@ -72,7 +72,7 @@ const monetizationPlan = [
     name: "緩い選手スカウト",
     share: "35%",
     target: "選手カード / サポートカード / スタッフ / Credit年俸",
-    policy: "Credit年俸で価値を表す。高年俸エースは強いが、総年俸上限とアシスト不足で制約する。100連天井と毎週無料配布を前提にする。",
+    policy: "レアリティを設けず、Credit年俸と適性で選手価値を表す。10連はエース候補1人保証とし、毎週無料配布を前提にする。",
   },
   {
     id: "season_pass",
@@ -110,7 +110,7 @@ const creditCapRules = {
   pinnacle: { label: "最高峰", cap: 48000 },
 };
 
-const riders = [
+const prototypeRiders = [
   { id: "ace", name: "Peter Sagan", country: "スロバキア", era: "2010年代", motif: "Peter Sagan", primaryArchetype: "クラシック型", secondaryArchetype: "スプリンター", aptitudeTags: ["パンチ力", "ステージハンター", "逃げ屋"], aceAptitude: 93, supportAptitude: 70, preferredRoles: ["エース", "ステージハンター"], creditSalary: 7600, paveBasis: "パリ〜ルーベ2018優勝、2019年5位、2014年6位", stats: { sprint: 81, acceleration: 83, punch: 84, cruise: 80, climb: 74, stamina: 82, resistance: 83, technique: 84, bikeControl: 84, pave: 84, recovery: 81, dailyRecovery: 81, teamwork: 70, ego: 82, fighting: 84 } },
   { id: "leadout", name: "Mark Renshaw", country: "オーストラリア", era: "2000-2010年代", motif: "Mark Renshaw", primaryArchetype: "スプリンター", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["リードアウト", "最高速", "隊列維持"], aceAptitude: 63, supportAptitude: 93, preferredRoles: ["リードアウト", "最終発射台", "スプリントトレイン"], creditSalary: 4800, paveBasis: "パリ〜ルーベ2回出走、完走なし", stats: { sprint: 78, acceleration: 81, punch: 69, cruise: 80, climb: 58, stamina: 77, resistance: 79, technique: 83, bikeControl: 80, pave: 57, recovery: 76, dailyRecovery: 76, teamwork: 85, ego: 63, fighting: 74 } },
   { id: "climber", name: "Marco Pantani", country: "イタリア", era: "1990年代", motif: "Marco Pantani", primaryArchetype: "クライマー", secondaryArchetype: "パンチャー", aptitudeTags: ["山岳アタック", "下り", "ステージハンター"], aceAptitude: 96, supportAptitude: 66, preferredRoles: ["エース", "ステージハンター", "山岳賞ハンター"], creditSalary: 10800, paveBasis: "パリ〜ルーベ未出走", stats: { sprint: 57, acceleration: 83, punch: 82, cruise: 68, climb: 85, stamina: 82, resistance: 84, technique: 76, bikeControl: 84, pave: 50, recovery: 78, dailyRecovery: 78, teamwork: 66, ego: 82, fighting: 85 } },
@@ -121,6 +121,40 @@ const riders = [
   { id: "road_guard", name: "Yukiya Arashiro", country: "日本", era: "2000-2020年代", motif: "Yukiya Arashiro", primaryArchetype: "クラシック型", secondaryArchetype: "パンチャー", aptitudeTags: ["耐久力", "逃げ屋", "悪路対応"], aceAptitude: 50, supportAptitude: 97, preferredRoles: ["平坦アシスト", "ロードキャプテン", "逃げ屋"], creditSalary: 3200, paveBasis: "パリ〜ルーベ1回出走、完走なし", stats: { sprint: 65, acceleration: 71, punch: 74, cruise: 80, climb: 68, stamina: 84, resistance: 84, technique: 79, bikeControl: 82, pave: 57, recovery: 82, dailyRecovery: 82, teamwork: 85, ego: 57, fighting: 82 } },
   { id: "wind_captain", name: "Luke Rowe", country: "イギリス", era: "2010-2020年代", motif: "Luke Rowe", primaryArchetype: "クラシック型", secondaryArchetype: "TT・ルーラー型", aptitudeTags: ["横風", "石畳", "ロードキャプテン"], aceAptitude: 55, supportAptitude: 97, preferredRoles: ["ロードキャプテン", "石畳護衛", "横風要員"], creditSalary: 4200, paveBasis: "パリ〜ルーベ2015年8位、2016年14位、10回出走8回完走", stats: { sprint: 67, acceleration: 72, punch: 76, cruise: 81, climb: 65, stamina: 82, resistance: 84, technique: 83, bikeControl: 85, pave: 78, recovery: 80, dailyRecovery: 80, teamwork: 85, ego: 60, fighting: 83 } },
 ];
+const riders = window.RIDER_ROSTER?.length ? window.RIDER_ROSTER : prototypeRiders;
+
+const scoutConfig = {
+  singleCost: 300,
+  tenCost: 2700,
+  duplicatePoints: 150,
+  aceGuaranteeAptitude: 85,
+};
+
+function isAceCandidate(rider) {
+  return rider.aceAptitude >= scoutConfig.aceGuaranteeAptitude;
+}
+
+function chooseRandom(items) {
+  return items[Math.floor(Math.random() * items.length)];
+}
+
+function drawScoutRider(forceAceCandidate = false, excludedIds = []) {
+  const excluded = new Set(excludedIds);
+  const available = riders.filter((rider) => !excluded.has(rider.id));
+  const pool = forceAceCandidate ? available.filter(isAceCandidate) : available;
+  const fallback = forceAceCandidate ? riders.filter(isAceCandidate) : riders;
+  return chooseRandom(pool.length ? pool : fallback);
+}
+
+function shuffled(items) {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[target]] = [copy[target], copy[index]];
+  }
+  return copy;
+}
+
 const worldTeams = [
   { id: "desert_crown", name: "デザートクラウン・エミレーツ", era: "現代", motif: "中東資本の総合最強チーム系", country: "UAE", identity: "グランツール総合", style: "総合エースを山岳列車で守り、最後は個の爆発力で決める。" },
   { id: "yellow_hive", name: "イエロー・ハイヴ", era: "現代", motif: "緻密なオランダ系総合チーム", country: "Netherlands", identity: "戦術とTT", style: "TT、山岳、補給、隊列管理まで計算で支配する。" },
@@ -145,7 +179,8 @@ const worldTeams = [
   { id: "danish_saxo", name: "サクソン・ブレイク", era: "過去", motif: "デンマーク系戦術チーム", country: "Denmark", identity: "奇襲戦術", style: "横風分断、ロングアタック、心理戦で勝負する。" },
   { id: "colombia_condor", name: "コンドル・アンデス", era: "過去", motif: "南米クライマー軍団", country: "Colombia", identity: "純粋山岳", style: "軽量クライマーを並べ、超級山岳で一気に逆転する。" },
 ];
-const stages = [
+const tour2026Reference = window.TOUR_2026_ROUTE || null;
+const exhibitionStages = [
   {
     id: "roubaix_one_day",
     creditTier: "pinnacle",
@@ -231,6 +266,43 @@ const stages = [
     weights: { sprint: 0.5, acceleration: 0.6, punch: 0.25, cruise: 1.45, climb: 0.35, stamina: 1.0, resistance: 1.0, technique: 1.0, bikeControl: 0.25, recovery: 0.25, teamwork: 1.6, fighting: 0.5 },
   },
 ];
+const stageWeightTemplates = {
+  "平坦": { sprint: 2.2, acceleration: 1.4, punch: 0.2, cruise: 1.1, climb: 0.05, stamina: 0.55, resistance: 0.65, technique: 0.7, bikeControl: 0.15, recovery: 0.2, teamwork: 1.0, fighting: 0.2 },
+  "丘陵": { sprint: 0.55, acceleration: 1.1, punch: 1.55, cruise: 0.65, climb: 0.85, stamina: 0.8, resistance: 0.9, technique: 0.55, bikeControl: 0.35, recovery: 0.35, teamwork: 0.75, fighting: 0.8 },
+  "山岳": { sprint: 0.05, acceleration: 0.75, punch: 0.5, cruise: 0.2, climb: 2.5, stamina: 1.05, resistance: 1.25, technique: 0.25, bikeControl: 0.35, recovery: 0.5, teamwork: 0.65, fighting: 0.5 },
+  "個人TT": { sprint: 0.05, acceleration: 0.15, punch: 0.1, cruise: 3.0, climb: 0.35, stamina: 1.0, resistance: 1.0, technique: 1.15, bikeControl: 0.15, recovery: 0.2, teamwork: 0, fighting: 0.15 },
+  "チームTT": { sprint: 0.35, acceleration: 0.5, punch: 0.2, cruise: 1.65, climb: 0.35, stamina: 1.0, resistance: 0.9, technique: 1.0, bikeControl: 0.2, recovery: 0.25, teamwork: 1.8, fighting: 0.35 },
+};
+const stageTactics = {
+  "平坦": "スプリント隊列",
+  "丘陵": "短坂アタック",
+  "山岳": "総合タイム争い",
+  "個人TT": "単独ペース配分",
+  "チームTT": "8人の隊列同期",
+};
+
+function buildTour2026Stage(stage) {
+  const terrainDifficulty = { "平坦": 410, "丘陵": 435, "山岳": 455, "個人TT": 445, "チームTT": 455 }[stage.type] || 425;
+  const elevationDifficulty = Math.min(25, Math.round((stage.elevationGainM || 0) / 240));
+  const condition = [stage.surface !== "舗装路" ? stage.surface : null, `${stage.windDirection}${stage.windSpeedKmh}km/h`, stage.risk].filter(Boolean).join(" / ");
+  return {
+    ...stage,
+    id: `tour_2026_stage_${String(stage.stage).padStart(2, "0")}`,
+    creditTier: "pinnacle",
+    name: `Stage ${stage.stage} ${stage.start} → ${stage.finish}`,
+    format: "ステージレース",
+    inspiredBy: "2026 Tour de France",
+    condition,
+    tactic: stageTactics[stage.type] || "展開対応",
+    difficulty: terrainDifficulty + elevationDifficulty,
+    weights: { ...(stageWeightTemplates[stage.type] || stageWeightTemplates["平坦"]) },
+  };
+}
+
+const stages = tour2026Reference?.stages?.length === 21
+  ? tour2026Reference.stages.map(buildTour2026Stage)
+  : exhibitionStages;
+const initialStageId = stages[0].id;
 const grandTourOperationModes = [
   { id: "full", name: "フル操作", detail: "重要地点をすべて操作。勝負ステージ向け。" },
   { id: "key", name: "重要地点だけ操作", detail: "勝負所だけ操作。通常ステージ向け。" },
@@ -253,7 +325,7 @@ const importanceLabels = {
   B: { label: "警戒", note: "最小操作" },
   C: { label: "温存", note: "自動候補" },
 };
-const grandTourStagePlan = [
+const genericGrandTourStagePlan = [
   { stage: 1, name: "開幕平坦", type: "平坦", defaultMode: "key", risk: "位置取り" },
   { stage: 2, name: "横風平坦", type: "平坦", defaultMode: "key", risk: "横風分断" },
   { stage: 3, name: "集団スプリント", type: "平坦", defaultMode: "auto", risk: "落車" },
@@ -276,6 +348,12 @@ const grandTourStagePlan = [
   { stage: 20, name: "最終TT/決戦", type: "個人TT", defaultMode: "full", risk: "最終順位" },
   { stage: 21, name: "凱旋平坦", type: "平坦", defaultMode: "key", risk: "スプリント決着" },
 ];
+const grandTourStagePlan = tour2026Reference?.stages?.length === 21
+  ? tour2026Reference.stages.map((stage) => ({
+      ...stage,
+      name: `${stage.start} > ${stage.finish}`,
+    }))
+  : genericGrandTourStagePlan;
 
 function getStageImportance(stage, objectiveId = state.teamObjective) {
   const name = stage.name;
@@ -351,14 +429,30 @@ const battleModes = {
 };
 const sectorTargetKm = 10;
 const actionCards = [
-  { id: "position", name: "位置取り", cpuAction: "牽制", focus: ["technique", "acceleration", "teamwork"], fatigue: 0.7, sprintCost: 2, fuelCost: 0.4, lactateCost: 2 },
-  { id: "tempo", name: "牽引", cpuAction: "温存", focus: ["cruise", "stamina", "resistance", "teamwork"], fatigue: 1.1, sprintCost: 3, fuelCost: 0.7, lactateCost: 1 },
-  { id: "attack", name: "アタック", cpuAction: "追走", focus: ["punch", "climb", "acceleration", "resistance"], fatigue: 2.8, sprintCost: 12, fuelCost: 1.5, lactateCost: 16 },
-  { id: "protect", name: "エース保護", cpuAction: "揺さぶり", focus: ["stamina", "resistance", "teamwork"], fatigue: 0.8, sprintCost: 2, fuelCost: 0.5, lactateCost: 1 },
-  { id: "sprint", name: "スプリント準備", cpuAction: "発射台", focus: ["sprint", "acceleration", "technique", "teamwork"], fatigue: 2.2, sprintCost: 18, fuelCost: 1.2, lactateCost: 22 },
-  { id: "feed", name: "補給", cpuAction: "補給地点の位置取り", focus: ["technique", "teamwork", "recovery"], fatigue: 0.4, sprintCost: 0, fuelCost: 0, lactateCost: 0 },
-  { id: "descent", name: "高速ダウンヒル", cpuAction: "下りで加速", focus: ["bikeControl", "technique", "resistance"], fatigue: 1.2, sprintCost: 1, fuelCost: 0.6, lactateCost: 2 },
+  { id: "position", name: "位置取り", slot: "基本技", cost: 1, basePower: 1.4, cpuAction: "牽制", focus: ["technique", "acceleration", "teamwork"], fatigue: 0.7, sprintCost: 2, fuelCost: 0.4, lactateCost: 2 },
+  { id: "tempo", name: "牽引", slot: "基本技", cost: 1, basePower: 1.6, cpuAction: "温存", focus: ["cruise", "stamina", "resistance", "teamwork"], fatigue: 1.1, sprintCost: 3, fuelCost: 0.7, lactateCost: 1 },
+  { id: "attack", name: "アタック", slot: "得意技", cost: 2, basePower: 3.2, cpuAction: "追走", focus: ["punch", "climb", "acceleration", "resistance"], fatigue: 2.8, sprintCost: 12, fuelCost: 1.5, lactateCost: 16 },
+  { id: "protect", name: "エース保護", slot: "得意技", cost: 2, basePower: 3, cpuAction: "揺さぶり", focus: ["stamina", "resistance", "teamwork"], fatigue: 0.8, sprintCost: 2, fuelCost: 0.5, lactateCost: 1 },
+  { id: "sprint", name: "スプリント準備", slot: "勝負手", cost: 3, basePower: 5.4, cpuAction: "発射台", focus: ["sprint", "acceleration", "technique", "teamwork"], fatigue: 2.2, sprintCost: 18, fuelCost: 1.2, lactateCost: 22 },
+  { id: "feed", name: "補給", slot: "基本技", cost: 1, basePower: 1.3, cpuAction: "補給地点の位置取り", focus: ["technique", "teamwork", "recovery"], fatigue: 0.4, sprintCost: 0, fuelCost: 0, lactateCost: 0 },
+  { id: "descent", name: "高速ダウンヒル", slot: "得意技", cost: 2, basePower: 3, cpuAction: "下りで加速", focus: ["bikeControl", "technique", "resistance"], fatigue: 1.2, sprintCost: 1, fuelCost: 0.6, lactateCost: 2 },
 ];
+const riderCardCatalog = window.RIDER_CARD_CATALOG || {};
+const riderCardSlotLabels = { basic: "基本技", specialty: "得意技", decisive: "勝負手" };
+const riderCardResourceCosts = {
+  basic: { stamina: 4, sprint: 5 },
+  specialty: { stamina: 9, sprint: 12 },
+  decisive: { stamina: 18, sprint: 24 },
+};
+const teamCards = window.TEAM_CARD_CATALOG || [];
+const teamCardSlotLabels = { basic: "基本", specialty: "得意", decisive: "勝負" };
+const teamCardDeckSize = 6;
+const defaultTeamDeck = ["team_protect", "team_chase", "team_feed", "team_mountain", "team_sprint", "team_total_pull"];
+
+function createRiderResources() {
+  return Object.fromEntries(riders.map((rider) => [rider.id, { stamina: 100, sprint: 100 }]));
+}
+
 
 const passiveAbilities = {
   ace: { name: "万能型", detail: "第3分野を示す適性タグの補正を副脚質に近い水準まで引き上げる", versatile: true },
@@ -426,23 +520,37 @@ const state = {
   stats: { ...baseStats },
   selectedActionCards: ["position", "tempo", "attack", "protect", "sprint"],
   selectedSupports: ["coach", "domestique"],
-  selectedTeam: ["ace", "leadout", "climber", "rouleur", "captain", "mountain_domestique", "road_guard", "wind_captain"],
+  selectedTeam: [],
   selectedEquipment: { frame: "allround_race", wheel: "pave_guard", tire: "pave_endure" },
-  raceAce: "ace",
-  selectedStage: "roubaix_one_day",
+  raceAce: null,
+  selectedStage: initialStageId,
   battleMode: "cpu",
   teamObjective: "gc",
   selectedActiveAbility: "protect_ace",
   raceMetrics: createInitialRaceMetrics(),
   stageRaceDay: 0,
   stageRaceCarryover: null,
-  log: ["カードバトル開始。選手8枚、サポート4枚、戦術5枚でロードレースを制する。"],
+  focusedRider: riders[0].id,
+  actionQueue: [],
+  selectedTeamCard: null,
+  selectedTeamDeck: [...defaultTeamDeck],
+  riderResources: createRiderResources(),
+  usedDecisiveCards: [],
+  usedTeamDecisiveCards: [],
+  scoutCredits: 3000,
+  contractPoints: 0,
+  tutorialScoutAvailable: true,
+  ownedRiders: [],
+  scoutResults: [],
+  scoutMessage: "まずは初回無料10連でチームを結成しよう。",
+  lastScoutWasTutorial: false,
+  log: ["カードバトル開始。選手を選び、固有カードをコスト5以内で行動キューへ積む。"],
 };
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 
 function createInitialRaceMetrics() {
-  return { fatigue: 4, sprint: 100, nutrition: Math.round(90 + Math.random() * 5), health: Math.round(94 + Math.random() * 5), lactate: 6, feeds: 0, crashes: 0, activeUsed: false, activeName: "" };
+  return { fatigue: 4, sprint: 100, nutrition: Math.round(90 + Math.random() * 5), health: Math.round(94 + Math.random() * 5), lactate: 6, feeds: 0, crashes: 0, echelons: 0, mechanicals: 0, activeUsed: false, activeName: "" };
 }
 
 function calculateNextDayRecovery(metrics, dailyRecovery) {
@@ -467,6 +575,8 @@ function calculateNextDayRecovery(metrics, dailyRecovery) {
       activeUsed: false,
       activeName: "",
     },
+      echelons: 0,
+      mechanicals: 0,
   };
 }
 
@@ -512,11 +622,21 @@ function getSelectedEquipmentItems() {
   ].filter(Boolean);
 }
 
+function matchesSupportRole(rider, stage) {
+  const roles = rider.preferredRoles.join(" / ");
+  if (stage?.type === "平坦") return /リードアウト|最終発射台|スプリントトレイン|平坦|横風|集団コントローラー/.test(roles);
+  if (stage?.type === "丘陵") return /ステージハンター|逃げ屋|カウンターアタッカー|丘陵/.test(roles);
+  if (stage?.type === "山岳") return /山岳|サブエース|クライマー/.test(roles);
+  if (stage?.type === "個人TT" || stage?.type === "チームTT") return /TT牽引|TTスペシャリスト|平坦ペースメーカー/.test(roles);
+  return /ロードキャプテン|保護|護衛|位置取り|補給/.test(roles);
+}
+
 function getTeamBonus() {
   const selected = state.selectedTeam.map((id) => riders.find((item) => item.id === id)).filter(Boolean);
   if (selected.length === 0) return {};
   const ace = selected.find((rider) => rider.id === state.raceAce) || selected[0];
   const supportRiders = selected.filter((rider) => rider.id !== ace.id);
+  const stage = getSelectedStage();
   const teamAverage = (stat) => selected.reduce((sum, rider) => sum + rider.stats[stat], 0) / selected.length;
 
   return Object.keys(baseStats).reduce((total, stat) => {
@@ -525,13 +645,13 @@ function getTeamBonus() {
       return total;
     }
     const strongestSupport = supportRiders
-      .map((rider) => rider.stats[stat])
+      .map((rider) => rider.stats[stat] * (0.82 + rider.supportAptitude / 500 + (matchesSupportRole(rider, stage) ? 0.04 : 0)))
       .sort((a, b) => b - a)
       .slice(0, 2);
     const supportAverage = strongestSupport.length
       ? strongestSupport.reduce((sum, value) => sum + value, 0) / strongestSupport.length
       : ace.stats[stat];
-    total[stat] = Math.round(ace.stats[stat] * 0.65 + supportAverage * 0.25 + teamAverage(stat) * 0.1);
+    total[stat] = Math.round(ace.stats[stat] * 0.55 + supportAverage * 0.35 + teamAverage(stat) * 0.1);
     return total;
   }, {});
 }
@@ -590,7 +710,7 @@ function getSquadBalance() {
   const selected = state.selectedTeam.map((id) => riders.find((item) => item.id === id)).filter(Boolean);
   const supportRiders = selected.filter((rider) => rider.id !== state.raceAce);
   const supportCount = supportRiders.length;
-  const supportCapableCount = selected.filter((rider) => rider.supportAptitude >= 75).length;
+  const supportCapableCount = supportRiders.filter((rider) => rider.supportAptitude >= 75).length;
   const aceCount = selected.filter((rider) => rider.aceAptitude >= 75).length;
   const supportQuality = supportRiders.reduce((sum, rider) => sum + rider.supportAptitude, 0) / Math.max(1, supportRiders.length);
   const egoLoad = selected.reduce((sum, rider) => sum + rider.stats.ego, 0);
@@ -599,15 +719,22 @@ function getSquadBalance() {
   const creditRule = getSelectedCreditRule();
   const salaryCap = creditRule.cap;
   const salaryOver = Math.max(0, salaryTotal - salaryCap);
-  const structureScore = supportQuality * 0.12 + teamworkLoad * 0.1 + Math.min(aceCount, 2) * 2 - egoLoad * 0.06;
+  const structureScore = supportQuality * 0.18 + teamworkLoad * 0.1 + Math.min(aceCount, 2) * 2 - egoLoad * 0.06;
   const penalty = Math.max(0, Math.max(0, 2 - aceCount) + Math.max(0, 6 - supportCapableCount) + Math.floor(Math.max(0, egoLoad - teamworkLoad) / 15) + Math.ceil(salaryOver / 3000));
-  return { selected, supportCount, supportCapableCount, aceCount, egoLoad, teamworkLoad, salaryTotal, salaryCap, creditTierLabel: creditRule.label, salaryOver, structureScore, penalty };
+  return { selected, supportCount, supportCapableCount, supportQuality, aceCount, egoLoad, teamworkLoad, salaryTotal, salaryCap, creditTierLabel: creditRule.label, salaryOver, structureScore, penalty };
 }
 function getSquadStructureBonus() {
   const balance = getSquadBalance();
   if (balance.selected.length === 0) return {};
   if (balance.penalty <= 0) {
-    return { teamwork: Math.min(3, Math.floor(balance.supportCapableCount / 2)), technique: 1, stamina: 1, resistance: 1 };
+    const supportTier = clamp(Math.floor((balance.supportQuality - 70) / 5), 0, 4);
+    return {
+      teamwork: Math.min(6, Math.floor(balance.supportCapableCount / 2) + supportTier),
+      technique: 1 + Math.floor(supportTier / 2),
+      stamina: 1 + supportTier,
+      resistance: 1 + supportTier,
+      recovery: Math.floor(supportTier / 2),
+    };
   }
   return {
     teamwork: -balance.penalty * 3,
@@ -677,6 +804,7 @@ function calculateWinRate() {
 }
 
 function getRaceDistance(stage) {
+  if (Number.isFinite(stage.distanceKm)) return stage.distanceKm;
   if (stage.type === "個人TT") return 40;
   if (stage.type === "チームTT") return 50;
   if (stage.format === "ワンデーレース") return 200;
@@ -696,6 +824,53 @@ function getDeckActionCard(defaultCard) {
   };
   const fallbackId = (fallbackOrder[defaultCard.id] || []).find((id) => state.selectedActionCards.includes(id));
   return actionCards.find((card) => card.id === fallbackId) || actionCards.find((card) => state.selectedActionCards.includes(card.id)) || defaultCard;
+}
+const courseProfiles = {
+  roubaix_one_day: [0.58, 0.56, 0.57, 0.55, 0.58, 0.54, 0.56, 0.55],
+  flanders_one_day: [0.65, 0.5, 0.58, 0.42, 0.55, 0.39, 0.62, 0.5],
+  strade_one_day: [0.66, 0.53, 0.6, 0.38, 0.52, 0.43, 0.64, 0.51],
+  grand_tour_flat: [0.62, 0.59, 0.61, 0.56, 0.6, 0.58, 0.55, 0.57],
+  grand_tour_mountain: [0.74, 0.66, 0.52, 0.42, 0.28, 0.2, 0.34, 0.48],
+  grand_tour_itt: [0.58, 0.55, 0.57, 0.52, 0.54, 0.5, 0.53, 0.51],
+  team_ttt: [0.6, 0.57, 0.58, 0.55, 0.57, 0.54, 0.56, 0.53],
+};
+
+function getProfileValue(profile, fraction) {
+  const position = clamp(fraction, 0, 1) * (profile.length - 1);
+  const left = Math.floor(position);
+  const right = Math.min(profile.length - 1, left + 1);
+  const mix = position - left;
+  return profile[left] + (profile[right] - profile[left]) * mix;
+}
+
+function getSectorEnvironment(stage, km, kmTo, index, distance) {
+  const profile = stage.profile || courseProfiles[stage.id] || courseProfiles.grand_tour_flat;
+  const startHeight = getProfileValue(profile, km / distance);
+  const endHeight = getProfileValue(profile, kmTo / distance);
+  const gradient = Math.round(clamp((startHeight - endHeight) * 110, -12, 14) * 10) / 10;
+  const flatSector = Math.abs(gradient) < 1.5;
+  const windSeed = (index * 7 + String(stage.id || stage.stage).length * 3) % 13;
+  const hasCrosswind = stage.windDirection === "横風" || stage.condition?.includes("横風");
+  const windDirection = stage.windDirection || (hasCrosswind ? "横風" : flatSector ? ["向かい風", "横風", "追い風"][index % 3] : "変動風");
+  const windSpeed = Number.isFinite(stage.windSpeedKmh)
+    ? Math.max(4, stage.windSpeedKmh + windSeed - 6)
+    : hasCrosswind ? 27 + windSeed : flatSector ? 14 + windSeed : 8 + Math.floor(windSeed / 2);
+  const fraction = km / distance;
+  const roughWindow = fraction >= 0.32 && fraction <= 0.76;
+  const condition = stage.condition || "";
+  const surface = condition.includes("石畳") && roughWindow ? "石畳" : condition.includes("グラベル") && roughWindow ? "グラベル" : stage.surface || "舗装路";
+  const slopeType = gradient >= 2 ? "登り" : gradient <= -2 ? "下り" : "平坦";
+  return { gradient, slopeType, windDirection, windSpeed, surface, flatSector };
+}
+
+function getCourseEventSummary(stage) {
+  const sectors = buildRaceSectors(stage);
+  const steepest = Math.max(...sectors.map((sector) => sector.environment.gradient));
+  const descent = Math.min(...sectors.map((sector) => sector.environment.gradient));
+  const maxWind = Math.max(...sectors.map((sector) => sector.environment.windSpeed));
+  const crosswindSectors = sectors.filter((sector) => sector.environment.windDirection === "横風" && sector.environment.windSpeed >= 25).length;
+  const roughSectors = sectors.filter((sector) => sector.environment.surface !== "舗装路").length;
+  return { steepest, descent, maxWind, crosswindSectors, roughSectors };
 }
 function getSectorKeyPoints(stage, distance) {
   const points = new Map();
@@ -752,13 +927,16 @@ function buildRaceSectors(stage) {
   const keyPoints = getSectorKeyPoints(stage, distance);
   return keyPoints.map((point, index) => {
     const next = keyPoints[index + 1];
+    const kmTo = next ? next.km : distance;
+    const environment = getSectorEnvironment(stage, point.km, kmTo, index, distance);
     return {
       index: index + 1,
       km: point.km,
-      kmTo: next ? next.km : distance,
+      kmTo,
       phase: point.phase,
       card: point.card,
       isKeyPoint: point.priority >= 3,
+      environment,
     };
   });
 }
@@ -769,15 +947,15 @@ function getCpuPower(stage) {
   return Math.round(base + formatBonus + conditionBonus);
 }
 
-function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, activeAbility) {
+function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, activeAbility, raceTactics = {}) {
   const distance = Math.max(0, sector.kmTo - sector.km);
-  const terrainLoad = stage.type === "山岳" ? 0.9 : stage.type === "丘陵" ? 0.45 : 0.1;
-  const surfaceLoad = stage.condition.includes("石畳") || stage.condition.includes("グラベル") ? 0.5 : 0;
-  const surfaceSkill = stage.condition.includes("石畳")
-    ? stats.pave * 0.7 + stats.bikeControl * 0.3
-    : stats.bikeControl;
-  const windLoad = stage.condition.includes("風") ? 0.35 : 0;
-  const isDescent = sector.card.id === "descent" || sector.phase.includes("下り");
+  const environment = sector.environment;
+  const gradientLoad = Math.max(0, environment.gradient) * distance * 0.045;
+  const surfaceLoad = environment.surface === "石畳" ? distance * 0.065 : environment.surface === "グラベル" ? distance * 0.055 : 0;
+  const surfaceSkill = environment.surface === "石畳" ? stats.pave * 0.7 + stats.bikeControl * 0.3 : stats.bikeControl;
+  const windFactor = environment.windDirection === "向かい風" ? 1 : environment.windDirection === "横風" ? 0.72 : environment.windDirection === "追い風" ? 0.12 : 0.35;
+  const windResistanceLoad = environment.flatSector ? distance * (environment.windSpeed / 30) * 0.12 * windFactor : distance * (environment.windSpeed / 30) * 0.035 * windFactor;
+  const isDescent = environment.gradient <= -2;
   const draftingRelief = clamp((stats.teamwork - 70) / 260, 0, 0.28);
   const enduranceRelief = clamp(stats.stamina / 900, 0.04, 0.18);
   const resistanceRelief = clamp((stats.resistance - 60) / 100, 0, 0.25);
@@ -788,14 +966,18 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
     + passiveEffects.windFatigueRate
     + (sector.card.id === "tempo" ? passiveEffects.tempoFatigueRate : 0);
   const highIntensityShare = ["attack", "sprint"].includes(sector.card.id) ? resistanceRelief : resistanceRelief * 0.35;
-  const fatigueGain = (distance * 0.22 + sector.card.fatigue + terrainLoad + surfaceLoad + windLoad)
+  const downhillRelief = isDescent ? Math.min(1.3, Math.abs(environment.gradient) * 0.12) : 0;
+  const fatigueGain = Math.max(0.25, distance * 0.2 + sector.card.fatigue + gradientLoad + surfaceLoad + windResistanceLoad - downhillRelief)
     * (1 - draftingRelief - enduranceRelief - highIntensityShare)
     * clamp(1 + passiveFatigueRate, 0.55, 1.25);
   metrics.fatigue = clamp(metrics.fatigue + fatigueGain, 0, 100);
-  metrics.nutrition = clamp(metrics.nutrition - distance * 0.17 - sector.card.fuelCost - terrainLoad * 0.25, 0, 100);
+  metrics.nutrition = clamp(metrics.nutrition - distance * 0.17 - sector.card.fuelCost - gradientLoad * 0.2, 0, 100);
   metrics.sprint = clamp(metrics.sprint - sector.card.sprintCost * clamp(1 + passiveEffects.sprintCostRate, 0.55, 1.2), 0, 100);
 
-  const metabolicStress = ((sector.card.lactateCost || 0) + terrainLoad * (sector.card.id === "attack" ? 4 : 1.4)) * (1 - resistanceRelief);
+  if (environment.gradient >= 4) notes.push(`勾配${environment.gradient.toFixed(1)}%で疲労+${fatigueGain.toFixed(1)}`);
+  if (environment.flatSector && environment.windDirection !== "追い風" && environment.windSpeed >= 20) notes.push(`${environment.windDirection}${environment.windSpeed}km/hの空気抵抗`);
+
+  const metabolicStress = ((sector.card.lactateCost || 0) + gradientLoad * (sector.card.id === "attack" ? 1.8 : 0.65)) * (1 - resistanceRelief);
   const stressMultiplier = clamp(1 + metrics.fatigue / 180 + Math.max(0, 50 - metrics.nutrition) / 100, 0.85, 1.75);
   metrics.lactate = clamp(metrics.lactate + metabolicStress * stressMultiplier, 0, 100);
 
@@ -804,21 +986,18 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
     const recoveryCapacity = clamp(stats.recovery / 18, 2.5, 9);
     const actionRecovery = sector.card.id === "feed" ? 1.35 : sector.card.id === "tempo" ? 1.15 : sector.card.id === "descent" ? 1.1 : sector.card.id === "protect" ? 1.05 : 0.9;
     const conditionRecovery = clamp((metrics.nutrition / 100) * (metrics.health / 100), 0.3, 1);
-    const lactateBeforeRecovery = metrics.lactate;
-    const lactateRecovery = Math.min(lactateBeforeRecovery, recoveryCapacity * actionRecovery * conditionRecovery);
+    const lactateRecovery = Math.min(metrics.lactate, recoveryCapacity * actionRecovery * conditionRecovery);
     metrics.lactate = clamp(metrics.lactate - lactateRecovery, 0, 100);
     const sprintRecovery = recoveryCapacity * 0.55 * conditionRecovery * clamp(1 - metrics.lactate / 100, 0.15, 1);
     metrics.sprint = clamp(metrics.sprint + sprintRecovery, 0, 100);
-    if (lactateRecovery >= 4) notes.push("回復力で乳酸負荷-" + Math.round(lactateRecovery) + " / スプリント+" + Math.round(sprintRecovery));
+    if (lactateRecovery >= 4) notes.push(`回復力で乳酸負荷-${Math.round(lactateRecovery)} / SP+${Math.round(sprintRecovery)}`);
   }
+
   const healthWear = (distance * 0.012 + surfaceLoad * (1 - clamp(surfaceSkill / 180, 0, 0.85)) * 0.45 + Math.max(0, metrics.fatigue - 60) * 0.006)
     * clamp(1 + passiveEffects.healthWearRate, 0.55, 1.2);
   metrics.health = clamp(metrics.health - healthWear, 0, 100);
 
-  if (["tempo", "protect", "feed"].includes(sector.card.id) && metrics.nutrition >= 50) {
-    metrics.sprint = clamp(metrics.sprint + 2.5 + draftingRelief * 8, 0, 100);
-  }
-
+  if (["tempo", "protect", "feed"].includes(sector.card.id) && metrics.nutrition >= 50) metrics.sprint = clamp(metrics.sprint + 2.5 + draftingRelief * 8, 0, 100);
   if (sector.card.id === "feed") {
     const hasNutritionSupport = state.selectedSupports.includes("nutrition");
     const feedQuality = 21 + (hasNutritionSupport ? 9 : 0) + passiveEffects.feedBonus + clamp((stats.teamwork + stats.technique - 150) / 12, 0, 7);
@@ -834,28 +1013,52 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
     metrics.health = clamp(metrics.health - bonkDamage * 0.45, 0, 100);
     notes.push("補給不足でハンガーノック域");
   }
-
-  if (metrics.fatigue > 78) {
-    metrics.health = clamp(metrics.health - (metrics.fatigue - 78) * 0.035, 0, 100);
-  }
-
+  if (metrics.fatigue > 78) metrics.health = clamp(metrics.health - (metrics.fatigue - 78) * 0.035, 0, 100);
   if (surfaceLoad > 0 && surfaceSkill < 85) {
     metrics.health = clamp(metrics.health - 0.5, 0, 100);
     notes.push("バイクコントロール不足で悪路消耗");
   }
 
   let incidentPenalty = 0;
+  const teamCardIds = raceTactics.teamCardIds || [];
+  if (environment.windDirection === "横風" && environment.windSpeed >= 25 && environment.flatSector) {
+    const windCaptain = state.selectedTeam.includes("wind_captain") ? 8 : 0;
+    const tacticGuard = teamCardIds.includes("team_crosswind") ? 14 : teamCardIds.includes("team_protect") ? 6 : 0;
+    const defense = stats.teamwork * 0.55 + stats.technique * 0.45 + windCaptain + tacticGuard;
+    const echelonRisk = clamp(42 + (environment.windSpeed - 25) * 1.5 - (defense - 75) * 1.15, 4, 68);
+    if (Math.random() * 100 < echelonRisk) {
+      metrics.echelons += 1;
+      metrics.fatigue = clamp(metrics.fatigue + 4, 0, 100);
+      metrics.sprint = clamp(metrics.sprint - 6, 0, 100);
+      incidentPenalty += 12;
+      notes.push(`エシュロン発生。集団後方へ分断（危険度${Math.round(echelonRisk)}%）`);
+    } else if (sector.isKeyPoint) {
+      notes.push(`横風隊列を維持（エシュロン危険度${Math.round(echelonRisk)}%）`);
+    }
+  }
+
   if (isDescent) {
-    const crashRisk = clamp(18 - surfaceSkill * 0.11 + metrics.fatigue * 0.07 + Math.max(0, 100 - metrics.health) * 0.03, 1, 22);
+    const descentProtection = sector.card.id === "descent" ? 4 : 0;
+    const crashRisk = clamp(3 + Math.abs(environment.gradient) * 0.75 + metrics.fatigue * 0.045 + (environment.surface !== "舗装路" ? 3 : 0) - surfaceSkill * 0.055 - descentProtection, 0.5, 18);
     if (Math.random() * 100 < crashRisk) {
       metrics.health = clamp(metrics.health - 12, 0, 100);
       metrics.fatigue = clamp(metrics.fatigue + 8, 0, 100);
       metrics.crashes += 1;
-      incidentPenalty = 16;
-      notes.push("下りで落車。健康度-12 / 疲労+8");
-    } else {
-      notes.push("バイクコントロールで下りを攻略（落車リスク " + Math.round(crashRisk) + "%）");
+      incidentPenalty += 16;
+      notes.push(`下り${environment.gradient.toFixed(1)}%で落車。健康度-12 / 疲労+8`);
+    } else if (sector.isKeyPoint) {
+      notes.push(`下りを攻略（落車リスク${crashRisk.toFixed(1)}%）`);
     }
+  }
+
+  const equipmentProtection = (state.selectedEquipment.wheel === "pave_guard" ? 0.7 : 0) + (state.selectedEquipment.tire === "pave_endure" || state.selectedEquipment.tire === "gravel_guard" ? 0.8 : 0) + (state.selectedSupports.includes("mechanic") ? 0.6 : 0);
+  const mechanicalRisk = clamp(0.2 + (environment.surface === "石畳" ? 2 : environment.surface === "グラベル" ? 1.5 : 0) + metrics.fatigue * 0.008 - equipmentProtection, 0.08, 4.5);
+  if (Math.random() * 100 < mechanicalRisk) {
+    metrics.mechanicals += 1;
+    metrics.fatigue = clamp(metrics.fatigue + 3, 0, 100);
+    metrics.health = clamp(metrics.health - 2, 0, 100);
+    incidentPenalty += 10;
+    notes.push(`不意の機材故障。交換対応で疲労+3 / 健康度-2（発生率${mechanicalRisk.toFixed(1)}%）`);
   }
 
   let activeBonus = 0;
@@ -864,12 +1067,27 @@ function updateRaceMetrics(metrics, sector, stage, stats, passiveEffects, active
     activeBonus = activeAbility.phaseBonus || 0;
     notes.push(`アクティブ「${activeAbility.name}」発動`);
   }
-
-  return { notes, activeBonus, incidentPenalty };
+  return { notes, activeBonus, incidentPenalty, fatigueGain, mechanicalRisk };
+}
+function getActionCardPerformance(card, focusScore, stage) {
+  const terrainMultiplier = card.id === "tempo" && (stage.type === "平坦" || stage.type.includes("TT"))
+    ? 1.18
+    : card.id === "attack" && (stage.type === "丘陵" || stage.type === "山岳")
+      ? 1.18
+      : card.id === "protect" && (stage.condition.includes("風") || stage.condition.includes("石畳") || stage.condition.includes("グラベル"))
+        ? 1.18
+        : card.id === "sprint" && stage.type === "平坦"
+          ? 1.18
+          : card.id === "descent" && (stage.type === "丘陵" || stage.type === "山岳")
+            ? 1.18
+            : 1;
+  const abilityMultiplier = clamp(focusScore / 75, 0.8, 1.15);
+  return Math.round(card.basePower * terrainMultiplier * abilityMultiplier * 10) / 10;
 }
 
 function calculatePhaseScore(stats, sector, stage, metrics, passiveEffects, activeBonus = 0) {
   const focusScore = sector.card.focus.reduce((sum, stat) => sum + (stats[stat] || 0), 0) / sector.card.focus.length;
+  const cardPerformanceBonus = getActionCardPerformance(sector.card, focusScore, stage);
   const stageWeightTotal = Object.values(stage.weights).reduce((sum, weight) => sum + weight, 0);
   const stageScore = Object.entries(stage.weights).reduce((sum, [stat, weight]) => sum + (stats[stat] || 0) * weight, 0) / Math.max(1, stageWeightTotal);
   const fatiguePenalty = metrics.fatigue * (sector.card.id === "sprint" ? 0.24 : 0.17);
@@ -882,7 +1100,7 @@ function calculatePhaseScore(stats, sector, stage, metrics, passiveEffects, acti
   const descentBonus = sector.card.id === "descent" ? stats.bikeControl * 0.16 : 0;
   const variance = Math.random() * 12;
   const abilityBonus = passiveEffects.phaseBonus + (sector.card.id === "sprint" ? passiveEffects.finishBonus : 0) + activeBonus;
-  return Math.round(focusScore * 0.65 + stageScore * 0.35 + sprintBonus + descentBonus + abilityBonus - fatiguePenalty - nutritionPenalty - healthPenalty - lactatePenalty + variance);
+  return Math.round(focusScore * 0.65 + stageScore * 0.35 + sprintBonus + descentBonus + abilityBonus + cardPerformanceBonus - fatiguePenalty - nutritionPenalty - healthPenalty - lactatePenalty + variance);
 }
 
 function getPhaseResultText(diff) {
@@ -892,6 +1110,351 @@ function getPhaseResultText(diff) {
   if (diff <= -4) return "やや劣勢";
   return "互角";
 }
+const cardAbilityAliases = {
+  positioning: ["technique", "acceleration"], bike_control: ["bikeControl", "technique"],
+  cruise: ["cruise"], stamina: ["stamina"], acceleration: ["acceleration"],
+  fighting: ["fighting"], teamwork: ["teamwork"], sprint: ["sprint"],
+  punch: ["punch"], climb: ["climb"], resistance: ["resistance"], recovery: ["recovery"],
+};
+
+function getRiderCardEntry(riderId) {
+  const rider = riders.find((item) => item.id === riderId);
+  return rider ? riderCardCatalog[rider.name] : null;
+}
+
+function getRiderCard(riderId, cardKey) {
+  return getRiderCardEntry(riderId)?.cards.find((card) => `${card.slot}:${card.id}:${card.name}` === cardKey);
+}
+
+function getQueueCost() {
+  return state.actionQueue.reduce((sum, item) => sum + item.cost, 0);
+}
+
+function getRiderCardPerformance(rider, card, stage) {
+  const fields = (card.abilities || []).flatMap((ability) => cardAbilityAliases[ability] || [ability]);
+  const values = fields.map((field) => Number(rider.stats[field] || 0)).filter((value) => value > 0);
+  const abilityScore = values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : 70;
+  const terrainKey = stage.type === "山岳" ? "mountain" : stage.type === "丘陵" ? "hill" : stage.condition.includes("石畳") ? "pave" : stage.type.includes("TT") ? "tt" : "flat";
+  const terrainMultiplier = !card.terrainId ? 1 : card.terrainId === terrainKey ? 1.18 : terrainKey === "tt" && card.terrainId === "flat" ? 1.08 : 0.62;
+  const aptitude = getRiderCardEntry(rider.id)?.roleType === "assist" ? rider.supportAptitude : rider.aceAptitude;
+  const resource = state.riderResources[rider.id] || { stamina: 100, sprint: 100 };
+  const resourceMultiplier = clamp((resource.stamina + resource.sprint) / 200, 0.72, 1);
+  const basePower = { basic: 1.35, specialty: 2.75, decisive: 4.8 }[card.slot];
+  const assignmentMultiplier = clamp(0.9 + (card.assignmentScore - 70) / 300, 0.86, 1.13);
+  const aptitudeMultiplier = card.target === "味方エース" ? clamp(0.82 + aptitude / 500, 0.9, 1.06) : clamp(0.9 + aptitude / 1000, 0.94, 1.02);
+  return Math.round(basePower * (0.78 + (abilityScore - 50) / 120) * terrainMultiplier * assignmentMultiplier * aptitudeMultiplier * resourceMultiplier * 10) / 10;
+}
+
+function enqueueRiderCard(riderId, cardKey) {
+  const rider = riders.find((item) => item.id === riderId);
+  const card = getRiderCard(riderId, cardKey);
+  if (!rider || !card || !state.selectedTeam.includes(riderId)) return;
+  if (state.actionQueue.some((item) => item.source === "rider" && item.riderId === riderId)) {
+    state.log.unshift(`${rider.name}はこのターンすでに1枚選択済み。`);
+    render();
+    return;
+  }
+  const decisiveKey = `${riderId}:${card.name}`;
+  if (card.slot === "decisive" && state.usedDecisiveCards.includes(decisiveKey)) {
+    state.log.unshift(`${card.name}はこのレースですでに使用済み。`);
+    render();
+    return;
+  }
+  if (getQueueCost() + card.cost > 5) {
+    state.log.unshift(`作戦コスト不足。${card.name}を加えると5を超える。`);
+    render();
+    return;
+  }
+  state.actionQueue.push({ source: "rider", riderId, cardKey, name: card.name, cost: card.cost });
+  render();
+}
+
+function getTeamDeckCounts() {
+  return state.selectedTeamDeck.reduce((counts, cardId) => {
+    const slot = teamCards.find((card) => card.id === cardId)?.slot;
+    if (slot) counts[slot] += 1;
+    return counts;
+  }, { basic: 0, specialty: 0, decisive: 0 });
+}
+
+function isTeamDeckComplete() {
+  return state.selectedTeamDeck.length === teamCardDeckSize;
+}
+
+function toggleTeamDeckCard(cardId) {
+  const card = teamCards.find((item) => item.id === cardId);
+  if (!card) return;
+  if (state.selectedTeamDeck.includes(cardId)) {
+    state.selectedTeamDeck = state.selectedTeamDeck.filter((id) => id !== cardId);
+    if (state.selectedTeamCard === cardId) state.selectedTeamCard = null;
+    state.actionQueue = state.actionQueue.filter((item) => item.cardId !== cardId);
+  } else {
+    if (state.selectedTeamDeck.length >= teamCardDeckSize) {
+      state.log.unshift(`チームカードは${teamCardDeckSize}枚まで。1枚外してから選択してください。`);
+      render();
+      return;
+    }
+    state.selectedTeamDeck.push(cardId);
+  }
+  render();
+}
+
+function enqueueTeamCard(cardId) {
+  const card = teamCards.find((item) => item.id === cardId);
+  if (!card) return;
+  if (!state.selectedTeamDeck.includes(cardId)) {
+    state.log.unshift(`${card.name}は今回のレース用6枚に入っていません。`);
+    render();
+    return;
+  }
+  if (card.slot === "decisive" && state.usedTeamDecisiveCards.length) {
+    state.log.unshift("チームの勝負カードは1ステージにつき1枚までです。");
+    render();
+    return;
+  }
+  const existingIndex = state.actionQueue.findIndex((item) => item.source === "team");
+  const costWithoutExisting = getQueueCost() - (existingIndex >= 0 ? state.actionQueue[existingIndex].cost : 0);
+  if (costWithoutExisting + card.cost > 5) {
+    state.log.unshift(`作戦コスト不足。${card.name}を加えると5を超える。`);
+    render();
+    return;
+  }
+  if (existingIndex >= 0) state.actionQueue.splice(existingIndex, 1);
+  state.actionQueue.push({ source: "team", cardId, name: card.name, cost: card.cost });
+  state.selectedTeamCard = cardId;
+  render();
+}
+
+function removeQueueItem(index) {
+  const [removed] = state.actionQueue.splice(index, 1);
+  if (removed?.source === "team") state.selectedTeamCard = null;
+  render();
+}
+
+function moveQueueItem(index, direction) {
+  const next = index + direction;
+  if (next < 0 || next >= state.actionQueue.length) return;
+  [state.actionQueue[index], state.actionQueue[next]] = [state.actionQueue[next], state.actionQueue[index]];
+  render();
+}
+
+function getTeamCardMatchBonus(card, stage) {
+  const stageText = `${stage.type} ${stage.condition} ${stage.tactic}`;
+  const matchesType = card.matchTypes?.includes(stage.type);
+  const matchesKeyword = card.matchKeywords?.some((keyword) => stageText.includes(keyword));
+  return matchesType || matchesKeyword ? card.matchBonus || 0 : 0;
+}
+
+function applyTeamCardMetricEffects(metrics, card) {
+  if (!card) return;
+  Object.entries(card.metricEffects || {}).forEach(([metric, change]) => {
+    metrics[metric] = clamp((metrics[metric] || 0) + change, 0, 100);
+  });
+}
+
+function resolveActionQueue(stage) {
+  let activeTeamCard = null;
+  let totalEffect = 0;
+  const logs = [];
+  const teamCardIds = state.actionQueue.filter((item) => item.source === "team").map((item) => item.cardId);
+  state.actionQueue.forEach((item, index) => {
+    if (item.source === "team") {
+      activeTeamCard = teamCards.find((card) => card.id === item.cardId);
+      const matchBonus = getTeamCardMatchBonus(activeTeamCard, stage);
+      const effect = (activeTeamCard.basePower + matchBonus) * (1 + index * 0.03);
+      totalEffect += effect;
+      if (activeTeamCard.slot === "decisive") state.usedTeamDecisiveCards.push(activeTeamCard.id);
+      const matchText = matchBonus ? ` / コース一致+${matchBonus.toFixed(1)}` : "";
+      logs.push(`${index + 1}. チームカー「${activeTeamCard.name}」 効果+${effect.toFixed(1)}${matchText}`);
+      return;
+    }
+    const rider = riders.find((entry) => entry.id === item.riderId);
+    const card = getRiderCard(item.riderId, item.cardKey);
+    const text = `${card.name} ${card.description} ${card.target}`;
+    const combo = activeTeamCard?.comboTags.some((tag) => text.includes(tag));
+    const effect = getRiderCardPerformance(rider, card, stage) * (1 + index * 0.03) * (combo ? 1.15 : 1);
+    totalEffect += effect;
+    const costs = riderCardResourceCosts[card.slot];
+    const resource = state.riderResources[rider.id];
+    resource.stamina = clamp(resource.stamina - costs.stamina, 0, 100);
+    resource.sprint = clamp(resource.sprint - costs.sprint, 0, 100);
+    if (card.slot === "decisive") state.usedDecisiveCards.push(`${rider.id}:${card.name}`);
+    logs.push(`${index + 1}. ${rider.name}「${card.name}」 効果+${effect.toFixed(1)} / 体力-${costs.stamina} / SP-${costs.sprint}${combo ? " / コンボ" : ""}`);
+  });
+  return { totalEffect, logs, teamCardIds, activeTeamCard };
+}
+
+function renderActionQueue() {
+  const node = document.querySelector("#actionQueue");
+  document.querySelector("#queueCost").textContent = getQueueCost();
+  if (!state.actionQueue.length) {
+    node.innerHTML = '<div class="queue-empty">選手またはチームカードを選ぶと、ここへ実行順に追加されます。</div>';
+    return;
+  }
+  node.innerHTML = state.actionQueue.map((item, index) => {
+    const rider = item.source === "rider" ? riders.find((entry) => entry.id === item.riderId) : null;
+    return `<article class="queue-item ${item.source}">
+      <span class="queue-order">${index + 1}</span>
+      <div><strong>${item.name}</strong><small>${rider ? rider.name : "チームカー"} / C${item.cost}</small></div>
+      <div class="queue-controls">
+        <button type="button" data-queue-move="-1" data-queue-index="${index}" aria-label="前へ">←</button>
+        <button type="button" data-queue-move="1" data-queue-index="${index}" aria-label="後ろへ">→</button>
+        <button type="button" data-queue-remove="${index}" aria-label="取り消し">×</button>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+function acquireScoutRider(rider) {
+  const isNew = !state.ownedRiders.includes(rider.id);
+  const duplicatePoints = isNew ? 0 : scoutConfig.duplicatePoints;
+  if (isNew) state.ownedRiders.push(rider.id);
+  else state.contractPoints += duplicatePoints;
+  return { rider, isNew, duplicatePoints };
+}
+
+function performScout(count, tutorial = false) {
+  if (tutorial && !state.tutorialScoutAvailable) return;
+  if (!tutorial) {
+    const cost = count === 10 ? scoutConfig.tenCost : scoutConfig.singleCost;
+    if (state.scoutCredits < cost) {
+      state.scoutMessage = `Creditが不足しています。レースに出場して報酬を獲得しよう。`;
+      renderScout();
+      return;
+    }
+    state.scoutCredits -= cost;
+  }
+
+  const drawnRiders = [];
+  for (let index = 0; index < count; index += 1) {
+    const needsAceCandidateGuarantee = count === 10
+      && index === count - 1
+      && !drawnRiders.some(isAceCandidate);
+    drawnRiders.push(drawScoutRider(
+      needsAceCandidateGuarantee,
+      drawnRiders.map((rider) => rider.id),
+    ));
+  }
+
+  state.scoutResults = drawnRiders.map((rider) => acquireScoutRider(rider));
+  state.lastScoutWasTutorial = tutorial;
+
+  const newCount = state.scoutResults.filter((result) => result.isNew).length;
+  const duplicateTotal = state.scoutResults.reduce((sum, result) => sum + result.duplicatePoints, 0);
+  if (tutorial) {
+    state.tutorialScoutAvailable = false;
+    const uniqueDrawIds = [...new Set(drawnRiders.map((rider) => rider.id))];
+    state.selectedTeam = uniqueDrawIds.slice(0, 8);
+    const ace = state.selectedTeam
+      .map((id) => riders.find((rider) => rider.id === id))
+      .sort((left, right) => right.aceAptitude - left.aceAptitude)[0];
+    state.raceAce = ace?.id || state.selectedTeam[0] || null;
+    state.focusedRider = state.raceAce || state.ownedRiders[0] || riders[0].id;
+    state.scoutMessage = `初回10連完了。新規${newCount}人で最初の8人を自動編成しました。`;
+  } else {
+    state.scoutMessage = `${count}回スカウト完了。新規${newCount}人${duplicateTotal ? ` / 重複から契約ポイント+${duplicateTotal}` : ""}。`;
+  }
+  state.log.unshift(state.scoutMessage);
+  render();
+}
+
+function renderScout() {
+  document.querySelector("#scoutCredits").textContent = state.scoutCredits.toLocaleString("ja-JP");
+  document.querySelector("#contractPoints").textContent = state.contractPoints.toLocaleString("ja-JP");
+  document.querySelector("#ownedRiderCount").textContent = `${state.ownedRiders.length} / ${riders.length}`;
+  document.querySelector("#scoutMessage").textContent = state.scoutMessage;
+  const featuredRider = riders.find((rider) => rider.id === state.raceAce)
+    || riders.find((rider) => rider.id === state.focusedRider && state.ownedRiders.includes(rider.id));
+  document.querySelector("#riderName").textContent = featuredRider?.name || "スカウト待機中";
+  document.querySelector("#riderArchetype").textContent = featuredRider
+    ? `${featuredRider.country} / ${featuredRider.primaryArchetype} × ${featuredRider.secondaryArchetype}`
+    : "初回無料10連で最初のチームを結成";
+
+
+  const tutorialButton = document.querySelector("#tutorialScoutBtn");
+  tutorialButton.disabled = !state.tutorialScoutAvailable;
+  tutorialButton.textContent = state.tutorialScoutAvailable ? "初回無料10連" : "初回10連 受取済み";
+  document.querySelector("#singleScoutBtn").disabled = state.tutorialScoutAvailable || state.scoutCredits < scoutConfig.singleCost;
+  document.querySelector("#tenScoutBtn").disabled = state.tutorialScoutAvailable || state.scoutCredits < scoutConfig.tenCost;
+
+  const resultNode = document.querySelector("#scoutResults");
+  if (!state.scoutResults.length) {
+    resultNode.innerHTML = '<div class="scout-empty">無料10連では8人以上の異なる選手とエース候補が保証されます。</div>';
+  } else {
+    resultNode.innerHTML = state.scoutResults.map(({ rider, isNew, duplicatePoints }, index) => `
+      <article class="scout-result" style="--reveal-order:${index}">
+        <strong>${rider.name}</strong>
+        <span>${rider.country} / ${rider.primaryArchetype} × ${rider.secondaryArchetype}</span>
+        <span>A${rider.aceAptitude} / S${rider.supportAptitude} / ${rider.creditSalary.toLocaleString("ja-JP")}Cr</span>
+        <small>${isNew ? "NEW・個人カード6枚解放" : `重複・契約ポイント+${duplicatePoints}`}</small>
+      </article>
+    `).join("");
+  }
+
+  const ownedNode = document.querySelector("#ownedRiderList");
+  const owned = riders.filter((rider) => state.ownedRiders.includes(rider.id));
+  const detailNode = document.querySelector("#ownedRiderDetail");
+  if (!owned.length) {
+    detailNode.innerHTML = '<div class="scout-empty">選手を獲得すると、ここで能力と個人カードを確認できます。</div>';
+  } else {
+    const focusedRider = owned.find((rider) => rider.id === state.focusedRider) || owned[0];
+    if (!state.ownedRiders.includes(state.focusedRider)) state.focusedRider = focusedRider.id;
+    const cardEntry = getRiderCardEntry(focusedRider.id);
+    const roles = focusedRider.preferredRoles.length ? focusedRider.preferredRoles : ["役割未設定"];
+    const tags = focusedRider.aptitudeTags.length ? focusedRider.aptitudeTags : ["適性タグなし"];
+    detailNode.innerHTML = `
+      <div class="owned-detail-header">
+        <div>
+          <p class="eyebrow">Selected Rider</p>
+          <h3>${focusedRider.name}</h3>
+          <p>${focusedRider.riderTitle || "契約済み選手"} / ${focusedRider.country} / ${focusedRider.era}</p>
+        </div>
+        <div class="owned-detail-values">
+          <span><small>脚質</small><strong>${focusedRider.primaryArchetype} × ${focusedRider.secondaryArchetype}</strong></span>
+          <span><small>エース / アシスト</small><strong>A${focusedRider.aceAptitude} / S${focusedRider.supportAptitude}</strong></span>
+          <span><small>契約Credit</small><strong>${focusedRider.creditSalary.toLocaleString("ja-JP")} Cr</strong></span>
+        </div>
+      </div>
+      <div class="owned-detail-body">
+        <section>
+          <h4>能力値</h4>
+          <div class="owned-stat-grid">
+            ${Object.entries(focusedRider.stats).map(([key, value]) => `<span><small>${statLabels[key] || key}</small><strong>${value}</strong></span>`).join("")}
+          </div>
+        </section>
+        <section>
+          <h4>役割・適性</h4>
+          <div class="owned-tag-list">${roles.map((role) => `<span>${role}</span>`).join("")}</div>
+          <div class="owned-tag-list muted-tags">${tags.map((tag) => `<span>${tag}</span>`).join("")}</div>
+        </section>
+        <section class="owned-card-detail">
+          <h4>個人カード6枚</h4>
+          <div class="owned-card-grid">
+            ${(cardEntry?.cards || []).map((card) => `<article class="slot-${card.slot}"><small>${riderCardSlotLabels[card.slot]} / C${card.cost}</small><strong>${card.name}</strong><span>${card.description}</span></article>`).join("") || "<p>カード割り当てなし</p>"}
+          </div>
+        </section>
+      </div>
+    `;
+  }
+  if (!owned.length) {
+    ownedNode.innerHTML = '<div class="scout-empty">まだ契約済みの選手はいません。</div>';
+    return;
+  }
+  ownedNode.innerHTML = owned
+    .sort((left, right) => right.aceAptitude - left.aceAptitude)
+    .map((rider) => {
+      const selected = state.selectedTeam.includes(rider.id);
+      const focused = state.focusedRider === rider.id;
+      return `<article class="owned-rider ${selected ? "selected" : ""} ${focused ? "focused" : ""}">
+        <button type="button" data-rider-focus="${rider.id}" aria-pressed="${focused}">
+          <strong>${rider.name}</strong>
+          <small>${rider.primaryArchetype} / A${rider.aceAptitude} S${rider.supportAptitude} / ${rider.creditSalary.toLocaleString("ja-JP")}Cr</small>
+        </button>
+        <button class="roster-toggle" type="button" data-rider-roster="${rider.id}">${selected ? "編成解除" : "8人へ編成"}</button>
+      </article>`;
+    }).join("");
+}
+
 function renderStats() {
   const statsNode = document.querySelector("#stats");
   const finalStats = getFinalStats();
@@ -911,52 +1474,98 @@ function renderStats() {
 
 function renderActionDeck() {
   const node = document.querySelector("#actionCardDeck");
-  node.innerHTML = actionCards
-    .map(
-      (card) => `
-        <button class="choice-button ${state.selectedActionCards.includes(card.id) ? "selected" : ""}" type="button" data-action-card="${card.id}">
-          <strong>${card.name}</strong>
-          <span>疲労 ${card.fatigue} / SP ${card.sprintCost} / 乳酸 ${card.lactateCost}</span>
-        </button>
-      `,
-    )
-    .join("");
+  const summary = document.querySelector("#selectedRiderSummary");
+  const rider = riders.find((item) => item.id === state.focusedRider) || riders[0];
+  const entry = getRiderCardEntry(rider.id);
+  const resource = state.riderResources[rider.id];
+  if (!state.ownedRiders.includes(rider.id)) {
+    document.querySelector("#cardDeckTitle").textContent = "選手カード未解放";
+    summary.innerHTML = "<strong>未契約</strong><span>まずスカウトで選手を獲得してください。</span>";
+    node.innerHTML = '<div class="queue-empty">選手と契約すると、基本技3枚・得意技2枚・勝負手1枚が解放されます。</div>';
+    return;
+  }
+
+  document.querySelector("#cardDeckTitle").textContent = `${rider.name}の6枚`;
+  summary.innerHTML = `<strong>${getRaceRole(rider.id)}</strong><span>体力 ${resource.stamina} / SP ${resource.sprint} / ${entry?.assignmentBasis || "カード未割当"}</span>`;
+  node.innerHTML = (entry?.cards || []).map((card) => {
+    const cardKey = `${card.slot}:${card.id}:${card.name}`;
+    const queued = state.actionQueue.some((item) => item.source === "rider" && item.riderId === rider.id && item.cardKey === cardKey);
+    const alreadyQueued = state.actionQueue.some((item) => item.source === "rider" && item.riderId === rider.id);
+    const used = card.slot === "decisive" && state.usedDecisiveCards.includes(`${rider.id}:${card.name}`);
+    const performance = getRiderCardPerformance(rider, card, getSelectedStage());
+    const costs = riderCardResourceCosts[card.slot];
+    return `<button class="choice-button rider-action-card slot-${card.slot} ${queued ? "selected" : ""}" type="button" data-rider-card="${cardKey}" ${used || (alreadyQueued && !queued) ? "disabled" : ""}>
+      <div class="card-meta"><strong>${card.name}</strong><span>${riderCardSlotLabels[card.slot]} C${card.cost}</span></div>
+      <span>${card.description}</span>
+      <small>対象 ${card.target} / 実効値 +${performance} / 体力-${costs.stamina} / SP-${costs.sprint}${used ? " / 使用済" : ""}</small>
+    </button>`;
+  }).join("");
 }
+
+function renderTeamDeckBuilder() {
+  const node = document.querySelector("#teamDeckBuilder");
+  if (!node) return;
+  const counts = getTeamDeckCounts();
+  node.innerHTML = ["basic", "specialty", "decisive"].map((slot) => {
+    const cards = teamCards.filter((card) => card.slot === slot);
+    return `
+      <section class="team-card-slot-group slot-${slot}">
+        <div class="team-card-slot-heading"><strong>${teamCardSlotLabels[slot]}カード</strong><span>${counts[slot]}枚選択</span></div>
+        <div class="team-card-catalog-grid">
+          ${cards.map((card) => {
+            const selected = state.selectedTeamDeck.includes(card.id);
+            return `<button class="card-button team-deck-card ${selected ? "selected" : ""}" type="button" data-team-deck="${card.id}" aria-pressed="${selected}">
+              <div class="card-meta"><strong>${card.name}</strong><span>${teamCardSlotLabels[slot]} C${card.cost}</span></div>
+              <span>${card.detail}</span>
+              <small>${selected ? "レース用デッキに編成中" : "クリックして編成"}</small>
+            </button>`;
+          }).join("")}
+        </div>
+      </section>`;
+  }).join("");
+  document.querySelector("#teamDeckCount").textContent = state.selectedTeamDeck.length;
+}
+
 function renderSupportDeck() {
   const node = document.querySelector("#supportDeck");
-  node.innerHTML = supportCards
-    .map((card) => {
-      const selected = state.selectedSupports.includes(card.id);
-      return `
-        <button class="card-button ${selected ? "selected" : ""}" type="button" data-support="${card.id}">
-          <div class="card-meta"><strong>${card.name}</strong><span>${card.type}</span></div>
-          <span>${card.skill}</span>
-        </button>
-      `;
-    })
-    .join("");
-  document.querySelector("#deckCount").textContent = state.selectedSupports.length;
+  const stage = getSelectedStage();
+  node.innerHTML = state.selectedTeamDeck.map((cardId) => {
+    const card = teamCards.find((item) => item.id === cardId);
+    const selected = state.selectedTeamCard === card.id;
+    const matchBonus = getTeamCardMatchBonus(card, stage);
+    const used = card.slot === "decisive" && state.usedTeamDecisiveCards.length > 0;
+    return `<button class="card-button team-action-card slot-${card.slot} ${selected ? "selected" : ""}" type="button" data-team-card="${card.id}" ${used ? "disabled" : ""}>
+      <div class="card-meta"><strong>${card.name}</strong><span>${teamCardSlotLabels[card.slot]} C${card.cost}</span></div>
+      <span>${card.detail}</span>
+      <small>基礎効果 +${card.basePower}${matchBonus ? ` / コース一致 +${matchBonus}` : ""}${used ? " / 使用済" : ""}</small>
+    </button>`;
+  }).join("");
+  document.querySelector("#deckCount").textContent = state.selectedTeamCard ? 1 : 0;
 }
 
 function renderTeamList() {
   const node = document.querySelector("#teamList");
-  node.innerHTML = riders
-    .map((rider) => {
+  const availableRiders = riders.filter((rider) => state.ownedRiders.includes(rider.id));
+  if (!availableRiders.length) {
+    node.innerHTML = '<div class="queue-empty">スカウトで契約した選手がここに並びます。</div>';
+  } else {
+    node.innerHTML = availableRiders.map((rider) => {
       const selected = state.selectedTeam.includes(rider.id);
-      return `
-        <button class="card-button ${selected ? "selected" : ""}" type="button" data-rider="${rider.id}">
-          <div class="card-meta"><strong>${rider.name}</strong><span>${rider.primaryArchetype} / ${rider.secondaryArchetype}</span></div>
-          <span>タグ: ${rider.aptitudeTags.join(" / ")}</span>
-          <span>SP${rider.stats.sprint} / 加速${rider.stats.acceleration} / 登坂${rider.stats.climb} / 巡航${rider.stats.cruise} / 持久${rider.stats.stamina} / パヴェ${rider.stats.pave} / 日間${rider.stats.dailyRecovery}</span>
-          <span class="rider-record">${rider.paveBasis}</span>
-          <span>A${rider.aceAptitude} / S${rider.supportAptitude} / P: ${passiveAbilities[rider.id]?.name || "なし"}</span>
+      const focused = state.focusedRider === rider.id;
+      const resource = state.riderResources[rider.id];
+      return `<article class="squad-rider ${selected ? "selected" : ""} ${focused ? "focused" : ""}">
+        <button class="rider-focus-button" type="button" data-rider-focus="${rider.id}">
+          <div class="card-meta"><strong>${rider.name}${state.raceAce === rider.id ? " ★" : ""}</strong><span>${getRaceRole(rider.id)}</span></div>
+          <span>${rider.primaryArchetype} / ${rider.secondaryArchetype}</span>
+          <span>体力 ${resource.stamina} / SP ${resource.sprint} / A${rider.aceAptitude} / S${rider.supportAptitude}</span>
         </button>
-      `;
-    })
-    .join("");
+        <button class="roster-toggle" type="button" data-rider-roster="${rider.id}">${selected ? "編成解除" : "編成"}</button>
+        <button class="ace-toggle" type="button" data-rider-ace="${rider.id}" ${selected ? "" : "disabled"}>エース</button>
+      </article>`;
+    }).join("");
+  }
   document.querySelector("#teamCount").textContent = state.selectedTeam.length;
 }
-
 function getRaceRole(riderId) {
   if (!state.selectedTeam.includes(riderId)) return "候補";
   if (state.raceAce === riderId) return "エース";
@@ -1020,6 +1629,7 @@ function renderGrandTourPlan() {
         <article class="world-team-card grand-tour-stage-card rank-${rank.toLowerCase()}">
           <div class="card-meta"><strong>Stage ${stage.stage}</strong><span>${mode.name}</span></div>
           <p>${stage.name} / ${stage.type}</p>
+          ${stage.distanceKm ? `<span>${stage.distanceKm}km / D+ ${stage.elevationGainM.toLocaleString()}m</span>` : ""}
           <span>リスク: ${stage.risk}</span>
           <span class="importance-line">${objective.short}: ${importance.label} (${importance.note})</span>
           <span class="objective-ranks">${compactRanks}</span>
@@ -1128,7 +1738,8 @@ function renderStages() {
       return `
         <button class="card-button ${selected ? "selected" : ""}" type="button" data-stage="${stage.id}">
           <div class="card-meta"><strong>${stage.name}</strong><span>難度 ${stage.difficulty}</span></div>
-          <span>${stage.type} / ${stage.condition} / ${stage.tactic}</span>
+          <span>${stage.date ? `${stage.date} / ` : ""}${stage.type} / ${stage.distanceKm ? `${stage.distanceKm}km / ` : ""}${stage.tactic}</span>
+          <small>${stage.condition}${stage.elevationGainM ? ` / D+ ${stage.elevationGainM.toLocaleString("ja-JP")}m` : ""}</small>
           <small>Credit枠: ${creditCapRules[stage.creditTier].label} ${creditCapRules[stage.creditTier].cap.toLocaleString("ja-JP")} Cr</small>
         </button>
       `;
@@ -1136,10 +1747,25 @@ function renderStages() {
     .join("");
 }
 
+function renderCourseEventPreview() {
+  const node = document.querySelector("#courseEventPreview");
+  if (!node) return;
+  const stage = getSelectedStage();
+  const summary = getCourseEventSummary(stage);
+  const items = [
+    { label: "最大勾配", value: `+${summary.steepest.toFixed(1)}%`, tone: summary.steepest >= 5 ? "danger" : "normal" },
+    { label: "最大下り", value: `${summary.descent.toFixed(1)}%`, tone: summary.descent <= -5 ? "danger" : "normal" },
+    { label: "最大風速", value: `${summary.maxWind}km/h`, tone: summary.maxWind >= 30 ? "warn" : "normal" },
+    { label: "エシュロン区間", value: `${summary.crosswindSectors}`, tone: summary.crosswindSectors ? "warn" : "normal" },
+    { label: "悪路区間", value: `${summary.roughSectors}`, tone: summary.roughSectors ? "warn" : "normal" },
+    { label: "発生イベント", value: `分断${state.raceMetrics.echelons || 0} / 落車${state.raceMetrics.crashes || 0} / 故障${state.raceMetrics.mechanicals || 0}`, tone: "normal" },
+  ];
+  node.innerHTML = items.map((item) => `<div class="course-event-chip ${item.tone}"><span>${item.label}</span><strong>${item.value}</strong></div>`).join("");
+}
 function renderRaceSummary() {
   const stage = getSelectedStage();
-  const stageRaceLabel = stage.format === "ステージレース" ? ` / Day ${state.stageRaceDay + 1} / 日間回復${getFinalStats().dailyRecovery}` : "";
-  document.querySelector("#seasonWeek").textContent = `${state.selectedActionCards.length} / 7`;
+  const stageRaceLabel = stage.format === "ステージレース" ? ` / Stage ${state.stageRaceDay + 1} / 日間回復${getFinalStats().dailyRecovery}` : "";
+  document.querySelector("#seasonWeek").textContent = `${getQueueCost()} / 5`;
   document.querySelector("#teamPower").textContent = calculatePower();
   document.querySelector("#winRate").textContent = `${calculateWinRate()}%`;
   document.querySelector("#tacticLabel").textContent = `${stage.tactic} / ${getSquadStructureLabel()}${stageRaceLabel}`;
@@ -1175,15 +1801,7 @@ function renderCourse() {
   const stage = getSelectedStage();
   const width = canvas.width;
   const height = canvas.height;
-  const profile = {
-    roubaix_one_day: [0.58, 0.56, 0.57, 0.55, 0.58, 0.54, 0.56, 0.55],
-    flanders_one_day: [0.65, 0.5, 0.58, 0.42, 0.55, 0.39, 0.62, 0.5],
-    strade_one_day: [0.66, 0.53, 0.6, 0.38, 0.52, 0.43, 0.64, 0.51],
-    grand_tour_flat: [0.62, 0.59, 0.61, 0.56, 0.6, 0.58, 0.55, 0.57],
-    grand_tour_mountain: [0.74, 0.66, 0.52, 0.42, 0.28, 0.2, 0.34, 0.48],
-    grand_tour_itt: [0.58, 0.55, 0.57, 0.52, 0.54, 0.5, 0.53, 0.51],
-    team_ttt: [0.6, 0.57, 0.58, 0.55, 0.57, 0.54, 0.56, 0.53],
-  }[stage.id];
+  const profile = courseProfiles[stage.id] || courseProfiles.grand_tour_flat;
 
   ctx.clearRect(0, 0, width, height);
   ctx.fillStyle = "#172020";
@@ -1267,11 +1885,19 @@ function setRaceAce(id) {
 }
 
 function toggleRider(id) {
+  if (!state.ownedRiders.includes(id)) {
+    state.log.unshift("未契約の選手は編成できません。");
+    render();
+    return;
+  }
   if (state.selectedTeam.includes(id)) {
     state.selectedTeam = state.selectedTeam.filter((item) => item !== id);
+    state.actionQueue = state.actionQueue.filter((item) => item.riderId !== id);
     if (state.raceAce === id) state.raceAce = state.selectedTeam[0] || null;
+    if (state.focusedRider === id) state.focusedRider = state.selectedTeam[0] || riders[0].id;
   } else if (state.selectedTeam.length < 8) {
     state.selectedTeam.push(id);
+    state.focusedRider = id;
     if (!state.raceAce) state.raceAce = id;
   } else {
     state.log.unshift("チームは8人まで。役割を入れ替えて編成する。");
@@ -1279,9 +1905,39 @@ function toggleRider(id) {
   render();
 }
 
+function applyCourseLoadToRiders(metrics) {
+  return state.selectedTeam.map((riderId) => {
+    const rider = riders.find((item) => item.id === riderId);
+    const resource = state.riderResources[riderId];
+    const staminaCost = Math.round(metrics.fatigue * clamp(1.18 - rider.stats.stamina / 220, 0.72, 0.98) * 0.34);
+    const sprintCost = Math.round(metrics.lactate * 0.18 + metrics.echelons * 2.5 + metrics.crashes * 5 + metrics.mechanicals * 2);
+    resource.stamina = clamp(resource.stamina - staminaCost, 0, 100);
+    resource.sprint = clamp(resource.sprint - sprintCost, 0, 100);
+    return { rider, staminaCost, sprintCost };
+  });
+}
+
+function recoverRidersForNextDay() {
+  const recoveries = state.selectedTeam.map((riderId) => {
+    const rider = riders.find((item) => item.id === riderId);
+    const resource = state.riderResources[riderId];
+    const rate = clamp((rider.stats.dailyRecovery - 50) / 35, 0, 1);
+    const staminaGain = Math.round(2 + rate * 5);
+    const sprintGain = Math.round(4 + rate * 6);
+    resource.stamina = clamp(resource.stamina + staminaGain, 0, 100);
+    resource.sprint = clamp(resource.sprint + sprintGain, 0, 100);
+    return { rider, staminaGain, sprintGain, stamina: resource.stamina, sprint: resource.sprint };
+  });
+  return recoveries.sort((a, b) => b.rider.stats.dailyRecovery - a.rider.stats.dailyRecovery);
+}
 function runRace() {
   if (state.selectedTeam.length < 3) {
     state.log.unshift("最低3人のチームが必要。エースを守る隊列を組め。");
+    render();
+    return;
+  }
+  if (!isTeamDeckComplete()) {
+    state.log.unshift("18種類から好きなチームカードを6枚編成してください。");
     render();
     return;
   }
@@ -1289,32 +1945,41 @@ function runRace() {
   const stage = getSelectedStage();
   const finalStats = getFinalStats();
   const ace = riders.find((item) => item.id === state.raceAce);
-  const playerBasePower = calculatePower();
+  const queueResolution = resolveActionQueue(stage);
+  const playerBasePower = calculatePower() + Math.round(queueResolution.totalEffect * 4);
   const cpuBasePower = getCpuPower(stage);
   const sectors = buildRaceSectors(stage);
   const metrics = getRaceStartMetrics(stage);
+  applyTeamCardMetricEffects(metrics, queueResolution.activeTeamCard);
   const passiveEffects = getTeamPassiveEffects(stage);
   const activeAbility = getSelectedActiveAbility();
   let momentum = (playerBasePower - cpuBasePower) * 0.18 + (ace ? (ace.stats.fighting + ace.stats.acceleration) * 0.04 - Math.max(0, ace.stats.ego - ace.stats.teamwork) * 0.15 : 0);
   const sectorLogs = [];
 
   sectors.forEach((sector) => {
-    const conditionUpdate = updateRaceMetrics(metrics, sector, stage, finalStats, passiveEffects, activeAbility);
+    const conditionUpdate = updateRaceMetrics(metrics, sector, stage, finalStats, passiveEffects, activeAbility, queueResolution);
     const playerScore = calculatePhaseScore(finalStats, sector, stage, metrics, passiveEffects, conditionUpdate.activeBonus - conditionUpdate.incidentPenalty) + momentum * 0.04;
     const cpuScore = cpuBasePower / 7 + Math.random() * 18;
     const diff = Math.round(playerScore - cpuScore);
     momentum += diff * 0.35;
-    const conditionText = `疲労${Math.round(metrics.fatigue)} / SP${Math.round(metrics.sprint)} / 補給${Math.round(metrics.nutrition)} / 健康${Math.round(metrics.health)} / 乳酸負荷${Math.round(metrics.lactate)}`;
+    const environmentText = `勾配${sector.environment.gradient >= 0 ? "+" : ""}${sector.environment.gradient.toFixed(1)}% / ${sector.environment.windDirection}${sector.environment.windSpeed}km/h / ${sector.environment.surface}`;
+    const conditionText = `${environmentText} / 疲労${Math.round(metrics.fatigue)} / SP${Math.round(metrics.sprint)} / 補給${Math.round(metrics.nutrition)} / 健康${Math.round(metrics.health)} / 乳酸負荷${Math.round(metrics.lactate)}`;
     const noteText = conditionUpdate.notes.length ? ` ${conditionUpdate.notes.join("。")}。` : "";
     sectorLogs.push(
       `${sector.index}. ${sector.km}km地点 ${sector.phase}${sector.isKeyPoint ? " *" : ""}: こちらは${sector.card.name}、${battleModes[state.battleMode].label}は${sector.card.cpuAction}。${getPhaseResultText(diff)}。${conditionText}。${noteText}次は${sector.kmTo}km地点。`,
     );
   });
 
+  const riderLoads = applyCourseLoadToRiders(metrics);
+  const riderStaminaCosts = riderLoads.map((item) => item.staminaCost);
+  const riderLoadText = `各選手体力-${Math.min(...riderStaminaCosts)}〜${Math.max(...riderStaminaCosts)}`;
   const finalCondition = (100 - metrics.fatigue) * 0.18 + metrics.sprint * 0.12 + metrics.nutrition * 0.08 + metrics.health * 0.12;
   const winRate = clamp(Math.round(32 + momentum / Math.max(8, sectors.length * 0.6) + finalCondition * 0.45), 5, 95);
   const roll = Math.floor(Math.random() * 100) + 1;
   const result = roll <= winRate ? "勝利" : "敗北";
+  const scoutReward = result === "勝利" ? 600 : 250;
+  state.scoutCredits += scoutReward;
+  state.scoutMessage = `レース報酬 ${scoutReward} Crを獲得。次のスカウトに使えます。`;
   const detail =
     result === "勝利"
       ? "セクターごとのカード選択で脚と位置取りを残し、勝負所を取り切った。"
@@ -1322,21 +1987,40 @@ function runRace() {
   let stageDayText = "";
   let recoveryText = "";
   if (stage.format === "ステージレース") {
-    const overnight = calculateNextDayRecovery(metrics, finalStats.dailyRecovery);
-    state.stageRaceDay += 1;
+    const recoveryPower = ace?.stats.dailyRecovery || finalStats.dailyRecovery;
+    const overnight = calculateNextDayRecovery(metrics, recoveryPower);
+    const riderRecoveries = recoverRidersForNextDay();
+    const bestRecovery = riderRecoveries[0];
+    const lowestRecovery = riderRecoveries[riderRecoveries.length - 1];
+    state.stageRaceDay = Number.isFinite(stage.stage) ? stage.stage : state.stageRaceDay + 1;
     state.stageRaceCarryover = overnight.metrics;
-    stageDayText = ` / Day ${state.stageRaceDay}`;
-    recoveryText = ` 翌日回復（日間回復力${finalStats.dailyRecovery}）: 疲労-${overnight.amounts.fatigue}、SP+${overnight.amounts.sprint}、補給+${overnight.amounts.nutrition}、健康+${overnight.amounts.health}、乳酸負荷-${overnight.amounts.lactate}。翌日開始: 疲労${Math.round(overnight.metrics.fatigue)}、SP${Math.round(overnight.metrics.sprint)}、補給${Math.round(overnight.metrics.nutrition)}、健康${Math.round(overnight.metrics.health)}、乳酸負荷${Math.round(overnight.metrics.lactate)}。`;
+    stageDayText = ` / Stage ${state.stageRaceDay}`;
+    recoveryText = ` 翌日回復（エース日間回復力${recoveryPower}）: 疲労-${overnight.amounts.fatigue}、SP+${overnight.amounts.sprint}、補給+${overnight.amounts.nutrition}、健康+${overnight.amounts.health}、乳酸負荷-${overnight.amounts.lactate}。個別回復: ${bestRecovery.rider.name} 体力+${bestRecovery.staminaGain}/SP+${bestRecovery.sprintGain}、${lowestRecovery.rider.name} 体力+${lowestRecovery.staminaGain}/SP+${lowestRecovery.sprintGain}。翌日開始: 疲労${Math.round(overnight.metrics.fatigue)}、SP${Math.round(overnight.metrics.sprint)}、補給${Math.round(overnight.metrics.nutrition)}、健康${Math.round(overnight.metrics.health)}、乳酸負荷${Math.round(overnight.metrics.lactate)}。`;
   } else {
     state.stageRaceDay = 0;
     state.stageRaceCarryover = null;
   }
 
   state.log.unshift(
-    `${stage.name} [${stage.format} / ${stage.type} / ${stage.condition}${stageDayText}]: ${result}。エース ${ace ? ace.name : "未指名"} / ${getSquadStructureLabel()} / ${getRaceDistance(stage)}km / ${sectors.length}セクター / 戦力${playerBasePower} / ${battleModes[state.battleMode].label}${cpuBasePower} / 判定${roll} / 勝率${winRate}%。最終状態: 疲労${Math.round(metrics.fatigue)}、スプリント${Math.round(metrics.sprint)}、補給${Math.round(metrics.nutrition)}、健康度${Math.round(metrics.health)}、乳酸負荷${Math.round(metrics.lactate)}、補給回数${metrics.feeds}、落車${metrics.crashes}回。パッシブ: ${passiveEffects.labels.join("・") || "なし"}。アクティブ: ${metrics.activeUsed ? metrics.activeName : `${activeAbility.name}（不発）`}。${detail}${recoveryText}`,
+    `${stage.name} [${stage.format} / ${stage.type} / ${stage.condition}${stageDayText}]: ${result}。エース ${ace ? ace.name : "未指名"} / ${getSquadStructureLabel()} / ${getRaceDistance(stage)}km / ${sectors.length}セクター / 戦力${playerBasePower} / ${battleModes[state.battleMode].label}${cpuBasePower} / 判定${roll} / 勝率${winRate}%。最終状態: 疲労${Math.round(metrics.fatigue)}、スプリント${Math.round(metrics.sprint)}、補給${Math.round(metrics.nutrition)}、健康度${Math.round(metrics.health)}、乳酸負荷${Math.round(metrics.lactate)}、補給回数${metrics.feeds}、落車${metrics.crashes}回、エシュロン${metrics.echelons}回、機材故障${metrics.mechanicals}回、${riderLoadText}。パッシブ: ${passiveEffects.labels.join("・") || "なし"}。アクティブ: ${metrics.activeUsed ? metrics.activeName : `${activeAbility.name}（不発）`}。${detail}${recoveryText}`,
+    ...queueResolution.logs,
     ...sectorLogs.reverse(),
   );
   state.raceMetrics = metrics;
+  state.actionQueue = [];
+  state.log.unshift(state.scoutMessage);
+  state.selectedTeamCard = null;
+  if (stage.format === "ステージレース" && Number.isFinite(stage.stage)) {
+    const nextStage = stages.find((item) => item.stage === stage.stage + 1);
+    if (nextStage) {
+      state.selectedStage = nextStage.id;
+      state.usedTeamDecisiveCards = [];
+      state.raceMetrics = { ...state.stageRaceCarryover };
+      state.log.unshift(`次戦は ${nextStage.name}。前日の疲労を引き継いでスタートします。`);
+    } else if (stage.stage === 21) {
+      state.log.unshift("2026 Tour de France 全21ステージ完走。");
+    }
+  }
   render();
 }
 
@@ -1345,24 +2029,38 @@ function resetGame() {
   state.stats = { ...baseStats };
   state.selectedActionCards = ["position", "tempo", "attack", "protect", "sprint"];
   state.selectedSupports = ["coach", "domestique"];
-  state.selectedTeam = ["ace", "leadout", "climber", "rouleur", "captain", "mountain_domestique", "road_guard", "wind_captain"];
+  state.selectedTeam = state.ownedRiders.slice(0, 8);
   state.selectedEquipment = { frame: "allround_race", wheel: "pave_guard", tire: "pave_endure" };
-  state.raceAce = "ace";
-  state.selectedStage = "roubaix_one_day";
+  state.raceAce = state.selectedTeam
+    .map((id) => riders.find((rider) => rider.id === id))
+    .sort((left, right) => right.aceAptitude - left.aceAptitude)[0]?.id || null;
+  state.selectedStage = initialStageId;
   state.battleMode = "cpu";
   state.selectedActiveAbility = "protect_ace";
   state.raceMetrics = createInitialRaceMetrics();
   state.stageRaceDay = 0;
   state.stageRaceCarryover = null;
   state.log = ["カード編成を初期化。能力値の育成・レベル上げ・限界突破は行わない。"];
+  state.focusedRider = state.raceAce || state.ownedRiders[0] || riders[0].id;
+  state.actionQueue = [];
+  state.selectedTeamDeck = [...defaultTeamDeck];
+  state.selectedTeamCard = null;
+  state.riderResources = createRiderResources();
+  state.usedDecisiveCards = [];
+  state.usedTeamDecisiveCards = [];
   render();
 }
 
 function bindEvents() {
   document.addEventListener("click", (event) => {
-    const actionCardButton = event.target.closest("[data-action-card]");
-    const supportButton = event.target.closest("[data-support]");
-    const riderButton = event.target.closest("[data-rider]");
+    const riderCardButton = event.target.closest("[data-rider-card]");
+    const teamCardButton = event.target.closest("[data-team-card]");
+    const teamDeckButton = event.target.closest("[data-team-deck]");
+    const riderFocusButton = event.target.closest("[data-rider-focus]");
+    const riderRosterButton = event.target.closest("[data-rider-roster]");
+    const riderAceButton = event.target.closest("[data-rider-ace]");
+    const queueRemoveButton = event.target.closest("[data-queue-remove]");
+    const queueMoveButton = event.target.closest("[data-queue-move]");
     const stageButton = event.target.closest("[data-stage]");
     const objectiveButton = event.target.closest("[data-objective]");
     const activeAbilityButton = event.target.closest("[data-active-ability]");
@@ -1380,10 +2078,39 @@ function bindEvents() {
       return;
     }
 
-    if (actionCardButton) toggleActionCard(actionCardButton.dataset.actionCard);
-    if (supportButton) toggleSupport(supportButton.dataset.support);
-    if (riderButton && event.detail >= 2) setRaceAce(riderButton.dataset.rider);
-    else if (riderButton) toggleRider(riderButton.dataset.rider);
+    if (riderCardButton) {
+      enqueueRiderCard(state.focusedRider, riderCardButton.dataset.riderCard);
+      return;
+    }
+    if (teamDeckButton) {
+      toggleTeamDeckCard(teamDeckButton.dataset.teamDeck);
+      return;
+    }
+    if (teamCardButton) {
+      enqueueTeamCard(teamCardButton.dataset.teamCard);
+      return;
+    }
+    if (riderFocusButton) {
+      state.focusedRider = riderFocusButton.dataset.riderFocus;
+      render();
+      return;
+    }
+    if (riderRosterButton) {
+      toggleRider(riderRosterButton.dataset.riderRoster);
+      return;
+    }
+    if (riderAceButton) {
+      setRaceAce(riderAceButton.dataset.riderAce);
+      return;
+    }
+    if (queueRemoveButton) {
+      removeQueueItem(Number(queueRemoveButton.dataset.queueRemove));
+      return;
+    }
+    if (queueMoveButton) {
+      moveQueueItem(Number(queueMoveButton.dataset.queueIndex), Number(queueMoveButton.dataset.queueMove));
+      return;
+    }
     if (stageButton) {
       const previousStage = getSelectedStage();
       const nextStage = stages.find((stage) => stage.id === stageButton.dataset.stage);
@@ -1392,14 +2119,18 @@ function bindEvents() {
       if (continuesStageRace) {
         state.raceMetrics = { ...state.stageRaceCarryover };
       } else {
-        state.stageRaceDay = 0;
         state.stageRaceCarryover = null;
         state.raceMetrics = createInitialRaceMetrics();
       }
+      state.stageRaceDay = Number.isFinite(nextStage?.stage) ? nextStage.stage - 1 : 0;
+      state.usedTeamDecisiveCards = [];
       render();
     }
   });
 
+  document.querySelector("#tutorialScoutBtn").addEventListener("click", () => performScout(10, true));
+  document.querySelector("#singleScoutBtn").addEventListener("click", () => performScout(1));
+  document.querySelector("#tenScoutBtn").addEventListener("click", () => performScout(10));
   document.querySelector("#raceBtn").addEventListener("click", runRace);
   document.querySelector("#resetBtn").addEventListener("click", resetGame);
 }
@@ -1407,7 +2138,10 @@ function bindEvents() {
 function render() {
   renderStats();
   renderActionDeck();
+  renderTeamDeckBuilder();
   renderSupportDeck();
+  renderActionQueue();
+  renderScout();
   renderTeamList();
   renderUcrOrganization();
   renderGrandTourPlan();
@@ -1417,6 +2151,7 @@ function render() {
   renderWorldTeams();
   renderAbilities();
   renderStages();
+  renderCourseEventPreview();
   renderRaceSummary();
   renderRaceCondition();
   renderLog();

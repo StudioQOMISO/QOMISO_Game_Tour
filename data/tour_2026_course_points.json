@@ -1,0 +1,138 @@
+{
+  "name": "Tour de France 2026 official course classification checkpoints",
+  "retrievedOn": "2026-07-21",
+  "source": "https://www.letour.fr/en/overall-route",
+  "notes": "Intermediate sprint, KOM and stage-finish green-jersey schedules transcribed from the official stage pages. Stage 1 team time trial has no points checkpoint table.",
+  "intermediateSprintPoints": [25, 20, 16, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+  "stages": [
+    { "stage": 1, "sourceUrl": "https://www.letour.fr/en/stage-1", "finishPoints": [], "events": [] },
+    { "stage": 2, "sourceUrl": "https://www.letour.fr/en/stage-2", "finishPoints": [30,25,22,19,17,15,13,11,9,7,6,5,4,3,2], "events": [
+      { "type":"intermediateSprint", "name":"VILADECANS", "km":83.6 },
+      { "type":"kom", "name":"Côte de Begues", "km":94.2, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Côte du Château de Montjuïc", "km":141.6, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Côte du Château de Montjuïc", "km":153.8, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Côte du Château de Montjuïc", "km":166.0, "category":"3", "points":[2,1] }
+    ]},
+    { "stage": 3, "sourceUrl": "https://www.letour.fr/en/stage-3", "finishPoints": [30,25,22,19,17,15,13,11,9,7,6,5,4,3,2], "events": [
+      { "type":"kom", "name":"Côte de Saint Feliu de Codines", "km":17.2, "category":"3", "points":[2,1] },
+      { "type":"intermediateSprint", "name":"CAMPDEVÀNOL", "km":98.4 },
+      { "type":"kom", "name":"Col de Toses", "km":127.7, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col du Calvaire", "km":172.3, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"LES ANGLES", "km":195.9, "category":"3", "points":[2,1], "isFinish":true }
+    ]},
+    { "stage": 4, "sourceUrl": "https://www.letour.fr/en/stage-4", "finishPoints": [50,30,20,18,16,14,12,10,8,7,6,5,4,3,2], "events": [
+      { "type":"kom", "name":"Col de Bedos", "km":48.2, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Col du Paradis", "km":64.9, "category":"3", "points":[2,1] },
+      { "type":"intermediateSprint", "name":"QUILLAN", "km":93.4 },
+      { "type":"kom", "name":"Col de Coudons", "km":104.9, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Col de Montségur", "km":146.7, "category":"2", "points":[5,3,2,1] }
+    ]},
+    { "stage": 5, "sourceUrl": "https://www.letour.fr/en/stage-5", "finishPoints": [70,50,40,35,30,26,24,22,20,18,16,14,12,10,8], "events": [
+      { "type":"intermediateSprint", "name":"VIC-EN-BIGORRE", "km":113.5 },
+      { "type":"kom", "name":"Côte de Baleix", "km":132.7, "category":"3", "points":[2,1] }
+    ]},
+    { "stage": 6, "sourceUrl": "https://www.letour.fr/en/stage-6", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"kom", "name":"Côte de Loucrup", "km":50.9, "category":"4", "points":[1] },
+      { "type":"intermediateSprint", "name":"POUZAC", "km":59.1 },
+      { "type":"kom", "name":"Côte de Mauvezin", "km":77.3, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Col d'Aspin", "km":118.1, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col du Tourmalet - Souvenir Jacques Goddet", "km":147.8, "category":"HC", "points":[20,15,12,10,8,6,4,2] },
+      { "type":"kom", "name":"GAVARNIE-GÈDRE", "km":186.2, "category":"2", "points":[5,3,2,1], "isFinish":true }
+    ]},
+    { "stage": 7, "sourceUrl": "https://www.letour.fr/en/stage-7", "finishPoints": [70,50,40,35,30,26,24,22,20,18,16,14,12,10,8], "events": [
+      { "type":"intermediateSprint", "name":"LANDIRAS", "km":120.3 },
+      { "type":"kom", "name":"Côte de Béguey", "km":137.3, "category":"4", "points":[1] }
+    ]},
+    { "stage": 8, "sourceUrl": "https://www.letour.fr/en/stage-8", "finishPoints": [70,50,40,35,30,26,24,22,20,18,16,14,12,10,8], "events": [
+      { "type":"kom", "name":"Côte de Domme", "km":102.6, "category":"4", "points":[1] },
+      { "type":"intermediateSprint", "name":"SAINT-CYPRIEN", "km":122.8 },
+      { "type":"kom", "name":"Côte du Buisson-de-Cadouin", "km":140.4, "category":"4", "points":[1] }
+    ]},
+    { "stage": 9, "sourceUrl": "https://www.letour.fr/en/stage-9", "finishPoints": [30,25,22,19,17,15,13,11,9,7,6,5,4,3,2], "events": [
+      { "type":"intermediateSprint", "name":"BEYNAT", "km":13.9 },
+      { "type":"kom", "name":"Côte de Naves", "km":46.0, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Suc au May", "km":74.1, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Côte de la Croix du Pey", "km":98.5, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Mont Bessou", "km":130.1, "category":"4", "points":[1] }
+    ]},
+    { "stage": 10, "sourceUrl": "https://www.letour.fr/en/stage-10", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"intermediateSprint", "name":"LACAPELLE-DEL-FRAISSE", "km":25.5 },
+      { "type":"kom", "name":"Côte de Pailherols", "km":68.0, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Col de la Griffoul", "km":97.3, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Col de Prat de Bouc", "km":103.8, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Côte de Murat", "km":118.8, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Puy Mary - Pas de Peyrol", "km":135.7, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col de Pertus", "km":152.1, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col de Font de Cère", "km":163.9, "category":"3", "points":[2,1] }
+    ]},
+    { "stage": 11, "sourceUrl": "https://www.letour.fr/en/stage-11", "finishPoints": [70,50,40,35,30,26,24,22,20,18,16,14,12,10,8], "events": [
+      { "type":"intermediateSprint", "name":"SAINT-POURÇAIN-SUR-SIOULE", "km":27.9 },
+      { "type":"kom", "name":"Côte de Billonnière", "km":32.9, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Côte de Billy-Chevannes", "km":123.4, "category":"4", "points":[1] }
+    ]},
+    { "stage": 12, "sourceUrl": "https://www.letour.fr/en/stage-12", "finishPoints": [70,50,40,35,30,26,24,22,20,18,16,14,12,10,8], "events": [
+      { "type":"intermediateSprint", "name":"DECIZE", "km":45.8 },
+      { "type":"kom", "name":"Côte de Lanty", "km":76.5, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Côte de Cuzy", "km":97.8, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Côte de Montagny-lès-Buxy", "km":159.4, "category":"4", "points":[1] }
+    ]},
+    { "stage": 13, "sourceUrl": "https://www.letour.fr/en/stage-13", "finishPoints": [50,30,20,18,16,14,12,10,8,7,6,5,4,3,2], "events": [
+      { "type":"intermediateSprint", "name":"MÉLISEY", "km":137.8 },
+      { "type":"kom", "name":"Col des Croix", "km":157.4, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Ballon d'Alsace", "km":175.9, "category":"1", "points":[10,8,6,4,2,1] }
+    ]},
+    { "stage": 14, "sourceUrl": "https://www.letour.fr/en/stage-14", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"intermediateSprint", "name":"WATTWILLER", "km":12.6 },
+      { "type":"kom", "name":"Grand Ballon", "km":36.6, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col du Page", "km":71.3, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Ballon d'Alsace", "km":94.4, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col du Haag", "km":149.4, "category":"1", "points":[10,8,6,4,2,1] }
+    ]},
+    { "stage": 15, "sourceUrl": "https://www.letour.fr/en/stage-15", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"intermediateSprint", "name":"SAINT-LAURENT-EN-GRANDVAUX", "km":17.3 },
+      { "type":"kom", "name":"Côte des Rousses", "km":36.8, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Le Salève - Col de la Croisette", "km":136.0, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Côte du Mont", "km":146.0, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"PLATEAU DE SOLAISON BRISON", "km":183.9, "category":"HC", "points":[20,15,12,10,8,6,4,2], "isFinish":true }
+    ]},
+    { "stage": 16, "sourceUrl": "https://www.letour.fr/en/stage-16", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"kom", "name":"Point chrono n°2 / Côte de Larringes", "km":9.7, "category":"2", "points":[5,3,2,1] }
+    ]},
+    { "stage": 17, "sourceUrl": "https://www.letour.fr/en/stage-17", "finishPoints": [50,30,20,18,16,14,12,10,8,7,6,5,4,3,2], "events": [
+      { "type":"kom", "name":"Côte de Bassa", "km":19.2, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Côte de Rossillon", "km":35.5, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Col des Près", "km":49.6, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"Côte de Saint-Jean d'Arvey", "km":59.5, "category":"4", "points":[1] },
+      { "type":"intermediateSprint", "name":"COLOMBE", "km":147.5 }
+    ]},
+    { "stage": 18, "sourceUrl": "https://www.letour.fr/en/stage-18", "finishPoints": [30,25,22,19,17,15,13,11,9,7,6,5,4,3,2], "events": [
+      { "type":"kom", "name":"Côte d'Engins", "km":36.7, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Côte de Monteynard", "km":92.2, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Côte des Terrasses", "km":112.8, "category":"3", "points":[2,1] },
+      { "type":"intermediateSprint", "name":"CORPS", "km":129.1 },
+      { "type":"kom", "name":"Côte de Saint-Léger-les-Mélèzes", "km":166.2, "category":"3", "points":[2,1] },
+      { "type":"kom", "name":"ORCIÈRES-MERLETTE", "km":185.2, "category":"1", "points":[10,8,6,4,2,1], "isFinish":true }
+    ]},
+    { "stage": 19, "sourceUrl": "https://www.letour.fr/en/stage-19", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"kom", "name":"Col Bayard", "km":4.8, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"Col du Noyer", "km":25.2, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"intermediateSprint", "name":"LE PÉRIER", "km":89.4 },
+      { "type":"kom", "name":"Col d'Ornon", "km":99.2, "category":"2", "points":[5,3,2,1] },
+      { "type":"kom", "name":"ALPE D'HUEZ", "km":127.9, "category":"HC", "points":[20,15,12,10,8,6,4,2], "isFinish":true }
+    ]},
+    { "stage": 20, "sourceUrl": "https://www.letour.fr/en/stage-20", "finishPoints": [20,17,15,13,11,10,9,8,7,6,5,4,3,2,1], "events": [
+      { "type":"kom", "name":"Col de la Croix de Fer", "km":33.7, "category":"HC", "points":[20,15,12,10,8,6,4,2] },
+      { "type":"intermediateSprint", "name":"SAINT-JULIEN-MONT-DENIS", "km":66.5 },
+      { "type":"kom", "name":"Col du Télégraphe", "km":87.6, "category":"1", "points":[10,8,6,4,2,1] },
+      { "type":"kom", "name":"Col du Galibier - Souvenir Henri Desgrange", "km":110.5, "category":"HC", "points":[20,15,12,10,8,6,4,2] },
+      { "type":"kom", "name":"Col de Sarenne", "km":156.5, "category":"HC", "points":[20,15,12,10,8,6,4,2] }
+    ]},
+    { "stage": 21, "sourceUrl": "https://www.letour.fr/en/stage-21", "finishPoints": [50,30,20,18,16,14,12,10,8,7,6,5,4,3,2], "events": [
+      { "type":"kom", "name":"Côte du Pavé des Gardes", "km":43.1, "category":"4", "points":[1] },
+      { "type":"intermediateSprint", "name":"PARIS - HAUT DES CHAMPS-ELYSÉES (3e passage)", "km":71.7 },
+      { "type":"kom", "name":"Côte de la Butte Montmartre", "km":90.3, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Côte de la Butte Montmartre", "km":106.2, "category":"4", "points":[1] },
+      { "type":"kom", "name":"Côte de la Butte Montmartre", "km":122.2, "category":"4", "points":[1] }
+    ]}
+  ]
+}

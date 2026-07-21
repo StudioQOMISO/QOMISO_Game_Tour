@@ -8,7 +8,7 @@
     "linkedAceDecisiveCard": "皇帝のカウンター",
     "cards": [],
     "basedOn": [
-      "総合エース / 山岳賞ハンター / サテライトライダー",
+      "総合エース / 山岳賞ハンター / ステージハンター",
       "登坂力 / スタミナ / 回復力"
     ]
   },
@@ -28,23 +28,14 @@
   {
     "riderNo": 45,
     "riderName": "Mads Pedersen",
-    "supportAptitude": 82,
-    "primaryAce": false,
-    "guaranteedAssistCards": 1,
-    "linkedAceDecisiveCard": null,
-    "cards": [
-      {
-        "slot": "decisive",
-        "cost": 3,
-        "usageLimit": 1,
-        "name": "耐久リードアウト",
-        "description": "長い距離を全開で牽引し、味方エースを最終発射位置へ届ける。",
-        "target": "味方エース"
-      }
-    ],
+    "supportAptitude": 81,
+    "primaryAce": true,
+    "guaranteedAssistCards": 0,
+    "linkedAceDecisiveCard": "暴風の登坂スプリント",
+    "cards": [],
     "basedOn": [
-      "スプリントトレイン / 平坦アシスト / TT牽引",
-      "耐久力 / バイクコントロール / 連携力"
+      "スプリントエース / 横風要員 / ステージハンター",
+      "最高速 / パンチ力 / 登坂力 / 耐久力"
     ]
   },
   {

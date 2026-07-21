@@ -1,0 +1,161 @@
+place,rider,team,points,finishPoints,intermediatePoints,stageWins,gcPlace,primaryArchetype,secondaryArchetype,sprintProfile
+1,Mads Pedersen,Team 01,629,330,299,3,12,スプリンター,パンチャー,yes
+2,Tim Merlier,Team 11,573,278,295,1,143,スプリンター,クラシック型,yes
+3,Wout van Aert,Team 04,376,302,74,2,49,クラシック型,パンチャー,no
+4,Jasper Philipsen,Team 06,376,182,194,1,140,スプリンター,クラシック型,yes
+5,Mathieu van der Poel,Team 05,278,199,79,0,53,クラシック型,パンチャー,no
+6,Tadej Pogacar,Team 02,264,244,20,4,1,総合型,パンチャー,no
+7,Jonas Abrahamsen,Team 14,260,165,95,1,63,クラシック型,スプリンター,yes
+8,Jonathan Milan,Team 15,248,110,138,0,138,スプリンター,TT・ルーラー型,yes
+9,Filippo Conca,Team 18,223,154,69,0,74,クラシック型,スプリンター,yes
+10,Casper van Uden,Team 19,205,166,39,0,159,スプリンター,総合型,yes
+11,Biniam Girmay,Team 20,187,30,157,0,131,スプリンター,パンチャー,yes
+12,Magnus Cort,Team 06,174,107,67,1,50,パンチャー,スプリンター,yes
+13,Alberto Bettiol,Team 10,168,125,43,1,67,クラシック型,パンチャー,no
+14,Primoz Roglic,Team 03,157,157,0,1,2,総合型,パンチャー,no
+15,Arnaud De Lie,Team 17,148,90,58,0,47,パンチャー,スプリンター,yes
+16,Olav Kooij,Team 16,144,48,96,0,136,スプリンター,TT・ルーラー型,yes
+17,Amanuel Ghebreigzabhier,Team 13,143,115,28,1,118,クラシック型,パンチャー,no
+18,Paul Seixas,Team 13,107,107,0,1,5,総合型,パンチャー,no
+19,Remco Evenepoel,Team 07,106,106,0,1,3,総合型,TT・ルーラー型,no
+20,Gerben Thijssen,Team 13,102,10,92,0,134,スプリンター,クラシック型,yes
+21,Callum Scotson,Team 10,98,41,57,0,73,クラシック型,スプリンター,yes
+22,Jonas Vingegaard,Team 08,97,97,0,0,4,総合型,クライマー,no
+23,Julius van den Berg,Team 11,85,18,67,0,158,スプリンター,クラシック型,yes
+24,Jonas Rickaert,Team 01,77,22,55,0,144,スプリンター,クライマー,yes
+25,Léo Bisiaux,Team 11,74,47,27,0,57,クラシック型,TT・ルーラー型,no
+26,Filippo Ganna,Team 09,64,64,0,0,54,TT・ルーラー型,クラシック型,no
+27,Gleb Syritsa,Team 03,63,50,13,0,81,クラシック型,クライマー,no
+28,Danny van Poppel,Team 03,63,0,63,0,147,スプリンター,TT・ルーラー型,yes
+29,Antoine L'Hote,Team 15,59,59,0,1,71,パンチャー,クラシック型,no
+30,Julian Alaphilippe,Team 12,58,58,0,0,46,パンチャー,クライマー,no
+31,Arne Marit,Team 06,49,21,28,0,148,スプリンター,総合型,yes
+32,Filippo Fiorelli,Team 07,48,16,32,0,125,クラシック型,スプリンター,yes
+33,Edward Theuns,Team 09,48,27,21,0,149,スプリンター,TT・ルーラー型,yes
+34,Luka Mezgec,Team 04,47,0,47,0,146,スプリンター,TT・ルーラー型,yes
+35,Isaac del Toro,Team 19,45,45,0,0,9,総合型,パンチャー,no
+36,Davide Toneatti,Team 19,45,20,25,0,132,クラシック型,クライマー,no
+37,Darren Rafferty,Team 12,45,9,36,0,141,スプリンター,総合型,yes
+38,Davide Formolo,Team 03,44,44,0,0,10,クライマー,クラシック型,no
+39,Lorenzo Rota,Team 08,44,44,0,0,52,パンチャー,クライマー,no
+40,Jacopo Mosca,Team 12,40,40,0,1,21,総合型,パンチャー,no
+41,Ilan Van Wilder,Team 01,40,39,1,0,6,総合型,クライマー,no
+42,Frank van den Broek,Team 04,40,9,31,0,122,クラシック型,クライマー,no
+43,Johan Jacobs,Team 14,37,0,37,0,154,スプリンター,クライマー,yes
+44,Einer Rubio,Team 11,36,34,2,0,14,クライマー,スプリンター,yes
+45,Lionel Taminiaux,Team 09,35,31,4,0,16,クライマー,スプリンター,yes
+46,Axel Laurance,Team 16,35,35,0,0,51,パンチャー,TT・ルーラー型,no
+47,Arjen Livyns,Team 01,31,22,9,0,69,パンチャー,クラシック型,no
+48,Jonas Rutsch,Team 08,31,15,16,0,142,クラシック型,総合型,no
+49,Egan Bernal,Team 18,30,30,0,0,8,総合型,クライマー,no
+50,Georg Zimmermann,Team 15,30,30,0,0,20,クライマー,クラシック型,no
+51,Gonzalo Serrano,Team 20,30,16,14,0,80,パンチャー,クライマー,no
+52,Juan Ayuso,Team 14,27,27,0,0,7,総合型,パンチャー,no
+53,Guillermo Thomas Silva,Team 14,27,20,7,0,48,パンチャー,TT・ルーラー型,no
+54,Clément Russo,Team 06,26,0,26,0,55,クラシック型,TT・ルーラー型,no
+55,Clément Champoussin,Team 10,25,25,0,0,13,クライマー,総合型,no
+56,Madis Mihkels,Team 20,25,5,20,0,61,パンチャー,総合型,no
+57,Bert Van Lerberghe,Team 07,25,0,25,0,150,スプリンター,TT・ルーラー型,yes
+58,Juan Pedro López,Team 12,24,24,0,0,25,クライマー,クラシック型,no
+59,Edoardo Zambanini,Team 03,23,23,0,0,19,クライマー,TT・ルーラー型,no
+60,Mike Teunissen,Team 08,23,0,23,0,151,スプリンター,TT・ルーラー型,yes
+61,Jakob Omrzel,Team 16,22,6,16,0,133,クラシック型,総合型,no
+62,Chris Hamilton,Team 13,21,21,0,0,24,クライマー,総合型,no
+63,Brady Gilmore,Team 03,21,21,0,0,59,パンチャー,総合型,no
+64,Emiel Verstrynge,Team 11,21,0,21,0,68,パンチャー,スプリンター,yes
+65,Davide Ballerini,Team 10,21,0,21,0,156,スプリンター,TT・ルーラー型,yes
+66,Matthew Riccitello,Team 20,20,20,0,0,11,クライマー,パンチャー,no
+67,Jonas Geens,Team 14,19,19,0,0,18,クライマー,スプリンター,yes
+68,Gianmarco Garofoli,Team 17,18,18,0,0,27,クライマー,スプリンター,yes
+69,Mikel Landa,Team 08,18,18,0,0,45,クライマー,総合型,no
+70,Adam Yates,Team 13,17,17,0,0,32,クライマー,総合型,no
+71,Sepp Kuss,Team 19,16,16,0,0,15,クライマー,総合型,no
+72,Laurens De Plus,Team 03,15,15,0,0,23,クライマー,総合型,no
+73,Brandon Rivera,Team 15,15,14,1,0,44,クライマー,クラシック型,no
+74,Gijs Leemreize,Team 17,14,14,0,0,31,クライマー,TT・ルーラー型,no
+75,Anders Foldager,Team 16,14,0,14,0,56,パンチャー,クライマー,no
+76,Fredrik Dversnes,Team 12,14,14,0,0,66,パンチャー,クライマー,no
+77,Bart Lemmen,Team 11,13,13,0,0,78,TT・ルーラー型,クラシック型,no
+78,Ethan Hayter,Team 15,12,3,9,0,70,TT・ルーラー型,クラシック型,no
+79,Jenno Berckmoes,Team 04,12,0,12,0,135,クラシック型,スプリンター,yes
+80,Aurélien Paret-Peintre,Team 07,11,11,0,0,22,クライマー,スプリンター,yes
+81,Tao Geoghegan Hart,Team 13,11,11,0,0,33,クライマー,総合型,no
+82,Harold Martín López,Team 14,11,11,0,0,40,クライマー,TT・ルーラー型,no
+83,Johannes Staune-Mittet,Team 18,9,9,0,0,75,パンチャー,TT・ルーラー型,no
+84,Gal Glivar,Team 07,9,0,9,0,98,クラシック型,スプリンター,yes
+85,Santiago Buitrago,Team 04,8,8,0,0,29,クライマー,総合型,no
+86,Carlos Canal,Team 04,8,4,4,0,58,パンチャー,スプリンター,yes
+87,Cyril Barthe,Team 16,8,8,0,0,72,パンチャー,クライマー,no
+88,Alec Segaert,Team 18,8,0,8,0,96,TT・ルーラー型,スプリンター,yes
+89,Jasper De Buyst,Team 02,8,0,8,0,157,スプリンター,TT・ルーラー型,yes
+90,Dries Van Gestel,Team 13,7,0,7,0,64,パンチャー,クライマー,no
+91,Ben O'Connor,Team 04,6,0,6,0,26,総合型,スプリンター,yes
+92,Marc Soler,Team 18,6,6,0,0,39,クライマー,総合型,no
+93,Stefan Bissegger,Team 16,6,6,0,0,65,TT・ルーラー型,クラシック型,no
+94,Adrien Boichis,Team 14,6,6,0,0,89,TT・ルーラー型,総合型,no
+95,Lennert Belmans,Team 20,6,0,6,0,137,クラシック型,TT・ルーラー型,no
+96,Nikias Arndt,Team 02,6,0,6,0,152,スプリンター,TT・ルーラー型,yes
+97,Andreas Kron,Team 20,5,5,0,0,62,パンチャー,総合型,no
+98,Alastair Mackellar,Team 18,4,4,0,0,17,クライマー,スプリンター,yes
+99,Casper Pedersen,Team 20,4,0,4,0,79,TT・ルーラー型,総合型,no
+100,Artem Shmidt,Team 12,4,4,0,0,86,TT・ルーラー型,クライマー,no
+101,Erik Nordsæter Resell,Team 09,4,0,4,0,87,パンチャー,スプリンター,yes
+102,Jonas Iversby Hvideberg,Team 10,3,3,0,0,35,総合型,TT・ルーラー型,no
+103,Nils Politt,Team 11,3,0,3,0,102,TT・ルーラー型,クラシック型,no
+104,Luke Durbridge,Team 04,3,0,3,0,108,TT・ルーラー型,クラシック型,no
+105,Kamil Gradek,Team 06,3,0,3,0,112,TT・ルーラー型,総合型,no
+106,Christophe Laporte,Team 06,3,0,3,0,155,スプリンター,TT・ルーラー型,yes
+107,Iván Romeo,Team 07,2,2,0,0,60,パンチャー,総合型,no
+108,Bob Jungels,Team 11,2,2,0,0,83,TT・ルーラー型,総合型,no
+109,Florian Vermeersch,Team 02,2,2,0,0,101,クラシック型,パンチャー,no
+110,Iván García Cortina,Team 20,1,1,0,0,100,クラシック型,スプリンター,yes
+111,Simone Consonni,Team 05,1,0,1,0,153,スプリンター,TT・ルーラー型,yes
+112,Markus Hoelgaard,Team 05,0,0,0,1,130,クラシック型,総合型,no
+113,Damiano Caruso,Team 16,0,0,0,0,28,クライマー,総合型,no
+114,Wilco Kelderman,Team 06,0,0,0,0,30,クライマー,総合型,no
+115,Carlos Verona,Team 17,0,0,0,0,34,クライマー,総合型,no
+116,Gil Gelders,Team 17,0,0,0,0,36,総合型,スプリンター,yes
+117,Pavel Sivakov,Team 01,0,0,0,0,37,クライマー,総合型,no
+118,Brandon McNulty,Team 07,0,0,0,0,38,クライマー,総合型,no
+119,Brieuc Rolland,Team 05,0,0,0,0,41,クライマー,パンチャー,no
+120,Diego Pescador,Team 08,0,0,0,0,42,クライマー,総合型,no
+121,Thymen Arensman,Team 12,0,0,0,0,43,クライマー,総合型,no
+122,Callum Thornley,Team 09,0,0,0,0,76,TT・ルーラー型,クラシック型,no
+123,Christopher Juul-Jensen,Team 19,0,0,0,0,77,TT・ルーラー型,スプリンター,yes
+124,Luke Plapp,Team 06,0,0,0,0,82,TT・ルーラー型,総合型,no
+125,Joshua Giddings,Team 05,0,0,0,0,84,クラシック型,TT・ルーラー型,no
+126,Joseph Blackmore,Team 16,0,0,0,0,85,クラシック型,クライマー,no
+127,Remi Cavagna,Team 03,0,0,0,0,88,TT・ルーラー型,総合型,no
+128,Magnus Sheffield,Team 19,0,0,0,0,90,TT・ルーラー型,総合型,no
+129,Albert Withen Philipsen,Team 09,0,0,0,0,91,TT・ルーラー型,クラシック型,no
+130,Jan Tratnik,Team 05,0,0,0,0,92,TT・ルーラー型,総合型,no
+131,Johan Price-Pejtersen,Team 01,0,0,0,0,93,TT・ルーラー型,総合型,no
+132,Edoardo Affini,Team 10,0,0,0,0,94,TT・ルーラー型,総合型,no
+133,Jorge Arcas,Team 12,0,0,0,0,95,クラシック型,TT・ルーラー型,no
+134,Taco van der Hoorn,Team 01,0,0,0,0,97,クラシック型,パンチャー,no
+135,Dylan van Baarle,Team 13,0,0,0,0,99,TT・ルーラー型,クラシック型,no
+136,Edward Planckaert,Team 09,0,0,0,0,103,クラシック型,TT・ルーラー型,no
+137,Felix Engelhardt,Team 18,0,0,0,0,104,TT・ルーラー型,総合型,no
+138,Baptiste Veistroffer,Team 09,0,0,0,0,105,TT・ルーラー型,クラシック型,no
+139,Yves Lampaert,Team 08,0,0,0,0,106,TT・ルーラー型,クラシック型,no
+140,Mikkel Bjerg,Team 02,0,0,0,0,107,TT・ルーラー型,クラシック型,no
+141,Kasper Asgreen,Team 05,0,0,0,0,109,TT・ルーラー型,クラシック型,no
+142,Davide Piganzoli,Team 18,0,0,0,0,110,TT・ルーラー型,総合型,no
+143,Vegard Stake Laengen,Team 02,0,0,0,0,111,TT・ルーラー型,クラシック型,no
+144,Josh Kench,Team 05,0,0,0,0,113,クラシック型,TT・ルーラー型,no
+145,Liam Slock,Team 17,0,0,0,0,114,TT・ルーラー型,スプリンター,yes
+146,Jakob Söderqvist,Team 08,0,0,0,0,115,TT・ルーラー型,クライマー,no
+147,Michał Kwiatkowski,Team 17,0,0,0,0,116,クラシック型,TT・ルーラー型,no
+148,Francesco Busatto,Team 10,0,0,0,0,117,TT・ルーラー型,総合型,no
+149,Alexander Hajek,Team 15,0,0,0,0,119,クラシック型,クライマー,no
+150,Lars Craps,Team 15,0,0,0,0,120,クラシック型,TT・ルーラー型,no
+151,Adrià Pericas,Team 17,0,0,0,0,121,クラシック型,パンチャー,no
+152,Alessandro Covi,Team 19,0,0,0,0,123,TT・ルーラー型,スプリンター,yes
+153,Anders Halland Johannessen,Team 07,0,0,0,0,124,TT・ルーラー型,クラシック型,no
+154,Alessandro Borgo,Team 01,0,0,0,0,126,TT・ルーラー型,クラシック型,no
+155,Andrea Raccagni Noviero,Team 19,0,0,0,0,127,クラシック型,クライマー,no
+156,Alberto Bruttomesso,Team 10,0,0,0,0,128,クラシック型,TT・ルーラー型,no
+157,Anton Kuzmin,Team 14,0,0,0,0,129,TT・ルーラー型,総合型,no
+158,Henri-François Renard-Haquin,Team 15,0,0,0,0,139,クラシック型,クライマー,no
+159,Jordan Labrosse,Team 02,0,0,0,0,145,TT・ルーラー型,クラシック型,no
+160,Floris Van Tricht,Team 02,0,0,0,0,160,スプリンター,クライマー,yes
